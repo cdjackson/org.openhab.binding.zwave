@@ -93,7 +93,7 @@ Parameter defines state of the sensor when the magnet ...<br /><h1>Overview</h1>
       </parameter>
 
       <parameter name="config_3_1" type="integer" groupName="configuration"
-                 min="0" max="6">
+                 min="0" max="7">
         <label>3: Visual LED indications</label>
         <description><![CDATA[
 This parameter defines events indicated by the visual ...<br /><h1>Overview</h1><p>... LED indicator. Disabling events might extend battery life.</p> <p>Available settings:</p> <p>0 - no indications<br />1 - indication of opening/closing status change<br />(input IN)<br />2 - indication of wake up (1 x click or periodical)<br />4 - indication of device tampering</p>
