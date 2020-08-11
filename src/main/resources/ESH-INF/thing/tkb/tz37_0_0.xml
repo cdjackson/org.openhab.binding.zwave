@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="tkb_tz37_00_000" listed="false">
-    <label>TZ37 Double Relay Wall Switch</label>
     <description><![CDATA[
 Double Relay Wall Switch<br /><h1>Overview</h1><p>Two Channel Switch, AC230V 50Hz, 1380W×2.</p> <p>Shares device ID and properties with TZ57.</p> <br /><h2>Inclusion Information</h2><p>The leds on the buttons will blink on-off (1 second intervals) when the devices is not associated with a network.</p> <ol><li>Have the Z-Wave controller enter inclusion mode.</li> <li>Pressing on either on or off button three times within 1.5 seconds will enter inclusion mode.</li> </ol><br /><h2>Exclusion Information</h2><ol><li>Have the Z-Wave controller enter exclusion mode.</li> <li>Pressing on either on or off button three times within 1.5 seconds will enter exclusion mode.</li> <li>The leds on the button should link on and off.</li> </ol>
     ]]></description>
@@ -17,7 +16,7 @@ Double Relay Wall Switch<br /><h1>Overview</h1><p>Two Channel Switch, AC230V 50H
       <channel id="switch_binary" typeId="switch_binary">
         <label>Switch</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,BASIC</property>
         </properties>
       </channel>
       <channel id="scene_number" typeId="scene_number">
@@ -29,13 +28,13 @@ Double Relay Wall Switch<br /><h1>Overview</h1><p>Two Channel Switch, AC230V 50H
       <channel id="switch_binary1" typeId="switch_binary">
         <label>Switch 1</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:1,COMMAND_CLASS_BASIC:1</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:1,BASIC:1</property>
         </properties>
       </channel>
       <channel id="switch_binary2" typeId="switch_binary">
         <label>Switch 2</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:2,COMMAND_CLASS_BASIC:2</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:2,BASIC:2</property>
         </properties>
       </channel>
     </channels>

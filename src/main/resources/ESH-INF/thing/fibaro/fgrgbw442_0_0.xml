@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="fibaro_fgrgbw442_00_000" listed="false">
-    <label>FGRGBW-442 RGBW CONTROLLER 2</label>
     <description><![CDATA[
 RGBW CONTROLLER 2<br /><h1>Overview</h1><p>FIBARO RGBW Controller 2 uses PWM output signal, allowing it to control LED, RGB, RGBW strips, halogen lights and other resistive loads. It can also measure active power and energy consumed by the load. Controlled devices may be powered by 12 or 24V DC.</p> <p>Inputs support momentary/toggle switches and 0-10V analog sensors, like temperature sensors, humidity sensors, light sensors etc</p> <br /><h2>Inclusion Information</h2><p>Quickly, three times click the service button.</p> <br /><h2>Exclusion Information</h2><p>Quickly, three times click the service button.</p>
     ]]></description>
@@ -45,14 +44,14 @@ RGBW CONTROLLER 2<br /><h1>Overview</h1><p>FIBARO RGBW Controller 2 uses PWM out
           <property name="binding:*:HSBType">COMMAND_CLASS_SWITCH_COLOR</property>
           <property name="binding:*:PercentType">COMMAND_CLASS_SWITCH_MULTILEVEL</property>
           <property name="binding:Command:OnOffType">COMMAND_CLASS_SWITCH_MULTILEVEL</property>
-,COMMAND_CLASS_BASIC        </properties>
+,BASIC        </properties>
       </channel>
       <channel id="color_temperature" typeId="color_temperature">
         <label>Color Temperature</label>
         <properties>
           <property name="binding:*:PercentType">COMMAND_CLASS_SWITCH_COLOR;colorMode=DIFF_WHITE</property>
           <property name="binding:Command:OnOffType">COMMAND_CLASS_SWITCH_MULTILEVEL</property>
-,COMMAND_CLASS_BASIC        </properties>
+,BASIC        </properties>
       </channel>
       <channel id="scene_number" typeId="scene_number">
         <label>Scene Number</label>
@@ -63,7 +62,7 @@ RGBW CONTROLLER 2<br /><h1>Overview</h1><p>FIBARO RGBW Controller 2 uses PWM out
       <channel id="config_decimal_param157" typeId="fibaro_fgrgbw442_00_000_config_decimal_param157">
         <label>Start programmed sequence</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_CONFIGURATION;parameter=157</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_CONFIGURATION</property>
         </properties>
       </channel>
       <channel id="alarm_power" typeId="alarm_power">
@@ -155,25 +154,25 @@ RGBW CONTROLLER 2<br /><h1>Overview</h1><p>FIBARO RGBW Controller 2 uses PWM out
       <channel id="sensor_voltage6" typeId="sensor_voltage">
         <label>Sensor (voltage) 6</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL:6,COMMAND_CLASS_BASIC:6;type=VOLTAGE</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL:6,BASIC:6;type=VOLTAGE</property>
         </properties>
       </channel>
       <channel id="sensor_voltage7" typeId="sensor_voltage">
         <label>Sensor (voltage) 7</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL:7,COMMAND_CLASS_BASIC:7;type=VOLTAGE</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL:7,BASIC:7;type=VOLTAGE</property>
         </properties>
       </channel>
       <channel id="sensor_voltage8" typeId="sensor_voltage">
         <label>Sensor (voltage) 8</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL:8,COMMAND_CLASS_BASIC:8;type=VOLTAGE</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL:8,BASIC:8;type=VOLTAGE</property>
         </properties>
       </channel>
       <channel id="sensor_voltage9" typeId="sensor_voltage">
         <label>Sensor (voltage) 9</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL:9,COMMAND_CLASS_BASIC:9;type=VOLTAGE</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL:9,BASIC:9;type=VOLTAGE</property>
         </properties>
       </channel>
     </channels>
@@ -419,17 +418,10 @@ Remote control - transition time<br /><h1>Overview</h1><p>This parameter determi
         <advanced>true</advanced>
       </parameter>
 
-      <parameter name="config_154_4_000000FF" type="integer" groupName="configuration"
+      <parameter name="config_154_4_7F000000" type="integer" groupName="configuration"
                  min="0" max="255">
-        <label>154: ON frame value for single click IN1</label>
-        <description>ON frame value for single click IN1</description>
-        <default>255</default>
-      </parameter>
-
-      <parameter name="config_154_4_0000FF00" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>154: ON frame value for single click IN2</label>
-        <description>ON frame value for single click IN2</description>
+        <label>154: ON frame value for single click IN4</label>
+        <description>ON frame value for single click IN4</description>
         <default>255</default>
       </parameter>
 
@@ -440,10 +432,17 @@ Remote control - transition time<br /><h1>Overview</h1><p>This parameter determi
         <default>255</default>
       </parameter>
 
-      <parameter name="config_154_4_7F000000" type="integer" groupName="configuration"
+      <parameter name="config_154_4_0000FF00" type="integer" groupName="configuration"
                  min="0" max="255">
-        <label>154: ON frame value for single click IN4</label>
-        <description>ON frame value for single click IN4</description>
+        <label>154: ON frame value for single click IN2</label>
+        <description>ON frame value for single click IN2</description>
+        <default>255</default>
+      </parameter>
+
+      <parameter name="config_154_4_000000FF" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>154: ON frame value for single click IN1</label>
+        <description>ON frame value for single click IN1</description>
         <default>255</default>
       </parameter>
 
@@ -455,17 +454,10 @@ Remote control - transition time<br /><h1>Overview</h1><p>This parameter determi
         <advanced>true</advanced>
       </parameter>
 
-      <parameter name="config_155_4_000000FF" type="integer" groupName="configuration"
+      <parameter name="config_155_4_7F000000" type="integer" groupName="configuration"
                  min="0" max="255">
-        <label>155: OFF frame value for single click IN1</label>
-        <description>OFF frame value for single click IN1</description>
-        <default>255</default>
-      </parameter>
-
-      <parameter name="config_155_4_0000FF00" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>155: OFF frame value for single click IN2</label>
-        <description>OFF frame value for single click IN2</description>
+        <label>155: OFF frame value for single click IN4</label>
+        <description>OFF frame value for single click IN4</description>
         <default>255</default>
       </parameter>
 
@@ -476,10 +468,17 @@ Remote control - transition time<br /><h1>Overview</h1><p>This parameter determi
         <default>255</default>
       </parameter>
 
-      <parameter name="config_155_4_7F000000" type="integer" groupName="configuration"
+      <parameter name="config_155_4_0000FF00" type="integer" groupName="configuration"
                  min="0" max="255">
-        <label>155: OFF frame value for single click IN4</label>
-        <description>OFF frame value for single click IN4</description>
+        <label>155: OFF frame value for single click IN2</label>
+        <description>OFF frame value for single click IN2</description>
+        <default>255</default>
+      </parameter>
+
+      <parameter name="config_155_4_000000FF" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>155: OFF frame value for single click IN1</label>
+        <description>OFF frame value for single click IN1</description>
         <default>255</default>
       </parameter>
 
@@ -491,17 +490,10 @@ Remote control - transition time<br /><h1>Overview</h1><p>This parameter determi
         <advanced>true</advanced>
       </parameter>
 
-      <parameter name="config_156_4_000000FF" type="integer" groupName="configuration"
+      <parameter name="config_156_4_7F000000" type="integer" groupName="configuration"
                  min="0" max="255">
-        <label>156: ON frame value for double click IN1</label>
-        <description>ON frame value for double click IN1</description>
-        <default>255</default>
-      </parameter>
-
-      <parameter name="config_156_4_0000FF00" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>156: ON frame value for double click IN2</label>
-        <description>ON frame value for double click IN2</description>
+        <label>156: ON frame value for double click IN4</label>
+        <description>ON frame value for double click IN4</description>
         <default>255</default>
       </parameter>
 
@@ -512,10 +504,17 @@ Remote control - transition time<br /><h1>Overview</h1><p>This parameter determi
         <default>255</default>
       </parameter>
 
-      <parameter name="config_156_4_7F000000" type="integer" groupName="configuration"
+      <parameter name="config_156_4_0000FF00" type="integer" groupName="configuration"
                  min="0" max="255">
-        <label>156: ON frame value for double click IN4</label>
-        <description>ON frame value for double click IN4</description>
+        <label>156: ON frame value for double click IN2</label>
+        <description>ON frame value for double click IN2</description>
+        <default>255</default>
+      </parameter>
+
+      <parameter name="config_156_4_000000FF" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>156: ON frame value for double click IN1</label>
+        <description>ON frame value for double click IN1</description>
         <default>255</default>
       </parameter>
 
@@ -626,26 +625,5 @@ Start programmed sequence<br /><h1>Overview</h1><p>Setting this parameter will s
     </config-description>
 
   </thing-type>
-
-  <channel-type id="fibaro_fgrgbw442_00_000_config_decimal_param157">
-    <item-type>Number</item-type>
-    <label>Start programmed sequence</label>
-    <description>Start programmed sequence</description>
-    <state pattern="%s">
-      <options>
-        <option value="0">sequence inactive</option>
-        <option value="1">user-defined sequence 1</option>
-        <option value="2">user-defined sequence 2</option>
-        <option value="3">user-defined sequence 3</option>
-        <option value="4">user-defined sequence 4</option>
-        <option value="5">user-defined sequence 5</option>
-        <option value="6">Fireplace sequence</option>
-        <option value="7">Storm sequence</option>
-        <option value="8">Rainbow sequence</option>
-        <option value="9">Aurora sequence</option>
-        <option value="10">Police (red-white-blue) sequence</option>
-      </options>
-    </state>
-  </channel-type>
 
 </thing:thing-descriptions>

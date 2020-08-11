@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="powerley_pwly7828_00_000" listed="false">
-    <label>PWLY-7828-A1 Thermostat - HVAC</label>
     <description><![CDATA[
 Thermostat - HVAC<br /><h1>Overview</h1><p>Residential energy usage is driven by the home's heating and cooling system, and Powerley provides the connectivity to understand usage of the home's HVAC and control remotely or automatically with the Powerley Thermostat. The Powerley Thermostat uses the Z-Wave protocol and can be seamlessly integrated into the connected home via the Powerley Energy Bridge to facilitate communication and control between the devices. The thermostat provides the user with the ability to remotely control home temperature and also allows Powerley to optimize the HVAC system's use balancing energy usage and comfort. The device also provides for the ability to facilitate Demand Response events, including allowing the consumer to choose whether or not to participate in the event via push notifications.</p> <br /><h2>Inclusion Information</h2><p>To put your thermostat into inclusion mode, press and hold Mode for 5 seconds. Hold for 5 seconds:   • CONNECT will scroll across the thermostat display once in inclusion mode. • SUCCESS will scroll across the thermostat display once included. • FAIL will scroll across the thermostat display if inclusion is unsuccessful, or if process takes longer than 1 minute.</p> <br /><h2>Exclusion Information</h2><p>To exclude your Thermostat, press and hold Mode for 5 seconds to initiate Z-Wave exclusion process:   • DELETE will scroll across the thermostat display once in exclusion mode. • To cancel the exclusion process, press Mode. • To complete exclusion press either of the up/down arrows. • SUCCESS will scroll across the thermostat display once excluded. NOTE: Excluding the thermostat will restore it to the default state for Z-Wave and temperature set points.</p>
     ]]></description>
@@ -59,7 +58,7 @@ Thermostat - HVAC<br /><h1>Overview</h1><p>Residential energy usage is driven by
       <channel id="thermostat_fanstate" typeId="powerley_pwly7828_00_000_thermostat_fanstate">
         <label>Thermostat fan state</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_THERMOSTAT_FAN_STATE</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_THERMOSTAT_FAN_STATE:0;</property>
         </properties>
       </channel>
       <channel id="battery-level" typeId="system.battery-level">
@@ -277,11 +276,6 @@ Differential Setting<br /><h1>Overview</h1><p>0-10: 0-10 F; 0-5.6 C</p>
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="1">Heat</option>
-        <option value="0">Off</option>
-        <option value="2">Cool</option>
-      </options>
     </state>
   </channel-type>
 
@@ -291,10 +285,6 @@ Differential Setting<br /><h1>Overview</h1><p>0-10: 0-10 F; 0-5.6 C</p>
     <description>Sets the thermostat fan mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="1">On (Low)</option>
-        <option value="0">Auto (Low)</option>
-      </options>
     </state>
   </channel-type>
 
@@ -304,10 +294,6 @@ Differential Setting<br /><h1>Overview</h1><p>0-10: 0-10 F; 0-5.6 C</p>
     <description>Sets the thermostat fan state</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="1">Running</option>
-        <option value="0">Idle</option>
-      </options>
     </state>
   </channel-type>
 

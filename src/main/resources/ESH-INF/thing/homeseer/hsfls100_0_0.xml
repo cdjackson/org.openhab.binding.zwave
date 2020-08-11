@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="homeseer_hsfls100_00_000" listed="false">
-    <label>HS-FLS100+ Floodlight Sensor</label>
     <description><![CDATA[
 Floodlight Sensor<br /><h1>Overview</h1><p>The HS-FLS100+ is a PIR module thatâ€™s designed to retrofit onto existing outdoor floodlights. It features a PIR sensor to detect motion through movement of heat sources and a LUX sensor for determining brightness of its surroundings. It is equipped with Z-Wave Plus wireless communication capability that will convert an ordinary motion-activated floodlight into a smart home device.</p> <p><strong>Conventional Floodlight Mode</strong> HS-FLS100+ can be used as a conventional motion-activated floodlight sensor to power floodlights when motion is sensed during dark hours. Controls are provided for manual adjustment of LUX sensitivity and floodlight ON times.</p> <p><strong>Smart Floodlight Mode</strong> When added to a smart home system, HS-FLS100+ will send Z-Wave commands to the smart hub or home controller when motion is sensed and when the LUX level changes. Likewise, the smart hub or home controller can send Z-Wave commands back to the HS-FLS100+ to turn floodlights ON and OFF. This added functionality provides a very high level of flexibility not typically available in conventional motion-activated floodlights.</p> <p><strong>Smart Sensor Mode</strong> HS-FLS100+ can be installed and used simply as an outdoor motion and LUX sensor. Floodlight functionality is not required. This provides some interesting security and smart home possibilities!</p> <br /><h2>Inclusion Information</h2><p>Press the Link button 3 times within 1.5 seconds to put the unit into inclusion mode.</p> <br /><h2>Exclusion Information</h2><p>Press the Link button 3 times within 1.5 seconds to put the unit into exclusion mode.</p>
     ]]></description>
@@ -35,19 +34,19 @@ Floodlight Sensor<br /><h1>Overview</h1><p>The HS-FLS100+ is a PIR module thatâ€
       <channel id="config_decimal_param1" typeId="config_decimal">
         <label>PIR Trigger Off period</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_CONFIGURATION;parameter=1</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_CONFIGURATION</property>
         </properties>
       </channel>
       <channel id="config_decimal_param2" typeId="config_decimal">
         <label>Lux sensor threshold</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_CONFIGURATION;parameter=2</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_CONFIGURATION</property>
         </properties>
       </channel>
       <channel id="config_decimal_param3" typeId="config_decimal">
         <label>Auto Report luminance interval</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_CONFIGURATION;parameter=3</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_CONFIGURATION</property>
         </properties>
       </channel>
       <channel id="alarm_power" typeId="alarm_power">

@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="qubino_zmnhia_00_000" listed="false">
-    <label>ZMNHIA Flush on/off thermostat</label>
     <description><![CDATA[
 Flush on/off thermostat<br /><h1>Overview</h1><p>This Z-Wave module is used to regulate temperature. The module can be controlled either through Z-wave network or through the wall switch</p> <br /><h2>Inclusion Information</h2><ul><li>press service button S for more than 2 second or</li> <li>press push button I1 three times within 3s (3 times change switch state within 3 seconds</li> </ul><br /><h2>Exclusion Information</h2><ul><li>press service button S for more than 6 second or</li> <li>press push button I1 five times within 3s (5 times change switch state within 3 seconds).</li> </ul>
     ]]></description>
@@ -47,13 +46,13 @@ Flush on/off thermostat<br /><h1>Overview</h1><p>This Z-Wave module is used to r
       <channel id="sensor_binary1" typeId="sensor_binary">
         <label>Binary Sensor 1</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SENSOR_BINARY:1,COMMAND_CLASS_BASIC:1</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SENSOR_BINARY:1,BASIC:1</property>
         </properties>
       </channel>
       <channel id="sensor_binary2" typeId="sensor_binary">
         <label>Binary Sensor 2</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SENSOR_BINARY:2,COMMAND_CLASS_BASIC:2</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SENSOR_BINARY:2,BASIC:2</property>
         </properties>
       </channel>
     </channels>
@@ -291,10 +290,6 @@ Connected device type can be (NO) or (NC)<br /><h1>Overview</h1><p>Set value mea
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="0">Off</option>
-        <option value="3">Auto</option>
-      </options>
     </state>
   </channel-type>
 

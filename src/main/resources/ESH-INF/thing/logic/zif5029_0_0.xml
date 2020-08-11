@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="logic_zif5029_00_000" listed="false">
-    <label>ZIF5029 Interface for Utility Meters (12-24V)</label>
     <description><![CDATA[
 Interface for Utility Meters (12-24V)<br /><h1>Overview</h1><p>The ZIF5029 DIN-rail module is a device with a wireless Z-Wave communication protocol. It has 6 relay driven outputs and 6 pulse inputs (S0). The unit is a multi-purpose Z-Wave I/O module, which can be used for many applications. E.g. the module provides the possibility to control other systems via the Z-Wave network, by utilizing the 6 outputs as a kind of hand-over function to another automation system.</p> <br /><h2>Inclusion Information</h2><p>Upon delivery, the ZIF5029 module has not been enrolled into any Z-Wave network. To communicate with other devices in the Z-Wave network, ZIF5029 must be enrolled in the network. This process is called to include the device in the Z-Wave network. Devices can also be removed from the Z-Wave network if they are to be used in another installation. This is called to exclude the device from the Z-Wave network.</p> <p>Both processes are initiated by setting the central network controls in either inclusion or exclusion mode. Please refer to the network controller's manual how to set the central controls in either inclusion or exclusion mode.</p> <p>The inclusion / exclusion mode on the ZIF5029 device is activated by pressing the small button through the hole in the front of the module, marked "INCLUSION", after which the status LED will start flashing.</p> <p>If the device already belongs to a network, the device must be excluded before it can be included in the current network, otherwise the inclusion process will fail.</p> <p>Furthermore, see section 3 above about maintaining configuration parameters during exclusion / inclusion.</p> <br /><h2>Exclusion Information</h2><p>See inclusion section.</p>
     ]]></description>
@@ -17,7 +16,7 @@ Interface for Utility Meters (12-24V)<br /><h1>Overview</h1><p>The ZIF5029 DIN-r
       <channel id="switch_binary" typeId="switch_binary">
         <label>Switch</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,BASIC</property>
         </properties>
       </channel>
       <channel id="meter_pulse" typeId="meter_pulse">
@@ -29,73 +28,73 @@ Interface for Utility Meters (12-24V)<br /><h1>Overview</h1><p>The ZIF5029 DIN-r
       <channel id="switch_binary1" typeId="switch_binary">
         <label>Switch 1</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:1,COMMAND_CLASS_BASIC:1</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:1,BASIC:1</property>
         </properties>
       </channel>
       <channel id="switch_binary2" typeId="switch_binary">
         <label>Switch 2</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:2,COMMAND_CLASS_BASIC:2</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:2,BASIC:2</property>
         </properties>
       </channel>
       <channel id="switch_binary3" typeId="switch_binary">
         <label>Switch 3</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:3,COMMAND_CLASS_BASIC:3</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:3,BASIC:3</property>
         </properties>
       </channel>
       <channel id="switch_binary4" typeId="switch_binary">
         <label>Switch 4</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:4,COMMAND_CLASS_BASIC:4</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:4,BASIC:4</property>
         </properties>
       </channel>
       <channel id="switch_binary5" typeId="switch_binary">
         <label>Switch 5</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:5,COMMAND_CLASS_BASIC:5</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:5,BASIC:5</property>
         </properties>
       </channel>
       <channel id="switch_binary6" typeId="switch_binary">
         <label>Switch 6</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:6,COMMAND_CLASS_BASIC:6</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:6,BASIC:6</property>
         </properties>
       </channel>
       <channel id="meter_pulse7" typeId="meter_pulse">
         <label>Electric meter (pulses) 1</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:7,COMMAND_CLASS_BASIC:7;type=E_Pulses</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:7,BASIC:7;type=E_Pulses</property>
         </properties>
       </channel>
       <channel id="meter_pulse8" typeId="meter_pulse">
         <label>Electric meter (pulses) 2</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:8,COMMAND_CLASS_BASIC:8;type=E_Pulses</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:8,BASIC:8;type=E_Pulses</property>
         </properties>
       </channel>
       <channel id="meter_pulse9" typeId="meter_pulse">
         <label>Electric meter (pulses) 3</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:9,COMMAND_CLASS_BASIC:9;type=E_Pulses</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:9,BASIC:9;type=E_Pulses</property>
         </properties>
       </channel>
       <channel id="meter_pulse10" typeId="meter_pulse">
         <label>Electric meter (pulses) 4</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:10,COMMAND_CLASS_BASIC:10;type=E_Pulses</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:10,BASIC:10;type=E_Pulses</property>
         </properties>
       </channel>
       <channel id="meter_pulse11" typeId="meter_pulse">
         <label>Electric meter (pulses) 5</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:11,COMMAND_CLASS_BASIC:11;type=E_Pulses</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:11,BASIC:11;type=E_Pulses</property>
         </properties>
       </channel>
       <channel id="meter_pulse12" typeId="meter_pulse">
         <label>Electric meter (pulses) 6</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:12,COMMAND_CLASS_BASIC:12;type=E_Pulses</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:12,BASIC:12;type=E_Pulses</property>
         </properties>
       </channel>
     </channels>

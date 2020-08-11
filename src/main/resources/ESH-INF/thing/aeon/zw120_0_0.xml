@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="aeon_zw120_00_000" listed="false">
-    <label>ZW120 Door/Window sensor Gen5</label>
     <description><![CDATA[
 Door/Window sensor Gen5<br /><h1>Overview</h1><p>Aeon Labs Door/ Window Sensor Gen5 is a smart Z-Wave sensor that can detect the status of door/window's open/close in real time. It’s a security Z-Wave device that supports security encryption. It can be included and operated in any Z-Wave network with other Z-Wave certified devices from manufacturers and/or other applications.</p> <br /><h2>Inclusion Information</h2><p>To include your Sensor as a non-security device in your Z-wave network, turn the primary controller into inclusion mode, then press the Action Button once on Door Window Sensor.    To include your Sensor as a secure device, turn the primary controller into inclusion mode, then press the Sensor’s Action Button 2 times within 1 second</p> <br /><h2>Exclusion Information</h2><p>To exclude your sensor from the z-wave network, turn the primary controller into exclusion mode, then press the Action Button once on Door Window Sensor. </p> <br /><h2>Wakeup Information</h2><p>Remove your Sensor unit from its Back Mounting Plate, press  the Action Button on the back of the Sensor unit and then release the Action Button. This will trigger and send a wake up notification command to your controller/gateway.</p>
     ]]></description>
@@ -17,7 +16,7 @@ Door/Window sensor Gen5<br /><h1>Overview</h1><p>Aeon Labs Door/ Window Sensor G
       <channel id="sensor_door" typeId="sensor_door">
         <label>Door Sensor</label>
         <properties>
-          <property name="binding:*:OpenClosedType">COMMAND_CLASS_SENSOR_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OpenClosedType">COMMAND_CLASS_SENSOR_BINARY,BASIC</property>
         </properties>
       </channel>
       <channel id="alarm_general" typeId="alarm_general">

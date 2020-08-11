@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="tkb_tz06_00_000" listed="false">
-    <label>TZ06 In Wall Dual Relay(1 Way) Switch Module 2x 1.5kW</label>
     <description><![CDATA[
 In Wall Dual Relay(1 Way) Switch Module 2x 1.5kW<br /><h1>Overview</h1><p>This in-wall switch module is a transceiver which is a Z-Wave Plus™ enabled device and is fully compatible with any Z-Wave enabled network.</p> <p>Mini size design let the module can easily hide itself into the wall box and that will be good for the house decoration.</p> <p>There are many kind of application by using the module to switch Load On and Off, one main application is the light control.</p> <br /><h2>Inclusion Information</h2><p>In the front casing, there is an on/off button with LED indicator below which is to toggle switch on and off or carries out inclusion, exclusion, reset or association.  When first power is applied, its LED flashes on and off alternately and repeatedly at 0.5 second intervals.  It implies that it has not been assigned a node ID and start auto inclusion.</p> <p>Pressing the Include button of TZ06 three times within 2 seconds will enter inclusion mode</p> <br /><h2>Exclusion Information</h2><p>Pressing the Include button of TZ06 three times within 2 seconds will enter exclusion mode</p> <br /><h2>Wakeup Information</h2><p>Mains Powered Device. </p>
     ]]></description>
@@ -17,7 +16,7 @@ In Wall Dual Relay(1 Way) Switch Module 2x 1.5kW<br /><h1>Overview</h1><p>This i
       <channel id="switch_binary" typeId="switch_binary">
         <label>Switch</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,BASIC</property>
         </properties>
       </channel>
       <channel id="alarm_general" typeId="alarm_general">
@@ -29,19 +28,19 @@ In Wall Dual Relay(1 Way) Switch Module 2x 1.5kW<br /><h1>Overview</h1><p>This i
       <channel id="switch_binary1" typeId="switch_binary">
         <label>Switch 1</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:1,COMMAND_CLASS_BASIC:1</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:1,BASIC:1</property>
         </properties>
       </channel>
       <channel id="switch_binary2" typeId="switch_binary">
         <label>Switch 2</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:2,COMMAND_CLASS_BASIC:2</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:2,BASIC:2</property>
         </properties>
       </channel>
       <channel id="switch_binary3" typeId="switch_binary">
         <label>Switch 3</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:3,COMMAND_CLASS_BASIC:3</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:3,BASIC:3</property>
         </properties>
       </channel>
     </channels>

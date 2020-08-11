@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="tkb_tz36d_02_001" listed="false">
-    <label>TZ36D Dual Paddle Wall Switch</label>
     <description><![CDATA[
 Dual Paddle Wall Switch<br /><h1>Overview</h1><p>The TKB Z-Wave dual wall switch is switching attached loads and is controlled either by the local switching paddle or remotely via the Z-Wave wireless protocol<br />It is included and controlled in a Z-Wave network by a remote control, a wireless control centre or any other kind of Z-Wave controller including a PC-software.</p> <br /><h2>Inclusion Information</h2><p>Press On/Off button three times within 1.5 seconds.</p> <br /><h2>Exclusion Information</h2><p>Press On/Off button three times within 1.5 seconds.</p>
     ]]></description>
@@ -17,7 +16,7 @@ Dual Paddle Wall Switch<br /><h1>Overview</h1><p>The TKB Z-Wave dual wall switch
       <channel id="switch_binary" typeId="switch_binary">
         <label>Switch</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,BASIC</property>
         </properties>
       </channel>
       <channel id="scene_number" typeId="scene_number">
@@ -34,7 +33,7 @@ Dual Paddle Wall Switch<br /><h1>Overview</h1><p>The TKB Z-Wave dual wall switch
       <property name="modelId">TZ36D</property>
       <property name="manufacturerId">0118</property>
       <property name="manufacturerRef">0003:0003,0311:0202</property>
-      <property name="versionMin">2.1</property>
+      <property name="versionMin">2.001</property>
       <property name="dbReference">605</property>
       <property name="defaultAssociations">1,2,3,4</property>
     </properties>

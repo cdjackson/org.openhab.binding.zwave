@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="enerwave_zw15r_00_000" listed="false">
-    <label>ZW15R Duplex receptacle</label>
     <description><![CDATA[
 Duplex receptacle<br /><h1>Overview</h1><p>Wireless Lighting Control Duplex Receptacle</p> <br /><h2>Inclusion Information</h2><p>press and hold the manual ON/OFF Button on the receptacle 3 seconds</p> <br /><h2>Exclusion Information</h2><p>press and hold the manual ON/OFF Button on the receptacle 3 seconds</p>
     ]]></description>
@@ -17,7 +16,7 @@ Duplex receptacle<br /><h1>Overview</h1><p>Wireless Lighting Control Duplex Rece
       <channel id="switch_binary" typeId="switch_binary">
         <label>Switch</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,BASIC</property>
         </properties>
       </channel>
     </channels>

@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="kwikset_ged1800_00_000" listed="false">
-    <label>GED1800 SmartCode 10 Touchpad Electronic Deadbolt</label>
     <description><![CDATA[
 SmartCode 10 Touchpad Electronic Deadbolt<br /><h1>Overview</h1><ul><li>Dramatically reduced interior size and sleek metal design.</li> <li>Featuring SmartKey<sup>®</sup> re-key technology; re-key the lock yourself in seconds in 3 easy steps.</li> <li>Deadbolt operated by electronic keypad or key; backlit for increased visibility at night.</li> <li>Keypad stays lit for 30 seconds after inactivity.</li> <li>Customized automatic door locking after 30 seconds for peace of mind.</li> <li>One touch motorized locking. Lock your door with a single touch. No additional turning/twisting needed.</li> <li>Features 30 user access codes and 1 master code option.</li> <li>ANSI/BHMA grade 2 certified/20 minute fire rating - UL certified.</li> <li>Fits most standard residential door preparations - installs in minutes with just a screw driver.</li> <li>Lifetime mechanical and finish warranty, One year electronics warranty.</li> <li>4 AA, purchased separately.</li> <li>Full 128-bit encryption security.</li> </ul><br /><h2>Inclusion Information</h2><p>Press button “A” on the lock one time to include it in your system.</p> <br /><h2>Exclusion Information</h2><p>Press button “A” on the lock one time to exclude it in your system.</p> <br /><h2>Wakeup Information</h2><p>Even though the lock is sleeping, all buttons are active and can be used to initiate any lock activity.  For the RF side, it will wake up every 1 second to check if there are any requests from your smart home controller.</p>
     ]]></description>
@@ -58,10 +57,10 @@ SmartCode 10 Touchpad Electronic Deadbolt<br /><h1>Overview</h1><ul><li>Dramatic
       </parameter-group>
 
       <!-- PARAMETER DEFINITIONS -->
-      <parameter name="config_31_1" type="integer" groupName="configuration" readOnly="true">
-        <label>31: Buzzer</label>
+      <parameter name="config_31_1_10000000" type="integer" groupName="configuration" readOnly="true">
+        <label>31: Status LED</label>
         <description><![CDATA[
-Internal Buzzer<br /><h1>Overview</h1><p>Internal buzzer enabled.  Factory default is ON.  It is recommended that the buzzer is left ON during programming.</p>
+Door lock status LED blinks every 6 seconds<br /><h1>Overview</h1><p>Door lock status LED blinks every 6 seconds.  Factory default is ON.</p>
         ]]></description>
         <default>1</default>
         <options>
@@ -82,10 +81,10 @@ Automatically re-locks door 30 seconds after unlocking.<br /><h1>Overview</h1><p
         </options>
       </parameter>
 
-      <parameter name="config_31_1_10000000" type="integer" groupName="configuration" readOnly="true">
-        <label>31: Status LED</label>
+      <parameter name="config_31_1" type="integer" groupName="configuration" readOnly="true">
+        <label>31: Buzzer</label>
         <description><![CDATA[
-Door lock status LED blinks every 6 seconds<br /><h1>Overview</h1><p>Door lock status LED blinks every 6 seconds.  Factory default is ON.</p>
+Internal Buzzer<br /><h1>Overview</h1><p>Internal buzzer enabled.  Factory default is ON.  It is recommended that the buzzer is left ON during programming.</p>
         ]]></description>
         <default>1</default>
         <options>

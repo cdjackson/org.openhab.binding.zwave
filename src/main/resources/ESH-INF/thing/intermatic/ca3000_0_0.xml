@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="intermatic_ca3000_00_000" listed="false">
-    <label>CA3000 Wall Switch</label>
     <description><![CDATA[
 Wall Switch<br /><h1>Overview</h1><p>In-wall switch, 15A</p> <br /><h2>Inclusion Information</h2><p>Press rocker switch up or down.</p> <br /><h2>Exclusion Information</h2><p>Press rocker switch up or down.</p>
     ]]></description>
@@ -17,7 +16,7 @@ Wall Switch<br /><h1>Overview</h1><p>In-wall switch, 15A</p> <br /><h2>Inclusion
       <channel id="switch_binary" typeId="switch_binary">
         <label>Switch</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,BASIC</property>
         </properties>
       </channel>
     </channels>

@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="philio_psp05_00_000" listed="false">
-    <label>PSP05 Motion Sensor</label>
     <description><![CDATA[
 Motion Sensor<br /><h1>Overview</h1><p>Zwave plus battery operated motion sensor.</p> <br /><h2>Inclusion Information</h2><ol><li>Have Z-WaveTM Controller entered inclusion mode.</li> <li>Pressing button once to enter the inclusion mode.</li> <li>After add successful, the device will wake to receive the setting command from Z-WaveTM Controller about 20 seconds.</li> </ol><br /><h2>Exclusion Information</h2><ol><li>Have Z-WaveTM Controller entered exclusion mode.</li> <li>Pressing button once to enter the exclusion mode.</li> <li>Node ID has been excluded</li> </ol><br /><h2>Wakeup Information</h2><p>Open the cover and press the button once.</p>
     ]]></description>
@@ -81,14 +80,6 @@ Adjust the PIR Sensitivity<br /><h1>Overview</h1><p>This setting sets the sensit
         <default>5</default>
       </parameter>
 
-      <parameter name="config_7_1" type="integer" groupName="configuration"
-                 min="0" max="127">
-        <label>7: Customer Function</label>
-        <description>Parameter to set the Customer Function.</description>
-        <default>4</default>
-        <advanced>true</advanced>
-      </parameter>
-
       <parameter name="config_7_1_00000002" type="integer" groupName="configuration">
         <label>7: Bit 1: Motion OFF Reporting</label>
         <description><![CDATA[
@@ -98,16 +89,6 @@ Sends notification when motion has completed.<br /><h1>Overview</h1><p>Sends not
         <options>
           <option value="0">Don't Send Report</option>
           <option value="1">Send Report</option>
-        </options>
-      </parameter>
-
-      <parameter name="config_7_1_00000004" type="integer" groupName="configuration">
-        <label>7: Bit 2: Enable PIR super sensitivity mode.</label>
-        <description>Enable PIR super sensitivity mode</description>
-        <default>1</default>
-        <options>
-          <option value="0">Disable</option>
-          <option value="1">Enable</option>
         </options>
       </parameter>
 
@@ -142,6 +123,24 @@ Send Multi CC in auto report<br /><h1>Overview</h1><p>Investigation required to 
         <options>
           <option value="0">Enable</option>
           <option value="1">Disable</option>
+        </options>
+      </parameter>
+
+      <parameter name="config_7_1" type="integer" groupName="configuration"
+                 min="0" max="127">
+        <label>7: Customer Function</label>
+        <description>Parameter to set the Customer Function.</description>
+        <default>4</default>
+        <advanced>true</advanced>
+      </parameter>
+
+      <parameter name="config_7_1_00000004" type="integer" groupName="configuration">
+        <label>7: Bit 2: Enable PIR super sensitivity mode.</label>
+        <description>Enable PIR super sensitivity mode</description>
+        <default>1</default>
+        <options>
+          <option value="0">Disable</option>
+          <option value="1">Enable</option>
         </options>
       </parameter>
 

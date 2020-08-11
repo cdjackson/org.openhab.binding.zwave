@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="ge_zw4005_00_000" listed="false">
-    <label>ZW4005, 12722 On/Off Relay Switch</label>
     <description><![CDATA[
 On/Off Relay Switch<br /><h1>Overview</h1><p>Also marketed as GE / Jasco 12722.</p> <br /><h2>Inclusion Information</h2><p>Once the controller is ready to include your smart switch, press and release the top or bottom button on the smart switch to include it in the network.</p> <br /><h2>Exclusion Information</h2><p>Once the controller is ready to exclude your device, press and release the top or bottom button on the smart switch to exclude it from the network.</p>
     ]]></description>
@@ -17,7 +16,7 @@ On/Off Relay Switch<br /><h1>Overview</h1><p>Also marketed as GE / Jasco 12722.<
       <channel id="switch_binary" typeId="switch_binary">
         <label>Switch</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,BASIC</property>
         </properties>
       </channel>
     </channels>

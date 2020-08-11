@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="leviton_vrr151lz_00_000" listed="false">
-    <label>VRR15-1LZ Receptacle</label>
     <description><![CDATA[
 Receptacle<br /><h1>Overview</h1><p>Vizia RF + Split Duplex Receptacle</p> <br /><h2>Inclusion Information</h2><p>Install VRR15-1LZ, place controller in inclusion mode, press on/off button on VRR15-1LZ to include</p> <br /><h2>Exclusion Information</h2><p>Place controller in exclusion mode, press on/off button on VRR15-1LZ to exclude</p>
     ]]></description>
@@ -17,7 +16,7 @@ Receptacle<br /><h1>Overview</h1><p>Vizia RF + Split Duplex Receptacle</p> <br /
       <channel id="switch_binary" typeId="switch_binary">
         <label>Switch</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,BASIC</property>
         </properties>
       </channel>
       <channel id="scene_number" typeId="scene_number">

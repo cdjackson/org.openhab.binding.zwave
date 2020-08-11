@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="benext_molite_00_000" listed="false">
-    <label>Molite Movement sensor with temperature and light sensor</label>
     <description><![CDATA[
 Movement sensor with temperature and light sensor<br /><h1>Overview</h1><p>Basic operations</p> <ul><li>The MoLiTe can detect movement,</li> <li>The MoLiTe can measure light intensity</li> <li>The MoLiTe can measure the temperature</li> <li>The MoLiTe can trigger a security system</li> </ul><br /><h2>Inclusion Information</h2><p>Press and hold the tamper switch for 2 seconds and release to start the inclusion or exclude process</p> <br /><h2>Exclusion Information</h2><p>Press and hold the tamper switch for 2 seconds and release to start the inclusion or exclude process</p> <br /><h2>Wakeup Information</h2><p>It is possible to send a wake up notification on user interaction. To do this press and hold the tamper switch for four seconds (mount the device).</p>
     ]]></description>
@@ -17,7 +16,7 @@ Movement sensor with temperature and light sensor<br /><h1>Overview</h1><p>Basic
       <channel id="sensor_binary" typeId="sensor_binary">
         <label>Binary Sensor</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SENSOR_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SENSOR_BINARY,BASIC</property>
         </properties>
       </channel>
       <channel id="sensor_luminance" typeId="sensor_luminance">

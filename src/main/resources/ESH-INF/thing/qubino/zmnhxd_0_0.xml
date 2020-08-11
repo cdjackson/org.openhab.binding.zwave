@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="qubino_zmnhxd_00_000" listed="false">
-    <label>ZMNHXD Qubino 3-Phase Smart Meter</label>
     <description><![CDATA[
 Qubino 3-Phase Smart Meter<br /><h1>Overview</h1><p>Qubino 3-Phase Smart Meter is used for energy measurements in three-phase electrical power network. It reduces energy consumption, lowers your utility</p> <p><strong>FACTORY RESET</strong></p> <ol><li>Connect the device to the power supply</li> <li>Press and hold the S service button between 6 seconds and 20 seconds</li> <li>Device will be removed from you network</li> </ol><p><strong>LED1 (Green)</strong></p> <ul><li>LED is ON = Power ON, module is included</li> <li>LED is 1s OFF, 1s ON = Power ON, module is excluded</li> </ul><p><strong>LED2 (Yellow)</strong></p> <ol><li>External IR relay enabled only <ul><li>LED is ON = External IR relay is turned ON</li> <li>LED is OFF = External IR relay is turned OFF</li> <li>LED is 0.5s OFF, 0.5s ON = IR communication error</li> </ul></li> <li>External TRIAC relay enabled only <ul><li>LED is ON = External IR relay is turned ON</li> <li>LED is OFF = External IR relay is turned OFF</li> </ul></li> <li>Both TRIAC an IR enabled <ul><li>LED is ON = External IR relay is turned ON</li> <li>LED is OFF = External IR relay is turned OFF</li> <li>LED is 0.5s OFF, 0.5s ON = IR communication error</li> </ul></li> <li>External IR relay disabled <ul><li>LED is ON = modbus packet is sent</li> <li>LED is OFF = modbus packet is received</li> </ul></li> </ol><br /><h2>Inclusion Information</h2><p><strong>AUTOMATICALLY ADDING THE DEVICE TO A Z-WAVE NETWORK (AUTO INCLUSION)</strong></p> <ol><li>Enable add/remove mode on your Z-Wave gateway (hub)</li> <li>Automatic selection of secure/insecure inclusion</li> <li>The device can be automatically added to a Z-Wave network during the first 2 minutes</li> <li>Connect the device to the power supply</li> <li>Auto-inclusion will be initiated within 5 seconds of connection to the power supply and the device will automatically enroll in your network</li> </ol><p>NOTE: For S2 inclusion please check chapter – »16. Z-Wave Security«.</p> <p><strong>MANUALLY ADDING THE DEVICE TO A Z-WAVE NETWORK (MANUAL INCLUSION)</strong></p> <ol><li>Connect the device to the power supply</li> <li>Enable add/remove mode on your Z-Wave gateway (hub)</li> <li>Toggle the Service button S between 0.2 and 6 seconds</li> <li>A new multi-channel device will appear on your dashboard</li> </ol><br /><h2>Exclusion Information</h2><p><strong>REMOVAL FROM A ZWAVE NETWORK (Z-WAVE EXCLUSION)</strong></p> <ol><li>Connect the device to the power supply</li> <li>Make sure the device is within direct range of your Z-Wave gateway (hub) or use a hand-held Z-Wave remote to perform exclusion</li> <li>Enable add/remove mode on your Z-Wave gateway (hub)</li> <li>Press and hold the S service button between 0.2 and 6 seconds</li> <li>The device will be removed from your network but custom configuration parameters will not be erased</li> </ol>
     ]]></description>
@@ -17,121 +16,121 @@ Qubino 3-Phase Smart Meter<br /><h1>Overview</h1><p>Qubino 3-Phase Smart Meter i
       <channel id="meter_powerfactor" typeId="meter_powerfactor">
         <label>Electric meter (power factor)</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER,COMMAND_CLASS_BASIC;type=E_Power_Factor</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_METER,BASIC;type=E_Power_Factor</property>
         </properties>
       </channel>
       <channel id="meter_watts" typeId="meter_watts">
         <label>Electric meter (watts)</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER,COMMAND_CLASS_BASIC;type=E_W</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_METER,BASIC;type=E_W</property>
         </properties>
       </channel>
       <channel id="meter_kwh" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER,COMMAND_CLASS_BASIC;type=E_KWh</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_METER,BASIC;type=E_KWh</property>
         </properties>
       </channel>
       <channel id="meter_kvah" typeId="meter_kvah">
         <label>Electric meter (kVAh)</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER,COMMAND_CLASS_BASIC;type=E_KVAh</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_METER,BASIC;type=E_KVAh</property>
         </properties>
       </channel>
       <channel id="meter_powerfactor1" typeId="meter_powerfactor">
         <label>Electric meter (power factor) 1</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:1,COMMAND_CLASS_BASIC:1;type=E_Power_Factor</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:1,BASIC:1;type=E_Power_Factor</property>
         </properties>
       </channel>
       <channel id="meter_watts1" typeId="meter_watts">
         <label>Electric meter (watts) 1</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:1,COMMAND_CLASS_BASIC:1;type=E_W</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:1,BASIC:1;type=E_W</property>
         </properties>
       </channel>
       <channel id="meter_kwh1" typeId="meter_kwh">
         <label>Electric meter (kWh) 1</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:1,COMMAND_CLASS_BASIC:1;type=E_KWh</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:1,BASIC:1;type=E_KWh</property>
         </properties>
       </channel>
       <channel id="meter_kvah1" typeId="meter_kvah">
         <label>Electric meter (kVAh) 1</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:1,COMMAND_CLASS_BASIC:1;type=E_KVAh</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:1,BASIC:1;type=E_KVAh</property>
         </properties>
       </channel>
       <channel id="meter_powerfactor2" typeId="meter_powerfactor">
         <label>Electric meter (power factor) 2</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:2,COMMAND_CLASS_BASIC:2;type=E_Power_Factor</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:2,BASIC:2;type=E_Power_Factor</property>
         </properties>
       </channel>
       <channel id="meter_current2" typeId="meter_current">
         <label>Electric meter (amps) 2</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:2,COMMAND_CLASS_BASIC:2;type=E_A</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:2,BASIC:2;type=E_A</property>
         </properties>
       </channel>
       <channel id="meter_watts2" typeId="meter_watts">
         <label>Electric meter (watts) 2</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:2,COMMAND_CLASS_BASIC:2;type=E_W</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:2,BASIC:2;type=E_W</property>
         </properties>
       </channel>
       <channel id="meter_voltage2" typeId="meter_voltage">
         <label>Electric meter (volts) 2</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:2,COMMAND_CLASS_BASIC:2;type=E_V</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:2,BASIC:2;type=E_V</property>
         </properties>
       </channel>
       <channel id="meter_powerfactor3" typeId="meter_powerfactor">
         <label>Electric meter (power factor) 3</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:3,COMMAND_CLASS_BASIC:3;type=E_Power_Factor</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:3,BASIC:3;type=E_Power_Factor</property>
         </properties>
       </channel>
       <channel id="meter_current3" typeId="meter_current">
         <label>Electric meter (amps) 3</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:3,COMMAND_CLASS_BASIC:3;type=E_A</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:3,BASIC:3;type=E_A</property>
         </properties>
       </channel>
       <channel id="meter_watts3" typeId="meter_watts">
         <label>Electric meter (watts) 3</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:3,COMMAND_CLASS_BASIC:3;type=E_W</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:3,BASIC:3;type=E_W</property>
         </properties>
       </channel>
       <channel id="meter_voltage3" typeId="meter_voltage">
         <label>Electric meter (volts) 3</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:3,COMMAND_CLASS_BASIC:3;type=E_V</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:3,BASIC:3;type=E_V</property>
         </properties>
       </channel>
       <channel id="meter_powerfactor4" typeId="meter_powerfactor">
         <label>Electric meter (power factor) 4</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:4,COMMAND_CLASS_BASIC:4;type=E_Power_Factor</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:4,BASIC:4;type=E_Power_Factor</property>
         </properties>
       </channel>
       <channel id="meter_current4" typeId="meter_current">
         <label>Electric meter (amps) 4</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:4,COMMAND_CLASS_BASIC:4;type=E_A</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:4,BASIC:4;type=E_A</property>
         </properties>
       </channel>
       <channel id="meter_watts4" typeId="meter_watts">
         <label>Electric meter (watts) 4</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:4,COMMAND_CLASS_BASIC:4;type=E_W</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:4,BASIC:4;type=E_W</property>
         </properties>
       </channel>
       <channel id="meter_voltage4" typeId="meter_voltage">
         <label>Electric meter (volts) 4</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:4,COMMAND_CLASS_BASIC:4;type=E_V</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_METER:4,BASIC:4;type=E_V</property>
         </properties>
       </channel>
     </channels>

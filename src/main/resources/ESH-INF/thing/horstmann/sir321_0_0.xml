@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="horstmann_sir321_00_000" listed="false">
-    <label>SIR-321 RF Countdown Timer</label>
     <description><![CDATA[
 RF Countdown Timer<br /><h1>Overview</h1><p>Wirelessly controllable 3 KW wall switch timer function</p> <br /><h2>Inclusion Information</h2><p>Press and hold the pairing button on the unit until the RF LED starts flashing at a fast rate. Then release the button. </p> <br /><h2>Exclusion Information</h2><p>Press and hold the pairing button on the unit until the RF LED starts flashing at a fast rate. Then release the button.</p>
     ]]></description>
@@ -17,7 +16,7 @@ RF Countdown Timer<br /><h1>Overview</h1><p>Wirelessly controllable 3 KW wall sw
       <channel id="switch_binary" typeId="switch_binary">
         <label>Switch</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,BASIC</property>
         </properties>
       </channel>
       <channel id="sensor_temperature" typeId="sensor_temperature">

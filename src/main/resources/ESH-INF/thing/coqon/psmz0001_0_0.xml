@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="coqon_psmz0001_00_000" listed="false">
-    <label>PSMZ0001 Plug module</label>
     <description><![CDATA[
 Plug module<br /><h1>Overview</h1><p>Power Plug with Energy Monitoring,</p> <br /><h2>Inclusion Information</h2><p>When a PSMZ0001 that is not associated to a Z-Wave Network, is inserted into the mains outlet, it will flash once red followed by 2 green flashes followed by steady red flashing. The PSMZ0001 can now be added to (=inclusion) or removed from (=exclusion) a Z-Wave network:</p> <ol><li>start inclusion/exclusion on the primary controller</li> <li>hold the touch button until the led shows green light</li> <li>release the touch button. The PSMZ0001 will confirm successful addition to the network by 5 green flashes.</li> </ol><br /><h2>Exclusion Information</h2><p>When a PSMZ0001 that is not associated to a Z-Wave network is inserted into the mains outlet, it will flash once red followed by 2 green flashes followed by steady red flashing. The PSMZ0001 can now be added to (=inclusion) or removed from (=exclusion) a Z-Wave network:</p> <ol><li>start inclusion/exclusion on the primary controller</li> <li>hold the touch button until the led shows green light</li> <li>release the touch button. The PSMZ0001will confirm successful removal/exclusion by steady red flashing. At the time of exclusion the device is factory reset.</li> </ol>
     ]]></description>
@@ -17,7 +16,7 @@ Plug module<br /><h1>Overview</h1><p>Power Plug with Energy Monitoring,</p> <br 
       <channel id="switch_binary" typeId="switch_binary">
         <label>Switch</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,BASIC</property>
         </properties>
       </channel>
       <channel id="meter_watts" typeId="meter_watts">

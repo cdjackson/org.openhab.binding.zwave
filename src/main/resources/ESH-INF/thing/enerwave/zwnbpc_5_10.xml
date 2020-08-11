@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="enerwave_zwnbpc_05_010" listed="false">
-    <label>ZWN-BPC-PLUS PIR Sensor</label>
     <description><![CDATA[
 PIR Sensor<br /><h1>Overview</h1><p>This sensor acts as a security device by detecting changes in infrared radiation levels. when some body moves within or across the detection of coverage, one triggering signal will be transmitted to associated Z-Wave devices</p> <br /><h2>Inclusion Information</h2><p>press and hold the program button of ZWN-BPC for 2 second,</p> <br /><h2>Exclusion Information</h2><p>press and hold the program button of ZWN-BPC for 2 second,</p> <br /><h2>Wakeup Information</h2><p>press the program button</p>
     ]]></description>
@@ -17,7 +16,7 @@ PIR Sensor<br /><h1>Overview</h1><p>This sensor acts as a security device by det
       <channel id="sensor_binary" typeId="sensor_binary">
         <label>Binary Sensor</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SENSOR_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SENSOR_BINARY,BASIC</property>
         </properties>
       </channel>
       <channel id="alarm_burglar" typeId="alarm_burglar">
@@ -39,7 +38,7 @@ PIR Sensor<br /><h1>Overview</h1><p>This sensor acts as a security device by det
       <property name="modelId">ZWN-BPC-PLUS</property>
       <property name="manufacturerId">011A</property>
       <property name="manufacturerRef">0601:0901</property>
-      <property name="versionMin">5.10</property>
+      <property name="versionMin">5.010</property>
       <property name="dbReference">795</property>
       <property name="defaultAssociations">1</property>
     </properties>

@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="zwaveme_zweather_00_000" listed="false">
-    <label>Z-Weather Z-Wave weather interface</label>
     <description>Z-Wave weather interface</description>
 
     <!-- CHANNEL DEFINITIONS -->

@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="leviton_rzp03_00_000" listed="false">
-    <label>RZP03 Scene Capable Plug-In Lamp Dimming Module</label>
     <description><![CDATA[
 Scene Capable Plug-In Lamp Dimming Module<br /><h1>Overview</h1><p>Scene Capable Plug-In Lamp Dimming Module , Rated: 120VAC, 60Hz, Incandescent: 300W max., 60W min </p> <br /><h2>Inclusion Information</h2><p>Press the ON/OFF button on the module</p> <br /><h2>Exclusion Information</h2><p>Press the ON/OFF button on the module</p>
     ]]></description>
@@ -36,19 +35,19 @@ Scene Capable Plug-In Lamp Dimming Module<br /><h1>Overview</h1><p>Scene Capable
       <property name="manufacturerId">001D</property>
       <property name="manufacturerRef">0201:0206</property>
       <property name="dbReference">373</property>
-      <property name="commandClass:COMMAND_CLASS_BASIC">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_APPLICATION_STATUS">ccAdd</property>
-      <property name="commandClass:COMMAND_CLASS_SWITCH_MULTILEVEL">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_SWITCH_ALL">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_SCENE_ACTIVATION">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_SCENE_ACTUATOR_CONF">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_MANUFACTURER_SPECIFIC">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_POWERLEVEL">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_NODE_NAMING">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_HAIL">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_ASSOCIATION">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_VERSION">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_MANUFACTURER_PROPRIETARY">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_BASIC">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_APPLICATION_STATUS">ccAdd</property>
+      <property name="commandclass:COMMAND_CLASS_SWITCH_MULTILEVEL">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_SWITCH_ALL">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_SCENE_ACTIVATION">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_SCENE_ACTUATOR_CONF">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_MANUFACTURER_SPECIFIC">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_POWERLEVEL">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_NODE_NAMING">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_HAIL">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_ASSOCIATION">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_VERSION">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_MANUFACTURER_PROPRIETARY">setVersion=1</property>
       <property name="defaultAssociations">1</property>
     </properties>
 

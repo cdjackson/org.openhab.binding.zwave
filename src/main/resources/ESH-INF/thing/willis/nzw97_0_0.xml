@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="willis_nzw97_00_000" listed="false">
-    <label>NZW97 Inovelli Outdoor Smart Plug (2 Channel)</label>
     <description><![CDATA[
 Inovelli Outdoor Smart Plug (2 Channel)<br /><h1>Overview</h1><ul><li>2 Controllable Outlets</li> <li>Outdoor IP65</li> <li>20 cm Cord</li> <li>High Temp Protection (OFF at 105°C)</li> <li>Last Power State (Possible DEFAULT)</li> <li>120 VAC, 60 Hz</li> <li>908.42 MHz</li> <li>Max Load Outlet #1 1800W (15A) Resistive</li> <li>Max Load Outlet #2 1800W (15A) Resistive</li> <li>Max Simultaneous Load 15A</li> <li>Max Range LoS 100 m</li> <li>Operating Temperature Range -20°C to 50°C</li> <li>UL E464831</li> <li>FCC ID OXGZW97 </li> </ul><br /><h2>Inclusion Information</h2><ul><li>Auto-Inclusion 30 sec from power on</li> <li>Backup-Inclusion Press button 5 times within 1 sec</li> <li>(Tested to work with Network Wide Inclusion)</li> </ul><br /><h2>Exclusion Information</h2><p>Press the Middle Button on the front of your NZW97 five (5) times rapidly (within 1-2 seconds)</p>
     ]]></description>
@@ -17,7 +16,7 @@ Inovelli Outdoor Smart Plug (2 Channel)<br /><h1>Overview</h1><ul><li>2 Controll
       <channel id="switch_binary" typeId="switch_binary">
         <label>Switch</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,BASIC</property>
         </properties>
       </channel>
       <channel id="alarm_heat" typeId="alarm_heat">
@@ -29,13 +28,13 @@ Inovelli Outdoor Smart Plug (2 Channel)<br /><h1>Overview</h1><ul><li>2 Controll
       <channel id="switch_binary1" typeId="switch_binary">
         <label>Switch 1</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:1,COMMAND_CLASS_BASIC:1</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:1,BASIC:1</property>
         </properties>
       </channel>
       <channel id="switch_binary2" typeId="switch_binary">
         <label>Switch 2</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:2,COMMAND_CLASS_BASIC:2</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:2,BASIC:2</property>
         </properties>
       </channel>
     </channels>

@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="leviton_rzi061l_00_000" listed="false">
-    <label>RZI06-1L Dimmer switch 600w incandescent</label>
     <description><![CDATA[
 Dimmer switch 600w incandescent<br /><h1>Overview</h1><p>Scene-Capable Preset Digital / Z-Wave 900MHz Incandescent Return to Neutral Dimmer. </p> <br /><h2>Inclusion Information</h2><ol><li>Install RZI06</li> <li>Place controller in inclusion mode</li> <li>Press light on/off paddle on RZI06</li> </ol><br /><h2>Exclusion Information</h2><ol><li>Place controller in exclusion mode</li> <li>Press light on/off paddle on RZI06</li> </ol><br /><h2>Wakeup Information</h2><p>Mains connected, not applicable.</p>
     ]]></description>
@@ -36,18 +35,18 @@ Dimmer switch 600w incandescent<br /><h1>Overview</h1><p>Scene-Capable Preset Di
       <property name="manufacturerId">001D</property>
       <property name="manufacturerRef">0401:0206</property>
       <property name="dbReference">877</property>
-      <property name="commandClass:COMMAND_CLASS_NO_OPERATION">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_BASIC">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_SWITCH_MULTILEVEL">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_SWITCH_ALL">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_SCENE_ACTIVATION">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_SCENE_ACTUATOR_CONF">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_MANUFACTURER_SPECIFIC">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_POWERLEVEL">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_NODE_NAMING">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_HAIL">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_ASSOCIATION">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_VERSION">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_NO_OPERATION">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_BASIC">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_SWITCH_MULTILEVEL">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_SWITCH_ALL">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_SCENE_ACTIVATION">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_SCENE_ACTUATOR_CONF">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_MANUFACTURER_SPECIFIC">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_POWERLEVEL">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_NODE_NAMING">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_HAIL">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_ASSOCIATION">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_VERSION">setVersion=1</property>
       <property name="defaultAssociations">1</property>
     </properties>
 

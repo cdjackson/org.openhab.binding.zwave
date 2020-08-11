@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="hank_hkzwms01_00_000" listed="false">
-    <label>HKZW_MS01 Multisensor</label>
     <description><![CDATA[
 Multisensor<br /><h1>Overview</h1><p>Detects motion, temperature, humidity, and luminance</p> <br /><h2>Inclusion Information</h2><p>Triple click the Z-Button</p> <p>Hold Z-button for 3 seconds for secure inclusion</p> <br /><h2>Exclusion Information</h2><p>Triple click the Z-Button</p> <br /><h2>Wakeup Information</h2><p>Press the Z-Button</p>
     ]]></description>
@@ -35,7 +34,7 @@ Multisensor<br /><h1>Overview</h1><p>Detects motion, temperature, humidity, and 
       <channel id="alarm_burglar" typeId="alarm_burglar">
         <label>Alarm (burglar)</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_ALARM,COMMAND_CLASS_BASIC;type=BURGLAR</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_ALARM,BASIC;type=BURGLAR</property>
         </properties>
       </channel>
       <channel id="battery-level" typeId="system.battery-level">
