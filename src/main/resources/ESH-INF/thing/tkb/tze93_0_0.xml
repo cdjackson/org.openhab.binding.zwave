@@ -105,11 +105,6 @@ Recover after a power failure<br /><h1>Overview</h1><p>The memory function means
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="5">Resume</option>
-        <option value="0">Off</option>
-        <option value="1">Heat</option>
-      </options>
     </state>
   </channel-type>
 

@@ -123,16 +123,4 @@ send notifications to associated devices<br /><h1>Overview</h1><p>Enable to send
 
   </thing-type>
 
-  <channel-type id="aeon_dsd31_00_000_config_decimal_param37">
-    <item-type>Number</item-type>
-    <label>Siren Volume</label>
-    <state pattern="%s">
-      <options>
-        <option value="1">88dB</option>
-        <option value="2">100dB</option>
-        <option value="3">105dB</option>
-      </options>
-    </state>
-  </channel-type>
-
 </thing:thing-descriptions>

@@ -71,7 +71,7 @@ Vivint Element Thermostat w/ other sensors<br /><h1>Overview</h1><p>This thermos
       <channel id="thermostat_fanstate" typeId="rtc_ct200x_00_000_thermostat_fanstate">
         <label>Thermostat fan state</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_THERMOSTAT_FAN_STATE</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_THERMOSTAT_FAN_STATE:0;</property>
         </properties>
       </channel>
       <channel id="battery-level" typeId="system.battery-level">
@@ -142,7 +142,7 @@ Vivint Element Thermostat w/ other sensors<br /><h1>Overview</h1><p>This thermos
       <channel id="thermostat_fanstate1" typeId="rtc_ct200x_00_000_thermostat_fanstate">
         <label>Thermostat fan state 1</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_THERMOSTAT_FAN_STATE:1</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_THERMOSTAT_FAN_STATE:1:1;</property>
         </properties>
       </channel>
       <channel id="battery-level1" typeId="system.battery-level">
@@ -405,14 +405,6 @@ Celsius or Fahrenheit<br /><h1>Overview</h1><p>This configuration is used to set
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="12">Economy Cool</option>
-        <option value="1">Heat</option>
-        <option value="2">Cool</option>
-        <option value="0">Off</option>
-        <option value="3">Auto</option>
-        <option value="11">Economy Heat</option>
-      </options>
     </state>
   </channel-type>
 
@@ -422,10 +414,6 @@ Celsius or Fahrenheit<br /><h1>Overview</h1><p>This configuration is used to set
     <description>Sets the thermostat fan mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="1">On (Low)</option>
-        <option value="0">Auto (Low)</option>
-      </options>
     </state>
   </channel-type>
 
@@ -435,9 +423,6 @@ Celsius or Fahrenheit<br /><h1>Overview</h1><p>This configuration is used to set
     <description>Sets the thermostat fan state</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="0">Idle</option>
-      </options>
     </state>
   </channel-type>
 
@@ -447,14 +432,6 @@ Celsius or Fahrenheit<br /><h1>Overview</h1><p>This configuration is used to set
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="12">Economy Cool</option>
-        <option value="1">Heat</option>
-        <option value="2">Cool</option>
-        <option value="0">Off</option>
-        <option value="3">Auto</option>
-        <option value="11">Economy Heat</option>
-      </options>
     </state>
   </channel-type>
 
@@ -464,10 +441,6 @@ Celsius or Fahrenheit<br /><h1>Overview</h1><p>This configuration is used to set
     <description>Sets the thermostat fan mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="1">On (Low)</option>
-        <option value="0">Auto (Low)</option>
-      </options>
     </state>
   </channel-type>
 
@@ -477,9 +450,6 @@ Celsius or Fahrenheit<br /><h1>Overview</h1><p>This configuration is used to set
     <description>Sets the thermostat fan state</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="0">Idle</option>
-      </options>
     </state>
   </channel-type>
 

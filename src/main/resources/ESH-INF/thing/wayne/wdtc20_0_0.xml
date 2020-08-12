@@ -53,7 +53,8 @@ Thermostat<br /><h1>Overview</h1><p>The Wayne-Dalton Z-Wave® Enabled Thermostat
       <channel id="color_color" typeId="color_color">
         <label>Display Color</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_INDICATOR</property>
+          <property name="binding:*:
+						DecimalType">COMMAND_CLASS_INDICATOR</property>
         </properties>
       </channel>
     </channels>

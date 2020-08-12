@@ -74,9 +74,6 @@ Boiler Thermostat<br /><h1>Overview</h1><p>MH3900 automatically detects the indo
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="1">Heat</option>
-      </options>
     </state>
   </channel-type>
 

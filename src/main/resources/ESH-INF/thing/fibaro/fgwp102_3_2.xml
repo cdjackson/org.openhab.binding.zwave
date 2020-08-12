@@ -408,43 +408,4 @@ defines how commands are sent in specified association groups<br /><h1>Overview<
 
   </thing-type>
 
-  <channel-type id="fibaro_fgwp102_03_002_config_decimal_param41">
-    <item-type>Number</item-type>
-    <label>LED ring colour (device is ON)</label>
-    <description>LED ring colour when controlled device is on</description>
-    <state pattern="%s">
-      <options>
-        <option value="0">illumination turned off completely</option>
-        <option value="1">colour changes depending on active power</option>
-        <option value="2">colour changes in steps depending on active power</option>
-        <option value="3">white</option>
-        <option value="4">red</option>
-        <option value="5">green</option>
-        <option value="6">blue</option>
-        <option value="7">yellow</option>
-        <option value="8">cyan</option>
-        <option value="9">magenta</option>
-      </options>
-    </state>
-  </channel-type>
-
-  <channel-type id="fibaro_fgwp102_03_002_config_decimal_param42">
-    <item-type>Number</item-type>
-    <label>LED ring colour (device is OFF)</label>
-    <description>LED ring colour when controlled device is off</description>
-    <state pattern="%s">
-      <options>
-        <option value="0">illumination turned off completely</option>
-        <option value="1">LED ring is illuminated</option>
-        <option value="3">white</option>
-        <option value="4">red</option>
-        <option value="5">green</option>
-        <option value="6">blue</option>
-        <option value="7">yellow</option>
-        <option value="8">cyan</option>
-        <option value="9">magenta</option>
-      </options>
-    </state>
-  </channel-type>
-
 </thing:thing-descriptions>
