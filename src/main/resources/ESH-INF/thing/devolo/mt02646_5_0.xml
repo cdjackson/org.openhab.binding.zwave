@@ -5,19 +5,18 @@
   xsi:schemaLocation="https://openhab.org/schemas/thing-description/v1.0.0
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
-  <thing-type id="devolo_mt02646_00_000" listed="false">
-    <label>MT02646 Home Control Metering Plug</label>
+  <thing-type id="devolo_mt02646_05_000" listed="false">
     <description><![CDATA[
-Home Control Metering Plug<br /><h1>Overview</h1><p>The Home Control Smart Metering Plug can be plugged into any wall outlet in the home. It enhances every<br />connected device with useful functions, such as time-controlled enabling and disabling or power monitoring </p> <br /><h2>Inclusion Information</h2><p>Push the front button three times rapidly within 2 seconds.</p> <br /><h2>Exclusion Information</h2><p>Push the front button three times rapidly within 2 seconds.</p>
+Home Control Metering Plug<br /><h1>Overview</h1><p>&lt;font size=5"&gt;test html tags&lt;/font&gt;<br /></p> <br /><h2>Inclusion Information</h2><p>Push the front button three times rapidly within 2 seconds.</p> <br /><h2>Exclusion Information</h2><p>Push the front button three times rapidly within 2 seconds.</p> <br /><h2>Wakeup Information</h2><p><br /></p>
     ]]></description>
-    <category>PowerOutlet</category>
+    <category>Battery</category>
 
     <!-- CHANNEL DEFINITIONS -->
     <channels>
       <channel id="switch_binary" typeId="switch_binary">
         <label>Switch</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,BASIC</property>
         </properties>
       </channel>
       <channel id="meter_watts" typeId="meter_watts">
@@ -50,12 +49,6 @@ Home Control Metering Plug<br /><h1>Overview</h1><p>The Home Control Smart Meter
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_V</property>
         </properties>
       </channel>
-      <channel id="meter_reset" typeId="meter_reset">
-        <label>Reset the total power consumption</label>
-        <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_METER</property>
-        </properties>
-      </channel>
       <channel id="alarm_general" typeId="alarm_general">
         <label>Alarm</label>
         <properties>
@@ -70,8 +63,10 @@ Home Control Metering Plug<br /><h1>Overview</h1><p>The Home Control Smart Meter
       <property name="modelId">MT02646</property>
       <property name="manufacturerId">0175</property>
       <property name="manufacturerRef">0001:0011</property>
+      <property name="versionMin">5.000</property>
+      <property name="versionMax">6.001</property>
       <property name="dbReference">1</property>
-      <property name="commandClass:COMMAND_CLASS_SWITCH_BINARY">getSupported=false</property>
+      <property name="commandclass:COMMAND_CLASS_SWITCH_BINARY">getSupported=false</property>
       <property name="defaultAssociations">1</property>
     </properties>
 

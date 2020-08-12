@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="thermofloor_ztrm2fx_03_000" listed="false">
-    <label>Z-TRM2fx Floor thermostat</label>
     <description><![CDATA[
 Floor thermostat<br /><h1>Overview</h1><p>FEATURES</p> <ul><li>Floor sensor</li> <li>External room sensor</li> <li>Temperature limiter</li> <li>Weekly program/setback via gateway or pilot wire</li> <li>Multilevel sensor command class</li> <li>Firmware updates (OTA)</li> <li>Power metering</li> <li>LED-diode</li> <li>May be used in connection with different NTC-sensors</li> <li>Lock mode/child lock</li> <li>Calibration</li> <li>5 associations</li> <li>Supports encryption mode: S0, S2 Authenticated Class, S2 Unauthenticated Class</li> </ul><br /><h2>Inclusion Information</h2><p>To add the thermostat to your home automation gateway, press Center (confirm) for 10 seconds.The display will show OFF.</p> <p>Press Right (down) 4 times till you see Con in the display.</p> <p>Now start add device in your home automation software.</p> <p>Start adding mode by pressing Center (confirm) for approximately 2 seconds.</p> <p>Adding Mode is indicated in the display by some “circling” LED segments in the display until the timeout occurs after 20 seconds or the module has been added in the network.</p> <p>Confirmation will show Inc in the display. If adding fails, Err (error) will appear.</p> <p>Leave programming mode by choosing ESC in menu. Your thermostat is ready for use with default settings.</p> <br /><h2>Exclusion Information</h2><p>To remove the thermostat from your home automation gateway, press Center (confirm) for 10 seconds. The display will show OFF.</p> <p>Press Right (down) 4 times till you see Con in the display.</p> <p>Now start remove device in your home automation software.</p> <p>Start removing mode by pressing Center (confirm) for approximately 2 seconds.</p> <p>Removing Mode is indicated in the display by some “circling” LED segments in the display until the timeout occurs after 20 seconds or the module has been removed from the network.</p> <p>Confirmation will show Inc/EcL in the display. If removing fails, Err (error) will appear.</p> <p>Leave programming mode by choosing ESC in menu.</p>
     ]]></description>
@@ -136,7 +135,7 @@ Floor thermostat<br /><h1>Overview</h1><p>FEATURES</p> <ul><li>Floor sensor</li>
       <property name="modelId">Z-TRM2fx</property>
       <property name="manufacturerId">019B</property>
       <property name="manufacturerRef">0003:0202</property>
-      <property name="versionMin">3.0</property>
+      <property name="versionMin">3.000</property>
       <property name="dbReference">980</property>
       <property name="defaultAssociations">1</property>
     </properties>
@@ -425,12 +424,6 @@ The main thermostat device<br /><h1>Overview</h1><p>Lifeline. (Normally used by 
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="2">Cool</option>
-        <option value="1">Heat</option>
-        <option value="11">Economy Heat</option>
-        <option value="0">Off</option>
-      </options>
     </state>
   </channel-type>
 

@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="aeotec_spirit_00_000" listed="false">
-    <label>Spirit Thermostatic Valve</label>
     <description><![CDATA[
 Thermostatic Valve<br /><h1>Overview</h1><p>Spirit Z-Wave Plus is a Z-Wave radio standard compatible energy-saving radiator thermostat.</p> <p>FLiRS (Frequently Listening Receiver Slave): Spirit Z-Wave uses FLiRS to provide short latency and short responding times.</p> <br /><h2>Inclusion Information</h2><p>Start Inclusion mode of your primary Z-Wave Controller. Press the Boost-Button. Spirit Z-Wave Plus will show the assigned NodeID.</p> <br /><h2>Exclusion Information</h2><p>Start Exclusion mode of your primary Z-Wave Controller. Now press and hold the boost button of the Spirit Z-Wave Plus for at least 5 seconds.</p>
     ]]></description>
@@ -36,7 +35,7 @@ Thermostatic Valve<br /><h1>Overview</h1><p>Spirit Z-Wave Plus is a Z-Wave radio
       <channel id="thermostat_mode" typeId="aeotec_spirit_00_000_thermostat_mode">
         <label>Thermostat mode</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_THERMOSTAT_MODE,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_THERMOSTAT_MODE,BASIC</property>
         </properties>
       </channel>
       <channel id="thermostat_setpoint_heating" typeId="thermostat_setpoint">
@@ -77,24 +76,24 @@ Thermostatic Valve<br /><h1>Overview</h1><p>Spirit Z-Wave Plus is a Z-Wave radio
       <property name="manufacturerId">0371</property>
       <property name="manufacturerRef">0002:0015</property>
       <property name="dbReference">1150</property>
-      <property name="commandClass:COMMAND_CLASS_BASIC">Provides access to basic functionality</property>
-      <property name="commandClass:COMMAND_CLASS_SWITCH_MULTILEVEL">Provides or sets the valve opening degree of the valve Controlling  the valve opening degree requires manufacturer specific mode</property>
-      <property name="commandClass:COMMAND_CLASS_SENSOR_MULTILEVEL">Provides the measured room temperature</property>
-      <property name="commandClass:COMMAND_CLASS_THERMOSTAT_MODE">Configures the operation mode</property>
-      <property name="commandClass:COMMAND_CLASS_THERMOSTAT_SETPOINT">Allows to configure the desired room temperature</property>
-      <property name="commandClass:COMMAND_CLASS_ASSOCIATION_GRP_INFO">Allows to group associations</property>
-      <property name="commandClass:COMMAND_CLASS_DEVICE_RESET_LOCALLY">Informs the Z-Wave Controller that the device was factory reset</property>
-      <property name="commandClass:COMMAND_CLASS_ZWAVEPLUS_INFO">Identifies the device as a Z-Wave Plus Device</property>
-      <property name="commandClass:COMMAND_CLASS_CONFIGURATION">Allows to configure the device settings</property>
-      <property name="commandClass:COMMAND_CLASS_ALARM">Informs the controller about critical system events/errors</property>
-      <property name="commandClass:COMMAND_CLASS_MANUFACTURER_SPECIFIC">Provides information about Manufacturer and Product</property>
-      <property name="commandClass:COMMAND_CLASS_POWERLEVEL">Used to alter the rf-power(required by Z-Wave).</property>
-      <property name="commandClass:COMMAND_CLASS_PROTECTION">Allows to lock the device (child protection).</property>
-      <property name="commandClass:COMMAND_CLASS_FIRMWARE_UPDATE_MD">Allows Over the Air Update of the device.</property>
-      <property name="commandClass:COMMAND_CLASS_BATTERY">Returns the current battery level of the device.</property>
-      <property name="commandClass:COMMAND_CLASS_ASSOCIATION">Allows to associate with other Z-Wave devices.</property>
-      <property name="commandClass:COMMAND_CLASS_VERSION">Returns information about the Firmware.</property>
-      <property name="commandClass:COMMAND_CLASS_SECURITY">Allows encrypted Z-Wave Communication</property>
+      <property name="commandclass:COMMAND_CLASS_BASIC">Provides access to basic functionality</property>
+      <property name="commandclass:COMMAND_CLASS_SWITCH_MULTILEVEL">Provides or sets the valve opening degree of the valve Controlling  the valve opening degree requires manufacturer specific mode</property>
+      <property name="commandclass:COMMAND_CLASS_SENSOR_MULTILEVEL">Provides the measured room temperature</property>
+      <property name="commandclass:COMMAND_CLASS_THERMOSTAT_MODE">Configures the operation mode</property>
+      <property name="commandclass:COMMAND_CLASS_THERMOSTAT_SETPOINT">Allows to configure the desired room temperature</property>
+      <property name="commandclass:COMMAND_CLASS_ASSOCIATION_GRP_INFO">Allows to group associations</property>
+      <property name="commandclass:COMMAND_CLASS_DEVICE_RESET_LOCALLY">Informs the Z-Wave Controller that the device was factory reset</property>
+      <property name="commandclass:COMMAND_CLASS_ZWAVEPLUS_INFO">Identifies the device as a Z-Wave Plus Device</property>
+      <property name="commandclass:COMMAND_CLASS_CONFIGURATION">Allows to configure the device settings</property>
+      <property name="commandclass:COMMAND_CLASS_ALARM">Informs the controller about critical system events/errors</property>
+      <property name="commandclass:COMMAND_CLASS_MANUFACTURER_SPECIFIC">Provides information about Manufacturer and Product</property>
+      <property name="commandclass:COMMAND_CLASS_POWERLEVEL">Used to alter the rf-power(required by Z-Wave).</property>
+      <property name="commandclass:COMMAND_CLASS_PROTECTION">Allows to lock the device (child protection).</property>
+      <property name="commandclass:COMMAND_CLASS_FIRMWARE_UPDATE_MD">Allows Over the Air Update of the device.</property>
+      <property name="commandclass:COMMAND_CLASS_BATTERY">Returns the current battery level of the device.</property>
+      <property name="commandclass:COMMAND_CLASS_ASSOCIATION">Allows to associate with other Z-Wave devices.</property>
+      <property name="commandclass:COMMAND_CLASS_VERSION">Returns information about the Firmware.</property>
+      <property name="commandclass:COMMAND_CLASS_SECURITY">Allows encrypted Z-Wave Communication</property>
       <property name="defaultAssociations">1</property>
     </properties>
 
@@ -223,13 +222,6 @@ Spirit Z-Wave Plus can only be associated with the Z-Wave controller.<br /><h1>O
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="0">Off</option>
-        <option value="11">Economy Heat</option>
-        <option value="1">Heat</option>
-        <option value="15">Full Power</option>
-        <option value="31">Manual</option>
-      </options>
     </state>
   </channel-type>
 

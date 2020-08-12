@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="telldus_tzdw100_00_000" listed="false">
-    <label>TZDW-100 Door/window sensor</label>
     <description><![CDATA[
 Door/window sensor<br /><h1>Overview</h1><p>This magnet sensor contains the latest Z-Wave technology with the ability to remotely control other Z-Wave units available in your network. The fact that it is battery operated and so small you can virtually place it anywhere you want – on doors, windows or drawers, without the need of wiring. Screw or tape up the holder and then click the sensor in place. Done! The sensor is designed to be seen as little as possible and we have made it significantly smaller than other sensors. It consists of two parts that will merge into a stylish unit when the sensor is closed</p> <br /><h2>Inclusion Information</h2><p>Press the button on the device three times fast.</p> <br /><h2>Exclusion Information</h2><p>Press the button on the device three times fast.</p> <br /><h2>Wakeup Information</h2><p>Press the button on the sensor one time short to wake up the device. </p>
     ]]></description>
@@ -17,7 +16,7 @@ Door/window sensor<br /><h1>Overview</h1><p>This magnet sensor contains the late
       <channel id="sensor_door" typeId="sensor_door">
         <label>Door Sensor</label>
         <properties>
-          <property name="binding:*:OpenClosedType">COMMAND_CLASS_SENSOR_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OpenClosedType">COMMAND_CLASS_SENSOR_BINARY,BASIC</property>
         </properties>
       </channel>
       <channel id="alarm_general" typeId="alarm_general">

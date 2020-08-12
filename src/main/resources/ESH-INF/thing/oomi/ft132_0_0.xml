@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="oomi_ft132_00_000" listed="false">
-    <label>FT132 Dual Nano Switch with Energy Metering</label>
     <description><![CDATA[
 Dual Nano Switch with Energy Metering<br /><h1>Overview</h1><p>Fantech Dual Nano Switch is a Z-Wave Smart Switch specifically used to enable Z-Wave command and control (on/off) of any wall switches. <br />In the event of power failure, non-volatile memory retains all programmed information relating to the unit’s operating status. <br />It can connect to 2 external manual switches to control the load ON/OFF independently. Its surface has a pin socket, which can be used for connecting to the touch panel, so you can also use the touch panel to control the Dual Nano Switch. <br />The Dual Nano Switch is also a security Z-Wave device and supports Over The Air (OTA) feature for the products firmware upgrade.</p> <br /><h2>Inclusion Information</h2><p>If you want your In-Wall Smart Switch (Dual) as a non-secure device in your Z-Wave network,press the Action Button once on In-Wall Smart Switch (Dual) when you pair it to your gateway. Ifinclusion is successful, the green LED will be on for 2 seconds, and then return to a solidindication. If inclusion is unsuccessful, the red LED will be on for 2 seconds and then return to acolourful gradient.</p> <br /><h2>Exclusion Information</h2><p>If at some stage, your primary controller is missing or inoperable, you may wish to reset all ofyour In-Wall Smart Switch (Dual)’s settings to their factory defaults. To do this, press and holdthe Action Button for 20 seconds and then release it. Your In-Wall Smart Switch (Dual) will nowbe reset to its original settings, and the green LED will be solid for 2 seconds and then remain thecolourful gradient status as a confirmation.</p>
     ]]></description>
@@ -17,7 +16,7 @@ Dual Nano Switch with Energy Metering<br /><h1>Overview</h1><p>Fantech Dual Nano
       <channel id="switch_binary" typeId="switch_binary">
         <label>Switch</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,BASIC</property>
         </properties>
       </channel>
       <channel id="scene_number" typeId="scene_number">
@@ -71,7 +70,7 @@ Dual Nano Switch with Energy Metering<br /><h1>Overview</h1><p>Fantech Dual Nano
       <channel id="switch_binary1" typeId="switch_binary">
         <label>Switch 1</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:1,COMMAND_CLASS_BASIC:1</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:1,BASIC:1</property>
         </properties>
       </channel>
       <channel id="meter_watts1" typeId="meter_watts">
@@ -101,7 +100,7 @@ Dual Nano Switch with Energy Metering<br /><h1>Overview</h1><p>Fantech Dual Nano
       <channel id="switch_binary2" typeId="switch_binary">
         <label>Switch 2</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:2,COMMAND_CLASS_BASIC:2</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:2,BASIC:2</property>
         </properties>
       </channel>
       <channel id="meter_watts2" typeId="meter_watts">

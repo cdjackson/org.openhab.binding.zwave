@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="reitz_duw064381_00_000" listed="false">
-    <label>Duwi Z-Wave Plugin Switch Indoor/Outdoor Wall Plug Switch</label>
     <description>Indoor/Outdoor Wall Plug Switch</description>
 
     <!-- CHANNEL DEFINITIONS -->
@@ -14,7 +13,7 @@
       <channel id="switch_binary" typeId="switch_binary">
         <label>Switch</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,BASIC</property>
         </properties>
       </channel>
     </channels>

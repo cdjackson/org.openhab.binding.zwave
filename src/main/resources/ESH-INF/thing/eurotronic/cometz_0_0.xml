@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="eurotronic_cometz_00_000" listed="false">
-    <label>CometZ Thermostatic Valve</label>
     <description><![CDATA[
 Thermostatic Valve<br /><h1>Overview</h1><p>Comet Z-wave is a Z-Wave radio standard compatible energy-saving radiator thermostat.</p> <br /><h2>Inclusion Information</h2><p>Press and hold the button in the battery compartment of the Comet Z-wave for 5 seconds. The device moves into installation position in order to enable (de)installation.</p> <br /><h2>Exclusion Information</h2><p>Press and hold the button in the battery compartment of the Comet Z-wave for 5 seconds. The device moves into installation position in order to enable (de)installation.</p> <br /><h2>Wakeup Information</h2><p>Click the button in the battery compartment of the Comet Z-wave once.</p>
     ]]></description>
@@ -80,12 +79,6 @@ Thermostatic Valve<br /><h1>Overview</h1><p>Comet Z-wave is a Z-Wave radio stand
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="0">Off (Frost Protect)</option>
-        <option value="31">Manual (Valve Openness)</option>
-        <option value="1">Heat (Comfort)</option>
-        <option value="11">Heat (Eco)</option>
-      </options>
     </state>
   </channel-type>
 
