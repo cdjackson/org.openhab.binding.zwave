@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="fibaro_fgbs222_00_000" listed="false">
-    <label>FGBS222 Smart Implant</label>
     <description><![CDATA[
 Smart Implant<br /><h1>Overview</h1><p>Allows to enhance the functionality of wired sensors and other devices by adding Z-Wave network communication. You can connect binary sensors, analog sensors, DS18B20 temperature sensors or DHT22 humidity and temperature sensor to report their readings to the Z-Wave controller. It can also control devices by opening/closing output contacts independently of the inputs.</p> <br /><h2>Inclusion Information</h2><p>To add the device to the Z-Wave network manually:</p> <ol><li>Power the device.</li> <li>Set the main controller in (Security/non-Security Mode) add mode (see the controller’s manual).</li> <li>Quickly, triple click button on the device housing or switch connected to IN1 or IN2.</li> <li>If you are adding in Security S2 Authenticated, scan the DSK QR code or input the 5-digit PIN code (label on the bottom of the box).</li> <li>LED will start blinking yellow, wait for the adding process to end.</li> <li>Successful adding will be confirmed by the Z-Wave controller’s message.</li> </ol><br /><h2>Exclusion Information</h2><p>To remove the device from the Z-Wave network:</p> <ol><li>Power the device.</li> <li>Set the main controller into remove mode (see the controller’s manual).</li> <li>Quickly, triple click button on the device housing or switch connected to IN1 or IN2.</li> <li>LED will start blinking yellow, wait for the removing process to end.</li> <li>Successful removing will be confirmed by the Z-Wave controller’s message.</li> </ol><p><strong>Note:</strong> Removing also results in resetting the device to factory defaults.</p> <p><strong>Note: </strong>Removing using switch connected to IN1 or IN2 works only if parameter 20 (IN1) or 21 (IN2) is set to 3 or 4 and parameter 40 (IN1) or 41 (IN2) does not allow sending scenes for triple click.</p>
     ]]></description>
@@ -29,31 +28,31 @@ Smart Implant<br /><h1>Overview</h1><p>Allows to enhance the functionality of wi
       <channel id="alarm_burglar1" typeId="alarm_burglar">
         <label>Input 1 Alarm</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_ALARM:1,COMMAND_CLASS_BASIC:1;type=BURGLAR</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_ALARM:1,BASIC:1;type=BURGLAR</property>
         </properties>
       </channel>
       <channel id="alarm_burglar2" typeId="alarm_burglar">
         <label>Input 2 Alarm</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_ALARM:2,COMMAND_CLASS_BASIC:2;type=BURGLAR</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_ALARM:2,BASIC:2;type=BURGLAR</property>
         </properties>
       </channel>
       <channel id="meter_voltage3" typeId="meter_voltage">
         <label>Input 1 Voltage</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL:3,COMMAND_CLASS_BASIC:3;type=VOLTAGE</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL:3,BASIC:3;type=VOLTAGE</property>
         </properties>
       </channel>
       <channel id="meter_voltage4" typeId="meter_voltage">
         <label>Input 2 Voltage</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL:4,COMMAND_CLASS_BASIC:4;type=VOLTAGE</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL:4,BASIC:4;type=VOLTAGE</property>
         </properties>
       </channel>
       <channel id="switch_binary5" typeId="switch_binary">
         <label>Switch Output 1</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:5,COMMAND_CLASS_BASIC:5</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:5,BASIC:5</property>
         </properties>
       </channel>
       <channel id="protection_local5" typeId="protection_local">
@@ -71,7 +70,7 @@ Smart Implant<br /><h1>Overview</h1><p>Allows to enhance the functionality of wi
       <channel id="switch_binary6" typeId="switch_binary">
         <label>Switch Output 2</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:6,COMMAND_CLASS_BASIC:6</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:6,BASIC:6</property>
         </properties>
       </channel>
       <channel id="protection_local6" typeId="protection_local">
@@ -179,29 +178,29 @@ Smart Implant<br /><h1>Overview</h1><p>Allows to enhance the functionality of wi
       <property name="manufacturerId">010F</property>
       <property name="manufacturerRef">0502:1000,0502:2000,0502:3000</property>
       <property name="dbReference">1005</property>
-      <property name="commandClass:COMMAND_CLASS_ALARM">DELETE SAME AS ENDPOINT 1</property>
-      <property name="commandClass:COMMAND_CLASS_BASIC:1">DELETE</property>
-      <property name="commandClass:COMMAND_CLASS_PROTECTION:1">DELETE</property>
-      <property name="commandClass:COMMAND_CLASS_BASIC:2">DELETE</property>
-      <property name="commandClass:COMMAND_CLASS_PROTECTION:2">DELETE</property>
-      <property name="commandClass:COMMAND_CLASS_BASIC:3">DELETE</property>
-      <property name="commandClass:COMMAND_CLASS_SENSOR_MULTILEVEL:3">type=VOLTAGE</property>
-      <property name="commandClass:COMMAND_CLASS_BASIC:4">DELETE</property>
-      <property name="commandClass:COMMAND_CLASS_SENSOR_MULTILEVEL:4">type=VOLTAGE</property>
-      <property name="commandClass:COMMAND_CLASS_BASIC:5">DELETE</property>
-      <property name="commandClass:COMMAND_CLASS_BASIC:6">DELETE</property>
-      <property name="commandClass:COMMAND_CLASS_BASIC:7">DELETE</property>
-      <property name="commandClass:COMMAND_CLASS_SENSOR_MULTILEVEL:7">DELETE MAPPED TO ROOT</property>
-      <property name="commandClass:COMMAND_CLASS_ALARM:7">type=SYSTEM</property>
-      <property name="commandClass:COMMAND_CLASS_SENSOR_MULTILEVEL:8">type=TEMPERATURE</property>
-      <property name="commandClass:COMMAND_CLASS_ALARM:8">type=SYSTEM</property>
-      <property name="commandClass:COMMAND_CLASS_ALARM:9">type=SYSTEM</property>
-      <property name="commandClass:COMMAND_CLASS_SENSOR_MULTILEVEL:10">type=TEMPERATURE</property>
-      <property name="commandClass:COMMAND_CLASS_SENSOR_MULTILEVEL:11">type=TEMPERATURE</property>
-      <property name="commandClass:COMMAND_CLASS_SENSOR_MULTILEVEL:12">type=TEMPERATURE</property>
-      <property name="commandClass:COMMAND_CLASS_ALARM:12">type=SYSTEM</property>
-      <property name="commandClass:COMMAND_CLASS_SENSOR_MULTILEVEL:13">type=TEMPERATURE</property>
-      <property name="commandClass:COMMAND_CLASS_ALARM:13">type=SYSTEM</property>
+      <property name="commandclass:COMMAND_CLASS_ALARM">DELETE SAME AS ENDPOINT 1</property>
+      <property name="commandclass:COMMAND_CLASS_BASIC:1">DELETE</property>
+      <property name="commandclass:COMMAND_CLASS_PROTECTION:1">DELETE</property>
+      <property name="commandclass:COMMAND_CLASS_BASIC:2">DELETE</property>
+      <property name="commandclass:COMMAND_CLASS_PROTECTION:2">DELETE</property>
+      <property name="commandclass:COMMAND_CLASS_BASIC:3">DELETE</property>
+      <property name="commandclass:COMMAND_CLASS_SENSOR_MULTILEVEL:3">type=VOLTAGE</property>
+      <property name="commandclass:COMMAND_CLASS_BASIC:4">DELETE</property>
+      <property name="commandclass:COMMAND_CLASS_SENSOR_MULTILEVEL:4">type=VOLTAGE</property>
+      <property name="commandclass:COMMAND_CLASS_BASIC:5">DELETE</property>
+      <property name="commandclass:COMMAND_CLASS_BASIC:6">DELETE</property>
+      <property name="commandclass:COMMAND_CLASS_BASIC:7">DELETE</property>
+      <property name="commandclass:COMMAND_CLASS_SENSOR_MULTILEVEL:7">DELETE MAPPED TO ROOT</property>
+      <property name="commandclass:COMMAND_CLASS_ALARM:7">type=SYSTEM</property>
+      <property name="commandclass:COMMAND_CLASS_SENSOR_MULTILEVEL:8">type=TEMPERATURE</property>
+      <property name="commandclass:COMMAND_CLASS_ALARM:8">type=SYSTEM</property>
+      <property name="commandclass:COMMAND_CLASS_ALARM:9">type=SYSTEM</property>
+      <property name="commandclass:COMMAND_CLASS_SENSOR_MULTILEVEL:10">type=TEMPERATURE</property>
+      <property name="commandclass:COMMAND_CLASS_SENSOR_MULTILEVEL:11">type=TEMPERATURE</property>
+      <property name="commandclass:COMMAND_CLASS_SENSOR_MULTILEVEL:12">type=TEMPERATURE</property>
+      <property name="commandclass:COMMAND_CLASS_ALARM:12">type=SYSTEM</property>
+      <property name="commandclass:COMMAND_CLASS_SENSOR_MULTILEVEL:13">type=TEMPERATURE</property>
+      <property name="commandclass:COMMAND_CLASS_ALARM:13">type=SYSTEM</property>
       <property name="defaultAssociations">1</property>
     </properties>
 

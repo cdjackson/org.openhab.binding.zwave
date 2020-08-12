@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="aeon_dsc11_00_000" listed="false">
-    <label>DSC11 Smart Strip</label>
     <description><![CDATA[
 Smart Strip<br /><h1>Overview</h1><p>Aeotec by Aeon Labs Smart Strip is a power board with 6 power points of which 4 can be wireless controlled. Customer can turn on/off their electrics when needed with manually operation or Z‐wave wireless control. Smart Strip has plenty of functions, for example the Over Current Protection and Surge Protection, these functions can efficiently protect people’s various electrics from damage.</p> <br /><h2>Inclusion Information</h2><p>Tap the Action Button.</p> <p>The Main (blue) LED will be on steady when successfully included.</p> <br /><h2>Exclusion Information</h2><p>Tap the Action Button.</p> <p>The Main (blue) LED will be flashing when successfully excluded.</p>
     ]]></description>
@@ -17,7 +16,7 @@ Smart Strip<br /><h1>Overview</h1><p>Aeotec by Aeon Labs Smart Strip is a power 
       <channel id="switch_binary" typeId="switch_binary">
         <label>Switch</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,BASIC</property>
         </properties>
       </channel>
       <channel id="meter_kwh" typeId="meter_kwh">
@@ -35,7 +34,7 @@ Smart Strip<br /><h1>Overview</h1><p>Aeotec by Aeon Labs Smart Strip is a power 
       <channel id="switch_binary1" typeId="switch_binary">
         <label>Switch 1</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:1,COMMAND_CLASS_BASIC:1</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:1,BASIC:1</property>
         </properties>
       </channel>
       <channel id="meter_kwh1" typeId="meter_kwh">
@@ -53,7 +52,7 @@ Smart Strip<br /><h1>Overview</h1><p>Aeotec by Aeon Labs Smart Strip is a power 
       <channel id="switch_binary2" typeId="switch_binary">
         <label>Switch 2</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:2,COMMAND_CLASS_BASIC:2</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:2,BASIC:2</property>
         </properties>
       </channel>
       <channel id="meter_kwh2" typeId="meter_kwh">
@@ -71,7 +70,7 @@ Smart Strip<br /><h1>Overview</h1><p>Aeotec by Aeon Labs Smart Strip is a power 
       <channel id="switch_binary3" typeId="switch_binary">
         <label>Switch 3</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:3,COMMAND_CLASS_BASIC:3</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:3,BASIC:3</property>
         </properties>
       </channel>
       <channel id="meter_kwh3" typeId="meter_kwh">
@@ -89,7 +88,7 @@ Smart Strip<br /><h1>Overview</h1><p>Aeotec by Aeon Labs Smart Strip is a power 
       <channel id="switch_binary4" typeId="switch_binary">
         <label>Switch 4</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:4,COMMAND_CLASS_BASIC:4</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:4,BASIC:4</property>
         </properties>
       </channel>
       <channel id="meter_kwh4" typeId="meter_kwh">
@@ -107,7 +106,7 @@ Smart Strip<br /><h1>Overview</h1><p>Aeotec by Aeon Labs Smart Strip is a power 
       <channel id="switch_binary5" typeId="switch_binary">
         <label>Switch 5</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:5,COMMAND_CLASS_BASIC:5</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:5,BASIC:5</property>
         </properties>
       </channel>
       <channel id="meter_kwh5" typeId="meter_kwh">
@@ -125,7 +124,7 @@ Smart Strip<br /><h1>Overview</h1><p>Aeotec by Aeon Labs Smart Strip is a power 
       <channel id="switch_binary6" typeId="switch_binary">
         <label>Switch 6</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:6,COMMAND_CLASS_BASIC:6</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:6,BASIC:6</property>
         </properties>
       </channel>
       <channel id="meter_kwh6" typeId="meter_kwh">

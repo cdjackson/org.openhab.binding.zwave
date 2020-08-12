@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="zipato_phpsp02_00_000" listed="false">
-    <label>PSP02 Door/temp/illumination/motion sensor</label>
     <description><![CDATA[
 Door/temp/illumination/motion sensor<br /><h1>Overview</h1><p>Door/Window, motion, temperature and illumination sensor in one device.</p> <p>Primarily used as Door/Window sensor, it consists of two parts: magnet and a sensor.</p> <ul><li>Very low power consumption.</li> <li>Low battery battery indication.</li> <li>Door/Window status and battery status auto-report.</li> <li>LED indicator.</li> <li>Over-the-air firmware update.</li> <li>Tamper proof protection.</li> </ul><br /><h2>Inclusion Information</h2><p>Put the Z-Wave Controller in inclusion mode.</p> <p>Pressing tamper key three times within 1.5 seconds will enter inclusion mode.</p> <p>After successful inclusion, the device will wake to receive the setting command from the Z-Wave Controller in about 20 seconds.<br /><br /></p> <br /><h2>Exclusion Information</h2><p>Put the Z-Wave Controller in exclusion mode.</p> <p>Pressing tamper key three times within 1.5 seconds will enter exclusion mode. Node ID has been excluded.</p> <br /><h2>Wakeup Information</h2><p>Any action.</p>
     ]]></description>
@@ -17,7 +16,7 @@ Door/temp/illumination/motion sensor<br /><h1>Overview</h1><p>Door/Window, motio
       <channel id="sensor_door" typeId="sensor_door">
         <label>Door/Window sensor</label>
         <properties>
-          <property name="binding:*:OpenClosedType">COMMAND_CLASS_SENSOR_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OpenClosedType">COMMAND_CLASS_SENSOR_BINARY,BASIC</property>
         </properties>
       </channel>
       <channel id="sensor_temperature" typeId="sensor_temperature">
@@ -188,6 +187,19 @@ Disable/enable the back key release into test mode<br /><h1>Overview</h1><p>Bit7
         <advanced>true</advanced>
       </parameter>
 
+      <parameter name="config_6_1_00000020" type="integer" groupName="configuration">
+        <label>6: light off control</label>
+        <description><![CDATA[
+disable/enable auto turn off the light<br /><h1>Overview</h1><p>Bit5: Disable auto turn off the light, after door/window opened to turn on the light. (1:Disable, 0:Enable)</p> <p>Notice: If bit2 is zero, this setting is useless. If the configuration No.9 is zero, this setting is useless.</p>
+        ]]></description>
+        <default>0</default>
+        <options>
+          <option value="0">enable</option>
+          <option value="32">disable</option>
+        </options>
+        <advanced>true</advanced>
+      </parameter>
+
       <parameter name="config_6_1_00000001" type="integer" groupName="configuration">
         <label>6: magnetic integration for lighting control</label>
         <description><![CDATA[
@@ -249,19 +261,6 @@ disable/enable delay<br /><h1>Overview</h1><p>Bit4: Disable delay 5 seconds to t
         <options>
           <option value="0">enable</option>
           <option value="16">disable</option>
-        </options>
-        <advanced>true</advanced>
-      </parameter>
-
-      <parameter name="config_6_1_00000020" type="integer" groupName="configuration">
-        <label>6: light off control</label>
-        <description><![CDATA[
-disable/enable auto turn off the light<br /><h1>Overview</h1><p>Bit5: Disable auto turn off the light, after door/window opened to turn on the light. (1:Disable, 0:Enable)</p> <p>Notice: If bit2 is zero, this setting is useless. If the configuration No.9 is zero, this setting is useless.</p>
-        ]]></description>
-        <default>0</default>
-        <options>
-          <option value="0">enable</option>
-          <option value="32">disable</option>
         </options>
         <advanced>true</advanced>
       </parameter>

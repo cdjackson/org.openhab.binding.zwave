@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="willis_zen23_00_000" listed="false">
-    <label>ZEN23 Wall mounted switch</label>
     <description><![CDATA[
 Wall mounted switch<br /><h1>Overview</h1><p>Keep the classic look of toggle switches while adding the latest technology to your lights. Wireless control through Z-Wave guarantees fast and reliable performance of your smart home</p> <br /><h2>Inclusion Information</h2><p>Toggle the switch up and down quickly 3 times to finalize the inclusion process</p> <br /><h2>Exclusion Information</h2><p>Toggle the switch up and down quickly 3 times to complete the exclusion process</p>
     ]]></description>
@@ -17,7 +16,7 @@ Wall mounted switch<br /><h1>Overview</h1><p>Keep the classic look of toggle swi
       <channel id="switch_binary" typeId="switch_binary">
         <label>Switch</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,BASIC</property>
         </properties>
       </channel>
     </channels>

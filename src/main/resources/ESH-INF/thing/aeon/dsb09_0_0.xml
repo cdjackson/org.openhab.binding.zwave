@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="aeon_dsb09_00_000" listed="false">
-    <label>DSB09 Home Energy Meter</label>
     <description><![CDATA[
 Home Energy Meter<br /><h1>Overview</h1><p>Your Home Energy Meter can be reset to default factory settings with ease.</p> <ol><li>Press and hold the Action Button for 10 seconds.</li> <li>If successful, the LED on the HEM should begin to blink slowly.</li> </ol><br /><h2>Inclusion Information</h2><p>The electrical installation of your Home Energy Meter (HEM) is now complete. You  must now wirelessly link it to your Z-Wave network.</p> <ol><li>Put your primary Z-Wave controller, usually a gateway or hub, into inclusion mode. If  you are not sure how to do this, please refer to your controller’s user manual.</li> <li>Press the Action Button on your HEM. If it has been successfully linked to your  network, its LED will remain illuminated. If the linking was unsuccessful, your HEM’s LED will continue to blink.</li> </ol><br /><h2>Exclusion Information</h2><p>Your Home Energy Meter (HEM) can be removed from your Z-Wave network at  any time. You'll need to use your Z-Wave network’s primary to do this.</p> <ol><li>Put your main controller into its device removal mode. If you are unsure how to do  this, please refer to your controller’s user manual.</li> <li>Press the Action Button on your HEM. If it has been successfully removed from your  network, its LED will blink. If the removal was unsuccessful, its LED will be solid and it will be then repeated again.</li> </ol>
     ]]></description>
@@ -17,7 +16,7 @@ Home Energy Meter<br /><h1>Overview</h1><p>Your Home Energy Meter can be reset t
       <channel id="sensor_power" typeId="sensor_power">
         <label>Sensor (power)</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL,COMMAND_CLASS_BASIC;type=POWER</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL,BASIC;type=POWER</property>
         </properties>
       </channel>
       <channel id="meter_kwh" typeId="meter_kwh">
@@ -46,7 +45,7 @@ Home Energy Meter<br /><h1>Overview</h1><p>Your Home Energy Meter can be reset t
       <channel id="sensor_power1" typeId="sensor_power">
         <label>Sensor (power) 1</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL:1,COMMAND_CLASS_BASIC:1;type=POWER</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL:1,BASIC:1;type=POWER</property>
         </properties>
       </channel>
       <channel id="meter_kwh1" typeId="meter_kwh">
@@ -64,7 +63,7 @@ Home Energy Meter<br /><h1>Overview</h1><p>Your Home Energy Meter can be reset t
       <channel id="sensor_power2" typeId="sensor_power">
         <label>Sensor (power) 2</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL:2,COMMAND_CLASS_BASIC:2;type=POWER</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL:2,BASIC:2;type=POWER</property>
         </properties>
       </channel>
       <channel id="meter_kwh2" typeId="meter_kwh">
@@ -82,7 +81,7 @@ Home Energy Meter<br /><h1>Overview</h1><p>Your Home Energy Meter can be reset t
       <channel id="sensor_power3" typeId="sensor_power">
         <label>Sensor (power) 3</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL:3,COMMAND_CLASS_BASIC:3;type=POWER</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL:3,BASIC:3;type=POWER</property>
         </properties>
       </channel>
       <channel id="meter_kwh3" typeId="meter_kwh">

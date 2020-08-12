@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="telldus_tzwp100_00_000" listed="false">
-    <label>TZWP-100 Wall Plug Switch</label>
     <description><![CDATA[
 Wall Plug Switch<br /><h1>Overview</h1><p>Plug­in switch, controls lighting and other electronic equipment up to 2000 W (resistive load). </p> <br /><h2>Inclusion Information</h2><p>Press the button on the device three times fast.</p> <br /><h2>Exclusion Information</h2><p>Press the button on the device three times fast.</p>
     ]]></description>
@@ -17,7 +16,7 @@ Wall Plug Switch<br /><h1>Overview</h1><p>Plug­in switch, controls lighting and
       <channel id="switch_binary" typeId="switch_binary">
         <label>Switch</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,BASIC</property>
         </properties>
       </channel>
     </channels>

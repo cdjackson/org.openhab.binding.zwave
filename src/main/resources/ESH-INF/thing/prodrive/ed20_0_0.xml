@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="prodrive_ed20_00_000" listed="false">
-    <label>ED2.0 Eneco Meter Adapter</label>
     <description><![CDATA[
 Eneco Meter Adapter<br /><h1>Overview</h1><p>The meter adapter measures gas and electricity usage of analog and digital meters. Analog meters are read by means of optical sensors that can be placed on the meter to monitor the rotating disc or the blinking LED. In case of a digital meter, the meter adapter can be connected to the digital meter by means of a P1 digital communication interface. The meter adapter measures the cumulative and instantaneous gas and electricity consumption and sends this information to a Z-Wave enabled display (ED2.0 Display).</p> <br /><h2>Inclusion Information</h2><p>Triple click the button.</p> <br /><h2>Exclusion Information</h2><p>Triple click the button.</p>
     ]]></description>
@@ -23,37 +22,37 @@ Eneco Meter Adapter<br /><h1>Overview</h1><p>The meter adapter measures gas and 
       <channel id="meter_gas_cubic_meters1" typeId="meter_gas_cubic_meters">
         <label>Gas meter (cubic meters)</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER_TBL_MONITOR:1;type=G_Cubic_Meters</property>
+:1;type=G_Cubic_Meters</property>
         </properties>
       </channel>
       <channel id="meter_kwh2" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER_TBL_MONITOR:2;type=E_KWh</property>
+:2;type=E_KWh</property>
         </properties>
       </channel>
       <channel id="meter_kwh3" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER_TBL_MONITOR:3;type=TE_KWh</property>
+:3;type=TE_KWh</property>
         </properties>
       </channel>
       <channel id="meter_kwh4" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER_TBL_MONITOR:4;type=TE_KWh</property>
+:4;type=TE_KWh</property>
         </properties>
       </channel>
       <channel id="meter_kwh5" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER_TBL_MONITOR:5;type=TE_KWh</property>
+:5;type=TE_KWh</property>
         </properties>
       </channel>
       <channel id="meter_kwh6" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_METER_TBL_MONITOR:6;type=TE_KWh</property>
+:6;type=TE_KWh</property>
         </properties>
       </channel>
     </channels>

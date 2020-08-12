@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="wintop_multisensor_00_000" listed="false">
-    <label>Multisensor Multi-sensor</label>
     <description><![CDATA[
 Multi-sensor<br /><h1>Overview</h1><p>motion sensor</p> <br /><h2>Inclusion Information</h2><p>Please press the tamper switch at the back of the device for 3-8 seconds.</p> <p>After 3 seconds, the led will blink; you can now release the button. Now it's ready for learn mode (include/exclude/association). Use your controller to include the sensor to the network during this time.</p> <br /><h2>Exclusion Information</h2><p>Please press the tamper switch at the back of the device for 3-8 seconds.</p> <p>After 3 seconds, the led will blink; you can now release the button. Now it's ready for learn mode (include/exclude/association). Use your controller to include the sensor to the network during this time.</p> <br /><h2>Wakeup Information</h2><p> Press the temper button on the device and keep it for 3-7 seconds, then release.</p>
     ]]></description>
@@ -17,7 +16,7 @@ Multi-sensor<br /><h1>Overview</h1><p>motion sensor</p> <br /><h2>Inclusion Info
       <channel id="sensor_binary" typeId="sensor_binary">
         <label>Binary Sensor</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SENSOR_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SENSOR_BINARY,BASIC</property>
         </properties>
       </channel>
       <channel id="sensor_temperature" typeId="sensor_temperature">
@@ -40,13 +39,13 @@ Multi-sensor<br /><h1>Overview</h1><p>motion sensor</p> <br /><h2>Inclusion Info
       <channel id="sensor_temperature1" typeId="sensor_temperature">
         <label>Sensor (temperature) 1</label>
         <properties>
-          <property name="binding:*:QuantityType">COMMAND_CLASS_SENSOR_MULTILEVEL:1,COMMAND_CLASS_BASIC:1;type=TEMPERATURE</property>
+          <property name="binding:*:QuantityType">COMMAND_CLASS_SENSOR_MULTILEVEL:1,BASIC:1;type=TEMPERATURE</property>
         </properties>
       </channel>
       <channel id="sensor_luminance2" typeId="sensor_luminance">
         <label>Sensor (luminance) 2</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL:2,COMMAND_CLASS_BASIC:2;type=LUMINANCE</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL:2,BASIC:2;type=LUMINANCE</property>
         </properties>
       </channel>
     </channels>

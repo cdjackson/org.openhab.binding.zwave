@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="everspring_se812_00_000" listed="false">
-    <label>SE812 Siren</label>
     <description><![CDATA[
 Siren<br /><h1>Overview</h1><p>The Indoor Siren integrates both functions of siren and strobe into one unit. Two sound levels, 100dB and 90dB, are available for selection. When it receives a RF command, it will either activate its sounder and flash lights or stop these visual and audible alarm indications. </p> <br /><h2>Inclusion Information</h2><p>Pressing link key 3 times within 1.5 seconds will enter inclusion mode</p> <br /><h2>Exclusion Information</h2><p> Pressing link key 3 times within 1.5 seconds will enter exclusion mode.</p>
     ]]></description>
@@ -17,7 +16,7 @@ Siren<br /><h1>Overview</h1><p>The Indoor Siren integrates both functions of sir
       <channel id="switch_binary" typeId="switch_binary">
         <label>Switch</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,BASIC</property>
         </properties>
       </channel>
       <channel id="alarm_smoke" typeId="alarm_smoke">

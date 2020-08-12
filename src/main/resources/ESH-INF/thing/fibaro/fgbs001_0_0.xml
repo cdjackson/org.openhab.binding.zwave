@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="fibaro_fgbs001_00_000" listed="false">
-    <label>FGBS001 Universal Binary Sensor</label>
     <description><![CDATA[
 Universal Binary Sensor<br /><h1>Overview</h1><p>The Universal Binary Sensor is a wireless module that makes it possible to improve the functionality of any sensor with a binary output by allowing it to communicate with Z-WAVE.<br />The module allows for wireless communication between the system and the DS18B20 temperature sensors. The device can service up to two binary sensors and up to four DS18B20 temperature sensors.</p> <br /><h2>Inclusion Information</h2><p>The Fibaro Sensor is added to the network by quickly pressing the B button three times (the button is located in the center of the device).</p> <p><strong>Note:</strong> Every time when any changes are made to the configuration of TP and TD lines (1-wire), e.g. when DS18B20 sensor(s) is (are) included/excluded, it is necessary to execute the procedure of exclusion and repeated inclusion of the sensor module to the central hub. It should be remembered that the system shall enter into the programming mode only once all the connected sensors have been detected (about 10 s).</p> <br /><h2>Exclusion Information</h2><p>The Fibaro Sensor is removed from the network by quickly pressing the B button three times (the button is located in the center of the device).</p>
     ]]></description>
@@ -23,7 +22,7 @@ Universal Binary Sensor<br /><h1>Overview</h1><p>The Universal Binary Sensor is 
       <channel id="sensor_binary1" typeId="sensor_binary">
         <label>Binary Sensor 1</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SENSOR_BINARY:1,COMMAND_CLASS_BASIC:1</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SENSOR_BINARY:1,BASIC:1</property>
         </properties>
       </channel>
       <channel id="alarm_general1" typeId="alarm_general">
@@ -35,7 +34,7 @@ Universal Binary Sensor<br /><h1>Overview</h1><p>The Universal Binary Sensor is 
       <channel id="sensor_binary2" typeId="sensor_binary">
         <label>Binary Sensor 2</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SENSOR_BINARY:2,COMMAND_CLASS_BASIC:2</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SENSOR_BINARY:2,BASIC:2</property>
         </properties>
       </channel>
       <channel id="alarm_general2" typeId="alarm_general">
@@ -77,9 +76,9 @@ Universal Binary Sensor<br /><h1>Overview</h1><p>The Universal Binary Sensor is 
       <property name="manufacturerId">010F</property>
       <property name="manufacturerRef">0501:0102,0501:0109,0501:1002,0501:2002,0501:3002,0501:4002</property>
       <property name="dbReference">126</property>
-      <property name="commandClass:COMMAND_CLASS_MULTI_CHANNEL">ccAdd</property>
-      <property name="commandClass:COMMAND_CLASS_SENSOR_ALARM:1">supportedGetSupported=false</property>
-      <property name="commandClass:COMMAND_CLASS_SENSOR_ALARM:2">supportedGetSupported=false</property>
+      <property name="commandclass:COMMAND_CLASS_MULTI_CHANNEL">ccAdd</property>
+      <property name="commandclass:COMMAND_CLASS_SENSOR_ALARM:1">supportedGetSupported=false</property>
+      <property name="commandclass:COMMAND_CLASS_SENSOR_ALARM:2">supportedGetSupported=false</property>
       <property name="defaultAssociations">3</property>
     </properties>
 

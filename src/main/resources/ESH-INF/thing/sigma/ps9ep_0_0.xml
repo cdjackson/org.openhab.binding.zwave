@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="sigma_ps9ep_00_000" listed="false">
-    <label>PS9EP Z-wave 9 channel_module</label>
     <description><![CDATA[
 Z-wave 9 channel_module<br /><h1>Overview</h1><p>There is 9 endpoint 3 binary and 6 multi channel with energy metering   </p> <br /><h2>Inclusion Information</h2><p>Press the button 3 times for inclusion </p> <br /><h2>Exclusion Information</h2><p>Press the button 3 times for exclusion </p> <br /><h2>Wakeup Information</h2><p>This node is always listing </p>
     ]]></description>
@@ -17,7 +16,7 @@ Z-wave 9 channel_module<br /><h1>Overview</h1><p>There is 9 endpoint 3 binary an
       <channel id="switch_binary" typeId="switch_binary">
         <label>Switch</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,BASIC</property>
         </properties>
       </channel>
       <channel id="switch_dimmer1" typeId="switch_dimmer">
@@ -37,7 +36,7 @@ Z-wave 9 channel_module<br /><h1>Overview</h1><p>There is 9 endpoint 3 binary an
       <channel id="switch_binary3" typeId="switch_binary">
         <label>Switch [Deprecated]</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:3,COMMAND_CLASS_BASIC:3</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:3,BASIC:3</property>
         </properties>
       </channel>
       <channel id="switch_dimmer4" typeId="switch_dimmer">
@@ -57,7 +56,7 @@ Z-wave 9 channel_module<br /><h1>Overview</h1><p>There is 9 endpoint 3 binary an
       <channel id="switch_binary6" typeId="switch_binary">
         <label>Switch [Deprecated]</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:6,COMMAND_CLASS_BASIC:6</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:6,BASIC:6</property>
         </properties>
       </channel>
       <channel id="switch_dimmer7" typeId="switch_dimmer">

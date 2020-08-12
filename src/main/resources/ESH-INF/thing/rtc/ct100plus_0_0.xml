@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="rtc_ct100plus_00_000" listed="false">
-    <label>CT100 Plus Z-Wave Thermostat</label>
     <description><![CDATA[
 Z-Wave Thermostat<br /><h1>Overview</h1><p>The CT100 Plus is a sleek, modern thermostat design for home automation systems. It’s clean user interface compliments app-enabled systems. It features adjustable real-time alerts to enable cloud triggers, a robust data stream of HVAC information for cloud monitoring, and configurable comfort response settings to customize home control scenes. The CT100 Plus is compatible with all popular HVAC systems and is battery-operated without the need for a C-wire.</p> <br /><h2>Inclusion Information</h2><ol><li> From the CT100’s Menu screen, touch MATE under the radio icon. The Network Include screen displays a large r1.</li> <li>Touch MATE again. This initiates the network connection (mating) process. The MATE icon and the status indicator LEDs will blink.</li> </ol><p>When the CT100 has successfully joined a Z-Wave network, the MATE icon is replaced by the LINK icon under the radio tower. </p> <br /><h2>Exclusion Information</h2><ol><li> From the CT100’s Menu screen, touch MATE under the radio icon. The Network Include screen displays a large r1.</li> <li>Touch MATE again. This initiates the network connection (mating) process. The MATE icon and the status indicator LEDs will blink.</li> </ol><p>When you are trying to disconnect from (leave) a network, the LINK icon disappears when the node has successfully left the network.</p>
     ]]></description>
@@ -77,7 +76,7 @@ Z-Wave Thermostat<br /><h1>Overview</h1><p>The CT100 Plus is a sleek, modern the
       <channel id="thermostat_fanstate" typeId="rtc_ct100plus_00_000_thermostat_fanstate">
         <label>Thermostat fan state</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_THERMOSTAT_FAN_STATE</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_THERMOSTAT_FAN_STATE:0;</property>
         </properties>
       </channel>
       <channel id="battery-level" typeId="system.battery-level">
@@ -148,7 +147,7 @@ Z-Wave Thermostat<br /><h1>Overview</h1><p>The CT100 Plus is a sleek, modern the
       <channel id="thermostat_fanstate1" typeId="rtc_ct100plus_00_000_thermostat_fanstate">
         <label>Thermostat fan state 1</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_THERMOSTAT_FAN_STATE:1</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_THERMOSTAT_FAN_STATE:1:1;</property>
         </properties>
       </channel>
       <channel id="time_offset1" typeId="time_offset">
@@ -160,13 +159,13 @@ Z-Wave Thermostat<br /><h1>Overview</h1><p>The CT100 Plus is a sleek, modern the
       <channel id="sensor_relhumidity2" typeId="sensor_relhumidity">
         <label>Sensor (relative humidity) 2</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL:2,COMMAND_CLASS_BASIC:2;type=RELATIVE_HUMIDITY</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL:2,BASIC:2;type=RELATIVE_HUMIDITY</property>
         </properties>
       </channel>
       <channel id="sensor_temperature2" typeId="sensor_temperature">
         <label>Sensor (temperature) 2</label>
         <properties>
-          <property name="binding:*:QuantityType">COMMAND_CLASS_SENSOR_MULTILEVEL:2,COMMAND_CLASS_BASIC:2;type=TEMPERATURE</property>
+          <property name="binding:*:QuantityType">COMMAND_CLASS_SENSOR_MULTILEVEL:2,BASIC:2;type=TEMPERATURE</property>
         </properties>
       </channel>
     </channels>
@@ -366,14 +365,6 @@ Enable or disables Multicast<br /><h1>Overview</h1><p>If set to 0, Multicast is 
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="12">Economy Cool</option>
-        <option value="0">Off</option>
-        <option value="11">Economy Heat</option>
-        <option value="3">Auto</option>
-        <option value="2">Cool</option>
-        <option value="1">Heat</option>
-      </options>
     </state>
   </channel-type>
 
@@ -383,10 +374,6 @@ Enable or disables Multicast<br /><h1>Overview</h1><p>If set to 0, Multicast is 
     <description>Sets the thermostat fan mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="0">Auto (Low)</option>
-        <option value="1">On (Low)</option>
-      </options>
     </state>
   </channel-type>
 
@@ -396,9 +383,6 @@ Enable or disables Multicast<br /><h1>Overview</h1><p>If set to 0, Multicast is 
     <description>Sets the thermostat fan state</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="1">Running</option>
-      </options>
     </state>
   </channel-type>
 
@@ -408,14 +392,6 @@ Enable or disables Multicast<br /><h1>Overview</h1><p>If set to 0, Multicast is 
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="12">Economy Cool</option>
-        <option value="0">Off</option>
-        <option value="11">Economy Heat</option>
-        <option value="3">Auto</option>
-        <option value="2">Cool</option>
-        <option value="1">Heat</option>
-      </options>
     </state>
   </channel-type>
 
@@ -425,10 +401,6 @@ Enable or disables Multicast<br /><h1>Overview</h1><p>If set to 0, Multicast is 
     <description>Sets the thermostat fan mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="0">Auto (Low)</option>
-        <option value="1">On (Low)</option>
-      </options>
     </state>
   </channel-type>
 
@@ -438,9 +410,6 @@ Enable or disables Multicast<br /><h1>Overview</h1><p>If set to 0, Multicast is 
     <description>Sets the thermostat fan state</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="1">Running</option>
-      </options>
     </state>
   </channel-type>
 

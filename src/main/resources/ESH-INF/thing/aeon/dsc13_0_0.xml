@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="aeon_dsc13_00_000" listed="false">
-    <label>DSC13 Micro Smart Energy Illuminator</label>
     <description><![CDATA[
 Micro Smart Energy Illuminator<br /><h1>Overview</h1><p>The Aeon Labs Micro SEI is a scene multilevel switch device based on Zwave enhanced slave library V4.54.</p> <br /><h2>Inclusion Information</h2><p>Click the button once.</p> <br /><h2>Exclusion Information</h2><p>Click the button once.</p>
     ]]></description>

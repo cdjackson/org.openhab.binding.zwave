@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="everspring_an179_00_000" listed="false">
-    <label>AN179 In-Wall Switch Module</label>
     <description><![CDATA[
 In-Wall Switch Module<br /><h1>Overview</h1><p>The In-Wall On/Off Module is designed to control the on/off status of lighting and appliances load in your house. Two sets of dry contacts provide more wiring applications.</p> <br /><h2>Inclusion Information</h2><p>Press the link key three times within 1.5 seconds to put the unit into inclusion mode</p> <br /><h2>Exclusion Information</h2><p>Press the link key three times within 1.5 seconds to put the unit into inclusion mode</p>
     ]]></description>
@@ -17,7 +16,7 @@ In-Wall Switch Module<br /><h1>Overview</h1><p>The In-Wall On/Off Module is desi
       <channel id="switch_binary" typeId="switch_binary">
         <label>Switch</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,BASIC</property>
         </properties>
       </channel>
       <channel id="alarm_power" typeId="alarm_power">

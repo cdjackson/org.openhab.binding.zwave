@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="steinel_xledhome2_00_000" listed="false">
-    <label>XLED Home 2 PIR sensor with relay and light</label>
     <description><![CDATA[
 PIR sensor with relay and light<br /><h1>Overview</h1><p>–  Sensor-switched floodlight suitable for wall <br />mounting outdoors.<br />–  Fully swivelling LED panel and moveable sensor. <br />Movement triggers lights, alarms and many other <br />devices. With the fully swivelling panel, the flood-<br />light can be used at home to provide perfect illumi-<br />nation for lighting up property, or commercially for <br />lighting up business premises. In conjunction with <br />the opal cover, this extremely efficient technology <br />provides wide-area lighting</p> <br /><h2>Inclusion Information</h2><p>1. Set the Z-Wave controller to inclusion mode.<br />2. Press the link key once brieﬂy to set the device to inclusion mode.<br />3. Turn the knob from 0 to SET for max. 5 seconds and back. (SKNOB)<br />4. Press the link key 3x brieﬂy to set the device into inclusion mode.<br />(STOGGLE)</p> <br /><h2>Exclusion Information</h2><p>1. Set the Z-Wave controller to exclusion mode.<br />2. Press the link key once brieﬂy to set the device to exclusion<br />mode.<br />3. Turn the knob from 0 to SET for max. 5 seconds and back. (SKNOB)<br />4. Press the link key 3x brieﬂy to set the device into exclusion mode.<br />(STOGGLE)</p>
     ]]></description>
@@ -17,7 +16,7 @@ PIR sensor with relay and light<br /><h1>Overview</h1><p>–  Sensor-switched f
       <channel id="switch_binary" typeId="switch_binary">
         <label>Switch</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,BASIC</property>
         </properties>
       </channel>
       <channel id="scene_number" typeId="scene_number">
@@ -53,7 +52,7 @@ PIR sensor with relay and light<br /><h1>Overview</h1><p>–  Sensor-switched f
       <channel id="switch_binary1" typeId="switch_binary">
         <label>Control: Key01 lamp (on/off)</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:1,COMMAND_CLASS_BASIC:1</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:1,BASIC:1</property>
         </properties>
       </channel>
       <channel id="scene_number1" typeId="scene_number">
@@ -65,13 +64,13 @@ PIR sensor with relay and light<br /><h1>Overview</h1><p>–  Sensor-switched f
       <channel id="alarm_burglar2" typeId="alarm_burglar">
         <label>Alarm (burglar) motion</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_ALARM:2,COMMAND_CLASS_BASIC:2;type=BURGLAR</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_ALARM:2,BASIC:2;type=BURGLAR</property>
         </properties>
       </channel>
       <channel id="sensor_luminance3" typeId="sensor_luminance">
         <label>Sensor (luminance)2</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL:3,COMMAND_CLASS_BASIC:3;type=LUMINANCE</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL:3,BASIC:3;type=LUMINANCE</property>
         </properties>
       </channel>
     </channels>

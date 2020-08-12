@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="leviton_vrs15_00_000" listed="false">
-    <label>VRS15 Scene Capable Push On/Off</label>
     <description><![CDATA[
 Scene Capable Push On/Off<br /><h1>Overview</h1><p>Vizia-RF + 15A Relay Switch for Single Pole/3-Way</p> <br /><h2>Inclusion Information</h2><ol><li>Install VRS15</li> <li>Place controller in inclusion mode</li> <li>Press on/off paddle on VRS15 to include</li> </ol><br /><h2>Exclusion Information</h2><ol><li>Place controller in exclusion mode</li> <li>Press on/off paddle on VRS15 to exclude</li> </ol>
     ]]></description>
@@ -23,7 +22,7 @@ Scene Capable Push On/Off<br /><h1>Overview</h1><p>Vizia-RF + 15A Relay Switch f
       <channel id="scene_number" typeId="scene_number">
         <label>Scene Number</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_SCENE_ACTIVATION,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_SCENE_ACTIVATION,BASIC</property>
         </properties>
       </channel>
     </channels>
@@ -35,18 +34,18 @@ Scene Capable Push On/Off<br /><h1>Overview</h1><p>Vizia-RF + 15A Relay Switch f
       <property name="manufacturerId">001D</property>
       <property name="manufacturerRef">0301:0209,0301:0334</property>
       <property name="dbReference">193</property>
-      <property name="commandClass:COMMAND_CLASS_NO_OPERATION">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_BASIC">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_SWITCH_BINARY">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_SWITCH_ALL">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_SCENE_ACTIVATION">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_SCENE_ACTUATOR_CONF">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_MANUFACTURER_SPECIFIC">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_POWERLEVEL">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_NODE_NAMING">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_ASSOCIATION">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_VERSION">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_MANUFACTURER_PROPRIETARY">setVersion=0</property>
+      <property name="commandclass:COMMAND_CLASS_NO_OPERATION">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_BASIC">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_SWITCH_BINARY">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_SWITCH_ALL">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_SCENE_ACTIVATION">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_SCENE_ACTUATOR_CONF">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_MANUFACTURER_SPECIFIC">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_POWERLEVEL">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_NODE_NAMING">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_ASSOCIATION">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_VERSION">setVersion=1</property>
+      <property name="commandclass:COMMAND_CLASS_MANUFACTURER_PROPRIETARY">setVersion=1</property>
       <property name="defaultAssociations">1</property>
     </properties>
 

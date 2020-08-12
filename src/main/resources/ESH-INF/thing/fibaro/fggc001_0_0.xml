@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="fibaro_fggc001_00_000" listed="false">
-    <label>FGGC001 Fibaro Swipe Scene Controller</label>
     <description><![CDATA[
 Fibaro Swipe Scene Controller<br /><h1>Overview</h1><p>FIBARO Swipe is a revolutionary battery gesture control pad that allows you to control devices in your Z-Wave network without actually touching anything. Swipe up, down, left, right, make a circular gesture and use sequences to get full and intuitive control of your home. </p> <br /><h2>Inclusion Information</h2><p>1. Place the Swipe within the direct range of your Z-Wave controller.<br />2. Set the main controller in (security/non-security) add mode (see the controller’s manual).<br />3. Move and hold your hand close to the center of the pad.<br />4. If the device is battery powered, high pitched beep will signal exiting the Standby Mode.<br />5. Loud sound sequence will confrm entering the menu, keep holding your hand.<br />6. After hearing two short beeps (green indicator colour), withdraw the hand and perform swiping up gesture to confrm selection (two beeps will confrm validity).<br />7. Wait for the adding process to end.<br />8. Successful adding will be confrmed by the Z-Wave controller’s message and 3 short beeps (green visual indicator colour).</p> <br /><h2>Exclusion Information</h2><p>1. Place the Swipe within the direct range of your Z-Wave controller.<br />2. Set the main controller in remove mode (see the controller’s manual).<br />3. Move and hold your hand close to the center of the pad.<br />4. If the device is battery powered, high pitched beep will signal exiting the Standby Mode.<br />5. Loud sound sequence will confrm entering the menu, keep holding your hand.<br />6. After hearing two short beeps (green indicator colour), withdraw the hand and perform swiping up gesture to confrm selection (two beeps will confrm validity).<br />7. Wait for the removing process to end.<br />8. Successful removing will be confrmed by the Z-Wave controller’s message and sequence of 2 short beeps, pause, 1 short beep (red visual indicator colour).</p> <br /><h2>Wakeup Information</h2><p>Use 1st menu position to wake up the device or click the button on the back of the device once. </p>
     ]]></description>
@@ -17,7 +16,7 @@ Fibaro Swipe Scene Controller<br /><h1>Overview</h1><p>FIBARO Swipe is a revolut
       <channel id="scene_number" typeId="scene_number">
         <label>Scene Number</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_CENTRAL_SCENE,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_CENTRAL_SCENE,BASIC</property>
         </properties>
       </channel>
       <channel id="battery-level" typeId="system.battery-level">

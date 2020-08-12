@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="widom_wds2_00_000" listed="false">
-    <label>WDS2 Widom Smart Double Switch</label>
     <description><![CDATA[
 Widom Smart Double Switch<br /><h1>Overview</h1><p>WiDom Smart Double Switch is an ON/OFF control device designed to independently control two separate loads, suited for being controlled by both remote and local switches. Similarly to the other WiDom “in wall” devices, it can be fully integrated into pre-existing systems and configured to associate configurable behaviors to a specific number of clicks, in full integration with the Z-Wave home automation ecosystem. There are two versions of WiDom Double Switch: L version controlled by Line signal; N version controlled by Neutral signal</p> <br /><h2>Inclusion Information</h2><p>Before including the device the LED status indicator is solid RED. The procedure of inclusion is activated by clicking Add in the inclusion interface and by pressing any sequence of click on the integrated button. As soon as the inclusion procedure initiates the LED indicator starts a sequence of GREEN-BLUE blinks. The device is included in the network when the LED status is OFF and the interview is completed. </p> <br /><h2>Exclusion Information</h2><p>Only a controller can remove the device from the network. After activating the exclusion function by the controller, the device can be removed by setting it in Learning Mode. If you are using the WiDom Multi Sensor Room Controller, the procedure of exclusion can be activated by Removing a node from the Z-Wave network and any click sequence on the integrated button; as soon as the exclusion initiates, the LED indicator starts a sequence of RED-BLUE blinks. The device is excluded from the network when the LED status indicator is solid RED and the App_status in the interface is OK. </p>
     ]]></description>
@@ -23,7 +22,7 @@ Widom Smart Double Switch<br /><h1>Overview</h1><p>WiDom Smart Double Switch is 
       <channel id="switch_binary1" typeId="switch_binary">
         <label>Switch1</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:1,COMMAND_CLASS_BASIC:1</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:1,BASIC:1</property>
         </properties>
       </channel>
       <channel id="meter_watts1" typeId="meter_watts">
@@ -35,7 +34,7 @@ Widom Smart Double Switch<br /><h1>Overview</h1><p>WiDom Smart Double Switch is 
       <channel id="switch_binary2" typeId="switch_binary">
         <label>Switch2</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:2,COMMAND_CLASS_BASIC:2</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:2,BASIC:2</property>
         </properties>
       </channel>
       <channel id="meter_watts2" typeId="meter_watts">

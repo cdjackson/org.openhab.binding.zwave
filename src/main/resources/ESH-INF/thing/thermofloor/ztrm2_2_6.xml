@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="thermofloor_ztrm2_02_006" listed="false">
-    <label>Heatit Z-TRM 2 Floor thermostat</label>
     <description><![CDATA[
 Floor thermostat<br /><h1>Overview</h1><h3>FEATURES</h3> <ul><li>Floor sensor</li> <li>Built-in room sensor</li> <li>External room sensor</li> <li>Temperature limiter</li> <li>Weekly program/setback via gateway or pilot wire</li> <li>Multilevel sensor command class</li> <li>Firmware updates (OTA)</li> <li>Power metering</li> <li>LED-diode</li> <li>Can be used in connection with different NTC-sensors</li> <li>Lock mode/child lock</li> <li>Calibration</li> <li>8 associations</li> <li>Supports encryption mode: S0, S2 Authenticated Class, S2 Unauthenticated Class</li> </ul><br /><h2>Inclusion Information</h2><p>To include the thermostat to your home automation gateway, press Center (confirm) for 10 seconds.</p> <p>The display will show OFF. Press Right (down) 4 times till you see Con in the display.</p> <p>Now start add device in your home automation software.</p> <p>Start inclusion mode by pressing Center (confirm) for approximately 2 seconds.</p> <p>Adding mode is indicated in the display by some 'circling' LED segments in the display until the timeout occurs after 20 seconds or the module has been added in the network.</p> <p>Confirmation will show Inc in the display. If inclusion fails, Err (error) will appear.</p> <p>Leave programming mode by choosing ESC in the menu.</p> <p>Your thermostat is ready for use with default settings.</p> <br /><h2>Exclusion Information</h2><p>To exclude the thermostat to your home automation gateway, press Center (confirm) for 10 seconds.</p> <p>The display will show OFF. Press Right (down) 4 times till you see Con in the display.</p> <p>Now start excluding device in your home automation software.</p> <p>Start exclusion mode by pressing Center (confirm) for approximately 2 seconds.</p> <p>Adding mode is indicated in the display by some 'circling' LED segments in the display until the timeout occurs after 20 seconds or the module has been excluded from the network.</p> <p>Confirmation will show Ecl in the display. If exclusion fails, Err (error) will appear.</p> <p>Leave programming mode by choosing ESC in the menu.</p>
     ]]></description>
@@ -130,7 +129,7 @@ Floor thermostat<br /><h1>Overview</h1><h3>FEATURES</h3> <ul><li>Floor sensor</l
       <property name="modelId">Heatit Z-TRM 2</property>
       <property name="manufacturerId">019B</property>
       <property name="manufacturerRef">0003:0202</property>
-      <property name="versionMin">2.6</property>
+      <property name="versionMin">2.006</property>
       <property name="versionMax">2.255</property>
       <property name="dbReference">854</property>
       <property name="defaultAssociations">1</property>
@@ -458,12 +457,6 @@ Meter report delta value<br /><h1>Overview</h1><p>1. Value = 0 - 255, 0kWh - 25.
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="2">Cool</option>
-        <option value="11">Economy Heat</option>
-        <option value="1">Heat</option>
-        <option value="0">Off</option>
-      </options>
     </state>
   </channel-type>
 

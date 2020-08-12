@@ -6,7 +6,6 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="steinel_is1402_00_000" listed="false">
-    <label>IS140-2 PIR sensor with relay</label>
     <description><![CDATA[
 PIR sensor with relay<br /><h1>Overview</h1><p>PIR sensor with relay, mains powered 230-240 V, 50 Hz</p> <ul><li>Output Incandescent lamps, max. 1000 W at 230 V AC</li> <li>Fluorescent lamp, max. 500 VA at cos = 0.5,</li> <li>inductive load at 230 V AC</li> <li>LED lamps, max. 6 × 58 W, C ≤ 132 μF at 230 V AC *1)</li> <li>Z-Wave wireless range approx. 100 m (unobstructed line of vision)</li> </ul><br /><h2>Inclusion Information</h2><p>To start the motion detector's inclusion, turn the device's control dial to "Set" and back to "0" within 5 seconds.</p> <br /><h2>Exclusion Information</h2><p>To start the motion detector's exclusion mode, turn the device's control dial to "Set" and back to "0" within 5 seconds.</p> <p>Following exclusion, all configuration parameters (time, sensitivity etc.) remain intact until next inclusion and the light now works in standalone mode – as a result, Z-Wave can also be used for the light’s standalone setting. Z-Wave control dial (E) Control dial for inclusion and exclusion as well as for returning the device to the factory setting.</p>
     ]]></description>
@@ -17,7 +16,7 @@ PIR sensor with relay<br /><h1>Overview</h1><p>PIR sensor with relay, mains powe
       <channel id="switch_binary" typeId="switch_binary">
         <label>Switch</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,BASIC</property>
         </properties>
       </channel>
       <channel id="scene_number" typeId="scene_number">
@@ -53,19 +52,19 @@ PIR sensor with relay<br /><h1>Overview</h1><p>PIR sensor with relay, mains powe
       <channel id="alarm_motion1" typeId="alarm_motion">
         <label>Motion Alarm</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_ALARM:1,COMMAND_CLASS_BASIC:1</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_ALARM:1,BASIC:1</property>
         </properties>
       </channel>
       <channel id="sensor_luminance2" typeId="sensor_luminance">
         <label>Sensor (luminance)</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL:2,COMMAND_CLASS_BASIC:2;type=LUMINANCE</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL:2,BASIC:2;type=LUMINANCE</property>
         </properties>
       </channel>
       <channel id="switch_binary3" typeId="switch_binary">
         <label>Relay Switch</label>
         <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:3,COMMAND_CLASS_BASIC:3</property>
+          <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:3,BASIC:3</property>
         </properties>
       </channel>
     </channels>
