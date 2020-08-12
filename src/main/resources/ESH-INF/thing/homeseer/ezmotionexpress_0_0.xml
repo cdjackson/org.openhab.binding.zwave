@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="homeseer_ezmotionexpress_00_000" listed="false">
-    <label>EZMotion Express Wireless 3-in-1 Sensor</label>
+      <label>EZMotion Express</label>
     <description><![CDATA[
 Wireless 3-in-1 Sensor<br /><h1>Overview</h1><p>EZMotion™ enables fully automated lighting that turns on the lights when you enter a room and turns them off shortly after you leave. Sophisticated lighting, Audio, Video and heating/cooling are enabled with the EZMotion™ three-sensors-in-one Z-Wave® device.  </p> <br /><h2>Inclusion Information</h2><p>Press and release the Join Button.</p> <br /><h2>Exclusion Information</h2><p>Press and release the Join Button.</p> <br /><h2>Wakeup Information</h2><p> If you need additional time to complete the configuration, just press the join button again to wake EZ-Motion up for another 10 minutes.</p>
     ]]></description>

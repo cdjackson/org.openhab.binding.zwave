@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="qubino_zmnhia_00_000" listed="false">
-    <label>ZMNHIA Flush on/off thermostat</label>
+      <label>ZMNHIA</label>
     <description><![CDATA[
 Flush on/off thermostat<br /><h1>Overview</h1><p>This Z-Wave module is used to regulate temperature. The module can be controlled either through Z-wave network or through the wall switch</p> <br /><h2>Inclusion Information</h2><ul><li>press service button S for more than 2 second or</li> <li>press push button I1 three times within 3s (3 times change switch state within 3 seconds</li> </ul><br /><h2>Exclusion Information</h2><ul><li>press service button S for more than 6 second or</li> <li>press push button I1 five times within 3s (5 times change switch state within 3 seconds).</li> </ul>
     ]]></description>
@@ -291,10 +291,6 @@ Connected device type can be (NO) or (NC)<br /><h1>Overview</h1><p>Set value mea
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="0">Off</option>
-        <option value="3">Auto</option>
-      </options>
     </state>
   </channel-type>
 

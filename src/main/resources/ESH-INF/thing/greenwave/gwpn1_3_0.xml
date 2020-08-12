@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="greenwave_gwpn1_03_000" listed="false">
-    <label>GWPN1 Single-socket PowerNode</label>
+      <label>GWPN1</label>
     <description><![CDATA[
 Single-socket PowerNode<br /><h1>Overview</h1><p>This Configuration is for the 1 plug version of the PowerNode.</p> <p>It should work for both NS210 and NS310 devices.</p> <br /><h2>Inclusion Information</h2><p>On the PowerNode, press and hold the <strong>Sync</strong> button for approximately one second until the activity indicator displays a clockwise rotating pattern. This indicates the PowerNode is attempting inclusion. During this process, verify that the Gateway activity indicator still displays a clockwise rotating pattern.</p> <p>After a few seconds, the rotating pattern on both the PowerNode and the Gateway stops. All bars turn green forming a circle for several seconds. This indicates a successful inclusion.</p> <p>If all bars on the activity indicator start flashing instead of forming a solid circle, then the PowerNode inclusion process has failed, and you must start the sync process again. If syncing continually fails even though the PowerNode is close to the Gateway, then it may be an indication of a hardware fault, and the PowerNode might need replacing.</p> <br /><h2>Exclusion Information</h2><p>On the PowerNode, press and hold the <strong>Sync</strong> button for approximately one second until the PowerNode activity indicator begins to display a counter-clockwise rotating pattern. The PowerNode is attempting exclusion.</p>
     ]]></description>
@@ -15,7 +15,7 @@ Single-socket PowerNode<br /><h1>Overview</h1><p>This Configuration is for the 1
     <!-- CHANNEL DEFINITIONS -->
     <channels>
       <channel id="switch_binary" typeId="switch_binary">
-        <label>Switch</label>
+        <label> Switch</label>
         <properties>
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
         </properties>
@@ -52,7 +52,7 @@ Single-socket PowerNode<br /><h1>Overview</h1><p>This Configuration is for the 1
       <property name="modelId">GWPN1</property>
       <property name="manufacturerId">0099</property>
       <property name="manufacturerRef">0002:0002</property>
-      <property name="versionMin">3.0</property>
+      <property name="versionMin">3.000</property>
       <property name="dbReference">102</property>
       <property name="commandClass:COMMAND_CLASS_ALARM">getSupported=false</property>
       <property name="defaultAssociations">3,4</property>

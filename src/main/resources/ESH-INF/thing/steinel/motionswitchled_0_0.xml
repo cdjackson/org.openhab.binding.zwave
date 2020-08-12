@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="steinel_motionswitchled_00_000" listed="false">
-    <label>MotionSwitch LED Infrared motion detector with orientation light</label>
+      <label>MotionSwitch LED</label>
     <description><![CDATA[
 Infrared motion detector with orientation light<br /><h1>Overview</h1><p>Infrared motion detector with orientation light and Z-Wave interface for indoor power sockets.</p> <p>The ininfrared sensor can be used for switching light ON and OFF automatically. The unit is not suitable for burglar alarm systems as it is not tamperproof in the manner prescribed for such systems. The orientation light can be switched ON and OFF via the sensor or the button on the MotionSwitch LED. The relevant setting can be programmed.</p> <br /><h2>Inclusion Information</h2><p>To start the motion detector's inclusion mode, press the button three times in rapid succession. During inclusion mode and following configuration process device is blinking.</p> <br /><h2>Exclusion Information</h2><p>To start the motion detector's exclusion mode, press the button three times in rapid succession. During exclusion mode and following configuration process device is blinking.</p> <p>Following exclusion, all configuration parameters (time, sensitivity etc.) remain intact until the next inclusion.</p>
     ]]></description>
@@ -345,27 +345,5 @@ Button dim<br /><h1>Overview</h1><p>Group 7 is used for dimming ( use just for m
     </config-description>
 
   </thing-type>
-
-  <channel-type id="steinel_motionswitchled_00_000_config_decimal_param1">
-    <item-type>Number</item-type>
-    <label>TIME</label>
-    <description>Duration of light after motion detection [s]</description>
-    <state pattern="%s">
-      <options>
-        <option value="0">Duration of light after motion detection [s]</option>
-      </options>
-    </state>
-  </channel-type>
-
-  <channel-type id="steinel_motionswitchled_00_000_config_decimal_param2">
-    <item-type>Number</item-type>
-    <label>LIGHT</label>
-    <description>Light threshold [lx]</description>
-    <state pattern="%s">
-      <options>
-        <option value="0">Light threshold [lx]</option>
-      </options>
-    </state>
-  </channel-type>
 
 </thing:thing-descriptions>

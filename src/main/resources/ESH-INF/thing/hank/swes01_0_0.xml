@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="hank_swes01_00_000" listed="false">
-    <label>SW es01 Siterwell eyesonsor</label>
+      <label>SW es01</label>
     <description>Siterwell eyesonsor</description>
 
     <!-- CHANNEL DEFINITIONS -->

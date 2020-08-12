@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="mcohome_mhs412_00_000" listed="false">
-    <label>MH-S412 Touch Panel Switch (Dual)</label>
+      <label>MH-S412</label>
     <description>Touch Panel Switch (Dual)</description>
 
     <!-- CHANNEL DEFINITIONS -->

@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="qubino_zmnhyd_00_000" listed="false">
-    <label>ZMNHYD Smart Plug</label>
+      <label>ZMNHYD</label>
     <description><![CDATA[
 Smart Plug<br /><h1>Overview</h1><p>This Z-Wave module is used for switching and energy measurements in single-phase electrical power networks and can be used in residential, industrial and utility applications.</p> <ul><li>Power supply: 230V +/- 10%, 50 Hz</li> <li>Power load: 15A resistive max.</li> <li>Overload protection &gt;16 A</li> <li>Power consumption &lt;1W</li> </ul><br /><h2>Inclusion Information</h2><p>Auto inclusion (first time usage)</p> <ul><li>start inclusion mode of z-wave controller</li> <li>plug device into power outlet (5 seconds auto inclusion)</li> </ul><p>Manual inclusion</p> <ul><li>plug device into power outlet</li> <li>start inclusion mode of z-wave controller</li> <li>press the service button (S) 3 times within 3 seconds</li> </ul><br /><h2>Exclusion Information</h2><ul><li>plug device into power outlet</li> <li>ensure device is within maximum 1 meter (3 feet) of the main controller</li> <li>enable exclusion mode on main controller</li> <li>press service button (S) on module 3 times within 3 seconds (please note: configuration parameters will not be reset!)</li> </ul><br /><h2>Wakeup Information</h2><p>Press the Service button (S) 3 times within 3 seconds.</p>
     ]]></description>

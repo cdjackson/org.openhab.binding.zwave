@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="enerwave_zwnbpc_00_000" listed="false">
-    <label>ZWN-BPC PIR Sensor</label>
+      <label>ZWN-BPC</label>
     <description><![CDATA[
 PIR Sensor<br /><h1>Overview</h1><p>This sensor acts as a security device by detecting changes in infrared  radiation levels. when some body moves within or across the detection of coverage, one triggering signal will be transmitted to associated Z-Wave devices</p> <br /><h2>Inclusion Information</h2><p>Press and release the program button</p> <br /><h2>Exclusion Information</h2><p>Press and release the program button</p> <br /><h2>Wakeup Information</h2><p>press and hold the program switch for one second,</p>
     ]]></description>
@@ -33,7 +33,7 @@ PIR Sensor<br /><h1>Overview</h1><p>This sensor acts as a security device by det
       <property name="modelId">ZWN-BPC</property>
       <property name="manufacturerId">011A</property>
       <property name="manufacturerRef">0601:0901</property>
-      <property name="versionMax">5.9</property>
+      <property name="versionMax">5.009</property>
       <property name="dbReference">186</property>
       <property name="defaultAssociations">1</property>
     </properties>

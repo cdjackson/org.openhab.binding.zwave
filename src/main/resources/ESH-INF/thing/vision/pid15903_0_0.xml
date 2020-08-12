@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="vision_pid15903_00_000" listed="false">
-    <label>PID15903 Plug In Power Monitor</label>
+      <label>PID15903</label>
     <description><![CDATA[
 Plug In Power Monitor<br /><h1>Overview</h1><p>Power Outlet</p> <br /><h2>Inclusion Information</h2><p>Press the Program Switch three times within two seconds.</p> <br /><h2>Exclusion Information</h2><p>Press the Program Switch</p>
     ]]></description>

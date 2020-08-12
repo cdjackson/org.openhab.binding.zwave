@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="logic_scenecontroller_00_000" listed="false">
-    <label>Heatit Z-Scene Controller Push button 6-gang</label>
+      <label>Heatit Z-Scene Controller</label>
     <description><![CDATA[
 Push button 6-gang<br /><h1>Overview</h1><p>The Heatit Z-Wave Scene Controller is a Z-Wave module specifically adapted to Gira KNX touch sensors. The Heatit Z-Wave Scene Controller is a device with built-in wireless Z-Wave communication that may be used to control other Z-Wave devices such as dimmers, relay modules, etc.</p> <p>The scene controller has a built-in relay that can be used to turn on and off a local load, e.g. a lamp, thus replacing a standard 1-pole switch.</p> <br /><h2>Inclusion Information</h2><p>Pushing the upper left button 3 times (triple click) will activate Inclusion Mode on the device. It is also possible to activate Inclusion Mode by triple clicking the switch inside the module (through a little hole in the front of the module).</p> <br /><h2>Exclusion Information</h2><p>The inclusion and exclusion of the device is confirmed by sending out a Node Information Frame. Beside this, it may be necessary for certain network operations to send out a Node Information Frame. Triple clicking the button inside the module through a little hole (normally covered by GIRA module) or the upper left button will issue a Node Information Frame.</p>
     ]]></description>
@@ -43,13 +43,15 @@ Push button 6-gang<br /><h1>Overview</h1><p>The Heatit Z-Wave Scene Controller i
       <channel id="indicator_period" typeId="indicator_period">
         <label>LCD Backlight (Period)</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_INDICATOR;type=LCD_BACKLIGHT</property>
+          <property name="binding:*:
+						DecimalType">COMMAND_CLASS_INDICATOR;type=LCD_BACKLIGHT</property>
         </properties>
       </channel>
       <channel id="indicator_flash" typeId="indicator_flash">
         <label>LCD Backlight (Flash)</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_INDICATOR;type=LCD_BACKLIGHT</property>
+          <property name="binding:*:
+						DecimalType">COMMAND_CLASS_INDICATOR;type=LCD_BACKLIGHT</property>
         </properties>
       </channel>
       <channel id="switch_binary1" typeId="switch_binary">
@@ -75,13 +77,15 @@ Push button 6-gang<br /><h1>Overview</h1><p>The Heatit Z-Wave Scene Controller i
       <channel id="indicator_period1" typeId="indicator_period">
         <label>LED 1 (Period)</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_INDICATOR:1;type=BUTTON1_INDICATION</property>
+          <property name="binding:*:
+						DecimalType">COMMAND_CLASS_INDICATOR:1;type=BUTTON1_INDICATION</property>
         </properties>
       </channel>
       <channel id="indicator_flash1" typeId="indicator_flash">
         <label>LED 1 (Flash)</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_INDICATOR:1;type=BUTTON1_INDICATION</property>
+          <property name="binding:*:
+						DecimalType">COMMAND_CLASS_INDICATOR:1;type=BUTTON1_INDICATION</property>
         </properties>
       </channel>
       <channel id="switch_binary2" typeId="switch_binary">
@@ -107,13 +111,15 @@ Push button 6-gang<br /><h1>Overview</h1><p>The Heatit Z-Wave Scene Controller i
       <channel id="indicator_period2" typeId="indicator_period">
         <label>LED 2 (Period)</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_INDICATOR:2;type=BUTTON2_INDICATION</property>
+          <property name="binding:*:
+						DecimalType">COMMAND_CLASS_INDICATOR:2;type=BUTTON2_INDICATION</property>
         </properties>
       </channel>
       <channel id="indicator_flash2" typeId="indicator_flash">
         <label>LED 2 (Flash)</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_INDICATOR:2;type=BUTTON2_INDICATION</property>
+          <property name="binding:*:
+						DecimalType">COMMAND_CLASS_INDICATOR:2;type=BUTTON2_INDICATION</property>
         </properties>
       </channel>
       <channel id="switch_binary3" typeId="switch_binary">
@@ -139,13 +145,15 @@ Push button 6-gang<br /><h1>Overview</h1><p>The Heatit Z-Wave Scene Controller i
       <channel id="indicator_period3" typeId="indicator_period">
         <label>LED 3 (Period)</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_INDICATOR:3;type=BUTTON3_INDICATION</property>
+          <property name="binding:*:
+						DecimalType">COMMAND_CLASS_INDICATOR:3;type=BUTTON3_INDICATION</property>
         </properties>
       </channel>
       <channel id="indicator_flash3" typeId="indicator_flash">
         <label>LED 3 (Flash)</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_INDICATOR:3;type=BUTTON3_INDICATION</property>
+          <property name="binding:*:
+						DecimalType">COMMAND_CLASS_INDICATOR:3;type=BUTTON3_INDICATION</property>
         </properties>
       </channel>
       <channel id="switch_binary4" typeId="switch_binary">
@@ -171,13 +179,15 @@ Push button 6-gang<br /><h1>Overview</h1><p>The Heatit Z-Wave Scene Controller i
       <channel id="indicator_period4" typeId="indicator_period">
         <label>LED 4 (Period)</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_INDICATOR:4;type=BUTTON4_INDICATION</property>
+          <property name="binding:*:
+						DecimalType">COMMAND_CLASS_INDICATOR:4;type=BUTTON4_INDICATION</property>
         </properties>
       </channel>
       <channel id="indicator_flash4" typeId="indicator_flash">
         <label>LED 4 (Flash)</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_INDICATOR:4;type=BUTTON4_INDICATION</property>
+          <property name="binding:*:
+						DecimalType">COMMAND_CLASS_INDICATOR:4;type=BUTTON4_INDICATION</property>
         </properties>
       </channel>
       <channel id="switch_binary5" typeId="switch_binary">
@@ -203,13 +213,15 @@ Push button 6-gang<br /><h1>Overview</h1><p>The Heatit Z-Wave Scene Controller i
       <channel id="indicator_period5" typeId="indicator_period">
         <label>LED 5 (Period)</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_INDICATOR:5;type=BUTTON5_INDICATION</property>
+          <property name="binding:*:
+						DecimalType">COMMAND_CLASS_INDICATOR:5;type=BUTTON5_INDICATION</property>
         </properties>
       </channel>
       <channel id="indicator_flash5" typeId="indicator_flash">
         <label>LED 5 (Flash)</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_INDICATOR:5;type=BUTTON5_INDICATION</property>
+          <property name="binding:*:
+						DecimalType">COMMAND_CLASS_INDICATOR:5;type=BUTTON5_INDICATION</property>
         </properties>
       </channel>
       <channel id="switch_binary6" typeId="switch_binary">
@@ -235,13 +247,15 @@ Push button 6-gang<br /><h1>Overview</h1><p>The Heatit Z-Wave Scene Controller i
       <channel id="indicator_period6" typeId="indicator_period">
         <label>LED 6 (Period)</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_INDICATOR:6;type=BUTTON6_INDICATION</property>
+          <property name="binding:*:
+						DecimalType">COMMAND_CLASS_INDICATOR:6;type=BUTTON6_INDICATION</property>
         </properties>
       </channel>
       <channel id="indicator_flash6" typeId="indicator_flash">
         <label>LED 6 (Flash)</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_INDICATOR:6;type=BUTTON6_INDICATION</property>
+          <property name="binding:*:
+						DecimalType">COMMAND_CLASS_INDICATOR:6;type=BUTTON6_INDICATION</property>
         </properties>
       </channel>
     </channels>

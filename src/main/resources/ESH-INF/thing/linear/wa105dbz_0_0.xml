@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="linear_wa105dbz_00_000" listed="false">
-    <label>WA105DBZ Siren and Strobe</label>
+      <label>WA105DBZ</label>
     <description>Siren and Strobe</description>
     <category>Siren</category>
 

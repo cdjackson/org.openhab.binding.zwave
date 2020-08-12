@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="vda_vitrumscenario_00_000" listed="false">
-    <label>Vitrum Scenario Vitrum Scenario controller</label>
+      <label>Vitrum Scenario</label>
     <description>Vitrum Scenario controller</description>
     <category>RemoteControl</category>
 

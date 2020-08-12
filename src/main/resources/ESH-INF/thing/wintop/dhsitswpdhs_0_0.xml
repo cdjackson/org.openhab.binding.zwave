@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="wintop_dhsitswpdhs_00_000" listed="false">
-    <label>PlugInSwitch PlugIn Switch with power monitoring</label>
+      <label>PlugInSwitch</label>
     <description>PlugIn Switch with power monitoring</description>
 
     <!-- CHANNEL DEFINITIONS -->

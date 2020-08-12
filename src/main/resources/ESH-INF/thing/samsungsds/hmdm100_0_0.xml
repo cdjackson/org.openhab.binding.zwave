@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="samsungsds_hmdm100_00_000" listed="false">
-    <label>hmdm100 Doorlock Control Module for Samsung Locks</label>
+      <label>hmdm100</label>
     <description><![CDATA[
 Doorlock Control Module for Samsung Locks<br /><h1>Overview</h1><p>Chip Insert for Zwave controll of the Samsung Lock</p> <br /><h2>Inclusion Information</h2><p>triple press the inclusing button</p> <br /><h2>Exclusion Information</h2><p>Triple press inclusion button</p> <br /><h2>Wakeup Information</h2><p>triple press inclusion button</p>
     ]]></description>

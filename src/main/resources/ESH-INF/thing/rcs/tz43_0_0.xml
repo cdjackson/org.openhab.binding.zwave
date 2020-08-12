@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="rcs_tz43_00_000" listed="false">
-    <label>TZ43 Thermostat</label>
+      <label>TZ43</label>
     <description><![CDATA[
 Thermostat<br /><h1>Overview</h1><p>The TZ43 thermostat provides for typical thermostat control of a central heating and cooling HVAC system plus has the added feature of ZWave communications for remote control.</p> <p>The thermostat has a large, backlit graphical display, control buttons, status LEDs and a temperature sensor. The thermostat can display multiple screens for different functions of the thermostat. In the default thermostat control screen, shown below, it displays the current temperature, setpoint, system mode, manual fan mode, time, outside temperature and other information.  </p> <br /><h2>Inclusion Information</h2><ol><li>Navigate to the Z-Wave Install Button screen. This screen is located in the Installer Screen. To enter this screen, go to the main menu screen and press and hold the two inner buttons for 3 seconds until the Installer Settings screen appears. Scroll down until the Z-Wave Install Btn menu item is selected, press the Select button.</li> <li>Press the YES button.  </li> </ol><br /><h2>Exclusion Information</h2><p>Not provided</p>
     ]]></description>
@@ -53,7 +53,7 @@ Thermostat<br /><h1>Overview</h1><p>The TZ43 thermostat provides for typical the
       <channel id="thermostat_fanstate" typeId="rcs_tz43_00_000_thermostat_fanstate">
         <label>Thermostat fan state</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_THERMOSTAT_FAN_STATE</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_THERMOSTAT_FAN_STATE:0;</property>
         </properties>
       </channel>
       <channel id="time_offset" typeId="time_offset">
@@ -330,13 +330,6 @@ Thermostat<br /><h1>Overview</h1><p>The TZ43 thermostat provides for typical the
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="3">Auto</option>
-        <option value="0">Off</option>
-        <option value="1">Heat</option>
-        <option value="2">Cool</option>
-        <option value="4">Aux Heat</option>
-      </options>
     </state>
   </channel-type>
 
@@ -346,10 +339,6 @@ Thermostat<br /><h1>Overview</h1><p>The TZ43 thermostat provides for typical the
     <description>Sets the thermostat fan mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="1">On (Low)</option>
-        <option value="0">Auto (Low)</option>
-      </options>
     </state>
   </channel-type>
 
@@ -359,9 +348,6 @@ Thermostat<br /><h1>Overview</h1><p>The TZ43 thermostat provides for typical the
     <description>Sets the thermostat fan state</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="1">Running</option>
-      </options>
     </state>
   </channel-type>
 

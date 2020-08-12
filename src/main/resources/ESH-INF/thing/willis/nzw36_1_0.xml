@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="willis_nzw36_01_000" listed="false">
-    <label>NZW36 Show home, Inovelli 1 channel smart plug, ZWave Plus</label>
+      <label>NZW36</label>
     <description><![CDATA[
 Show home, Inovelli 1 channel smart plug, ZWave Plus<br /><h1>Overview</h1><p>Inovelli's Smart Plug-In On/Off Module + Repeater has the ability to turn on and off appliances, lights, and more from anywhere in the world. In addition to the outlet, the smart plug acts as a Z-Wave signal repeater, which amplifies your Z-Wave signal, growing the capabilities of your network.</p> <br /><h2>Inclusion Information</h2><p>Press the button 5 times within 1 second.</p>
     ]]></description>
@@ -34,7 +34,7 @@ Show home, Inovelli 1 channel smart plug, ZWave Plus<br /><h1>Overview</h1><p>In
       <property name="modelId">NZW36</property>
       <property name="manufacturerId">015D</property>
       <property name="manufacturerRef">2400:2400</property>
-      <property name="versionMin">1.0</property>
+      <property name="versionMin">1.000</property>
       <property name="dbReference">739</property>
       <property name="defaultAssociations">1</property>
     </properties>

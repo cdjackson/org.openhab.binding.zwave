@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="wintop_ishutter_00_000" listed="false">
-    <label>iShutter iShutter</label>
+      <label>iShutter</label>
     <description><![CDATA[
 iShutter<br /><h1>Overview</h1><p>Shutter Control</p> <br /><h2>Inclusion Information</h2><p>Continuously switch on and switch off the external switch 3 times quickly to start the inclusion or exclusion process</p> <br /><h2>Exclusion Information</h2><p>Continuously switch on and switch off the external switch 3 times quickly to start the inclusion or exclusion process</p> <br /><h2>Wakeup Information</h2><p>Always awake.</p>
     ]]></description>

@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="philio_pan03_00_000" listed="false">
-    <label>PAN03 In Wall Micromodule Single Switch</label>
+      <label>PAN03</label>
     <description><![CDATA[
 In Wall Micromodule Single Switch<br /><h1>Overview</h1><p>This plug-in ON/OFF switch PAN03 is a security enabled wireless switch, based on Z-Wave Plus technology. Z-Wave PlusTM enabled devices displaying the Z-Wave PlusTM logo can also be used with it regardless of the manufacturer, and can also be used in other manufacturer’s Z-WaveTM enabled networks. Remote On/Off control of the connected load is possible with other manufacturer’s wireless Controller. Each switch is designed to act as a repeater. Repeaters will re-transmit the RF signal to ensure that the signal is received by its intended destination by routing the signal around obstacles and radio dead spots. Because PAN03 supports Security Command Class, it can learn with Secured controller. Its functionality and supported command classes is identical when included as a secure and non-secure device.</p> <br /><h2>Inclusion Information</h2><p>1. Put your Z-Wave controller into inclusion mode by following the instructions provided by the controller manufacturer.</p> <p>2. Pressing On/Off button three times within 2 seconds will enter inclusion mode.</p> <br /><h2>Exclusion Information</h2><p>1. Put your Z-Wave controller into exclusion mode by following the instructions provided by the controller manufacturer.</p> <p>2. Pressing On/Off button three times within 2 seconds will enter exclusion mode.</p> <p>Node ID has been excluded.</p>
     ]]></description>

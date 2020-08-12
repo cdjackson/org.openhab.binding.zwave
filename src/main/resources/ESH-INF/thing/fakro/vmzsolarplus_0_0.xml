@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="fakro_vmzsolarplus_00_000" listed="false">
-    <label>VMZ Solar z-wave plus Awning Blind z-wave plus version</label>
+      <label>VMZ Solar z-wave plus</label>
     <description>Awning Blind z-wave plus version</description>
     <category>Blinds</category>
 

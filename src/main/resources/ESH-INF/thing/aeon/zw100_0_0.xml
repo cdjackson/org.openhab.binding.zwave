@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="aeon_zw100_00_000" listed="false">
-    <label>ZW100 MultiSensor 6</label>
+      <label>ZW100</label>
     <description><![CDATA[
 MultiSensor 6<br /><h1>Overview</h1><p>Technical Specifications</p> <ul><li>Battery or USB powered PIR motion sensor, operating distance: Up to 500 feet/150 metres outdoors.</li> <li>Operating temperature: 0°C to 40°C</li> <li>Relative humidity: 8% RH to 80% RH</li> </ul><br /><h2>Inclusion Information</h2><p>Click one time:</p> <ul><li>Send non-security Node Info Frame</li> <li>Add MultiSensor into Z-wave network (non security inclusion)</li> </ul><p>Short press 2 times within 1 second:</p> <ul><li>Send Security Node Info Frame</li> <li>Add Multisensor into Z-Wave network (security inclusion)</li> </ul><br /><h2>Exclusion Information</h2><p>Click one time:</p> <ul><li>Send non-security Node Info Frame</li> <li>Remove MultiSensor from Z-wave network</li> </ul><p>Short press 2 times within 1 second:</p> <ul><li>Send Security Node Info Frame</li> <li>Remove MultiSensor from network</li> </ul><br /><h2>Wakeup Information</h2><p>Click one time:</p> <ul><li>Send non-security Node Info Frame</li> </ul><p>Short press 2 times within 1 second:</p> <ul><li>Send Security Node Info Frame</li> </ul>
     ]]></description>
@@ -63,7 +63,7 @@ MultiSensor 6<br /><h1>Overview</h1><p>Technical Specifications</p> <ul><li>Batt
       <property name="modelId">ZW100</property>
       <property name="manufacturerId">0086</property>
       <property name="manufacturerRef">0002:0064,0102:0064,0202:0064</property>
-      <property name="versionMax">1.6</property>
+      <property name="versionMax">1.006</property>
       <property name="dbReference">73</property>
       <property name="commandClass:COMMAND_CLASS_ALARM">supportedGetSupported=false</property>
       <property name="defaultAssociations">1</property>

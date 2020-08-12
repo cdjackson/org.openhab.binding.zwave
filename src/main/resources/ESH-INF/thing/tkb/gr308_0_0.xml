@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="tkb_gr308_00_000" listed="false">
-    <label>GR308 Lifting Controller (Blinds Controller)</label>
+      <label>GR308</label>
     <description>Lifting Controller (Blinds Controller)</description>
 
     <!-- CHANNEL DEFINITIONS -->

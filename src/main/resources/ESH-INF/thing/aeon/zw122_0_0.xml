@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="aeon_zw122_00_000" listed="false">
-    <label>ZW122 Water Sensor 6</label>
+      <label>ZW122</label>
     <description><![CDATA[
 Water Sensor 6<br /><h1>Overview</h1><p>The ZW122  contains 4 sensing points, which would be more accurately to detect the presence and absence of water or detect whether there is water leak in some places of your home. The Water Sensor 6 has an inbuilt buzzer that can play alarm sounds to let you know when the water is detected.</p> <br /><h2>Inclusion Information</h2><ol><li>Let your Z-Wave primary controller/gateway enter into adding/inclusion mode. Take your Sensor near to your primary controller.</li> <li>Press the Action Button once on your Sensor, the green LED will blink.</li> <li>If your Water Sensor has been successfully added to your Z-Wave network, its green LED will be solid for 2 seconds and then the orange LED will fast blink for 10 minutes if the Sensor does not receive the Wake Up No More info Command from Controller. If the adding was unsuccessful and the red LED will be solid for 2 seconds and then become colourful gradient for a few seconds before it turns off, repeat the above steps.</li> </ol><br /><h2>Exclusion Information</h2><ol><li>Turn your primary controller into device removal mode. Take the Sensor unit near to your primary controller.</li> <li>Press the Action Button on your Sensor.</li> <li>If your Water Sensor is successfully removed from the Z-Wave network, the RGB LED will become a colourful gradient for a few seconds and then turn off. If the removing was unsuccessful, the blue LED will be solid for 2 seconds and then turn off, repeat the above steps</li> </ol><br /><h2>Wakeup Information</h2><p>Press the Action Button on the Sensor unit and then release the Action Button. This will trigger and send a wake up notification command to your controller/gateway.<br />If you want your Sensor to keep awake for a longer time, press and hold the Action Button on the back of the Sensor unit for 3 seconds, then your Sensor will wake up for 10 minutes and the orange LED will fast blink while it is awake.</p>
     ]]></description>
@@ -121,13 +121,11 @@ Get the current power mode<br /><h1>Overview</h1><p>Value 1: 0=USB power, 1=Batt
         <advanced>true</advanced>
       </parameter>
 
-      <parameter name="config_10_4_000000FF" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>10: Repeat cyle</label>
-        <description><![CDATA[
-Repeat cylce of buzzer alarm<br /><h1>Overview</h1><p>Once cycle is equal to the buzzer from ON state to OFF state</p>
-        ]]></description>
-        <default>10</default>
+      <parameter name="config_10_4_7FFF0000" type="integer" groupName="configuration"
+                 min="0" max="32767">
+        <label>10: Time of buzzer keeping OFF state</label>
+        <description>Time of buzzer keeping OFF state</description>
+        <default>30</default>
       </parameter>
 
       <parameter name="config_10_4_0000FF00" type="integer" groupName="configuration"
@@ -137,11 +135,13 @@ Repeat cylce of buzzer alarm<br /><h1>Overview</h1><p>Once cycle is equal to the
         <default>10</default>
       </parameter>
 
-      <parameter name="config_10_4_7FFF0000" type="integer" groupName="configuration"
-                 min="0" max="32767">
-        <label>10: Time of buzzer keeping OFF state</label>
-        <description>Time of buzzer keeping OFF state</description>
-        <default>30</default>
+      <parameter name="config_10_4_000000FF" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>10: Repeat cyle</label>
+        <description><![CDATA[
+Repeat cylce of buzzer alarm<br /><h1>Overview</h1><p>Once cycle is equal to the buzzer from ON state to OFF state</p>
+        ]]></description>
+        <default>10</default>
       </parameter>
 
       <parameter name="config_39_1" type="integer" groupName="configuration"
@@ -172,6 +172,15 @@ Set the low battery value. (Range: 10% to 50%)<br /><h1>Overview</h1><p>Set the 
         <advanced>true</advanced>
       </parameter>
 
+      <parameter name="config_49_4_7FFF0000" type="integer" groupName="configuration"
+                 min="0" max="32767">
+        <label>49: Temperature value</label>
+        <description><![CDATA[
+Temperature value<br /><h1>Overview</h1><p>US Version: 0x04100100 (104 °F), other versions: 0x01900000 (40 °C)</p>
+        ]]></description>
+        <default>4</default>
+      </parameter>
+
       <parameter name="config_49_4_0000FF00" type="integer" groupName="configuration">
         <label>49: Temperature Unit</label>
         <description><![CDATA[
@@ -184,21 +193,21 @@ Celsius or Fahrenheit<br /><h1>Overview</h1><p>US Version: 0x04100100 (104 °F),
         </options>
       </parameter>
 
-      <parameter name="config_49_4_7FFF0000" type="integer" groupName="configuration"
-                 min="0" max="32767">
-        <label>49: Temperature value</label>
-        <description><![CDATA[
-Temperature value<br /><h1>Overview</h1><p>US Version: 0x04100100 (104 °F), other versions: 0x01900000 (40 °C)</p>
-        ]]></description>
-        <default>4</default>
-      </parameter>
-
       <parameter name="config_50_4" type="integer" groupName="configuration"
                  min="0" max="2147483647">
         <label>50: Set the lower limit value (underheat)</label>
         <description>Set the lower limit value (underheat)</description>
         <default>0</default>
         <advanced>true</advanced>
+      </parameter>
+
+      <parameter name="config_50_4_7FFF0000" type="integer" groupName="configuration"
+                 min="0" max="32767">
+        <label>50: Temperature limit value</label>
+        <description><![CDATA[
+Temperature limit value<br /><h1>Overview</h1><p>US Version: 0x01400100 (32 °F), other versions: 0x00000000 (0 °C)</p>
+        ]]></description>
+        <default>1</default>
       </parameter>
 
       <parameter name="config_50_4_0000FF00" type="integer" groupName="configuration">
@@ -213,21 +222,19 @@ Celsius or Fahrenheit<br /><h1>Overview</h1><p>0=Celsius, 1=Fahrenheit</p>
         </options>
       </parameter>
 
-      <parameter name="config_50_4_7FFF0000" type="integer" groupName="configuration"
-                 min="0" max="32767">
-        <label>50: Temperature limit value</label>
-        <description><![CDATA[
-Temperature limit value<br /><h1>Overview</h1><p>US Version: 0x01400100 (32 °F), other versions: 0x00000000 (0 °C)</p>
-        ]]></description>
-        <default>1</default>
-      </parameter>
-
       <parameter name="config_57_2" type="integer" groupName="configuration"
                  min="0" max="65535">
         <label>57: Recover limit value</label>
         <description>Set the recover limit value of the temperature sensor</description>
         <default>0</default>
         <advanced>true</advanced>
+      </parameter>
+
+      <parameter name="config_57_2_0000FF00" type="integer" groupName="configuration"
+                 min="1" max="255">
+        <label>57: Recover limit value</label>
+        <description>Recover limit value</description>
+        <default>20</default>
       </parameter>
 
       <parameter name="config_57_2_0000000F" type="integer" groupName="configuration">
@@ -240,13 +247,6 @@ Celsius or Fahrenheit<br /><h1>Overview</h1><p>0=Celsius, 1=Fahrenheit</p>
           <option value="0">Celsius</option>
           <option value="1">Fahrenheit</option>
         </options>
-      </parameter>
-
-      <parameter name="config_57_2_0000FF00" type="integer" groupName="configuration"
-                 min="1" max="255">
-        <label>57: Recover limit value</label>
-        <description>Recover limit value</description>
-        <default>20</default>
       </parameter>
 
       <parameter name="config_64_1" type="integer" groupName="configuration">
@@ -370,6 +370,13 @@ Set the interval time for sending the unsolicited report.<br /><h1>Overview</h1>
         <advanced>true</advanced>
       </parameter>
 
+      <parameter name="config_201_2_0000FF00" type="integer" groupName="configuration"
+                 min="-128" max="127">
+        <label>201: Calibration value</label>
+        <description>Calibration value</description>
+        <default>0</default>
+      </parameter>
+
       <parameter name="config_201_2_0000000F" type="integer" groupName="configuration">
         <label>201: Temperature unit</label>
         <description><![CDATA[
@@ -380,13 +387,6 @@ Temperature unit<br /><h1>Overview</h1><p>0=Celsius,1=Fahrenheit</p>
           <option value="0">Celsius</option>
           <option value="1">Fahrenheit</option>
         </options>
-      </parameter>
-
-      <parameter name="config_201_2_0000FF00" type="integer" groupName="configuration"
-                 min="-128" max="127">
-        <label>201: Calibration value</label>
-        <description>Calibration value</description>
-        <default>0</default>
       </parameter>
 
       <parameter name="config_252_1" type="integer" groupName="configuration">

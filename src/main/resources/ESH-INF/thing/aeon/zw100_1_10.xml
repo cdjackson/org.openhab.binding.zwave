@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="aeon_zw100_01_010" listed="false">
-    <label>ZW100 Multisensor 6</label>
+      <label>ZW100</label>
     <description><![CDATA[
 Multisensor 6<br /><h1>Overview</h1><p>Battery or USB powered PIR motion sensor,</p> <p>operating distance: Up to 500 feet/150 metres outdoors.</p> <br /><h2>Inclusion Information</h2><p>Click one time</p> <p>Send non-security Node Info frame, add MultiSensor into Z-Wave network (non-securre inclusion):</p> <ol><li>Power on MultiSensor. The MultiSensor’s LED will blink slowly when you short press the Action Button.</li> <li>Let the primary controller into inclusion mode (If you don’t know how to do this, refer to its manual).</li> <li>Press the Action Button.</li> <li>If the inclusion is success, MultiSensor’s LED will be kept turning on for 8 seconds when you short press the Action Button. If the LED is still in slow blink, in which you need to repeat the process from step 2.</li> </ol><p>Short press 2 times within 1 second</p> <p>Send Security Node Info frame, add MultiSensor into z-wave network (seciure inclusion):</p> <ol><li>Power on MultiSensor. The MultiSensor’s LED will blink slowly when you short press the Action Button.</li> <li>Let the primary controller into inclusion mode (If you don’t know how to do this, refer to its manual).</li> <li>Press the Action Button.</li> <li>If the inclusion is success, MultiSensor’s LED will be kept turning on for 8 seconds when you short press the Action Button. If the LED is still in slow blink, in which you need to repeat the process from step 2.</li> </ol><br /><h2>Exclusion Information</h2><p>Remove MultiSensor from Z-wave network:</p> <ol><li>Power on MultiSensor. The MultiSensor’s LED will be kept turning on for 8 seconds when you short press the Action Button.</li> <li>Let the primary controller into exclusion mode (If you don’t know how to do this, refer to its manual).</li> <li>Press the Action Button.</li> <li>If the exclusion is success, MultiSensor’s LED will blink slowly when you short press the Action Button. If MultiSensor’s LED still keeps on status, in which you need to repeat the process from step 2.</li> </ol><br /><h2>Wakeup Information</h2><p>Press and hold for 3 seconds: Enable/disable wake up for 10 minutes (when it is enabled, the orange Led will fast blink)</p>
     ]]></description>
@@ -63,7 +63,7 @@ Multisensor 6<br /><h1>Overview</h1><p>Battery or USB powered PIR motion sensor,
       <property name="modelId">ZW100</property>
       <property name="manufacturerId">0086</property>
       <property name="manufacturerRef">0002:0064,0102:0064,0202:0064,1A02:0064</property>
-      <property name="versionMin">1.10</property>
+      <property name="versionMin">1.010</property>
       <property name="dbReference">778</property>
       <property name="defaultAssociations">1</property>
     </properties>
@@ -134,16 +134,6 @@ Motion Sensor reset timeout<br /><h1>Overview</h1><ol><li>The default PIR time i
         <default>30</default>
       </parameter>
 
-      <parameter name="config_9_2" type="integer" groupName="configuration" readOnly="true"
-                 min="0" max="65535">
-        <label>9: Report the current power mode</label>
-        <description><![CDATA[
-Report the current power mode and the product state of battery power mode<br /><h1>Overview</h1><p>Value1 (MSB): 0x00=USB power mode, 0x01=Battery power mode<br />Value2 (LSB): 0x00=keep sleep state for Battery power mode, 0x01=keep awake for 10 minutes for battery power mode</p> <p>NOTE: this parameter cannot be used as Get/Set usage</p>
-        ]]></description>
-        <default>0</default>
-        <advanced>true</advanced>
-      </parameter>
-
       <parameter name="config_9_2_00000001" type="integer" groupName="configuration" readOnly="true">
         <label>9: Sleep State</label>
         <default>0</default>
@@ -160,6 +150,16 @@ Report the current power mode and the product state of battery power mode<br /><
           <option value="0">USB</option>
           <option value="1">Battery</option>
         </options>
+      </parameter>
+
+      <parameter name="config_9_2" type="integer" groupName="configuration" readOnly="true"
+                 min="0" max="65535">
+        <label>9: Report the current power mode</label>
+        <description><![CDATA[
+Report the current power mode and the product state of battery power mode<br /><h1>Overview</h1><p>Value1 (MSB): 0x00=USB power mode, 0x01=Battery power mode<br />Value2 (LSB): 0x00=keep sleep state for Battery power mode, 0x01=keep awake for 10 minutes for battery power mode</p> <p>NOTE: this parameter cannot be used as Get/Set usage</p>
+        ]]></description>
+        <default>0</default>
+        <advanced>true</advanced>
       </parameter>
 
       <parameter name="config_39_1" type="integer" groupName="configuration"

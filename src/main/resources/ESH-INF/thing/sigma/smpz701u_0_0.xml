@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="sigma_smpz701u_00_000" listed="false">
-    <label>SM-PZ701U Z-Wave power plug</label>
+      <label>SM-PZ701U</label>
     <description>Z-Wave power plug</description>
 
     <!-- CHANNEL DEFINITIONS -->

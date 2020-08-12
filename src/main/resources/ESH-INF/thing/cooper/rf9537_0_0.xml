@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="cooper_rf9537_00_000" listed="false">
-    <label>RF9537 1000W Dimmer Light Switch</label>
+      <label>RF9537</label>
     <description><![CDATA[
 1000W Dimmer Light Switch<br /><h1>Overview</h1><p>RF SMART DIMMER, for Incandescent/MLV Lighting Fixtures </p> <br /><h2>Inclusion Information</h2><p>Press the device switch one time to include it in the network, LED will stop blinking. </p> <br /><h2>Exclusion Information</h2><p>Press the device switch one time to exclude it in the network, LED will start blinking.</p>
     ]]></description>
@@ -41,7 +41,7 @@
       <property name="modelId">RF9537</property>
       <property name="manufacturerId">001A</property>
       <property name="manufacturerRef">4449:0001</property>
-      <property name="versionMax">3.4</property>
+      <property name="versionMax">3.004</property>
       <property name="dbReference">905</property>
       <property name="defaultAssociations">1,255</property>
     </properties>

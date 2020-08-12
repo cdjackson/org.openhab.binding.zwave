@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="precision_zsl301eu_00_000" listed="false">
-    <label>ZSL301EU Single relay switch</label>
+      <label>ZSL301EU</label>
     <description><![CDATA[
 Single relay switch<br /><h1>Overview</h1><p>Switch Link is a power ON/OFF module purposed to control lighting lamps or motor loads.</p> <br /><h2>Inclusion Information</h2><p>When prompted by your primary controller, press the button</p> <br /><h2>Exclusion Information</h2><p>When prompted by your primary controller, press the button</p>
     ]]></description>

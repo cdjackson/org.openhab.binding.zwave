@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="reitz_duw064381_00_000" listed="false">
-    <label>Duwi Z-Wave Plugin Switch Indoor/Outdoor Wall Plug Switch</label>
+      <label>Duwi Z-Wave Plugin Switch</label>
     <description>Indoor/Outdoor Wall Plug Switch</description>
 
     <!-- CHANNEL DEFINITIONS -->

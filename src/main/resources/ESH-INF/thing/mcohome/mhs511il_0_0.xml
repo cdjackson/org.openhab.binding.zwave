@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="mcohome_mhs511il_00_000" listed="false">
-    <label>MH-S511-IL MCOHome touch switch Relay</label>
+      <label>MH-S511-IL</label>
     <description>MCOHome touch switch Relay</description>
     <category>WallSwitch</category>
 

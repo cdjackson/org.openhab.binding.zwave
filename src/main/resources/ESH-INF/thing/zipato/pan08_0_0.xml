@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="zipato_pan08_00_000" listed="false">
-    <label>PAN08 Roller shutter controller</label>
+      <label>PAN08</label>
     <description><![CDATA[
 Roller shutter controller<br /><h1>Overview</h1><p>Roller shutter micromodule</p> <br /><h2>Inclusion Information</h2><p>Put your Z-Wave controller into inclusion mode by following the instructions provided by the controller manufacturer.</p> <p>Pressing Include button three times within 2 seconds will enter inclusion mode. </p> <br /><h2>Exclusion Information</h2><p>Put the Z-Wave Controller in exclusion mode.</p> <p>Pressing Include button three times within 2 seconds will enter exclusion mode.</p> <p>Node ID has been excluded.</p>
     ]]></description>

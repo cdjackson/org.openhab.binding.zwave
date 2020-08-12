@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="remotec_adt8021_00_000" listed="false">
-    <label>ZDM-80 Wall plug dimmer switch</label>
+      <label>ZDM-80</label>
     <description><![CDATA[
 Wall plug dimmer switch<br /><h1>Overview</h1><p>Dimming Module</p> <br /><h2>Inclusion Information</h2><p>Triple click the PROG button within 1 second.</p>
     ]]></description>

@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="zipato_hmhs1ca_00_000" listed="false">
-    <label>HM-HS1CA CO Sensor with acoustic alarm</label>
+      <label>HM-HS1CA</label>
     <description><![CDATA[
 CO Sensor with acoustic alarm<br /><h1>Overview</h1><p>This product is a Smart Carbon Monoxide Sensor and adopts super low power consumption Z-Wave wireless network technology, used for detecting carbon monoxide. Sensor adopts high performance eloctrochemical sensor, supports sound and flash alarm. It has high stability, super low power consumption, little sensitivity drift and many other features.</p> <br /><h2>Inclusion Information</h2><p> Press the Net_Button 3 times within 1.5s, Green LED is blinking 3 times within 1 second.</p> <br /><h2>Exclusion Information</h2><p> Press the Net_Button 3 times within 1.5s</p> <br /><h2>Wakeup Information</h2><p>Every 24h by default</p>
     ]]></description>

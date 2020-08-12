@@ -6,7 +6,7 @@
                       https://openhab.org/schemas/thing-description/v1.0.0">
 
   <thing-type id="tkb_tz66d_00_000" listed="false">
-    <label>TZ66D Dual Paddle Wall Switch</label>
+      <label>TZ66D</label>
     <description><![CDATA[
 Dual Paddle Wall Switch<br /><h1>Overview</h1><p>The TKB Z-Wave dual wall switch is switching attached loads and is controlled either by the local switching paddle or remotely via the Z-Wave wireless protocol</p> <br /><h2>Inclusion Information</h2><p>Tap either the top or bottom of the switch once.</p> <br /><h2>Exclusion Information</h2><p>Tap either the top or bottom of the switch once.</p>
     ]]></description>
