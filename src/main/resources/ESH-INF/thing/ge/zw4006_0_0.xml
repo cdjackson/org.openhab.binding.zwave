@@ -226,28 +226,4 @@ In-Wall Smart Motion Switch<br /><h1>Overview</h1><p>The switch enables wireless
 
   </thing-type>
 
-  <channel-type id="ge_zw4006_00_000_config_decimal_param6">
-    <item-type>Number</item-type>
-    <label>Motion Sensor</label>
-    <description>Enable/Disable Motion Sensor</description>
-    <state pattern="%s">
-      <options>
-        <option value="0">Disabled</option>
-        <option value="1">Enabled</option>
-      </options>
-    </state>
-  </channel-type>
-
-  <channel-type id="ge_zw4006_00_000_config_decimal_param3">
-    <item-type>Number</item-type>
-    <label>Operation Mode</label>
-    <state pattern="%s">
-      <options>
-        <option value="1">Manual</option>
-        <option value="2">Vacancy</option>
-        <option value="3">Occupancy</option>
-      </options>
-    </state>
-  </channel-type>
-
 </thing:thing-descriptions>

@@ -346,26 +346,4 @@ Button dim<br /><h1>Overview</h1><p>Group 7 is used for dimming ( use just for m
 
   </thing-type>
 
-  <channel-type id="steinel_motionswitchled_00_000_config_decimal_param1">
-    <item-type>Number</item-type>
-    <label>TIME</label>
-    <description>Duration of light after motion detection [s]</description>
-    <state pattern="%s">
-      <options>
-        <option value="0">Duration of light after motion detection [s]</option>
-      </options>
-    </state>
-  </channel-type>
-
-  <channel-type id="steinel_motionswitchled_00_000_config_decimal_param2">
-    <item-type>Number</item-type>
-    <label>LIGHT</label>
-    <description>Light threshold [lx]</description>
-    <state pattern="%s">
-      <options>
-        <option value="0">Light threshold [lx]</option>
-      </options>
-    </state>
-  </channel-type>
-
 </thing:thing-descriptions>
