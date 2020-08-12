@@ -34,7 +34,7 @@ Dual Paddle Wall Switch<br /><h1>Overview</h1><p>The TKB Z-Wave dual wall switch
       <property name="modelId">TZ36D</property>
       <property name="manufacturerId">0118</property>
       <property name="manufacturerRef">0003:0003,0311:0202</property>
-      <property name="versionMin">2.1</property>
+      <property name="versionMin">2.001</property>
       <property name="dbReference">605</property>
       <property name="defaultAssociations">1,2,3,4</property>
     </properties>

@@ -53,7 +53,7 @@ ZTS-110 Z Wave Thermostat<br /><h1>Overview</h1><p>ZTS-110 Z-Thermostat is a Z-W
       <channel id="thermostat_fanstate" typeId="remotec_zts110_00_000_thermostat_fanstate">
         <label>Thermostat fan state</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_THERMOSTAT_FAN_STATE</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_THERMOSTAT_FAN_STATE:0;</property>
         </properties>
       </channel>
       <channel id="battery-level" typeId="system.battery-level">
@@ -237,13 +237,6 @@ AUTO report by time interval.<br /><h1>Overview</h1><ul><li>0 = Disabled or</li>
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="2">Cool</option>
-        <option value="3">Auto</option>
-        <option value="0">Off</option>
-        <option value="1">Heat</option>
-        <option value="5">Resume</option>
-      </options>
     </state>
   </channel-type>
 
@@ -253,10 +246,6 @@ AUTO report by time interval.<br /><h1>Overview</h1><ul><li>0 = Disabled or</li>
     <description>Sets the thermostat fan mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="0">Auto (Low)</option>
-        <option value="1">On (Low)</option>
-      </options>
     </state>
   </channel-type>
 
@@ -266,9 +255,6 @@ AUTO report by time interval.<br /><h1>Overview</h1><ul><li>0 = Disabled or</li>
     <description>Sets the thermostat fan state</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="0">Idle</option>
-      </options>
     </state>
   </channel-type>
 

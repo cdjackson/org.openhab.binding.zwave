@@ -307,20 +307,4 @@ Dimming time when key pressed<br /><h1>Overview</h1><p>1 – 127 = from 1 to 127
 
   </thing-type>
 
-  <channel-type id="qubino_zmnhwd_00_000_config_decimal_param5">
-    <item-type>Number</item-type>
-    <label>Auto scene mode set</label>
-    <description>Activation of the programmed scene changing color shades.</description>
-    <state pattern="%s">
-      <options>
-        <option value="1">Ocean</option>
-        <option value="2">Lightning</option>
-        <option value="3">Rainbow</option>
-        <option value="4">Snow</option>
-        <option value="5">Romantic</option>
-        <option value="6">Party scene</option>
-      </options>
-    </state>
-  </channel-type>
-
 </thing:thing-descriptions>

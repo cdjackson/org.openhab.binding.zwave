@@ -28,7 +28,7 @@ Z-Wave Plus S2 ON/OFF Switch<br /><h1>Overview</h1><p>Manual or Z-Wave on/off co
       <property name="modelId">ZEN26</property>
       <property name="manufacturerId">027A</property>
       <property name="manufacturerRef">A000:A001</property>
-      <property name="versionMax">1.9</property>
+      <property name="versionMax">1.009</property>
       <property name="dbReference">959</property>
       <property name="defaultAssociations">2</property>
     </properties>

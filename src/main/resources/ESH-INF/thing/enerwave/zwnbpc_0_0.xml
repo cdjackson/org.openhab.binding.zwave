@@ -33,7 +33,7 @@ PIR Sensor<br /><h1>Overview</h1><p>This sensor acts as a security device by det
       <property name="modelId">ZWN-BPC</property>
       <property name="manufacturerId">011A</property>
       <property name="manufacturerRef">0601:0901</property>
-      <property name="versionMax">5.9</property>
+      <property name="versionMax">5.009</property>
       <property name="dbReference">186</property>
       <property name="defaultAssociations">1</property>
     </properties>

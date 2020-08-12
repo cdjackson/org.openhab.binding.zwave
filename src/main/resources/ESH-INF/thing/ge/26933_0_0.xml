@@ -298,17 +298,4 @@ Set power level for plain switch functionality<br /><h1>Overview</h1><p>0=disabl
 
   </thing-type>
 
-  <channel-type id="ge_26933_00_000_config_decimal_param3">
-    <item-type>Number</item-type>
-    <label>Operation Mode</label>
-    <description>Sets how the light responds to motion</description>
-    <state pattern="%s">
-      <options>
-        <option value="1">Manual</option>
-        <option value="2">Vacancy</option>
-        <option value="3">Occupancy</option>
-      </options>
-    </state>
-  </channel-type>
-
 </thing:thing-descriptions>

@@ -57,7 +57,7 @@ Outdoor Motion Sensor<br /><h1>Overview</h1><p>OUTDOOR SENSOR: Introducing the f
       <property name="modelId">ZSE29</property>
       <property name="manufacturerId">027A</property>
       <property name="manufacturerRef">0001:0005</property>
-      <property name="versionMax">1.9</property>
+      <property name="versionMax">1.009</property>
       <property name="dbReference">970</property>
       <property name="defaultAssociations">1</property>
     </properties>

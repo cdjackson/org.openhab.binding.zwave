@@ -63,7 +63,7 @@ Strips Multisensor Comfort/Drip<br /><h1>Overview</h1><p>Strips Comfort is a dis
       <property name="modelId">11 02 011</property>
       <property name="manufacturerId">019A</property>
       <property name="manufacturerRef">0003:000A</property>
-      <property name="versionMin">0.3</property>
+      <property name="versionMin">0.003</property>
       <property name="dbReference">994</property>
       <property name="defaultAssociations">1</property>
     </properties>

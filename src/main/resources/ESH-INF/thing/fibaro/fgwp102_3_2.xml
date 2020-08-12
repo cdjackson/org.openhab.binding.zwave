@@ -70,7 +70,7 @@ Metered Wall Plug Switch<br /><h1>Overview</h1><p>FIBARO Wall Plug is a universa
       <property name="modelId">FGWP102</property>
       <property name="manufacturerId">010F</property>
       <property name="manufacturerRef">0602:1001,0602:1003</property>
-      <property name="versionMin">3.2</property>
+      <property name="versionMin">3.002</property>
       <property name="dbReference">513</property>
       <property name="defaultAssociations">1</property>
     </properties>
@@ -407,44 +407,5 @@ defines how commands are sent in specified association groups<br /><h1>Overview<
     </config-description>
 
   </thing-type>
-
-  <channel-type id="fibaro_fgwp102_03_002_config_decimal_param41">
-    <item-type>Number</item-type>
-    <label>LED ring colour (device is ON)</label>
-    <description>LED ring colour when controlled device is on</description>
-    <state pattern="%s">
-      <options>
-        <option value="0">illumination turned off completely</option>
-        <option value="1">colour changes depending on active power</option>
-        <option value="2">colour changes in steps depending on active power</option>
-        <option value="3">white</option>
-        <option value="4">red</option>
-        <option value="5">green</option>
-        <option value="6">blue</option>
-        <option value="7">yellow</option>
-        <option value="8">cyan</option>
-        <option value="9">magenta</option>
-      </options>
-    </state>
-  </channel-type>
-
-  <channel-type id="fibaro_fgwp102_03_002_config_decimal_param42">
-    <item-type>Number</item-type>
-    <label>LED ring colour (device is OFF)</label>
-    <description>LED ring colour when controlled device is off</description>
-    <state pattern="%s">
-      <options>
-        <option value="0">illumination turned off completely</option>
-        <option value="1">LED ring is illuminated</option>
-        <option value="3">white</option>
-        <option value="4">red</option>
-        <option value="5">green</option>
-        <option value="6">blue</option>
-        <option value="7">yellow</option>
-        <option value="8">cyan</option>
-        <option value="9">magenta</option>
-      </options>
-    </state>
-  </channel-type>
 
 </thing:thing-descriptions>

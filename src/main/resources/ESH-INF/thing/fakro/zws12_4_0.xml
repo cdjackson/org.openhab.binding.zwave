@@ -21,7 +21,7 @@ Chain Actuator<br /><h1>Overview</h1><p>FAKRO ZWS12 chain motor thanks to their 
         </properties>
       </channel>
       <channel id="blinds_control" typeId="blinds_control">
-        <label>Blinds control</label>
+        <label>Blinds control </label>
         <properties>
           <property name="binding:*:PercentType">COMMAND_CLASS_SWITCH_MULTILEVEL</property>
           <property name="binding:Command:StopMoveType">COMMAND_CLASS_SWITCH_MULTILEVEL</property>
@@ -36,7 +36,7 @@ Chain Actuator<br /><h1>Overview</h1><p>FAKRO ZWS12 chain motor thanks to their 
       <property name="modelId">ZWS12</property>
       <property name="manufacturerId">0085</property>
       <property name="manufacturerRef">0003:0001</property>
-      <property name="versionMin">4.0</property>
+      <property name="versionMin">4.000</property>
       <property name="dbReference">1190</property>
       <property name="defaultAssociations">1</property>
     </properties>

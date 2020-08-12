@@ -82,7 +82,7 @@ Aeotec Nano Switch<br /><h1>Overview</h1><p>Aeotec Nano Switch is a Z-Wave Smart
       <property name="modelId">ZW116</property>
       <property name="manufacturerId">0086</property>
       <property name="manufacturerRef">0002:0074,0003:0074,0103:0074,0203:0074</property>
-      <property name="versionMax">2.0</property>
+      <property name="versionMax">2.000</property>
       <property name="dbReference">591</property>
       <property name="defaultAssociations">1</property>
     </properties>

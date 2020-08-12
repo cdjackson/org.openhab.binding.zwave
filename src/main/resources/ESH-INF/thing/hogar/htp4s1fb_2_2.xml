@@ -52,7 +52,7 @@ Four Touch Panel and Power Socket<br /><h1>Overview</h1><p>The HOGAR Touch Pane
       <property name="modelId">HTP-4S1-FB</property>
       <property name="manufacturerId">0293</property>
       <property name="manufacturerRef">0003:0014</property>
-      <property name="versionMin">2.2</property>
+      <property name="versionMin">2.002</property>
       <property name="dbReference">545</property>
     </properties>
 

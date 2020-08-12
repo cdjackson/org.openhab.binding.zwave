@@ -57,7 +57,7 @@
       <property name="modelId">009402</property>
       <property name="manufacturerId">0154</property>
       <property name="manufacturerRef">0004:0004</property>
-      <property name="versionMin">1.14</property>
+      <property name="versionMin">1.014</property>
       <property name="dbReference">532</property>
       <property name="defaultAssociations">1</property>
     </properties>

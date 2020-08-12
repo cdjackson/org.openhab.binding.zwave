@@ -34,7 +34,7 @@ Show home, Inovelli 1 channel smart plug, ZWave Plus<br /><h1>Overview</h1><p>In
       <property name="modelId">NZW36</property>
       <property name="manufacturerId">015D</property>
       <property name="manufacturerRef">2400:2400</property>
-      <property name="versionMin">1.0</property>
+      <property name="versionMin">1.000</property>
       <property name="dbReference">739</property>
       <property name="defaultAssociations">1</property>
     </properties>

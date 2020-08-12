@@ -45,7 +45,7 @@
       <property name="modelId">009402</property>
       <property name="manufacturerId">0154</property>
       <property name="manufacturerRef">0004:0004</property>
-      <property name="versionMax">1.1</property>
+      <property name="versionMax">1.001</property>
       <property name="dbReference">424</property>
       <property name="defaultAssociations">1</property>
     </properties>

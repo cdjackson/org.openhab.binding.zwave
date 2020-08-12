@@ -35,8 +35,8 @@ Dimmer Paddle Switch<br /><h1>Overview</h1><ul><li>Manual or Z-Wave on/off and b
       <property name="modelId">ZEN22</property>
       <property name="manufacturerId">027A</property>
       <property name="manufacturerRef">B112:1F1C</property>
-      <property name="versionMin">3.0</property>
-      <property name="versionMax">19.0</property>
+      <property name="versionMin">3.000</property>
+      <property name="versionMax">19.000</property>
       <property name="dbReference">1138</property>
       <property name="defaultAssociations">1</property>
     </properties>

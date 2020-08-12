@@ -51,7 +51,7 @@ Motion/Temperature Sensor<br /><h1>Overview</h1><p>The ZP3102 is a Z-Wave enable
       <property name="modelId">ZP3102</property>
       <property name="manufacturerId">0109</property>
       <property name="manufacturerRef">2002:0205</property>
-      <property name="versionMin">8.0</property>
+      <property name="versionMin">8.000</property>
       <property name="dbReference">437</property>
       <property name="defaultAssociations">1</property>
     </properties>

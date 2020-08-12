@@ -70,8 +70,8 @@ Pool Control<br /><h1>Overview</h1><p>A wireless electronic controller for pool 
       <property name="modelId">PE653</property>
       <property name="manufacturerId">0005</property>
       <property name="manufacturerRef">5045:0653</property>
-      <property name="versionMin">3.4</property>
-      <property name="versionMax">3.4</property>
+      <property name="versionMin">3.004</property>
+      <property name="versionMax">3.004</property>
       <property name="dbReference">1015</property>
     </properties>
 

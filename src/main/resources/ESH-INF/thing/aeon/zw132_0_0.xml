@@ -142,7 +142,7 @@ Dual Nano Switch with Energy Metering<br /><h1>Overview</h1><p>Aeotec Dual Nano 
       <property name="modelId">ZW132</property>
       <property name="manufacturerId">0086</property>
       <property name="manufacturerRef">0003:0084,0103:0084,0203:0084</property>
-      <property name="versionMax">1.9</property>
+      <property name="versionMax">1.009</property>
       <property name="dbReference">724</property>
       <property name="defaultAssociations">1</property>
     </properties>

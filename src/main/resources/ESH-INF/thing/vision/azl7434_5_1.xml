@@ -28,8 +28,8 @@ In-wall Switch<br /><h1>Overview</h1><p>In-wall switch 1-relay</p> <br /><h2>Inc
       <property name="modelId">AZL7434</property>
       <property name="manufacturerId">0109</property>
       <property name="manufacturerRef">200C:0C06</property>
-      <property name="versionMin">5.1</property>
-      <property name="versionMax">5.1</property>
+      <property name="versionMin">5.001</property>
+      <property name="versionMax">5.001</property>
       <property name="dbReference">558</property>
       <property name="commandClass:COMMAND_CLASS_ASSOCIATION">1</property>
       <property name="defaultAssociations">1</property>

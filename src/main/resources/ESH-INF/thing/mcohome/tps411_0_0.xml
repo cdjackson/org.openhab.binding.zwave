@@ -34,7 +34,7 @@ Touch Panel Switch 1 Button<br /><h1>Overview</h1><p><strong>Touch Panel Switch<
       <property name="modelId">TPS411</property>
       <property name="manufacturerId">015F</property>
       <property name="manufacturerRef">4111:1302,4111:5102</property>
-      <property name="versionMax">5.5</property>
+      <property name="versionMax">5.005</property>
       <property name="dbReference">526</property>
       <property name="defaultAssociations">2</property>
     </properties>

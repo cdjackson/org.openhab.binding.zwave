@@ -36,7 +36,7 @@ Nano Shutter<br /><h1>Overview</h1><p>Aeotec Nano Shutter is a Z-Wave motor cont
       <property name="modelId">ZW141</property>
       <property name="manufacturerId">0371</property>
       <property name="manufacturerRef">0003:008D</property>
-      <property name="versionMin">3.0</property>
+      <property name="versionMin">3.000</property>
       <property name="dbReference">1151</property>
       <property name="defaultAssociations">1</property>
     </properties>

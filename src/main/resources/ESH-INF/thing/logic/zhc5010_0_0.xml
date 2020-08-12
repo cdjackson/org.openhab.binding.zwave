@@ -93,7 +93,7 @@ FUGA Wall 4-way Switch with LED + Relay<br /><h1>Overview</h1><p>ZHC5010 is a wa
       <property name="modelId">ZHC5010</property>
       <property name="manufacturerId">0234</property>
       <property name="manufacturerRef">0002:010A,0003:010A</property>
-      <property name="versionMax">1.12</property>
+      <property name="versionMax">1.012</property>
       <property name="dbReference">503</property>
       <property name="defaultAssociations">1</property>
     </properties>

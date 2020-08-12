@@ -29,8 +29,8 @@ Dimmable LED Light Bulb<br /><h1>Overview</h1><p>Zwave Controlled Smart LED PAR3
       <property name="modelId">LBR30Z-1</property>
       <property name="manufacturerId">014F</property>
       <property name="manufacturerRef">4754:4252</property>
-      <property name="versionMin">5.16</property>
-      <property name="versionMax">5.16</property>
+      <property name="versionMin">5.016</property>
+      <property name="versionMax">5.016</property>
       <property name="dbReference">928</property>
       <property name="defaultAssociations">1</property>
     </properties>

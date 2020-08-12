@@ -40,7 +40,7 @@ Z-Wave Plus wireless switch<br /><h1>Overview</h1><p>The Z-Wave Plus wireless sw
       <property name="modelId">RF9601</property>
       <property name="manufacturerId">001A</property>
       <property name="manufacturerRef">534C:0503</property>
-      <property name="versionMax">255.0</property>
+      <property name="versionMax">255.000</property>
       <property name="dbReference">1099</property>
       <property name="defaultAssociations">1</property>
     </properties>

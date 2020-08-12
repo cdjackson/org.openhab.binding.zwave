@@ -69,8 +69,8 @@ Door/Window Sensor<br /><h1>Overview</h1><p>The Fibaro Door / Window Sensor is a
       <property name="modelId">FGK101</property>
       <property name="manufacturerId">010F</property>
       <property name="manufacturerRef">0700:1000,0700:2000,0700:3000</property>
-      <property name="versionMin">2.5</property>
-      <property name="versionMax">2.5</property>
+      <property name="versionMin">2.005</property>
+      <property name="versionMax">2.005</property>
       <property name="dbReference">847</property>
       <property name="defaultAssociations">3</property>
     </properties>

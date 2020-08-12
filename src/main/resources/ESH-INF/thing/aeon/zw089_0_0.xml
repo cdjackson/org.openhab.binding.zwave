@@ -97,18 +97,6 @@ Minimum battery low check Interval time is 4 minutes<br /><h1>Overview</h1><p>Th
         <default>86640</default>
       </parameter>
 
-      <parameter name="config_121_4_000000FF" type="integer" groupName="configuration">
-        <label>121: Configuration Value 4(LSB) SENSOR BINARY</label>
-        <description><![CDATA[
-Configuration Value 4(LSB) SENSOR BINARY<br /><h1>Overview</h1><p>set to 16 for sensor binary (recommended)</p> <p>set to 0 for factory default</p>
-        ]]></description>
-        <default>0</default>
-        <options>
-          <option value="0">disable SENSOR BINARY (factory)</option>
-          <option value="16">enable SENSOR BINARY</option>
-        </options>
-      </parameter>
-
       <parameter name="config_121_4_0000FF00" type="integer" groupName="configuration">
         <label>121: Config value 3 - BASIC SET</label>
         <description><![CDATA[
@@ -118,6 +106,18 @@ Set BASIC SET reporting<br /><h1>Overview</h1><p>Set to 1 for BASIC SET report (
         <options>
           <option value="0">do not send BASIC SET</option>
           <option value="1">send BASIC SET (factory default)</option>
+        </options>
+      </parameter>
+
+      <parameter name="config_121_4_000000FF" type="integer" groupName="configuration">
+        <label>121: Configuration Value 4(LSB) SENSOR BINARY</label>
+        <description><![CDATA[
+Configuration Value 4(LSB) SENSOR BINARY<br /><h1>Overview</h1><p>set to 16 for sensor binary (recommended)</p> <p>set to 0 for factory default</p>
+        ]]></description>
+        <default>0</default>
+        <options>
+          <option value="0">disable SENSOR BINARY (factory)</option>
+          <option value="16">enable SENSOR BINARY</option>
         </options>
       </parameter>
 

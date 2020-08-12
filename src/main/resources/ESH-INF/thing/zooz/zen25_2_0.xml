@@ -142,7 +142,7 @@ Double Plug V2<br /><h1>Overview</h1><p>The Double Plug works great as a low pro
       <property name="modelId">ZEN25</property>
       <property name="manufacturerId">027A</property>
       <property name="manufacturerRef">A000:A003</property>
-      <property name="versionMin">2.0</property>
+      <property name="versionMin">2.000</property>
       <property name="dbReference">1166</property>
       <property name="defaultAssociations">1</property>
     </properties>

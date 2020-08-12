@@ -59,7 +59,8 @@ HC-Z Hydronic Floor Heating Controller<br /><h1>Overview</h1><p>Product informat
       <channel id="indicator_flash1" typeId="indicator_flash">
         <label>Indicator 1</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_INDICATOR:1</property>
+          <property name="binding:*:
+						DecimalType">COMMAND_CLASS_INDICATOR:1</property>
         </properties>
       </channel>
       <channel id="thermostat_mode2" typeId="danfoss_014g0210_00_000_thermostat_mode">
@@ -324,10 +325,6 @@ Pulse-width modulation period<br /><h1>Overview</h1><p>The PWM period can be set
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="1">Heat</option>
-        <option value="0">Off</option>
-      </options>
     </state>
   </channel-type>
 
@@ -337,10 +334,6 @@ Pulse-width modulation period<br /><h1>Overview</h1><p>The PWM period can be set
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="1">Heat</option>
-        <option value="0">Off</option>
-      </options>
     </state>
   </channel-type>
 
@@ -350,10 +343,6 @@ Pulse-width modulation period<br /><h1>Overview</h1><p>The PWM period can be set
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="1">Heat</option>
-        <option value="0">Off</option>
-      </options>
     </state>
   </channel-type>
 
@@ -363,10 +352,6 @@ Pulse-width modulation period<br /><h1>Overview</h1><p>The PWM period can be set
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="1">Heat</option>
-        <option value="0">Off</option>
-      </options>
     </state>
   </channel-type>
 
@@ -376,10 +361,6 @@ Pulse-width modulation period<br /><h1>Overview</h1><p>The PWM period can be set
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="1">Heat</option>
-        <option value="0">Off</option>
-      </options>
     </state>
   </channel-type>
 
@@ -389,10 +370,6 @@ Pulse-width modulation period<br /><h1>Overview</h1><p>The PWM period can be set
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="1">Heat</option>
-        <option value="0">Off</option>
-      </options>
     </state>
   </channel-type>
 
@@ -402,10 +379,6 @@ Pulse-width modulation period<br /><h1>Overview</h1><p>The PWM period can be set
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="1">Heat</option>
-        <option value="0">Off</option>
-      </options>
     </state>
   </channel-type>
 
@@ -415,10 +388,6 @@ Pulse-width modulation period<br /><h1>Overview</h1><p>The PWM period can be set
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="1">Heat</option>
-        <option value="0">Off</option>
-      </options>
     </state>
   </channel-type>
 
@@ -428,10 +397,6 @@ Pulse-width modulation period<br /><h1>Overview</h1><p>The PWM period can be set
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="1">Heat</option>
-        <option value="0">Off</option>
-      </options>
     </state>
   </channel-type>
 
@@ -441,10 +406,6 @@ Pulse-width modulation period<br /><h1>Overview</h1><p>The PWM period can be set
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="1">Heat</option>
-        <option value="0">Off</option>
-      </options>
     </state>
   </channel-type>
 
@@ -454,10 +415,6 @@ Pulse-width modulation period<br /><h1>Overview</h1><p>The PWM period can be set
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="1">Heat</option>
-        <option value="0">Off</option>
-      </options>
     </state>
   </channel-type>
 

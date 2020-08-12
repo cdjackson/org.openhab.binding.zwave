@@ -188,6 +188,19 @@ Disable/enable the back key release into test mode<br /><h1>Overview</h1><p>Bit7
         <advanced>true</advanced>
       </parameter>
 
+      <parameter name="config_6_1_00000020" type="integer" groupName="configuration">
+        <label>6: light off control</label>
+        <description><![CDATA[
+disable/enable auto turn off the light<br /><h1>Overview</h1><p>Bit5: Disable auto turn off the light, after door/window opened to turn on the light. (1:Disable, 0:Enable)</p> <p>Notice: If bit2 is zero, this setting is useless. If the configuration No.9 is zero, this setting is useless.</p>
+        ]]></description>
+        <default>0</default>
+        <options>
+          <option value="0">enable</option>
+          <option value="32">disable</option>
+        </options>
+        <advanced>true</advanced>
+      </parameter>
+
       <parameter name="config_6_1_00000001" type="integer" groupName="configuration">
         <label>6: magnetic integration for lighting control</label>
         <description><![CDATA[
@@ -249,19 +262,6 @@ disable/enable delay<br /><h1>Overview</h1><p>Bit4: Disable delay 5 seconds to t
         <options>
           <option value="0">enable</option>
           <option value="16">disable</option>
-        </options>
-        <advanced>true</advanced>
-      </parameter>
-
-      <parameter name="config_6_1_00000020" type="integer" groupName="configuration">
-        <label>6: light off control</label>
-        <description><![CDATA[
-disable/enable auto turn off the light<br /><h1>Overview</h1><p>Bit5: Disable auto turn off the light, after door/window opened to turn on the light. (1:Disable, 0:Enable)</p> <p>Notice: If bit2 is zero, this setting is useless. If the configuration No.9 is zero, this setting is useless.</p>
-        ]]></description>
-        <default>0</default>
-        <options>
-          <option value="0">enable</option>
-          <option value="32">disable</option>
         </options>
         <advanced>true</advanced>
       </parameter>

@@ -46,7 +46,7 @@ Flex Sensor<br /><h1>Overview</h1><p>HS-FS100+ (“Flex Sensor”) is a multi fu
       <property name="modelId">HS-FS100+ Flex</property>
       <property name="manufacturerId">000C</property>
       <property name="manufacturerRef">0202:0001</property>
-      <property name="versionMin">5.18</property>
+      <property name="versionMin">5.018</property>
       <property name="dbReference">1069</property>
       <property name="defaultAssociations">1</property>
     </properties>

@@ -57,7 +57,7 @@ Yale Real Living™ Z-Wave Module<br /><h1>Overview</h1><ul><li>Adds Z-wave conn
       <property name="modelId">US2.0 CP2-5-3</property>
       <property name="manufacturerId">0129</property>
       <property name="manufacturerRef">800C:0F00</property>
-      <property name="versionMin">1.78</property>
+      <property name="versionMin">1.078</property>
       <property name="dbReference">1110</property>
       <property name="defaultAssociations">1</property>
     </properties>

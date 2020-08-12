@@ -39,7 +39,7 @@ Q-Gas 9121 (Firmware v3, 2016)<br /><h1>Overview</h1><p>The Power Reader is a me
       <property name="modelId">NQ-9121</property>
       <property name="manufacturerId">0096</property>
       <property name="manufacturerRef">0010:0001</property>
-      <property name="versionMin">3.0</property>
+      <property name="versionMin">3.000</property>
       <property name="dbReference">561</property>
     </properties>
 

@@ -35,8 +35,8 @@ Popp 09501 Flow Stop<br /><h1>Overview</h1><p>The Flow Stop moves the operating 
       <property name="modelId">009501</property>
       <property name="manufacturerId">0154</property>
       <property name="manufacturerRef">0005:0001,0005:0003</property>
-      <property name="versionMin">1.1</property>
-      <property name="versionMax">1.2</property>
+      <property name="versionMin">1.001</property>
+      <property name="versionMax">1.002</property>
       <property name="dbReference">620</property>
       <property name="defaultAssociations">1,2</property>
     </properties>

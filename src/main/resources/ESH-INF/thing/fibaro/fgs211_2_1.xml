@@ -40,7 +40,7 @@ Relay Switch 1x3kW<br /><h1>Overview</h1><p>Remotely Controlled Relay Switch of 
       <property name="modelId">FGS211</property>
       <property name="manufacturerId">010F</property>
       <property name="manufacturerRef">0400:0102,0400:0104,0400:0105,0400:0106,0400:0107,0400:0108,0400:0109,0400:100A,0400:300A,0402:3002</property>
-      <property name="versionMin">2.1</property>
+      <property name="versionMin">2.001</property>
       <property name="dbReference">920</property>
       <property name="defaultAssociations">3</property>
     </properties>

@@ -41,7 +41,7 @@ Roller Shutter Module<br /><h1>Overview</h1><p>The ARZ Z-Wave roller shutters ar
       <property name="modelId">ARZ 1.1</property>
       <property name="manufacturerId">0085</property>
       <property name="manufacturerRef">0003:0111</property>
-      <property name="versionMin">1.1</property>
+      <property name="versionMin">1.001</property>
       <property name="dbReference">1031</property>
       <property name="defaultAssociations">1</property>
     </properties>

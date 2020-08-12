@@ -130,6 +130,16 @@ Parameter to set the sensor functions.<br /><h1>Overview</h1><p>Bit0: Disable ma
         <limitToOptions>false</limitToOptions>
       </parameter>
 
+      <parameter name="config_7_1_00000040" type="integer" groupName="configuration">
+        <label>7: Bit6: Report battery state when device triggered</label>
+        <description>1:Disable, 0 Enable</description>
+        <default>0</default>
+        <options>
+          <option value="0">Enable</option>
+          <option value="1">Disable</option>
+        </options>
+      </parameter>
+
       <parameter name="config_7_1" type="integer" groupName="configuration"
                  min="0" max="127">
         <label>7: Customer Function</label>
@@ -141,22 +151,22 @@ Parameter to set the Customer Function.<br /><h1>Overview</h1><p>Bit0: Reserve.<
         <limitToOptions>false</limitToOptions>
       </parameter>
 
-      <parameter name="config_7_1_00000002" type="integer" groupName="configuration">
-        <label>7: Bit1: Enable sending motion OFF report.</label>
-        <description><![CDATA[
-0:Disable, 1:Enable<br /><h1>Overview</h1><p>Note: Depends on the Bit4, 0: Report Notification CC, Type: 0x07, Event: 0xFE 1: Sensor Binary Report, Type: 0x0C, Value: 0x00  </p>
-        ]]></description>
-        <default>0</default>
+      <parameter name="config_7_1_00000004" type="integer" groupName="configuration">
+        <label>7: Bit2: Enable PIR super sensitivity mode.</label>
+        <description>0:Disable, 1:Enable</description>
+        <default>1</default>
         <options>
           <option value="0">Disable</option>
           <option value="1">Enable</option>
         </options>
       </parameter>
 
-      <parameter name="config_7_1_00000004" type="integer" groupName="configuration">
-        <label>7: Bit2: Enable PIR super sensitivity mode.</label>
-        <description>0:Disable, 1:Enable</description>
-        <default>1</default>
+      <parameter name="config_7_1_00000002" type="integer" groupName="configuration">
+        <label>7: Bit1: Enable sending motion OFF report.</label>
+        <description><![CDATA[
+0:Disable, 1:Enable<br /><h1>Overview</h1><p>Note: Depends on the Bit4, 0: Report Notification CC, Type: 0x07, Event: 0xFE 1: Sensor Binary Report, Type: 0x0C, Value: 0x00  </p>
+        ]]></description>
+        <default>0</default>
         <options>
           <option value="0">Disable</option>
           <option value="1">Enable</option>
@@ -176,16 +186,6 @@ Parameter to set the Customer Function.<br /><h1>Overview</h1><p>Bit0: Reserve.<
       <parameter name="config_7_1_00000020" type="integer" groupName="configuration">
         <label>7: Bit5: Disable Multi CC in auto report.</label>
         <description>1:Disable, 0:Enable</description>
-        <default>0</default>
-        <options>
-          <option value="0">Enable</option>
-          <option value="1">Disable</option>
-        </options>
-      </parameter>
-
-      <parameter name="config_7_1_00000040" type="integer" groupName="configuration">
-        <label>7: Bit6: Report battery state when device triggered</label>
-        <description>1:Disable, 0 Enable</description>
         <default>0</default>
         <options>
           <option value="0">Enable</option>

@@ -29,7 +29,7 @@ Z-Wave Plus Dimmer Light Switch<br /><h1>Overview</h1><ul><li>Manual or remote o
       <property name="modelId">ZEN22</property>
       <property name="manufacturerId">027A</property>
       <property name="manufacturerRef">B112:1F1C</property>
-      <property name="versionMin">1.0</property>
+      <property name="versionMin">1.000</property>
       <property name="versionMax">1.255</property>
       <property name="dbReference">1010</property>
       <property name="defaultAssociations">1</property>

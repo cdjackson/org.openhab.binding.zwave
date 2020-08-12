@@ -112,7 +112,7 @@ DIN Mount Multiple Actuator Controller for Floor Heating<br /><h1>Overview</h1><
       <property name="modelId">LHC5031</property>
       <property name="manufacturerId">0234</property>
       <property name="manufacturerRef">0003:0111</property>
-      <property name="versionMin">0.62</property>
+      <property name="versionMin">0.062</property>
       <property name="dbReference">673</property>
       <property name="defaultAssociations">1</property>
     </properties>

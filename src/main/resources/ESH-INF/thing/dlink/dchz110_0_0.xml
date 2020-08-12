@@ -132,20 +132,6 @@ Multi-Sensor Function Switch<br /><h1>Overview</h1><p>Parameter to set the senso
         <default>4</default>
       </parameter>
 
-      <parameter name="config_7_1" type="integer" groupName="configuration"
-                 min="0" max="127">
-        <label>7: Customer Function</label>
-        <description><![CDATA[
-Parameter to set the Customer Function.<br /><h1>Overview</h1><p>l</p>
-        ]]></description>
-        <default>4</default>
-        <options>
-          <option value="20">Enable PIR Super Sensitivity and Binary Report</option>
-        </options>
-        <advanced>true</advanced>
-        <limitToOptions>false</limitToOptions>
-      </parameter>
-
       <parameter name="config_7_1_00000008" type="integer" groupName="configuration">
         <label>7: Disable send of BASIC OFF after door closed</label>
         <default>1</default>
@@ -180,6 +166,20 @@ Parameter to set the Customer Function.<br /><h1>Overview</h1><p>l</p>
           <option value="0">Enable</option>
           <option value="1">Disable</option>
         </options>
+      </parameter>
+
+      <parameter name="config_7_1" type="integer" groupName="configuration"
+                 min="0" max="127">
+        <label>7: Customer Function</label>
+        <description><![CDATA[
+Parameter to set the Customer Function.<br /><h1>Overview</h1><p>l</p>
+        ]]></description>
+        <default>4</default>
+        <options>
+          <option value="20">Enable PIR Super Sensitivity and Binary Report</option>
+        </options>
+        <advanced>true</advanced>
+        <limitToOptions>false</limitToOptions>
       </parameter>
 
       <parameter name="config_8_1" type="integer" groupName="configuration"

@@ -51,7 +51,7 @@ Electric Strike Lock Control<br /><h1>Overview</h1><p>An electric strike is an a
       <property name="modelId">012501</property>
       <property name="manufacturerId">0154</property>
       <property name="manufacturerRef">0005:0001</property>
-      <property name="versionMin">1.4</property>
+      <property name="versionMin">1.004</property>
       <property name="dbReference">419</property>
       <property name="defaultAssociations">1</property>
     </properties>

@@ -36,7 +36,8 @@ FUGA Wall 4-way Switch with LED + Relay<br /><h1>Overview</h1><p>ZHC5010 is a wa
       <channel id="indicator_raw" typeId="indicator_raw">
         <label>Button 1 Indicator</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_INDICATOR</property>
+          <property name="binding:*:
+						DecimalType">COMMAND_CLASS_INDICATOR;type=BUTTON1_INDICATION</property>
         </properties>
       </channel>
       <channel id="switch_binary1" typeId="switch_binary">
@@ -99,7 +100,7 @@ FUGA Wall 4-way Switch with LED + Relay<br /><h1>Overview</h1><p>ZHC5010 is a wa
       <property name="modelId">ZHC5010</property>
       <property name="manufacturerId">0234</property>
       <property name="manufacturerRef">0003:010A</property>
-      <property name="versionMin">2.0</property>
+      <property name="versionMin">2.000</property>
       <property name="dbReference">751</property>
       <property name="defaultAssociations">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21</property>
     </properties>

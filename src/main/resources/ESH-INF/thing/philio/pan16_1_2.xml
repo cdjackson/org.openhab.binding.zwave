@@ -64,7 +64,7 @@ Smart Energy Plug In Switch<br /><h1>Overview</h1><p>This plug-in ON/OFF switch 
       <property name="modelId">PAN16</property>
       <property name="manufacturerId">013C</property>
       <property name="manufacturerRef">0001:0000,0001:0029</property>
-      <property name="versionMin">1.2</property>
+      <property name="versionMin">1.002</property>
       <property name="dbReference">642</property>
       <property name="defaultAssociations">1</property>
     </properties>

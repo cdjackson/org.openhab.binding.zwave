@@ -46,7 +46,7 @@ Homeseer Z-Wave Indicator Light Sensor<br /><h1>Overview</h1><p>HS-FS100-L is a 
       <property name="modelId">HS-FS100-L</property>
       <property name="manufacturerId">000C</property>
       <property name="manufacturerRef">0202:0001</property>
-      <property name="versionMax">5.17</property>
+      <property name="versionMax">5.017</property>
       <property name="dbReference">1026</property>
       <property name="defaultAssociations">1</property>
     </properties>

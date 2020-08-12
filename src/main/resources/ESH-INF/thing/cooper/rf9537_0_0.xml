@@ -41,7 +41,7 @@
       <property name="modelId">RF9537</property>
       <property name="manufacturerId">001A</property>
       <property name="manufacturerRef">4449:0001</property>
-      <property name="versionMax">3.4</property>
+      <property name="versionMax">3.004</property>
       <property name="dbReference">905</property>
       <property name="defaultAssociations">1,255</property>
     </properties>

@@ -52,7 +52,7 @@ AC Master<br /><h1>Overview</h1><p>ZXT-600 AC Master is a Z-Wave plus certified 
       <property name="modelId">ZXT-600</property>
       <property name="manufacturerId">5254</property>
       <property name="manufacturerRef">0101:8490,0102:8490,0100:8490</property>
-      <property name="versionMin">1.3</property>
+      <property name="versionMin">1.003</property>
       <property name="dbReference">875</property>
       <property name="defaultAssociations">1</property>
     </properties>
@@ -159,15 +159,6 @@ Calibrate Temperature reading<br /><h1>Overview</h1><p>0 to 5 - positive value</
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="0">Off</option>
-        <option value="6">Fan Only</option>
-        <option value="8">Dry Air</option>
-        <option value="3">Auto</option>
-        <option value="2">Cool</option>
-        <option value="5">Resume</option>
-        <option value="1">Heat</option>
-      </options>
     </state>
   </channel-type>
 
@@ -177,12 +168,6 @@ Calibrate Temperature reading<br /><h1>Overview</h1><p>0 to 5 - positive value</
     <description>Sets the thermostat fan mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="1">On (Low)</option>
-        <option value="3">On (high)</option>
-        <option value="">UNKNOWN_5</option>
-        <option value="0">Auto (Low)</option>
-      </options>
     </state>
   </channel-type>
 

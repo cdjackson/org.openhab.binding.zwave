@@ -63,8 +63,8 @@ MultiSensor 6<br /><h1>Overview</h1><p>Battery or USB powered PIR motion sensor,
       <property name="modelId">ZW100</property>
       <property name="manufacturerId">0086</property>
       <property name="manufacturerRef">0002:0064,0102:0064,0202:0064</property>
-      <property name="versionMin">1.8</property>
-      <property name="versionMax">1.9</property>
+      <property name="versionMin">1.008</property>
+      <property name="versionMax">1.009</property>
       <property name="dbReference">387</property>
       <property name="defaultAssociations">1</property>
     </properties>
@@ -165,15 +165,6 @@ Select to report on thresholds<br /><h1>Overview</h1><p>Enable/disable the selec
         </options>
       </parameter>
 
-      <parameter name="config_41_2_wo" type="integer" groupName="configuration">
-        <label>41: Temperature Threshold</label>
-        <description><![CDATA[
-Temperature change threshold<br /><h1>Overview</h1><p>Threshold change in temperature to induce an automatic report.<br /><strong>Note</strong>:</p> <ol><li>The unit is Fahrenheit for US version, Celsius for EU/AU version.</li> <li>High byte is the threshold value. Low byte is the unit (0x01=Celsius, 0x02=Fahrenheit).</li> <li>The threshold value (high byte) contains one decimal point. E.g. if the value is set to 20 (0x1401), the threshold value =2.0°C (EU/AU version) or if the value is set to 20 (0x1402), the threshold value=2.0 °F (US version). When the current temperature gap is more then 2.0, which will induce a temperature report to be sent out.</li> </ol>
-        ]]></description>
-        <default>20</default>
-        <advanced>true</advanced>
-      </parameter>
-
       <parameter name="config_41_2_000000FF" type="integer" groupName="configuration">
         <label>41: Temperature Threshold Unit</label>
         <description>Sets the unit of the threshold</description>
@@ -190,6 +181,15 @@ Temperature change threshold<br /><h1>Overview</h1><p>Threshold change in temper
         <description>Threshold change in temperature to induce an automatic report.</description>
         <default>0</default>
         <limitToOptions>false</limitToOptions>
+      </parameter>
+
+      <parameter name="config_41_2_wo" type="integer" groupName="configuration">
+        <label>41: Temperature Threshold</label>
+        <description><![CDATA[
+Temperature change threshold<br /><h1>Overview</h1><p>Threshold change in temperature to induce an automatic report.<br /><strong>Note</strong>:</p> <ol><li>The unit is Fahrenheit for US version, Celsius for EU/AU version.</li> <li>High byte is the threshold value. Low byte is the unit (0x01=Celsius, 0x02=Fahrenheit).</li> <li>The threshold value (high byte) contains one decimal point. E.g. if the value is set to 20 (0x1401), the threshold value =2.0°C (EU/AU version) or if the value is set to 20 (0x1402), the threshold value=2.0 °F (US version). When the current temperature gap is more then 2.0, which will induce a temperature report to be sent out.</li> </ol>
+        ]]></description>
+        <default>20</default>
+        <advanced>true</advanced>
       </parameter>
 
       <parameter name="config_42_1" type="integer" groupName="configuration"
@@ -319,16 +319,6 @@ Group 3 Report Interval<br /><h1>Overview</h1><p>The interval time of sending re
         <default>3600</default>
       </parameter>
 
-      <parameter name="config_201_2" type="integer" groupName="configuration"
-                 min="-128" max="127">
-        <label>201: Temperature Calibration</label>
-        <description><![CDATA[
-Temperature calibration in 0.1 deg steps<br /><h1>Overview</h1><p>Temperature calibration (the available value range is [-128,127] or [-12.8°C ,12.7 °C ] ).<br /><strong>Note</strong>:</p> <ol><li>High byte is the calibration value. Low byte is the unit (0x01=Celsius, 0x02=Fahrenheit).</li> <li>The calibration value (high byte) contains one decimal point. E.g. if the value is set to 20 (0x1401), the calibration value is 2.0°C (EU/AU version) or if the value is set to 20 (0x1402), the calibration value is 2.0 °F (US version)</li> <li>The calibration value = standard value - measure value. °C and the standard value = 23.2 °C , so the calibration value= 23.2 °C - 25.3 °C = -2.1 °C (0xEB). If the measure value =30.1 °C and the standard value = 33.2 °C , so the calibration value= 33.2 °C - 30.1 °C =3.1 °C (0x1F).</li> </ol>
-        ]]></description>
-        <default>0</default>
-        <advanced>true</advanced>
-      </parameter>
-
       <parameter name="config_201_2_000000FF" type="integer" groupName="configuration">
         <label>201: Temperature Calibration Unit</label>
         <default>1</default>
@@ -343,6 +333,16 @@ Temperature calibration in 0.1 deg steps<br /><h1>Overview</h1><p>Temperature ca
         <label>201: Temperature Calibration Value</label>
         <description>Calibration value containing one decimal point</description>
         <default>0</default>
+      </parameter>
+
+      <parameter name="config_201_2" type="integer" groupName="configuration"
+                 min="-128" max="127">
+        <label>201: Temperature Calibration</label>
+        <description><![CDATA[
+Temperature calibration in 0.1 deg steps<br /><h1>Overview</h1><p>Temperature calibration (the available value range is [-128,127] or [-12.8°C ,12.7 °C ] ).<br /><strong>Note</strong>:</p> <ol><li>High byte is the calibration value. Low byte is the unit (0x01=Celsius, 0x02=Fahrenheit).</li> <li>The calibration value (high byte) contains one decimal point. E.g. if the value is set to 20 (0x1401), the calibration value is 2.0°C (EU/AU version) or if the value is set to 20 (0x1402), the calibration value is 2.0 °F (US version)</li> <li>The calibration value = standard value - measure value. °C and the standard value = 23.2 °C , so the calibration value= 23.2 °C - 25.3 °C = -2.1 °C (0xEB). If the measure value =30.1 °C and the standard value = 33.2 °C , so the calibration value= 33.2 °C - 30.1 °C =3.1 °C (0x1F).</li> </ol>
+        ]]></description>
+        <default>0</default>
+        <advanced>true</advanced>
       </parameter>
 
       <parameter name="config_202_1" type="integer" groupName="configuration"

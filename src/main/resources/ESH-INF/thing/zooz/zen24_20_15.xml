@@ -35,8 +35,8 @@ Z-Wave Plus Toggle Dimmer Light Switch Ver 2.0<br /><h1>Overview</h1><ul><li>Man
       <property name="modelId">ZEN24</property>
       <property name="manufacturerId">027A</property>
       <property name="manufacturerRef">B112:261C</property>
-      <property name="versionMin">20.15</property>
-      <property name="versionMax">20.15</property>
+      <property name="versionMin">20.015</property>
+      <property name="versionMax">20.015</property>
       <property name="dbReference">789</property>
       <property name="defaultAssociations">1</property>
     </properties>

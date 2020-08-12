@@ -63,7 +63,7 @@ CO Detector<br /><h1>Overview</h1><p>This product combines a certified carbon mo
       <property name="modelId">004407</property>
       <property name="manufacturerId">0154</property>
       <property name="manufacturerRef">0004:0003</property>
-      <property name="versionMin">1.0</property>
+      <property name="versionMin">1.000</property>
       <property name="dbReference">456</property>
       <property name="defaultAssociations">1</property>
     </properties>

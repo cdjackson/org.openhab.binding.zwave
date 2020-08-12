@@ -35,8 +35,8 @@ Minoston Smart Dimmer Switch<br /><h1>Overview</h1><p>In-Wall Switch (Dimmer)</p
       <property name="modelId">MS11Z</property>
       <property name="manufacturerId">0312</property>
       <property name="manufacturerRef">FF00:FF04</property>
-      <property name="versionMin">4.0</property>
-      <property name="versionMax">4.0</property>
+      <property name="versionMin">4.000</property>
+      <property name="versionMax">4.000</property>
       <property name="dbReference">1231</property>
       <property name="defaultAssociations">1</property>
     </properties>

@@ -34,7 +34,7 @@ Plug in Smart Switch<br /><h1>Overview</h1><p>Z-wave controlled AC outlet for st
       <property name="modelId">GE 28169 / Jasco 28168</property>
       <property name="manufacturerId">0063</property>
       <property name="manufacturerRef">5052:3037,5052:3038</property>
-      <property name="versionMax">4.9</property>
+      <property name="versionMax">4.009</property>
       <property name="dbReference">595</property>
       <property name="defaultAssociations">1</property>
     </properties>

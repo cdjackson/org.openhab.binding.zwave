@@ -104,12 +104,6 @@ Dual Nano Switch with Energy Metering<br /><h1>Overview</h1><table><tr><td> <p><
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:1;type=E_A</property>
         </properties>
       </channel>
-      <channel id="meter_reset1" typeId="meter_reset">
-        <label>Reset Meter [Deprecated]</label>
-        <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_METER:1;reset=true</property>
-        </properties>
-      </channel>
       <channel id="switch_binary2" typeId="switch_binary">
         <label>Switch 2</label>
         <properties>
@@ -140,12 +134,6 @@ Dual Nano Switch with Energy Metering<br /><h1>Overview</h1><table><tr><td> <p><
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:2;type=E_A</property>
         </properties>
       </channel>
-      <channel id="meter_reset2" typeId="meter_reset">
-        <label>Reset Meter [Deprecated]</label>
-        <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_METER:2;reset=true</property>
-        </properties>
-      </channel>
     </channels>
 
     <!-- DEVICE PROPERTY DEFINITIONS -->
@@ -154,7 +142,7 @@ Dual Nano Switch with Energy Metering<br /><h1>Overview</h1><table><tr><td> <p><
       <property name="modelId">ZW132</property>
       <property name="manufacturerId">0086</property>
       <property name="manufacturerRef">0003:0084,0103:0084,0203:0084</property>
-      <property name="versionMin">2.0</property>
+      <property name="versionMin">2.000</property>
       <property name="dbReference">1017</property>
       <property name="defaultAssociations">1</property>
     </properties>

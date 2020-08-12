@@ -58,10 +58,10 @@ SmartCode 10 Touchpad Electronic Deadbolt<br /><h1>Overview</h1><ul><li>Dramatic
       </parameter-group>
 
       <!-- PARAMETER DEFINITIONS -->
-      <parameter name="config_31_1" type="integer" groupName="configuration" readOnly="true">
-        <label>31: Buzzer</label>
+      <parameter name="config_31_1_10000000" type="integer" groupName="configuration" readOnly="true">
+        <label>31: Status LED</label>
         <description><![CDATA[
-Internal Buzzer<br /><h1>Overview</h1><p>Internal buzzer enabled.  Factory default is ON.  It is recommended that the buzzer is left ON during programming.</p>
+Door lock status LED blinks every 6 seconds<br /><h1>Overview</h1><p>Door lock status LED blinks every 6 seconds.  Factory default is ON.</p>
         ]]></description>
         <default>1</default>
         <options>
@@ -82,10 +82,10 @@ Automatically re-locks door 30 seconds after unlocking.<br /><h1>Overview</h1><p
         </options>
       </parameter>
 
-      <parameter name="config_31_1_10000000" type="integer" groupName="configuration" readOnly="true">
-        <label>31: Status LED</label>
+      <parameter name="config_31_1" type="integer" groupName="configuration" readOnly="true">
+        <label>31: Buzzer</label>
         <description><![CDATA[
-Door lock status LED blinks every 6 seconds<br /><h1>Overview</h1><p>Door lock status LED blinks every 6 seconds.  Factory default is ON.</p>
+Internal Buzzer<br /><h1>Overview</h1><p>Internal buzzer enabled.  Factory default is ON.  It is recommended that the buzzer is left ON during programming.</p>
         ]]></description>
         <default>1</default>
         <options>

@@ -28,7 +28,7 @@ AC/DC Siren<br /><h1>Overview</h1><p>Thanks for choosing the Vision’s wireless
       <property name="modelId">ZM1602</property>
       <property name="manufacturerId">0109</property>
       <property name="manufacturerRef">2005:0503,2009:0903,2009:0908</property>
-      <property name="versionMax">14.0</property>
+      <property name="versionMax">14.000</property>
       <property name="dbReference">109</property>
     </properties>
 

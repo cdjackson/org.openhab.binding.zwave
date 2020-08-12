@@ -92,16 +92,13 @@ Get the number of alarm musics<br /><h1>Overview</h1><p>Get the numbers of alarm
         <default>1</default>
       </parameter>
 
-      <parameter name="config_37_4_000000FF" type="integer" groupName="configuration">
-        <label>37: Disable opening alarm</label>
+      <parameter name="config_37_4_00FF0000" type="integer" groupName="configuration"
+                 min="1" max="4">
+        <label>37: Opening alarm choice</label>
         <description><![CDATA[
-Disable opening alarm<br /><h1>Overview</h1><p>Configure the alarm mode when the garage door is opening.</p> <p>Value4=0, disable the alarm prompt. <br />Value4=1, enable the alarm prompt.</p>
+Alarm mode when the garage door is opening<br /><h1>Overview</h1><p>Configure the alarm mode when the garage door is opening.</p> <p>Value2: configure the alarm sound (there are 4 types sound saved in EEPROM and user also can update it).</p>
         ]]></description>
         <default>1</default>
-        <options>
-          <option value="0">Disable alarm prompt</option>
-          <option value="1">Enable alarm prompt</option>
-        </options>
       </parameter>
 
       <parameter name="config_37_4_0000FF00" type="integer" groupName="configuration"
@@ -113,13 +110,16 @@ Opening alarm volume<br /><h1>Overview</h1><p>Configure the alarm mode when the 
         <default>8</default>
       </parameter>
 
-      <parameter name="config_37_4_00FF0000" type="integer" groupName="configuration"
-                 min="1" max="4">
-        <label>37: Opening alarm choice</label>
+      <parameter name="config_37_4_000000FF" type="integer" groupName="configuration">
+        <label>37: Disable opening alarm</label>
         <description><![CDATA[
-Alarm mode when the garage door is opening<br /><h1>Overview</h1><p>Configure the alarm mode when the garage door is opening.</p> <p>Value2: configure the alarm sound (there are 4 types sound saved in EEPROM and user also can update it).</p>
+Disable opening alarm<br /><h1>Overview</h1><p>Configure the alarm mode when the garage door is opening.</p> <p>Value4=0, disable the alarm prompt. <br />Value4=1, enable the alarm prompt.</p>
         ]]></description>
         <default>1</default>
+        <options>
+          <option value="0">Disable alarm prompt</option>
+          <option value="1">Enable alarm prompt</option>
+        </options>
       </parameter>
 
       <parameter name="config_37_4_0F000000" type="integer" groupName="configuration"

@@ -153,15 +153,6 @@ Configure the state of the LED<br /><h1>Overview</h1><p>Configure the state of L
         <advanced>true</advanced>
       </parameter>
 
-      <parameter name="config_83_3_000000FF" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>83: Blue night light color value</label>
-        <description><![CDATA[
-Blue night light color value<br /><h1>Overview</h1><p>Value for parameter 83, night light blue color</p>
-        ]]></description>
-        <default>221</default>
-      </parameter>
-
       <parameter name="config_83_3_0000FF00" type="integer" groupName="configuration"
                  min="0" max="255">
         <label>83: Green night light color value</label>
@@ -169,6 +160,15 @@ Blue night light color value<br /><h1>Overview</h1><p>Value for parameter 83, ni
 Green night light color value<br /><h1>Overview</h1><p>Green color value for parameter 83, night light mode.</p>
         ]]></description>
         <default>160</default>
+      </parameter>
+
+      <parameter name="config_83_3_000000FF" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>83: Blue night light color value</label>
+        <description><![CDATA[
+Blue night light color value<br /><h1>Overview</h1><p>Value for parameter 83, night light blue color</p>
+        ]]></description>
+        <default>221</default>
       </parameter>
 
       <parameter name="config_83_3_00FF0000" type="integer" groupName="configuration"
@@ -187,15 +187,6 @@ Configure the RGB value when it is in Night light mode<br /><h1>Overview</h1><p>
         <advanced>true</advanced>
       </parameter>
 
-      <parameter name="config_84_3_000000FF" type="integer" groupName="configuration"
-                 min="0" max="100">
-        <label>84: Green brightness in energy mode (%)</label>
-        <description><![CDATA[
-Green brightness in energy mode (%)<br /><h1>Overview</h1><p>Configure the brightness level of RGB LED (0%-100%) when<br />it is in Energy Mode/momentary indicate mode.<br />Value1: green color value.<br />Value2: yellow color value.<br />Value3: red color value.</p>
-        ]]></description>
-        <default>50</default>
-      </parameter>
-
       <parameter name="config_84_3_0000FF00" type="integer" groupName="configuration"
                  min="0" max="100">
         <label>84: Yellow brightness in energy mode (%)</label>
@@ -207,6 +198,15 @@ Green brightness in energy mode (%)<br /><h1>Overview</h1><p>Configure the brigh
                  min="0" max="100">
         <label>84: Red brightness in energy mode (%)</label>
         <description>Red brightness in energy mode (%)</description>
+        <default>50</default>
+      </parameter>
+
+      <parameter name="config_84_3_000000FF" type="integer" groupName="configuration"
+                 min="0" max="100">
+        <label>84: Green brightness in energy mode (%)</label>
+        <description><![CDATA[
+Green brightness in energy mode (%)<br /><h1>Overview</h1><p>Configure the brightness level of RGB LED (0%-100%) when<br />it is in Energy Mode/momentary indicate mode.<br />Value1: green color value.<br />Value2: yellow color value.<br />Value3: red color value.</p>
+        ]]></description>
         <default>50</default>
       </parameter>
 

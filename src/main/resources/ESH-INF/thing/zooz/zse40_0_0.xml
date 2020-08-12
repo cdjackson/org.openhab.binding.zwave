@@ -63,7 +63,7 @@
       <property name="modelId">ZSE40</property>
       <property name="manufacturerId">027A</property>
       <property name="manufacturerRef">2021:2101</property>
-      <property name="versionMax">17.8</property>
+      <property name="versionMax">17.008</property>
       <property name="dbReference">491</property>
       <property name="defaultAssociations">1</property>
     </properties>

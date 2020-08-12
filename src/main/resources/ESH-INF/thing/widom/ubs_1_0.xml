@@ -28,8 +28,8 @@ WiDom Universal Relay Switch<br /><h1>Overview</h1><p>WiDOM Universal Relay Swit
       <property name="modelId">WiDom Universal Relay Switch</property>
       <property name="manufacturerId">0149</property>
       <property name="manufacturerRef">0012:0104</property>
-      <property name="versionMin">1.0</property>
-      <property name="versionMax">1.7</property>
+      <property name="versionMin">1.000</property>
+      <property name="versionMax">1.007</property>
       <property name="dbReference">298</property>
       <property name="defaultAssociations">1</property>
     </properties>

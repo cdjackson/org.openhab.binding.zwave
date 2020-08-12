@@ -64,10 +64,10 @@ Touchpad Electronic Deadbolt<br /><h1>Overview</h1><p>The following table provid
       </parameter-group>
 
       <!-- PARAMETER DEFINITIONS -->
-      <parameter name="config_31_1_00100000" type="integer" groupName="configuration" readOnly="true">
-        <label>31: Auto Buzzer</label>
+      <parameter name="config_31_1_10000000" type="integer" groupName="configuration" readOnly="true">
+        <label>31: Lock LED Status</label>
         <description><![CDATA[
-Beeping sound enabled.<br /><h1>Overview</h1><p>Beeping sound enabled. When disabled, keypad buttons light red or amber when pressed.</p> <p>ON position is factory default.</p> <p>Note: It is recommended that the beeping sound is enabled during programming.</p>
+Door lock status LED blinks every 6 seconds.<br /><h1>Overview</h1><p>Door lock status LED blinks every 6 seconds. ON position is factory default.</p>
         ]]></description>
         <default>1</default>
         <options>
@@ -88,10 +88,10 @@ Automatically re-locks door 30 seconds after unlocking.<br /><h1>Overview</h1><p
         </options>
       </parameter>
 
-      <parameter name="config_31_1_10000000" type="integer" groupName="configuration" readOnly="true">
-        <label>31: Lock LED Status</label>
+      <parameter name="config_31_1_00100000" type="integer" groupName="configuration" readOnly="true">
+        <label>31: Auto Buzzer</label>
         <description><![CDATA[
-Door lock status LED blinks every 6 seconds.<br /><h1>Overview</h1><p>Door lock status LED blinks every 6 seconds. ON position is factory default.</p>
+Beeping sound enabled.<br /><h1>Overview</h1><p>Beeping sound enabled. When disabled, keypad buttons light red or amber when pressed.</p> <p>ON position is factory default.</p> <p>Note: It is recommended that the beeping sound is enabled during programming.</p>
         ]]></description>
         <default>1</default>
         <options>

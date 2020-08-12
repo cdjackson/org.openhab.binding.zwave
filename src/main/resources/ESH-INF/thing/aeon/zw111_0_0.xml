@@ -58,7 +58,7 @@ Nano Dimmer<br /><h1>Overview</h1><p>Aeotec Nano Dimmer is a Z-Wave Smart Dimmer
         </properties>
       </channel>
       <channel id="meter_reset" typeId="meter_reset">
-        <label>Clear Accumulated Energy</label>
+        <label>Clear Accumulated Energy </label>
         <properties>
           <property name="binding:*:OnOffType">COMMAND_CLASS_METER</property>
         </properties>
@@ -89,7 +89,7 @@ Nano Dimmer<br /><h1>Overview</h1><p>Aeotec Nano Dimmer is a Z-Wave Smart Dimmer
       <property name="modelId">ZW111</property>
       <property name="manufacturerId">0086</property>
       <property name="manufacturerRef">0003:006F,0103:006F,0203:006F</property>
-      <property name="versionMax">2.2</property>
+      <property name="versionMax">2.002</property>
       <property name="dbReference">576</property>
       <property name="defaultAssociations">1</property>
     </properties>

@@ -156,6 +156,20 @@ Outputs orientation<br /><h1>Overview</h1><p>This parameter allows reversing the
         </options>
       </parameter>
 
+      <parameter name="config_30_4_7F000000" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>30: Notification Type for Blinds</label>
+        <description>Notification Type for Blinds</description>
+        <default>0</default>
+      </parameter>
+
+      <parameter name="config_30_4_00FF0000" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>30: Notification Status for Blinds</label>
+        <description>Notification Status for Blinds</description>
+        <default>0</default>
+      </parameter>
+
       <parameter name="config_30_4_000000FF" type="integer" groupName="configuration">
         <label>30: Action for Blinds</label>
         <description>Action for Blinds</description>
@@ -174,17 +188,24 @@ Outputs orientation<br /><h1>Overview</h1><p>This parameter allows reversing the
         <default>0</default>
       </parameter>
 
-      <parameter name="config_30_4_00FF0000" type="integer" groupName="configuration"
+      <parameter name="config_31_4_7F000000" type="integer" groupName="configuration"
                  min="0" max="255">
-        <label>30: Notification Status for Blinds</label>
-        <description>Notification Status for Blinds</description>
-        <default>0</default>
+        <label>31: Notification Type for Water</label>
+        <description>Notification Type for Water</description>
+        <default>5</default>
       </parameter>
 
-      <parameter name="config_30_4_7F000000" type="integer" groupName="configuration"
+      <parameter name="config_31_4_00FF0000" type="integer" groupName="configuration"
                  min="0" max="255">
-        <label>30: Notification Type for Blinds</label>
-        <description>Notification Type for Blinds</description>
+        <label>31: Notification Status for Water</label>
+        <description>Notification Status for Water</description>
+        <default>255</default>
+      </parameter>
+
+      <parameter name="config_31_4_0000FF00" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>31: Event/State Parameters for Water</label>
+        <description>Event/State Parameters for Water</description>
         <default>0</default>
       </parameter>
 
@@ -199,25 +220,25 @@ Outputs orientation<br /><h1>Overview</h1><p>This parameter allows reversing the
         </options>
       </parameter>
 
-      <parameter name="config_31_4_0000FF00" type="integer" groupName="configuration"
+      <parameter name="config_32_4_7F000000" type="integer" groupName="configuration" readOnly="true"
                  min="0" max="255">
-        <label>31: Event/State Parameters for Water</label>
-        <description>Event/State Parameters for Water</description>
-        <default>0</default>
+        <label>32: Notification Type for Smoke</label>
+        <description>Notification Type for Smoke</description>
+        <default>1</default>
       </parameter>
 
-      <parameter name="config_31_4_00FF0000" type="integer" groupName="configuration"
+      <parameter name="config_32_4_00FF0000" type="integer" groupName="configuration"
                  min="0" max="255">
-        <label>31: Notification Status for Water</label>
-        <description>Notification Status for Water</description>
+        <label>32: Notification Status for Smoke</label>
+        <description>Notification Status for Smoke</description>
         <default>255</default>
       </parameter>
 
-      <parameter name="config_31_4_7F000000" type="integer" groupName="configuration"
+      <parameter name="config_32_4_0000FF00" type="integer" groupName="configuration"
                  min="0" max="255">
-        <label>31: Notification Type for Water</label>
-        <description>Notification Type for Water</description>
-        <default>5</default>
+        <label>32: Event/State Parameters for Smoke</label>
+        <description>Event/State Parameters for Smoke</description>
+        <default>0</default>
       </parameter>
 
       <parameter name="config_32_4_000000FF" type="integer" groupName="configuration">
@@ -231,25 +252,24 @@ Outputs orientation<br /><h1>Overview</h1><p>This parameter allows reversing the
         </options>
       </parameter>
 
-      <parameter name="config_32_4_0000FF00" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>32: Event/State Parameters for Smoke</label>
-        <description>Event/State Parameters for Smoke</description>
-        <default>0</default>
+      <parameter name="config_33_4_7F000000_wo" type="integer" groupName="configuration">
+        <label>33: Notification Type for CO</label>
+        <description>Notification Type for CO</description>
+        <default>2</default>
       </parameter>
 
-      <parameter name="config_32_4_00FF0000" type="integer" groupName="configuration"
+      <parameter name="config_33_4_00FF0000" type="integer" groupName="configuration"
                  min="0" max="255">
-        <label>32: Notification Status for Smoke</label>
-        <description>Notification Status for Smoke</description>
+        <label>33: Notification Status for CO</label>
+        <description>Notification Status for CO</description>
         <default>255</default>
       </parameter>
 
-      <parameter name="config_32_4_7F000000" type="integer" groupName="configuration" readOnly="true"
+      <parameter name="config_33_4_0000FF00" type="integer" groupName="configuration" readOnly="true"
                  min="0" max="255">
-        <label>32: Notification Type for Smoke</label>
-        <description>Notification Type for Smoke</description>
-        <default>1</default>
+        <label>33: Event/State Parameters for CO</label>
+        <description>Event/State Parameters for CO</description>
+        <default>0</default>
       </parameter>
 
       <parameter name="config_33_4_000000FF" type="integer" groupName="configuration">
@@ -263,24 +283,25 @@ Outputs orientation<br /><h1>Overview</h1><p>This parameter allows reversing the
         </options>
       </parameter>
 
-      <parameter name="config_33_4_0000FF00" type="integer" groupName="configuration" readOnly="true"
+      <parameter name="config_34_4_7F000000" type="integer" groupName="configuration"
                  min="0" max="255">
-        <label>33: Event/State Parameters for CO</label>
-        <description>Event/State Parameters for CO</description>
-        <default>0</default>
+        <label>34: Notification Status for Heat</label>
+        <description>Notification Status for Heat</description>
+        <default>4</default>
       </parameter>
 
-      <parameter name="config_33_4_00FF0000" type="integer" groupName="configuration"
+      <parameter name="config_34_4_00FF0000" type="integer" groupName="configuration"
                  min="0" max="255">
-        <label>33: Notification Status for CO</label>
-        <description>Notification Status for CO</description>
+        <label>34: Notification Status for Heat</label>
+        <description>Notification Status for Heat</description>
         <default>255</default>
       </parameter>
 
-      <parameter name="config_33_4_7F000000_wo" type="integer" groupName="configuration">
-        <label>33: Notification Type for CO</label>
-        <description>Notification Type for CO</description>
-        <default>2</default>
+      <parameter name="config_34_4_0000FF00" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>34: Event/State Parameters for Heat</label>
+        <description>Event/State Parameters for Heat</description>
+        <default>0</default>
       </parameter>
 
       <parameter name="config_34_4_000000FF" type="integer" groupName="configuration">
@@ -292,27 +313,6 @@ Outputs orientation<br /><h1>Overview</h1><p>This parameter allows reversing the
           <option value="1">Open blinds</option>
           <option value="2">Close blinds</option>
         </options>
-      </parameter>
-
-      <parameter name="config_34_4_0000FF00" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>34: Event/State Parameters for Heat</label>
-        <description>Event/State Parameters for Heat</description>
-        <default>0</default>
-      </parameter>
-
-      <parameter name="config_34_4_00FF0000" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>34: Notification Status for Heat</label>
-        <description>Notification Status for Heat</description>
-        <default>255</default>
-      </parameter>
-
-      <parameter name="config_34_4_7F000000" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>34: Notification Status for Heat</label>
-        <description>Notification Status for Heat</description>
-        <default>4</default>
       </parameter>
 
       <parameter name="config_40_1" type="integer" groupName="configuration"

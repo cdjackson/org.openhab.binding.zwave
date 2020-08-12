@@ -58,8 +58,8 @@ Metered Wall Plug Switch<br /><h1>Overview</h1><p>FIBARO Wall Plug is a universa
       <property name="modelId">FGWP102</property>
       <property name="manufacturerId">010F</property>
       <property name="manufacturerRef">0602:1001</property>
-      <property name="versionMin">2.1</property>
-      <property name="versionMax">2.5</property>
+      <property name="versionMin">2.001</property>
+      <property name="versionMax">2.005</property>
       <property name="dbReference">464</property>
       <property name="defaultAssociations">3</property>
     </properties>

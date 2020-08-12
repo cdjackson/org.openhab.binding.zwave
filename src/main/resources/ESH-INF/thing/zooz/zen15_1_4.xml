@@ -58,7 +58,7 @@ Power Switch<br /><h1>Overview</h1><p>Z-Wave Power Switch</p> <br /><h2>Inclusio
       <property name="modelId">ZEN15</property>
       <property name="manufacturerId">027A</property>
       <property name="manufacturerRef">0101:000D</property>
-      <property name="versionMin">1.4</property>
+      <property name="versionMin">1.004</property>
       <property name="dbReference">1167</property>
       <property name="defaultAssociations">1</property>
     </properties>

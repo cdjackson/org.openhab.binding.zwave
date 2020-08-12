@@ -58,7 +58,7 @@ Smart Energy Switch 5th Edition<br /><h1>Overview</h1><p>Smart Energy Switch 5th
       <property name="modelId">ZW075</property>
       <property name="manufacturerId">0086</property>
       <property name="manufacturerRef">0103:004B</property>
-      <property name="versionMin">4.0</property>
+      <property name="versionMin">4.000</property>
       <property name="dbReference">951</property>
       <property name="defaultAssociations">1</property>
     </properties>

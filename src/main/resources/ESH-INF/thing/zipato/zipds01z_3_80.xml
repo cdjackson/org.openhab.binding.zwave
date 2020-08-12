@@ -18,8 +18,8 @@ Door/Window Sensor<br /><h1>Overview</h1><p>Door sensor is an intelligent securi
       <property name="modelId">0131</property>
       <property name="manufacturerId">0131</property>
       <property name="manufacturerRef">0003:1082</property>
-      <property name="versionMin">3.80</property>
-      <property name="versionMax">3.80</property>
+      <property name="versionMin">3.080</property>
+      <property name="versionMax">3.080</property>
       <property name="dbReference">844</property>
     </properties>
 

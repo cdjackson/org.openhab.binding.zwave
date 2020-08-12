@@ -34,7 +34,7 @@ Light Switch<br /><h1>Overview</h1><p>Z-WAVE ON/OFF SWITCH</p> <br /><h2>Inclusi
       <property name="modelId">ZEN21</property>
       <property name="manufacturerId">027A</property>
       <property name="manufacturerRef">B111:1E1C</property>
-      <property name="versionMax">2.9</property>
+      <property name="versionMax">2.009</property>
       <property name="dbReference">718</property>
       <property name="defaultAssociations">1</property>
     </properties>
