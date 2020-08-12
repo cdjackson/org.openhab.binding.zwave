@@ -126,11 +126,11 @@ Trane Z-Wave Programmable Thermostat<br /><h1>Overview</h1><p>Thermostat for Hea
     <category>Temperature</category>
     <state pattern="%s">
       <options>
-        <option value="3">Auto</option>
-        <option value="4">Aux Heat</option>
+        <option value="0">Off</option>
         <option value="1">Heat</option>
         <option value="2">Cool</option>
-        <option value="0">Off</option>
+        <option value="3">Auto</option>
+        <option value="4">Aux Heat</option>
       </options>
     </state>
   </channel-type>
@@ -141,10 +141,6 @@ Trane Z-Wave Programmable Thermostat<br /><h1>Overview</h1><p>Thermostat for Hea
     <description>Sets the thermostat fan mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="1">On (Low)</option>
-        <option value="0">Auto (Low)</option>
-      </options>
     </state>
   </channel-type>
 
@@ -156,17 +152,6 @@ Trane Z-Wave Programmable Thermostat<br /><h1>Overview</h1><p>Thermostat for Hea
     <state pattern="%s">
       <options>
         <option value="0">Idle</option>
-      </options>
-    </state>
-  </channel-type>
-
-  <channel-type id="trane_tzemt400bb32maa_00_000_config_decimal_param132">
-    <item-type>Number</item-type>
-    <label>Schedule Mode</label>
-    <state pattern="%s">
-      <options>
-        <option value="0">Hold</option>
-        <option value="1">Schedule</option>
       </options>
     </state>
   </channel-type>

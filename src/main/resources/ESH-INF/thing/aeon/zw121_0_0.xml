@@ -288,16 +288,4 @@ Retransmit commands to associated nodes<br /><h1>Overview</h1><p>Forward the Bas
 
   </thing-type>
 
-  <channel-type id="aeon_zw121_00_000_meter_current_param37">
-    <item-type>Number</item-type>
-    <label>Color Transition Style</label>
-    <description>Defines how the strip transitions between colors</description>
-    <state pattern="%s">
-      <options>
-        <option value="0">Smooth color transition</option>
-        <option value="1">Fade out fade in transition</option>
-      </options>
-    </state>
-  </channel-type>
-
 </thing:thing-descriptions>

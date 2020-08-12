@@ -48,7 +48,8 @@ Dimmer Accessory Switch<br /><h1>Overview</h1><p>Aspire RF smart dimmer system a
       <channel id="indicator_level" typeId="indicator_level">
         <label>Indicator Light Control</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_INDICATOR</property>
+          <property name="binding:*:PercentType">COMMAND_CLASS_INDICATOR</property>
+          <property name="binding:Command:OnOffType">COMMAND_CLASS_INDICATOR</property>
         </properties>
       </channel>
     </channels>

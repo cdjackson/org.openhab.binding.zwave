@@ -29,7 +29,6 @@ CH-601 THE ELECTRIC CRANE<br /><h1>Overview</h1><p>The electric crane CH-601 is
       <property name="manufacturerId">0179</property>
       <property name="manufacturerRef">0021:0011</property>
       <property name="dbReference">865</property>
-      <property name="defaultAssociations">1</property>
     </properties>
 
     <!-- CONFIGURATION DESCRIPTIONS -->
@@ -77,6 +76,13 @@ After opening, the tap will automatically close after a certain time.<br /><h1>O
       <parameter name="group_2" type="text" groupName="association" multiple="true">
         <label>2: Status of valve movement</label>
         <multipleLimit>10</multipleLimit>
+      </parameter>
+
+      <parameter name="group_2" type="text" groupName="association">
+        <label>2: External sensor to that provides temperature measurements</label>
+        <description><![CDATA[
+<br /><h1>Overview</h1><p>This group may contain the single sensor that will provide temperature measurements used by the thermostat to control the heating device. The thermostat would use the external sensor added to this group instead of the standard one in case if <strong>Parameter 10</strong> is set to <strong>1 Polling the room temperature sensor;</strong></p>
+        ]]></description>
       </parameter>
 
       <!-- STATIC DEFINITIONS -->
