@@ -7,7 +7,6 @@
 
   <thing-type id="vda_vitrumscenario_00_000" listed="false">
     <label>Vitrum Scenario Vitrum Scenario controller</label>
-    <description>Vitrum Scenario controller</description>
     <category>RemoteControl</category>
 
     <!-- CHANNEL DEFINITIONS -->

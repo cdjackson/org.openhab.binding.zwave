@@ -8,7 +8,7 @@
   <thing-type id="building36_adct2000_00_000" listed="false">
     <label>ADC-T 2000 Alarm.com Smart Thermostat</label>
     <description><![CDATA[
-Alarm.com Smart Thermostat<br /><h1>Overview</h1><ul><li> Intelligently Connected with Alarm.com (Alarm.com account required) </li> <li> Remote Access and Control </li> <li> Custom Schedules </li> <li> Critical Temperature Alerts and Geo-Services Automation </li> <li> Can be paired with Alarm.com Temperature Sensor ADC-S2000-T-RA for enhanced climate control and improved energy savings (sold separately) </li> </ul><br /><h2>Inclusion Information</h2><p>Put thermostat in OFF mode (no mode icons are lit)</p> <p>Press and hold the DOWN button to begin inclusion mode. Release when the RADIO icon lights up.</p> <p>When the RADIO icon becomes solid, the thermostat has been included.</p> <br /><h2>Exclusion Information</h2><p>Put thermostat in OFF mode (no mode icons are lit)</p> <p>Press and hold the DOWN button to begin exclusion mode. Release when the RADIO icon lights up.</p> <p>When the RADIO icon flashes red, the thermostat has been excluded.</p>
+<br /><h1>Overview</h1><ul><li> Intelligently Connected with Alarm.com (Alarm.com account required) </li> <li> Remote Access and Control </li> <li> Custom Schedules </li> <li> Critical Temperature Alerts and Geo-Services Automation </li> <li> Can be paired with Alarm.com Temperature Sensor ADC-S2000-T-RA for enhanced climate control and improved energy savings (sold separately) </li> </ul><br /><h2>Inclusion Information</h2><p>Put thermostat in OFF mode (no mode icons are lit)</p> <p>Press and hold the DOWN button to begin inclusion mode. Release when the RADIO icon lights up.</p> <p>When the RADIO icon becomes solid, the thermostat has been included.</p> <br /><h2>Exclusion Information</h2><p>Put thermostat in OFF mode (no mode icons are lit)</p> <p>Press and hold the DOWN button to begin exclusion mode. Release when the RADIO icon lights up.</p> <p>When the RADIO icon flashes red, the thermostat has been excluded.</p>
     ]]></description>
     <category>HVAC</category>
 
@@ -59,7 +59,7 @@ Alarm.com Smart Thermostat<br /><h1>Overview</h1><ul><li> Intelligently Connecte
       <channel id="thermostat_fanstate" typeId="building36_adct2000_00_000_thermostat_fanstate">
         <label>Thermostat fan state</label>
         <properties>
-          <property name="binding:*:DecimalType">COMMAND_CLASS_THERMOSTAT_FAN_STATE</property>
+          <property name="binding:*:DecimalType">COMMAND_CLASS_THERMOSTAT_FAN_STATE:0;</property>
         </properties>
       </channel>
       <channel id="battery-level" typeId="system.battery-level">
@@ -444,12 +444,6 @@ Enable/Disabled Echo Assoc. Reports.<br /><h1>Overview</h1><p>0 - Disabled (Defa
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="3">Auto</option>
-        <option value="1">Heat</option>
-        <option value="0">Off</option>
-        <option value="2">Cool</option>
-      </options>
     </state>
   </channel-type>
 
@@ -459,11 +453,6 @@ Enable/Disabled Echo Assoc. Reports.<br /><h1>Overview</h1><p>0 - Disabled (Defa
     <description>Sets the thermostat fan mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="1">On (Low)</option>
-        <option value="6">Circulate</option>
-        <option value="0">Auto (Low)</option>
-      </options>
     </state>
   </channel-type>
 
@@ -473,9 +462,6 @@ Enable/Disabled Echo Assoc. Reports.<br /><h1>Overview</h1><p>0 - Disabled (Defa
     <description>Sets the thermostat fan state</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="0">Idle</option>
-      </options>
     </state>
   </channel-type>
 

@@ -7,7 +7,6 @@
 
   <thing-type id="vda_satelliteiv_00_000" listed="false">
     <label>Vitrum Satellite IV Vitrum touch switch satellite 4 buttons</label>
-    <description>Vitrum touch switch satellite 4 buttons</description>
     <category>WallSwitch</category>
 
     <!-- CHANNEL DEFINITIONS -->

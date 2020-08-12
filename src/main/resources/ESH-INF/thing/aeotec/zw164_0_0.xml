@@ -8,7 +8,7 @@
   <thing-type id="aeotec_zw164_00_000" listed="false">
     <label>ZW164 Indoor Siren 6 and Doorbell 6</label>
     <description><![CDATA[
-Indoor Siren 6 and Doorbell 6<br /><h1>Overview</h1><p>Siren 6 is your home’s smart indoor siren.</p> <p>Built with Z-Wave Plus S2 to be a smart home security siren, it features a 110dB speaker coupled with 1,000 lumens visual light alert strobe. Can be used as siren for security alarm, smoke sensor, and CO sensors via Z-Wave</p> <br /><h2>Inclusion Information</h2><p>Click Chime Action Button once, it will quickly flash white light for 30 seconds until Chime is added into the network.</p> <p>It will become constantly bright white light after being assigned a NodeID.</p> <br /><h2>Exclusion Information</h2><p>Click Chime Action Button 6 times quickly; it will bright white light, up to 2s.</p> <p>If Removing succeeds, it will quickly flash white light 3 times and then become breathing white light. Now, Chime is removed from Z-Wave network successfully.</p> <br /><h2>Wakeup Information</h2><p>Not Provided</p>
+<br /><h1>Overview</h1><p>Siren 6 is your home’s smart indoor siren.</p> <p>Built with Z-Wave Plus S2 to be a smart home security siren, it features a 110dB speaker coupled with 1,000 lumens visual light alert strobe. Can be used as siren for security alarm, smoke sensor, and CO sensors via Z-Wave</p> <br /><h2>Inclusion Information</h2><p>Click Chime Action Button once, it will quickly flash white light for 30 seconds until Chime is added into the network.</p> <p>It will become constantly bright white light after being assigned a NodeID.</p> <br /><h2>Exclusion Information</h2><p>Click Chime Action Button 6 times quickly; it will bright white light, up to 2s.</p> <p>If Removing succeeds, it will quickly flash white light 3 times and then become breathing white light. Now, Chime is removed from Z-Wave network successfully.</p> <br /><h2>Wakeup Information</h2><p>Not Provided</p>
     ]]></description>
     <category>Siren</category>
 
@@ -136,16 +136,33 @@ Indoor Siren 6 and Doorbell 6<br /><h1>Overview</h1><p>Siren 6 is your home’s 
         </options>
       </parameter>
 
-      <parameter name="config_2_4_000000FF" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>2: Tone Play Count for Endpoint 2 (Tampering)</label>
+      <parameter name="config_2_4_7F000000" type="integer" groupName="configuration">
+        <label>2: Light Effect for EP 2 (Tampering)</label>
         <description><![CDATA[
-Tone Play Count for Endpoint 2 (Tampering)<br /><h1>Overview</h1><table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Unlimited playback until stop by user.</td> </tr><tr><td>1 ..254</td> <td>1-254 times. Specify the count that the tone will be repeated to be played.</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
+Light Effect for EP 2 (Tampering)<br /><h1>Overview</h1><p>Light Effect Index for Endpoint 2 (Tampering)</p>
         ]]></description>
         <default>1</default>
         <options>
-          <option value="0">Unlimited playback until stop by user.</option>
-          <option value="1">(1) time (default)</option>
+          <option value="1">#1 Light Effect, mapping to Parameter 16 .</option>
+          <option value="2">#2 Light Effect, mapping to Parameter 17 .</option>
+          <option value="4">#3 Light Effect, mapping to Parameter 18 .</option>
+          <option value="8">#4 Light Effect, mapping to Parameter 19 .</option>
+          <option value="16">#5 Light Effect, mapping to Parameter 20 .</option>
+          <option value="32">#6 Light Effect, mapping to Parameter 21 .</option>
+          <option value="64">#7 Light Effect, mapping to Parameter 22.</option>
+          <option value="127">Use the last valid configuration value.</option>
+        </options>
+      </parameter>
+
+      <parameter name="config_2_4_00FF0000" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>2: Intercepting tone duration for EP 2 (Tampering)</label>
+        <description><![CDATA[
+Intercepting duration of a tone for Endpoint 2 (Tampering)<br /><h1>Overview</h1><h1>Intercepting duration of a tone for Endpoint 2 (Tampering)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Keep the original duration of a tone itself, without any interception .</td> </tr><tr><td>1 .. 254</td> <td>1-254 seconds. Intercept the duration of a tone . If the intercepting duration is <strong>shorter</strong> than the original duration of a tone, actual single play time is equal to the intercepting duration. If the intercepting duration is<strong> longer</strong> than the original duration of a tone, actual single play time is equal to the original duration</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table><p>.</p>
+        ]]></description>
+        <default>0</default>
+        <options>
+          <option value="0">No Interception (default)</option>
           <option value="255">Use the last valid configuration value.</option>
         </options>
         <limitToOptions>false</limitToOptions>
@@ -165,76 +182,16 @@ Interval between 2 tones for Endpoint 2 (Tampering)<br /><h1>Overview</h1><h1>In
         <limitToOptions>false</limitToOptions>
       </parameter>
 
-      <parameter name="config_2_4_00FF0000" type="integer" groupName="configuration"
+      <parameter name="config_2_4_000000FF" type="integer" groupName="configuration"
                  min="0" max="255">
-        <label>2: Intercepting tone duration for EP 2 (Tampering)</label>
+        <label>2: Tone Play Count for Endpoint 2 (Tampering)</label>
         <description><![CDATA[
-Intercepting duration of a tone for Endpoint 2 (Tampering)<br /><h1>Overview</h1><h1>Intercepting duration of a tone for Endpoint 2 (Tampering)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Keep the original duration of a tone itself, without any interception .</td> </tr><tr><td>1 .. 254</td> <td>1-254 seconds. Intercept the duration of a tone . If the intercepting duration is <strong>shorter</strong> than the original duration of a tone, actual single play time is equal to the intercepting duration. If the intercepting duration is<strong> longer</strong> than the original duration of a tone, actual single play time is equal to the original duration</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table><p>.</p>
-        ]]></description>
-        <default>0</default>
-        <options>
-          <option value="0">No Interception (default)</option>
-          <option value="255">Use the last valid configuration value.</option>
-        </options>
-        <limitToOptions>false</limitToOptions>
-      </parameter>
-
-      <parameter name="config_2_4_7F000000" type="integer" groupName="configuration">
-        <label>2: Light Effect for EP 2 (Tampering)</label>
-        <description><![CDATA[
-Light Effect for EP 2 (Tampering)<br /><h1>Overview</h1><p>Light Effect Index for Endpoint 2 (Tampering)</p>
-        ]]></description>
-        <default>1</default>
-        <options>
-          <option value="1">#1 Light Effect, mapping to Parameter 16 .</option>
-          <option value="2">#2 Light Effect, mapping to Parameter 17 .</option>
-          <option value="4">#3 Light Effect, mapping to Parameter 18 .</option>
-          <option value="8">#4 Light Effect, mapping to Parameter 19 .</option>
-          <option value="16">#5 Light Effect, mapping to Parameter 20 .</option>
-          <option value="32">#6 Light Effect, mapping to Parameter 21 .</option>
-          <option value="64">#7 Light Effect, mapping to Parameter 22.</option>
-          <option value="127">Use the last valid configuration value.</option>
-        </options>
-      </parameter>
-
-      <parameter name="config_3_4_000000FF" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>3: Tone Play Count for EP3 (Doorbell 1)</label>
-        <description><![CDATA[
-Tone Play Count for EP3 (Doorbell 1)<br /><h1>Overview</h1><h1>Tone Play Count for Endpoint 3 (Doorbell 1)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Unlimited playback until stop by user.</td> </tr><tr><td>1 .. 254</td> <td>1-254 times. Specify the count that the tone will be repeated to be played.</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
+Tone Play Count for Endpoint 2 (Tampering)<br /><h1>Overview</h1><table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Unlimited playback until stop by user.</td> </tr><tr><td>1 ..254</td> <td>1-254 times. Specify the count that the tone will be repeated to be played.</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
         ]]></description>
         <default>1</default>
         <options>
           <option value="0">Unlimited playback until stop by user.</option>
-          <option value="1">(1) Time (default)</option>
-          <option value="255">Use the last valid configuration value.</option>
-        </options>
-        <limitToOptions>false</limitToOptions>
-      </parameter>
-
-      <parameter name="config_3_4_0000FF00" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>3: Interval between 2 tones for EP3 (Doorbell 1)</label>
-        <description><![CDATA[
-Interval between 2 tones for EP3 (Doorbell 1)<br /><h1>Overview</h1><h1>Interval between 2 tones for Endpoint 3 (Doorbell 1)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>No interval.</td> </tr><tr><td>1 .. 254</td> <td>1-254 seconds. Specify the interval time between 2 tones .</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
-        ]]></description>
-        <default>0</default>
-        <options>
-          <option value="0">No interval.</option>
-          <option value="255">Use the last valid configuration value.</option>
-        </options>
-        <limitToOptions>false</limitToOptions>
-      </parameter>
-
-      <parameter name="config_3_4_00FF0000" type="integer" groupName="configuration"
-                 min="0" max="4294967295">
-        <label>3: Intercepting duration of a tone EP 3(Doorbell 1)</label>
-        <description><![CDATA[
-Intercepting duration of a tone Endpoint 3(Doorbell 1)<br /><h1>Overview</h1><h1>Intercepting duration of a tone for Endpoint 3(Doorbell 1)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Keep the original duration of a tone itself, without any interception.</td> </tr><tr><td>1 .. 254</td> <td>1-254 seconds. Intercept the duration of a tone . If the intercepting duration is <strong>shorter</strong> than the original duration of a tone, actual single play time is equal to the intercepting duration. If the intercepting duration is <strong>longer</strong> than the original duration of a tone, actual single play time is equal to the original duration.</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
-        ]]></description>
-        <default>0</default>
-        <options>
-          <option value="0">Keep the original duration of a tone</option>
+          <option value="1">(1) time (default)</option>
           <option value="255">Use the last valid configuration value.</option>
         </options>
         <limitToOptions>false</limitToOptions>
@@ -256,44 +213,44 @@ Intercepting duration of a tone Endpoint 3(Doorbell 1)<br /><h1>Overview</h1><h1
         </options>
       </parameter>
 
-      <parameter name="config_4_4_000000FF" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>4: Tone Play Count for EP4 (Doorbell 2)</label>
+      <parameter name="config_3_4_00FF0000" type="integer" groupName="configuration"
+                 min="0" max="4294967295">
+        <label>3: Intercepting duration of a tone EP 3(Doorbell 1)</label>
         <description><![CDATA[
-Tone Play Count for EP4 (Doorbell 2)<br /><h1>Overview</h1><h1>Tone Play Count for Endpoint 4 (Doorbell 2)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Unlimited playback until stop by user.</td> </tr><tr><td>1 .. 254</td> <td>1-254 times. Specify the count that the tone will be repeated to be played.</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
+Intercepting duration of a tone Endpoint 3(Doorbell 1)<br /><h1>Overview</h1><h1>Intercepting duration of a tone for Endpoint 3(Doorbell 1)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Keep the original duration of a tone itself, without any interception.</td> </tr><tr><td>1 .. 254</td> <td>1-254 seconds. Intercept the duration of a tone . If the intercepting duration is <strong>shorter</strong> than the original duration of a tone, actual single play time is equal to the intercepting duration. If the intercepting duration is <strong>longer</strong> than the original duration of a tone, actual single play time is equal to the original duration.</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
+        ]]></description>
+        <default>0</default>
+        <options>
+          <option value="0">Keep the original duration of a tone</option>
+          <option value="255">Use the last valid configuration value.</option>
+        </options>
+        <limitToOptions>false</limitToOptions>
+      </parameter>
+
+      <parameter name="config_3_4_0000FF00" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>3: Interval between 2 tones for EP3 (Doorbell 1)</label>
+        <description><![CDATA[
+Interval between 2 tones for EP3 (Doorbell 1)<br /><h1>Overview</h1><h1>Interval between 2 tones for Endpoint 3 (Doorbell 1)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>No interval.</td> </tr><tr><td>1 .. 254</td> <td>1-254 seconds. Specify the interval time between 2 tones .</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
+        ]]></description>
+        <default>0</default>
+        <options>
+          <option value="0">No interval.</option>
+          <option value="255">Use the last valid configuration value.</option>
+        </options>
+        <limitToOptions>false</limitToOptions>
+      </parameter>
+
+      <parameter name="config_3_4_000000FF" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>3: Tone Play Count for EP3 (Doorbell 1)</label>
+        <description><![CDATA[
+Tone Play Count for EP3 (Doorbell 1)<br /><h1>Overview</h1><h1>Tone Play Count for Endpoint 3 (Doorbell 1)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Unlimited playback until stop by user.</td> </tr><tr><td>1 .. 254</td> <td>1-254 times. Specify the count that the tone will be repeated to be played.</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
         ]]></description>
         <default>1</default>
         <options>
           <option value="0">Unlimited playback until stop by user.</option>
           <option value="1">(1) Time (default)</option>
-          <option value="255">Use the last valid configuration value.</option>
-        </options>
-        <limitToOptions>false</limitToOptions>
-      </parameter>
-
-      <parameter name="config_4_4_0000FF00" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>4: Tone Interval for EP4 (Doorbell 2)</label>
-        <description><![CDATA[
-Tone Interval for EP4 (Doorbell 2)<br /><h1>Overview</h1><h1>Interval between 2 tones for Endpoint 4 (Doorbell 2)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>No interval.</td> </tr><tr><td>1 .. 254</td> <td>1-254 seconds. Specify the interval time between 2 tones .</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
-        ]]></description>
-        <default>0</default>
-        <options>
-          <option value="0">No interval. (default)</option>
-          <option value="255">Use the last valid configuration value.</option>
-        </options>
-        <limitToOptions>false</limitToOptions>
-      </parameter>
-
-      <parameter name="config_4_4_00FF0000" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>4: Duration of Tone for EP4(Doorbell 2)</label>
-        <description><![CDATA[
-Duration of Tone for EP4(Doorbell 2)<br /><h1>Overview</h1><h1>Intercepting Duration of a tone for Endpoint 4 (Doorbell 2)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Keep the original duration of a tone itself, without any interception.</td> </tr><tr><td>1 .. 254</td> <td>1-254 seconds. Intercept the duration of a tone . If the intercepting duration is <strong>shorter</strong> than the original duration of a tone, actual single play time is equal to the intercepting duration. If the intercepting duration is <strong>longer</strong> than the original duration of a tone, actual single play time is equal to the original duration.</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
-        ]]></description>
-        <default>0</default>
-        <options>
-          <option value="0">Keep the original duration of a tone</option>
           <option value="255">Use the last valid configuration value.</option>
         </options>
         <limitToOptions>false</limitToOptions>
@@ -317,26 +274,25 @@ Light Effect for EP 4 (Doorbell 2)<br /><h1>Overview</h1><p>Light Effect Index f
         </options>
       </parameter>
 
-      <parameter name="config_5_4_000000FF" type="integer" groupName="configuration"
+      <parameter name="config_4_4_00FF0000" type="integer" groupName="configuration"
                  min="0" max="255">
-        <label>5: Tone Play Count for EP5 (Doorbell 3)</label>
+        <label>4: Duration of Tone for EP4(Doorbell 2)</label>
         <description><![CDATA[
-Tone Play Count for EP5 (Doorbell 3)<br /><h1>Overview</h1><h1>Tone Play Count for Endpoint 5 (Doorbell 3)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Unlimited playback until stop by user.</td> </tr><tr><td>1 .. 254</td> <td>1-254 times. Specify the count that the tone will be repeated to be played.</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
+Duration of Tone for EP4(Doorbell 2)<br /><h1>Overview</h1><h1>Intercepting Duration of a tone for Endpoint 4 (Doorbell 2)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Keep the original duration of a tone itself, without any interception.</td> </tr><tr><td>1 .. 254</td> <td>1-254 seconds. Intercept the duration of a tone . If the intercepting duration is <strong>shorter</strong> than the original duration of a tone, actual single play time is equal to the intercepting duration. If the intercepting duration is <strong>longer</strong> than the original duration of a tone, actual single play time is equal to the original duration.</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
         ]]></description>
-        <default>1</default>
+        <default>0</default>
         <options>
-          <option value="0">Unlimited playback until stop by user.</option>
-          <option value="1">(1) time (default)</option>
+          <option value="0">Keep the original duration of a tone</option>
           <option value="255">Use the last valid configuration value.</option>
         </options>
         <limitToOptions>false</limitToOptions>
       </parameter>
 
-      <parameter name="config_5_4_0000FF00" type="integer" groupName="configuration"
+      <parameter name="config_4_4_0000FF00" type="integer" groupName="configuration"
                  min="0" max="255">
-        <label>5: Interval between 2 tones for EP5 (Doorbell 3)</label>
+        <label>4: Tone Interval for EP4 (Doorbell 2)</label>
         <description><![CDATA[
-Interval between 2 tones for EP5 (Doorbell 3)<br /><h1>Overview</h1><h1>Interval between 2 tones for Endpoint 5 (Doorbell 3)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>No interval.</td> </tr><tr><td>1 .. 254</td> <td>1-254 seconds. Specify the interval time between 2 tones .</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
+Tone Interval for EP4 (Doorbell 2)<br /><h1>Overview</h1><h1>Interval between 2 tones for Endpoint 4 (Doorbell 2)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>No interval.</td> </tr><tr><td>1 .. 254</td> <td>1-254 seconds. Specify the interval time between 2 tones .</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
         ]]></description>
         <default>0</default>
         <options>
@@ -346,15 +302,16 @@ Interval between 2 tones for EP5 (Doorbell 3)<br /><h1>Overview</h1><h1>Interval
         <limitToOptions>false</limitToOptions>
       </parameter>
 
-      <parameter name="config_5_4_00FF0000" type="integer" groupName="configuration"
+      <parameter name="config_4_4_000000FF" type="integer" groupName="configuration"
                  min="0" max="255">
-        <label>5: Intercepting tone duration for EP5 (Doorbell 3)</label>
+        <label>4: Tone Play Count for EP4 (Doorbell 2)</label>
         <description><![CDATA[
-Intercepting tone duration for EP5 (Doorbell 3)<br /><h1>Overview</h1><h1>Intercepting duration of a tone for Endpoint 5(Doorbell 3) .</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Keep the original duration of a tone itself, without any interception.</td> </tr><tr><td>1 .. 254</td> <td>1-254 seconds. Intercept the duration of a tone . If the intercepting duration is <strong>shorter</strong> than the original duration of a tone, actual single play time is equal to the intercepting duration. If the intercepting duration is <strong>longer</strong> than the original duration of a tone, actual single play time is equal to the original duration.</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
+Tone Play Count for EP4 (Doorbell 2)<br /><h1>Overview</h1><h1>Tone Play Count for Endpoint 4 (Doorbell 2)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Unlimited playback until stop by user.</td> </tr><tr><td>1 .. 254</td> <td>1-254 times. Specify the count that the tone will be repeated to be played.</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
         ]]></description>
-        <default>0</default>
+        <default>1</default>
         <options>
-          <option value="0">Keep the original duration of a tone</option>
+          <option value="0">Unlimited playback until stop by user.</option>
+          <option value="1">(1) Time (default)</option>
           <option value="255">Use the last valid configuration value.</option>
         </options>
         <limitToOptions>false</limitToOptions>
@@ -378,43 +335,44 @@ Light Effect for EP 5 (Doorbell 3) .<br /><h1>Overview</h1><p>Light Effect Index
         </options>
       </parameter>
 
-      <parameter name="config_6_4_000000FF" type="integer" groupName="configuration"
+      <parameter name="config_5_4_00FF0000" type="integer" groupName="configuration"
                  min="0" max="255">
-        <label>6: Tone Play Count for EP 6 (Environment)</label>
+        <label>5: Intercepting tone duration for EP5 (Doorbell 3)</label>
         <description><![CDATA[
-Tone Play Count for EP 6 (Environment)<br /><h1>Overview</h1><p>Tone Play Count for Endpoint 6 (Environment)</p>
-        ]]></description>
-        <default>0</default>
-        <options>
-          <option value="0">Unlimited playback until stop by user.</option>
-          <option value="255">Use the last valid configuration value.</option>
-        </options>
-        <limitToOptions>false</limitToOptions>
-      </parameter>
-
-      <parameter name="config_6_4_0000FF00" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>6: Interval between 2 tones for EP 6 (Environment)</label>
-        <description><![CDATA[
-Interval between 2 tones for EP 6 (Environment)<br /><h1>Overview</h1><h1>Interval between 2 tones for Endpoint 6 (Environment)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>No interval.</td> </tr><tr><td>1 .. 254</td> <td>1-254 seconds. Specify the interval time between 2 tones.</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
-        ]]></description>
-        <default>0</default>
-        <options>
-          <option value="0">No interval.</option>
-          <option value="255">Use the last valid configuration value.</option>
-        </options>
-        <limitToOptions>false</limitToOptions>
-      </parameter>
-
-      <parameter name="config_6_4_00FF0000" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>6: Duration of a tone for EP 6 (Environment)</label>
-        <description><![CDATA[
-Duration of a tone for EP 6 (Environment)<br /><h1>Overview</h1><h1>Duration of a tone for Endpoint 6 (Environment)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Keep the original duration of a tone itself, without any interception.</td> </tr><tr><td>1 .. 254</td> <td>1-254 seconds. Intercept the duration of a tone. If the intercepting duration is <strong>shorter</strong> than the original duration of a tone, actual single play time is equal to the intercepting duration. If the intercepting duration is<strong> longer</strong> than the original duration of a tone, actual single play time is equal to the original duration.</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
+Intercepting tone duration for EP5 (Doorbell 3)<br /><h1>Overview</h1><h1>Intercepting duration of a tone for Endpoint 5(Doorbell 3) .</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Keep the original duration of a tone itself, without any interception.</td> </tr><tr><td>1 .. 254</td> <td>1-254 seconds. Intercept the duration of a tone . If the intercepting duration is <strong>shorter</strong> than the original duration of a tone, actual single play time is equal to the intercepting duration. If the intercepting duration is <strong>longer</strong> than the original duration of a tone, actual single play time is equal to the original duration.</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
         ]]></description>
         <default>0</default>
         <options>
           <option value="0">Keep the original duration of a tone</option>
+          <option value="255">Use the last valid configuration value.</option>
+        </options>
+        <limitToOptions>false</limitToOptions>
+      </parameter>
+
+      <parameter name="config_5_4_0000FF00" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>5: Interval between 2 tones for EP5 (Doorbell 3)</label>
+        <description><![CDATA[
+Interval between 2 tones for EP5 (Doorbell 3)<br /><h1>Overview</h1><h1>Interval between 2 tones for Endpoint 5 (Doorbell 3)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>No interval.</td> </tr><tr><td>1 .. 254</td> <td>1-254 seconds. Specify the interval time between 2 tones .</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
+        ]]></description>
+        <default>0</default>
+        <options>
+          <option value="0">No interval. (default)</option>
+          <option value="255">Use the last valid configuration value.</option>
+        </options>
+        <limitToOptions>false</limitToOptions>
+      </parameter>
+
+      <parameter name="config_5_4_000000FF" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>5: Tone Play Count for EP5 (Doorbell 3)</label>
+        <description><![CDATA[
+Tone Play Count for EP5 (Doorbell 3)<br /><h1>Overview</h1><h1>Tone Play Count for Endpoint 5 (Doorbell 3)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Unlimited playback until stop by user.</td> </tr><tr><td>1 .. 254</td> <td>1-254 times. Specify the count that the tone will be repeated to be played.</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
+        ]]></description>
+        <default>1</default>
+        <options>
+          <option value="0">Unlimited playback until stop by user.</option>
+          <option value="1">(1) time (default)</option>
           <option value="255">Use the last valid configuration value.</option>
         </options>
         <limitToOptions>false</limitToOptions>
@@ -438,43 +396,43 @@ Light Effect for EP 6 (Environment)<br /><h1>Overview</h1><p>Light Effect for En
         </options>
       </parameter>
 
-      <parameter name="config_7_4_000000FF" type="integer" groupName="configuration"
+      <parameter name="config_6_4_00FF0000" type="integer" groupName="configuration"
                  min="0" max="255">
-        <label>7: Tone play count for EP7 (Security)</label>
+        <label>6: Duration of a tone for EP 6 (Environment)</label>
         <description><![CDATA[
-Tone play count for EP7 (Security)<br /><h1>Overview</h1><h1>Tone play count for Endpoint 7 (Security)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Unlimited playback until stop by user.</td> </tr><tr><td>1 .. 254</td> <td>1-254 times. Specify the count that the tone will be repeated to be played.</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
-        ]]></description>
-        <default>0</default>
-        <options>
-          <option value="0">Unlimited playback until stop by user.</option>
-          <option value="255">Use the last valid configuration value.</option>
-        </options>
-        <limitToOptions>false</limitToOptions>
-      </parameter>
-
-      <parameter name="config_7_4_0000FF00" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>7: Interval between 2 tones for EP7 (Security)</label>
-        <description><![CDATA[
-Interval between 2 tones for EP7 (Security)<br /><h1>Overview</h1><h1>Interval between 2 tones for Endpoint 7 (Security)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>No interval.</td> </tr><tr><td>1 .. 254</td> <td>1-254 seconds. Specify the interval time between 2 tones .</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
-        ]]></description>
-        <default>0</default>
-        <options>
-          <option value="0">No interval. (default)</option>
-          <option value="255">Use the last valid configuration value.</option>
-        </options>
-        <limitToOptions>false</limitToOptions>
-      </parameter>
-
-      <parameter name="config_7_4_00FF0000" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>7: Duration of a tone for EP 7 (Security)</label>
-        <description><![CDATA[
-Duration of a tone for EP 7 (Security)<br /><h1>Overview</h1><h1>Intercepting duration of a tone for Endpoint 7 (Security)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Keep the original duration of a tone itself, without any interception.</td> </tr><tr><td>1 .. 254</td> <td>1-254 seconds. Intercept the duration of a tone . If the intercepting duration is <strong>shorter</strong> than the original duration of a tone, actual single play time is equal to the intercepting duration. If the intercepting duration is <strong>longer</strong> than the original duration of a tone, actual single play time is equal to the original duration.</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
+Duration of a tone for EP 6 (Environment)<br /><h1>Overview</h1><h1>Duration of a tone for Endpoint 6 (Environment)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Keep the original duration of a tone itself, without any interception.</td> </tr><tr><td>1 .. 254</td> <td>1-254 seconds. Intercept the duration of a tone. If the intercepting duration is <strong>shorter</strong> than the original duration of a tone, actual single play time is equal to the intercepting duration. If the intercepting duration is<strong> longer</strong> than the original duration of a tone, actual single play time is equal to the original duration.</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
         ]]></description>
         <default>0</default>
         <options>
           <option value="0">Keep the original duration of a tone</option>
+          <option value="255">Use the last valid configuration value.</option>
+        </options>
+        <limitToOptions>false</limitToOptions>
+      </parameter>
+
+      <parameter name="config_6_4_0000FF00" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>6: Interval between 2 tones for EP 6 (Environment)</label>
+        <description><![CDATA[
+Interval between 2 tones for EP 6 (Environment)<br /><h1>Overview</h1><h1>Interval between 2 tones for Endpoint 6 (Environment)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>No interval.</td> </tr><tr><td>1 .. 254</td> <td>1-254 seconds. Specify the interval time between 2 tones.</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
+        ]]></description>
+        <default>0</default>
+        <options>
+          <option value="0">No interval.</option>
+          <option value="255">Use the last valid configuration value.</option>
+        </options>
+        <limitToOptions>false</limitToOptions>
+      </parameter>
+
+      <parameter name="config_6_4_000000FF" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>6: Tone Play Count for EP 6 (Environment)</label>
+        <description><![CDATA[
+Tone Play Count for EP 6 (Environment)<br /><h1>Overview</h1><p>Tone Play Count for Endpoint 6 (Environment)</p>
+        ]]></description>
+        <default>0</default>
+        <options>
+          <option value="0">Unlimited playback until stop by user.</option>
           <option value="255">Use the last valid configuration value.</option>
         </options>
         <limitToOptions>false</limitToOptions>
@@ -498,25 +456,25 @@ Light Effect for EP 7 (Security)<br /><h1>Overview</h1><p>Light Effect Index for
         </options>
       </parameter>
 
-      <parameter name="config_8_4_000000FF" type="integer" groupName="configuration"
+      <parameter name="config_7_4_00FF0000" type="integer" groupName="configuration"
                  min="0" max="255">
-        <label>8: Tone Play Count for EP8 (Emergency)</label>
+        <label>7: Duration of a tone for EP 7 (Security)</label>
         <description><![CDATA[
-Tone Play Count for EP8 (Emergency)<br /><h1>Overview</h1><h1>Tone Play Count for Endpoint 8 (Emergency)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Unlimited playback until stop by user.</td> </tr><tr><td>1 .. 254</td> <td>1-254 times. Specify the count that the tone will be repeated to be played.</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
+Duration of a tone for EP 7 (Security)<br /><h1>Overview</h1><h1>Intercepting duration of a tone for Endpoint 7 (Security)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Keep the original duration of a tone itself, without any interception.</td> </tr><tr><td>1 .. 254</td> <td>1-254 seconds. Intercept the duration of a tone . If the intercepting duration is <strong>shorter</strong> than the original duration of a tone, actual single play time is equal to the intercepting duration. If the intercepting duration is <strong>longer</strong> than the original duration of a tone, actual single play time is equal to the original duration.</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
         ]]></description>
         <default>0</default>
         <options>
-          <option value="0">Unlimited playback until stop by user.</option>
+          <option value="0">Keep the original duration of a tone</option>
           <option value="255">Use the last valid configuration value.</option>
         </options>
         <limitToOptions>false</limitToOptions>
       </parameter>
 
-      <parameter name="config_8_4_0000FF00" type="integer" groupName="configuration"
+      <parameter name="config_7_4_0000FF00" type="integer" groupName="configuration"
                  min="0" max="255">
-        <label>8: Interval between 2 tones for EP8 (Emergency)</label>
+        <label>7: Interval between 2 tones for EP7 (Security)</label>
         <description><![CDATA[
-Interval between 2 tones for EP8 (Emergency)<br /><h1>Overview</h1><h1>Interval between 2 tones for Endpoint 8 (Emergency)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>No interval.</td> </tr><tr><td>1 .. 254</td> <td>1-254 seconds. Specify the interval time between 2 tones .</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
+Interval between 2 tones for EP7 (Security)<br /><h1>Overview</h1><h1>Interval between 2 tones for Endpoint 7 (Security)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>No interval.</td> </tr><tr><td>1 .. 254</td> <td>1-254 seconds. Specify the interval time between 2 tones .</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
         ]]></description>
         <default>0</default>
         <options>
@@ -526,15 +484,15 @@ Interval between 2 tones for EP8 (Emergency)<br /><h1>Overview</h1><h1>Interval 
         <limitToOptions>false</limitToOptions>
       </parameter>
 
-      <parameter name="config_8_4_00FF0000" type="integer" groupName="configuration"
+      <parameter name="config_7_4_000000FF" type="integer" groupName="configuration"
                  min="0" max="255">
-        <label>8: Tone Duration for EP8 (Emergency)</label>
+        <label>7: Tone play count for EP7 (Security)</label>
         <description><![CDATA[
-Tone Duration for EP8 (Emergency)<br /><h1>Overview</h1><h1>Intercepting duration of a tone for Endpoint 8 (Emergency)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Keep the original duration of a tone itself, without any interception.</td> </tr><tr><td>1 .. 254</td> <td> <p>1-254 seconds. Intercept the duration of a tone . If the intercepting duration is <strong>shorter</strong> than the original duration of a tone, actual single play time is equal to the intercepting duration. If the intercepting duration is<strong> longer</strong> than the original duration of a tone, actual single play time is equal to the original duration.</p> </td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
+Tone play count for EP7 (Security)<br /><h1>Overview</h1><h1>Tone play count for Endpoint 7 (Security)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Unlimited playback until stop by user.</td> </tr><tr><td>1 .. 254</td> <td>1-254 times. Specify the count that the tone will be repeated to be played.</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
         ]]></description>
         <default>0</default>
         <options>
-          <option value="0">Keep the original duration of a tone</option>
+          <option value="0">Unlimited playback until stop by user.</option>
           <option value="255">Use the last valid configuration value.</option>
         </options>
         <limitToOptions>false</limitToOptions>
@@ -558,31 +516,46 @@ Light Effect for EP8 (Emergency)<br /><h1>Overview</h1><p>Light Effect Index for
         </options>
       </parameter>
 
-      <parameter name="config_16_4_000000FF" type="integer" groupName="configuration"
+      <parameter name="config_8_4_00FF0000" type="integer" groupName="configuration"
                  min="0" max="255">
-        <label>16: Time Off for Light Effect #1</label>
+        <label>8: Tone Duration for EP8 (Emergency)</label>
         <description><![CDATA[
-Time Off for Light Effect #1<br /><h1>Overview</h1><h1>Keep extinguished duration for Light Effect #1</h1> <table><tr><td>0 .. 255</td> <td>The time of Indicator Light keep extinguished. (Unit = 100ms)</td> </tr></table>
+Tone Duration for EP8 (Emergency)<br /><h1>Overview</h1><h1>Intercepting duration of a tone for Endpoint 8 (Emergency)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Keep the original duration of a tone itself, without any interception.</td> </tr><tr><td>1 .. 254</td> <td> <p>1-254 seconds. Intercept the duration of a tone . If the intercepting duration is <strong>shorter</strong> than the original duration of a tone, actual single play time is equal to the intercepting duration. If the intercepting duration is<strong> longer</strong> than the original duration of a tone, actual single play time is equal to the original duration.</p> </td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
         ]]></description>
-        <default>3</default>
+        <default>0</default>
+        <options>
+          <option value="0">Keep the original duration of a tone</option>
+          <option value="255">Use the last valid configuration value.</option>
+        </options>
+        <limitToOptions>false</limitToOptions>
       </parameter>
 
-      <parameter name="config_16_4_0000FF00" type="integer" groupName="configuration"
+      <parameter name="config_8_4_0000FF00" type="integer" groupName="configuration"
                  min="0" max="255">
-        <label>16: Time On for Light Effect #1</label>
+        <label>8: Interval between 2 tones for EP8 (Emergency)</label>
         <description><![CDATA[
-Time On for Light Effect #1<br /><h1>Overview</h1><h1>Keep bright duration for Light Effect #1</h1> <table><tr><td>0 .. 255</td> <td>The time of Indicator Light keep bright. (Unit = 100ms)</td> </tr></table>
+Interval between 2 tones for EP8 (Emergency)<br /><h1>Overview</h1><h1>Interval between 2 tones for Endpoint 8 (Emergency)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>No interval.</td> </tr><tr><td>1 .. 254</td> <td>1-254 seconds. Specify the interval time between 2 tones .</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
         ]]></description>
-        <default>20</default>
+        <default>0</default>
+        <options>
+          <option value="0">No interval. (default)</option>
+          <option value="255">Use the last valid configuration value.</option>
+        </options>
+        <limitToOptions>false</limitToOptions>
       </parameter>
 
-      <parameter name="config_16_4_007F0000" type="integer" groupName="configuration"
-                 min="0" max="127">
-        <label>16: Dim Off duration for Light Effect #1</label>
+      <parameter name="config_8_4_000000FF" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>8: Tone Play Count for EP8 (Emergency)</label>
         <description><![CDATA[
-Dim Off duration for Light Effect #1<br /><h1>Overview</h1><h1>Gradually extinguished duration for Light Effect #1</h1> <table><tr><td>0 .. 127</td> <td>The time from Indicator Light bright to extinguished. (Unit = 20ms)</td> </tr></table>
+Tone Play Count for EP8 (Emergency)<br /><h1>Overview</h1><h1>Tone Play Count for Endpoint 8 (Emergency)</h1> <table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Unlimited playback until stop by user.</td> </tr><tr><td>1 .. 254</td> <td>1-254 times. Specify the count that the tone will be repeated to be played.</td> </tr><tr><td>255</td> <td>Use the last valid configuration value.</td> </tr></table>
         ]]></description>
-        <default>25</default>
+        <default>0</default>
+        <options>
+          <option value="0">Unlimited playback until stop by user.</option>
+          <option value="255">Use the last valid configuration value.</option>
+        </options>
+        <limitToOptions>false</limitToOptions>
       </parameter>
 
       <parameter name="config_16_4_7F000000" type="integer" groupName="configuration"
@@ -594,31 +567,31 @@ Dim On Duration for Light Effect #1<br /><h1>Overview</h1><h1>Gradually bright d
         <default>75</default>
       </parameter>
 
-      <parameter name="config_17_4_000000FF" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>17: Light Off Duration for Light Effect #2</label>
+      <parameter name="config_16_4_007F0000" type="integer" groupName="configuration"
+                 min="0" max="127">
+        <label>16: Dim Off duration for Light Effect #1</label>
         <description><![CDATA[
-Light Off Duration for Light Effect #2<br /><h1>Overview</h1><h1>Keep extinguished duration for Light Effect #2</h1> <table><tr><td>0 .. 255</td> <td>The time of Indicator Light keep extinguished. (Unit = 100ms)</td> </tr></table>
+Dim Off duration for Light Effect #1<br /><h1>Overview</h1><h1>Gradually extinguished duration for Light Effect #1</h1> <table><tr><td>0 .. 127</td> <td>The time from Indicator Light bright to extinguished. (Unit = 20ms)</td> </tr></table>
+        ]]></description>
+        <default>25</default>
+      </parameter>
+
+      <parameter name="config_16_4_0000FF00" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>16: Time On for Light Effect #1</label>
+        <description><![CDATA[
+Time On for Light Effect #1<br /><h1>Overview</h1><h1>Keep bright duration for Light Effect #1</h1> <table><tr><td>0 .. 255</td> <td>The time of Indicator Light keep bright. (Unit = 100ms)</td> </tr></table>
+        ]]></description>
+        <default>20</default>
+      </parameter>
+
+      <parameter name="config_16_4_000000FF" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>16: Time Off for Light Effect #1</label>
+        <description><![CDATA[
+Time Off for Light Effect #1<br /><h1>Overview</h1><h1>Keep extinguished duration for Light Effect #1</h1> <table><tr><td>0 .. 255</td> <td>The time of Indicator Light keep extinguished. (Unit = 100ms)</td> </tr></table>
         ]]></description>
         <default>3</default>
-      </parameter>
-
-      <parameter name="config_17_4_0000FF00" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>17: Light On duration for Light Effect #2</label>
-        <description><![CDATA[
-Light On duration for Light Effect #2<br /><h1>Overview</h1><h1>Keep bright duration for Light Effect #2</h1> <table><tr><td>0 .. 255</td> <td>The time of Indicator Light keep bright. (Unit = 100ms)</td> </tr></table>
-        ]]></description>
-        <default>0</default>
-      </parameter>
-
-      <parameter name="config_17_4_007F0000" type="integer" groupName="configuration"
-                 min="0" max="127">
-        <label>17: Dim Off duration for Light Effect #2</label>
-        <description><![CDATA[
-Dim Off duration for Light Effect #2<br /><h1>Overview</h1><h1>Gradually extinguished duration for Light Effect #2</h1> <table><tr><td>0 .. 127</td> <td>The time from Indicator Light bright to extinguished. (Unit = 20ms)</td> </tr></table>
-        ]]></description>
-        <default>50</default>
       </parameter>
 
       <parameter name="config_17_4_7F000000" type="integer" groupName="configuration"
@@ -630,22 +603,40 @@ Dim On duration for Light Effect #2<br /><h1>Overview</h1><h1>Gradually bright d
         <default>50</default>
       </parameter>
 
-      <parameter name="config_18_4_000000FF" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>18: Light Off duration for Light Effect #3</label>
+      <parameter name="config_17_4_007F0000" type="integer" groupName="configuration"
+                 min="0" max="127">
+        <label>17: Dim Off duration for Light Effect #2</label>
         <description><![CDATA[
-Light Off duration for Light Effect #3<br /><h1>Overview</h1><h1>Keep extinguished duration for Light Effect #3</h1> <table><tr><td>0 .. 255</td> <td>The time of Indicator Light keep extinguished. (Unit = 100ms)</td> </tr></table>
+Dim Off duration for Light Effect #2<br /><h1>Overview</h1><h1>Gradually extinguished duration for Light Effect #2</h1> <table><tr><td>0 .. 127</td> <td>The time from Indicator Light bright to extinguished. (Unit = 20ms)</td> </tr></table>
+        ]]></description>
+        <default>50</default>
+      </parameter>
+
+      <parameter name="config_17_4_0000FF00" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>17: Light On duration for Light Effect #2</label>
+        <description><![CDATA[
+Light On duration for Light Effect #2<br /><h1>Overview</h1><h1>Keep bright duration for Light Effect #2</h1> <table><tr><td>0 .. 255</td> <td>The time of Indicator Light keep bright. (Unit = 100ms)</td> </tr></table>
+        ]]></description>
+        <default>0</default>
+      </parameter>
+
+      <parameter name="config_17_4_000000FF" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>17: Light Off Duration for Light Effect #2</label>
+        <description><![CDATA[
+Light Off Duration for Light Effect #2<br /><h1>Overview</h1><h1>Keep extinguished duration for Light Effect #2</h1> <table><tr><td>0 .. 255</td> <td>The time of Indicator Light keep extinguished. (Unit = 100ms)</td> </tr></table>
         ]]></description>
         <default>3</default>
       </parameter>
 
-      <parameter name="config_18_4_0000FF00" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>18: Light On duration for Light Effect #3</label>
+      <parameter name="config_18_4_7F000000" type="integer" groupName="configuration"
+                 min="0" max="127">
+        <label>18: Dim On duration for Light Effect #3</label>
         <description><![CDATA[
-Light On duration for Light Effect #3<br /><h1>Overview</h1><h1>Keep bright duration for Light Effect #3</h1> <table><tr><td>0 .. 255</td> <td>The time of Indicator Light keep bright. (Unit = 100ms)</td> </tr></table>
+Dim On duration for Light Effect #3<br /><h1>Overview</h1><h1>Gradually bright duration for Light Effect #3</h1> <table><tr><td>0 .. 127</td> <td>The time from Indicator Light extinguished to bright. (Unit = 20ms)</td> </tr></table>
         ]]></description>
-        <default>1</default>
+        <default>0</default>
       </parameter>
 
       <parameter name="config_18_4_007F0000" type="integer" groupName="configuration"
@@ -657,11 +648,47 @@ Dim Off duration for Light Effect #3<br /><h1>Overview</h1><h1>Gradually extingu
         <default>33</default>
       </parameter>
 
-      <parameter name="config_18_4_7F000000" type="integer" groupName="configuration"
-                 min="0" max="127">
-        <label>18: Dim On duration for Light Effect #3</label>
+      <parameter name="config_18_4_0000FF00" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>18: Light On duration for Light Effect #3</label>
         <description><![CDATA[
-Dim On duration for Light Effect #3<br /><h1>Overview</h1><h1>Gradually bright duration for Light Effect #3</h1> <table><tr><td>0 .. 127</td> <td>The time from Indicator Light extinguished to bright. (Unit = 20ms)</td> </tr></table>
+Light On duration for Light Effect #3<br /><h1>Overview</h1><h1>Keep bright duration for Light Effect #3</h1> <table><tr><td>0 .. 255</td> <td>The time of Indicator Light keep bright. (Unit = 100ms)</td> </tr></table>
+        ]]></description>
+        <default>1</default>
+      </parameter>
+
+      <parameter name="config_18_4_000000FF" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>18: Light Off duration for Light Effect #3</label>
+        <description><![CDATA[
+Light Off duration for Light Effect #3<br /><h1>Overview</h1><h1>Keep extinguished duration for Light Effect #3</h1> <table><tr><td>0 .. 255</td> <td>The time of Indicator Light keep extinguished. (Unit = 100ms)</td> </tr></table>
+        ]]></description>
+        <default>3</default>
+      </parameter>
+
+      <parameter name="config_19_4_7F000000" type="integer" groupName="configuration"
+                 min="0" max="127">
+        <label>19: Dim On duration for Light Effect #4</label>
+        <description><![CDATA[
+Dim On duration for Light Effect #4<br /><h1>Overview</h1><h1>Gradually bright duration for Light Effect #4</h1> <table><tr><td>0 .. 127</td> <td>The time from Indicator Light extinguished to bright. (Unit = 20ms)</td> </tr></table>
+        ]]></description>
+        <default>33</default>
+      </parameter>
+
+      <parameter name="config_19_4_007F0000" type="integer" groupName="configuration"
+                 min="0" max="127">
+        <label>19: Dim Off duration for Light Effect #4</label>
+        <description><![CDATA[
+Dim Off duration for Light Effect #4<br /><h1>Overview</h1><h1>Gradually extinguished duration for Light Effect #4</h1> <table><tr><td>0 .. 127</td> <td>The time from Indicator Light bright to extinguished. (Unit = 20ms)</td> </tr></table>
+        ]]></description>
+        <default>0</default>
+      </parameter>
+
+      <parameter name="config_19_4_0000FF00" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>19: Light On duration for Light Effect #4</label>
+        <description><![CDATA[
+Light On duration for Light Effect #4<br /><h1>Overview</h1><h1>Keep bright duration for Light Effect #4</h1> <table><tr><td>0 .. 255</td> <td>The time of Indicator Light keep bright. (Unit = 100ms)</td> </tr></table>
         ]]></description>
         <default>0</default>
       </parameter>
@@ -675,47 +702,11 @@ Light Off duration for Light Effect #4<br /><h1>Overview</h1><h1>Keep extinguish
         <default>3</default>
       </parameter>
 
-      <parameter name="config_19_4_0000FF00" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>19: Light On duration for Light Effect #4</label>
-        <description><![CDATA[
-Light On duration for Light Effect #4<br /><h1>Overview</h1><h1>Keep bright duration for Light Effect #4</h1> <table><tr><td>0 .. 255</td> <td>The time of Indicator Light keep bright. (Unit = 100ms)</td> </tr></table>
-        ]]></description>
-        <default>0</default>
-      </parameter>
-
-      <parameter name="config_19_4_007F0000" type="integer" groupName="configuration"
+      <parameter name="config_20_4_7F000000" type="integer" groupName="configuration"
                  min="0" max="127">
-        <label>19: Dim Off duration for Light Effect #4</label>
+        <label>20: Dim On duration for Light Effect #5</label>
         <description><![CDATA[
-Dim Off duration for Light Effect #4<br /><h1>Overview</h1><h1>Gradually extinguished duration for Light Effect #4</h1> <table><tr><td>0 .. 127</td> <td>The time from Indicator Light bright to extinguished. (Unit = 20ms)</td> </tr></table>
-        ]]></description>
-        <default>0</default>
-      </parameter>
-
-      <parameter name="config_19_4_7F000000" type="integer" groupName="configuration"
-                 min="0" max="127">
-        <label>19: Dim On duration for Light Effect #4</label>
-        <description><![CDATA[
-Dim On duration for Light Effect #4<br /><h1>Overview</h1><h1>Gradually bright duration for Light Effect #4</h1> <table><tr><td>0 .. 127</td> <td>The time from Indicator Light extinguished to bright. (Unit = 20ms)</td> </tr></table>
-        ]]></description>
-        <default>33</default>
-      </parameter>
-
-      <parameter name="config_20_4_000000FF" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>20: Light Off duration for Light Effect #5</label>
-        <description><![CDATA[
-Light Off duration for Light Effect #5<br /><h1>Overview</h1><h1>Keep extinguished duration for Light Effect #5</h1> <table><tr><td>0 .. 255</td> <td>The time of Indicator Light keep extinguished. (Unit = 100ms)</td> </tr></table>
-        ]]></description>
-        <default>10</default>
-      </parameter>
-
-      <parameter name="config_20_4_0000FF00" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>20: Light On duration for Light Effect #5</label>
-        <description><![CDATA[
-Light On duration for Light Effect #5<br /><h1>Overview</h1><h1>Keep bright duration for Light Effect #5</h1> <table><tr><td>0 .. 255</td> <td>The time of Indicator Light keep bright. (Unit = 100ms)</td> </tr></table>
+Dim On duration for Light Effect #5<br /><h1>Overview</h1><h1>Gradually bright duration for Light Effect #5</h1> <table><tr><td>0 .. 127</td> <td>The time from Indicator Light extinguished to bright. (Unit = 20ms)</td> </tr></table>
         ]]></description>
         <default>0</default>
       </parameter>
@@ -729,20 +720,38 @@ Dim Off duration for Light Effect #5<br /><h1>Overview</h1><h1>Gradually extingu
         <default>0</default>
       </parameter>
 
-      <parameter name="config_20_4_7F000000" type="integer" groupName="configuration"
-                 min="0" max="127">
-        <label>20: Dim On duration for Light Effect #5</label>
+      <parameter name="config_20_4_0000FF00" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>20: Light On duration for Light Effect #5</label>
         <description><![CDATA[
-Dim On duration for Light Effect #5<br /><h1>Overview</h1><h1>Gradually bright duration for Light Effect #5</h1> <table><tr><td>0 .. 127</td> <td>The time from Indicator Light extinguished to bright. (Unit = 20ms)</td> </tr></table>
+Light On duration for Light Effect #5<br /><h1>Overview</h1><h1>Keep bright duration for Light Effect #5</h1> <table><tr><td>0 .. 255</td> <td>The time of Indicator Light keep bright. (Unit = 100ms)</td> </tr></table>
         ]]></description>
         <default>0</default>
       </parameter>
 
-      <parameter name="config_21_4_000000FF" type="integer" groupName="configuration"
+      <parameter name="config_20_4_000000FF" type="integer" groupName="configuration"
                  min="0" max="255">
-        <label>21: Light Off duration for Light Effect #6</label>
+        <label>20: Light Off duration for Light Effect #5</label>
         <description><![CDATA[
-Light Off duration for Light Effect #6<br /><h1>Overview</h1><h1>Keep extinguished duration for Light Effect #6</h1> <table><tr><td>0 .. 255</td> <td>The time of Indicator Light keep extinguished. (Unit = 100ms)</td> </tr></table>
+Light Off duration for Light Effect #5<br /><h1>Overview</h1><h1>Keep extinguished duration for Light Effect #5</h1> <table><tr><td>0 .. 255</td> <td>The time of Indicator Light keep extinguished. (Unit = 100ms)</td> </tr></table>
+        ]]></description>
+        <default>10</default>
+      </parameter>
+
+      <parameter name="config_21_4_7F000000" type="integer" groupName="configuration"
+                 min="0" max="127">
+        <label>21: Dim On duration for Light Effect #6</label>
+        <description><![CDATA[
+Dim On duration for Light Effect #6<br /><h1>Overview</h1><h1>Gradually bright duration for Light Effect #6</h1> <table><tr><td>0 .. 127</td> <td>The time from Indicator Light extinguished to bright. (Unit = 20ms)</td> </tr></table>
+        ]]></description>
+        <default>0</default>
+      </parameter>
+
+      <parameter name="config_21_4_007F0000" type="integer" groupName="configuration"
+                 min="0" max="127">
+        <label>21: Dim Off duration for Light Effect #6</label>
+        <description><![CDATA[
+Dim Off duration for Light Effect #6<br /><h1>Overview</h1><h1>Gradually extinguished duration for Light Effect #6</h1> <table><tr><td>0 .. 127</td> <td>The time from Indicator Light bright to extinguished. (Unit = 20ms)</td> </tr></table>
         ]]></description>
         <default>0</default>
       </parameter>
@@ -756,47 +765,11 @@ Light On duration for Light Effect #6<br /><h1>Overview</h1><h1>Keep bright dura
         <default>10</default>
       </parameter>
 
-      <parameter name="config_21_4_007F0000" type="integer" groupName="configuration"
-                 min="0" max="127">
-        <label>21: Dim Off duration for Light Effect #6</label>
-        <description><![CDATA[
-Dim Off duration for Light Effect #6<br /><h1>Overview</h1><h1>Gradually extinguished duration for Light Effect #6</h1> <table><tr><td>0 .. 127</td> <td>The time from Indicator Light bright to extinguished. (Unit = 20ms)</td> </tr></table>
-        ]]></description>
-        <default>0</default>
-      </parameter>
-
-      <parameter name="config_21_4_7F000000" type="integer" groupName="configuration"
-                 min="0" max="127">
-        <label>21: Dim On duration for Light Effect #6</label>
-        <description><![CDATA[
-Dim On duration for Light Effect #6<br /><h1>Overview</h1><h1>Gradually bright duration for Light Effect #6</h1> <table><tr><td>0 .. 127</td> <td>The time from Indicator Light extinguished to bright. (Unit = 20ms)</td> </tr></table>
-        ]]></description>
-        <default>0</default>
-      </parameter>
-
-      <parameter name="config_22_4_000000FF" type="integer" groupName="configuration"
+      <parameter name="config_21_4_000000FF" type="integer" groupName="configuration"
                  min="0" max="255">
-        <label>22: Light Off duration for Light Effect #7</label>
+        <label>21: Light Off duration for Light Effect #6</label>
         <description><![CDATA[
-Light Off duration for Light Effect #7<br /><h1>Overview</h1><h1>Keep extinguished duration for Light Effect #7</h1> <table><tr><td>0 .. 255</td> <td>The time of Indicator Light keep extinguished. (Unit = 100ms)</td> </tr></table>
-        ]]></description>
-        <default>1</default>
-      </parameter>
-
-      <parameter name="config_22_4_0000FF00" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>22: Light On duration for Light Effect #7</label>
-        <description><![CDATA[
-Light On duration for Light Effect #7<br /><h1>Overview</h1><h1>Keep bright duration for Light Effect #7</h1> <table><tr><td>0 .. 255</td> <td>The time of Indicator Light keep bright. (Unit = 100ms)</td> </tr></table>
-        ]]></description>
-        <default>0</default>
-      </parameter>
-
-      <parameter name="config_22_4_007F0000" type="integer" groupName="configuration"
-                 min="0" max="127">
-        <label>22: Dim Off duration for Light Effect #7</label>
-        <description><![CDATA[
-Dim Off duration for Light Effect #7<br /><h1>Overview</h1><h1>Gradually extinguished duration for Light Effect #7</h1> <table><tr><td>0 .. 127</td> <td>The time from Indicator Light bright to extinguished. (Unit = 20ms)</td> </tr></table>
+Light Off duration for Light Effect #6<br /><h1>Overview</h1><h1>Keep extinguished duration for Light Effect #6</h1> <table><tr><td>0 .. 255</td> <td>The time of Indicator Light keep extinguished. (Unit = 100ms)</td> </tr></table>
         ]]></description>
         <default>0</default>
       </parameter>
@@ -808,6 +781,33 @@ Dim Off duration for Light Effect #7<br /><h1>Overview</h1><h1>Gradually extingu
 Dim On duration for Light Effect #7<br /><h1>Overview</h1><h1>Gradually bright duration for Light Effect #7</h1> <table><tr><td>0 .. 127</td> <td>The time from Indicator Light extinguished to bright. (Unit = 20ms)</td> </tr></table>
         ]]></description>
         <default>33</default>
+      </parameter>
+
+      <parameter name="config_22_4_007F0000" type="integer" groupName="configuration"
+                 min="0" max="127">
+        <label>22: Dim Off duration for Light Effect #7</label>
+        <description><![CDATA[
+Dim Off duration for Light Effect #7<br /><h1>Overview</h1><h1>Gradually extinguished duration for Light Effect #7</h1> <table><tr><td>0 .. 127</td> <td>The time from Indicator Light bright to extinguished. (Unit = 20ms)</td> </tr></table>
+        ]]></description>
+        <default>0</default>
+      </parameter>
+
+      <parameter name="config_22_4_0000FF00" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>22: Light On duration for Light Effect #7</label>
+        <description><![CDATA[
+Light On duration for Light Effect #7<br /><h1>Overview</h1><h1>Keep bright duration for Light Effect #7</h1> <table><tr><td>0 .. 255</td> <td>The time of Indicator Light keep bright. (Unit = 100ms)</td> </tr></table>
+        ]]></description>
+        <default>0</default>
+      </parameter>
+
+      <parameter name="config_22_4_000000FF" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>22: Light Off duration for Light Effect #7</label>
+        <description><![CDATA[
+Light Off duration for Light Effect #7<br /><h1>Overview</h1><h1>Keep extinguished duration for Light Effect #7</h1> <table><tr><td>0 .. 255</td> <td>The time of Indicator Light keep extinguished. (Unit = 100ms)</td> </tr></table>
+        ]]></description>
+        <default>1</default>
       </parameter>
 
       <parameter name="config_32_1" type="integer" groupName="configuration">
@@ -977,19 +977,6 @@ Report which Buttons had been paired<br /><h1>Overview</h1><p>Report which Butto
         </options>
       </parameter>
 
-      <parameter name="config_52_4_0000FFFF" type="integer" groupName="configuration" readOnly="true"
-                 min="0" max="65535">
-        <label>52: Button #1 Software Version</label>
-        <description><![CDATA[
-Button #1 Software Version<br /><h1>Overview</h1><table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Button is unpaired</td> </tr><tr><td>1 .. 65535</td> <td>For example, if Button Software Version equals to 0x0100  (256), it means its version is 1.00.</td> </tr></table>
-        ]]></description>
-        <default>0</default>
-        <options>
-          <option value="0">Button is Unpaired</option>
-        </options>
-        <limitToOptions>false</limitToOptions>
-      </parameter>
-
       <parameter name="config_52_4_7FFF0000" type="integer" groupName="configuration" readOnly="true"
                  min="0" max="32767">
         <label>52: Button #1 Battery Voltage</label>
@@ -1003,15 +990,15 @@ Button #1 Battery Voltage<br /><h1>Overview</h1><table><tr><td><strong>Value</st
         <limitToOptions>false</limitToOptions>
       </parameter>
 
-      <parameter name="config_53_4_0000FFFF" type="integer" groupName="configuration" readOnly="true"
+      <parameter name="config_52_4_0000FFFF" type="integer" groupName="configuration" readOnly="true"
                  min="0" max="65535">
-        <label>53: Button #2 Software Version</label>
+        <label>52: Button #1 Software Version</label>
         <description><![CDATA[
-Button #2 Software Version<br /><h1>Overview</h1><table><tr><td><strong>Value</strong></td> <td><b>Description</b></td> </tr><tr><td>0</td> <td>Button is unpaired.</td> </tr><tr><td>1 .. 65535</td> <td>For example, if Button Software Version equals to 0x0100 (256), it means its version is 1.00.</td> </tr></table>
+Button #1 Software Version<br /><h1>Overview</h1><table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Button is unpaired</td> </tr><tr><td>1 .. 65535</td> <td>For example, if Button Software Version equals to 0x0100  (256), it means its version is 1.00.</td> </tr></table>
         ]]></description>
         <default>0</default>
         <options>
-          <option value="0">Button is unpaired.</option>
+          <option value="0">Button is Unpaired</option>
         </options>
         <limitToOptions>false</limitToOptions>
       </parameter>
@@ -1029,11 +1016,11 @@ Button #2 Battery Voltage<br /><h1>Overview</h1><table><tr><td><strong>Value</st
         <limitToOptions>false</limitToOptions>
       </parameter>
 
-      <parameter name="config_54_4_0000FFFF" type="integer" groupName="configuration" readOnly="true"
+      <parameter name="config_53_4_0000FFFF" type="integer" groupName="configuration" readOnly="true"
                  min="0" max="65535">
-        <label>54: Button #3 Software Version</label>
+        <label>53: Button #2 Software Version</label>
         <description><![CDATA[
-Button #3 Software Version<br /><h1>Overview</h1><table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Button is unpaired.</td> </tr><tr><td>1 .. 65535</td> <td>For example, if Button Software Version equals to 0x0100 (256), it means its version is 1.00.</td> </tr></table>
+Button #2 Software Version<br /><h1>Overview</h1><table><tr><td><strong>Value</strong></td> <td><b>Description</b></td> </tr><tr><td>0</td> <td>Button is unpaired.</td> </tr><tr><td>1 .. 65535</td> <td>For example, if Button Software Version equals to 0x0100 (256), it means its version is 1.00.</td> </tr></table>
         ]]></description>
         <default>0</default>
         <options>
@@ -1047,6 +1034,19 @@ Button #3 Software Version<br /><h1>Overview</h1><table><tr><td><strong>Value</s
         <label>54: Button #3 Battery Voltage</label>
         <description><![CDATA[
 Button #3 Battery Voltage<br /><h1>Overview</h1><table><tr><td><strong>Value</strong></td> <td><strong>Description </strong></td> </tr><tr><td>0</td> <td>Button is unpaired.</td> </tr><tr><td>1 .. 32676</td> <td>The unit of Battery Voltage is mV.</td> </tr></table>
+        ]]></description>
+        <default>0</default>
+        <options>
+          <option value="0">Button is unpaired.</option>
+        </options>
+        <limitToOptions>false</limitToOptions>
+      </parameter>
+
+      <parameter name="config_54_4_0000FFFF" type="integer" groupName="configuration" readOnly="true"
+                 min="0" max="65535">
+        <label>54: Button #3 Software Version</label>
+        <description><![CDATA[
+Button #3 Software Version<br /><h1>Overview</h1><table><tr><td><strong>Value</strong></td> <td><strong>Description</strong></td> </tr><tr><td>0</td> <td>Button is unpaired.</td> </tr><tr><td>1 .. 65535</td> <td>For example, if Button Software Version equals to 0x0100 (256), it means its version is 1.00.</td> </tr></table>
         ]]></description>
         <default>0</default>
         <options>

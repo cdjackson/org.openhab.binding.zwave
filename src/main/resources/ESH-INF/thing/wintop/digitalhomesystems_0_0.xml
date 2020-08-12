@@ -7,7 +7,6 @@
 
   <thing-type id="wintop_digitalhomesystems_00_000" listed="false">
     <label>Digital Home Systems In Wall Switch</label>
-    <description>In Wall Switch</description>
 
     <!-- CHANNEL DEFINITIONS -->
     <channels>

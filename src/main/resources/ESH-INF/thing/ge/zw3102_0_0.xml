@@ -8,7 +8,7 @@
   <thing-type id="ge_zw3102_00_000" listed="false">
     <label>ZW3102 Jasco Energy Monitoring Lamp Dimmer</label>
     <description><![CDATA[
-Jasco Energy Monitoring Lamp Dimmer<br /><h1>Overview</h1><p>Energy Monitoring Lamp Module</p>
+<br /><h1>Overview</h1><p>Energy Monitoring Lamp Module</p>
     ]]></description>
     <category>PowerOutlet</category>
 

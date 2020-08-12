@@ -8,7 +8,7 @@
   <thing-type id="benext_energyswitch_00_000" listed="false">
     <label>Energy Switch + Energy Switch +</label>
     <description><![CDATA[
-Energy Switch +<br /><h1>Overview</h1><p>Control and monitor your lightning or any other appliance.</p> <p>During operation mode it will measure the instance and accumulated energy consumption of the applied appliance.</p> <p>Easy plug and play.</p> <br /><h2>Inclusion Information</h2><p>Press and hold the push button until the indicator light is blinking than release the button</p> <br /><h2>Exclusion Information</h2><p>Press and hold the push button until the indicator light is blinking than release the button</p>
+<br /><h1>Overview</h1><p>Control and monitor your lightning or any other appliance.</p> <p>During operation mode it will measure the instance and accumulated energy consumption of the applied appliance.</p> <p>Easy plug and play.</p> <br /><h2>Inclusion Information</h2><p>Press and hold the push button until the indicator light is blinking than release the button</p> <br /><h2>Exclusion Information</h2><p>Press and hold the push button until the indicator light is blinking than release the button</p>
     ]]></description>
     <category>PowerOutlet</category>
 

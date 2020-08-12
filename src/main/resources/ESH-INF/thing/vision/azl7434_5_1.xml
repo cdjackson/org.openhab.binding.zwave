@@ -8,7 +8,7 @@
   <thing-type id="vision_azl7434_05_001" listed="false">
     <label>AZL7434 In-wall Switch</label>
     <description><![CDATA[
-In-wall Switch<br /><h1>Overview</h1><p>In-wall switch 1-relay</p> <br /><h2>Inclusion Information</h2><p>Press 3 times on Program button within 2 seconds or turn on the wall switch 3 times within 2 seconds.</p> <br /><h2>Exclusion Information</h2><p>Press 3 times on Program button within 2 seconds or turn on the wall switch within 2 seconds</p>
+<br /><h1>Overview</h1><p>In-wall switch 1-relay</p> <br /><h2>Inclusion Information</h2><p>Press 3 times on Program button within 2 seconds or turn on the wall switch 3 times within 2 seconds.</p> <br /><h2>Exclusion Information</h2><p>Press 3 times on Program button within 2 seconds or turn on the wall switch within 2 seconds</p>
     ]]></description>
     <category>WallSwitch</category>
 
@@ -28,8 +28,8 @@ In-wall Switch<br /><h1>Overview</h1><p>In-wall switch 1-relay</p> <br /><h2>Inc
       <property name="modelId">AZL7434</property>
       <property name="manufacturerId">0109</property>
       <property name="manufacturerRef">200C:0C06</property>
-      <property name="versionMin">5.1</property>
-      <property name="versionMax">5.1</property>
+      <property name="versionMin">5.001</property>
+      <property name="versionMax">5.001</property>
       <property name="dbReference">558</property>
       <property name="commandClass:COMMAND_CLASS_ASSOCIATION">1</property>
       <property name="defaultAssociations">1</property>

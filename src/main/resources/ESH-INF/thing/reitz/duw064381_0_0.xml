@@ -7,7 +7,6 @@
 
   <thing-type id="reitz_duw064381_00_000" listed="false">
     <label>Duwi Z-Wave Plugin Switch Indoor/Outdoor Wall Plug Switch</label>
-    <description>Indoor/Outdoor Wall Plug Switch</description>
 
     <!-- CHANNEL DEFINITIONS -->
     <channels>

@@ -8,7 +8,7 @@
   <thing-type id="wink_motionsensor_00_000" listed="false">
     <label>Motion Sensor Motion Sensor</label>
     <description><![CDATA[
-Motion Sensor<br /><h1>Overview</h1><p>Magnetically mounted motion sensor</p> <br /><h2>Inclusion Information</h2><p>Twist back of unit, then lift off. (Will be difficult due to strong mounting magnet.) Push connect button three times until unit blinks blue five times.</p> <br /><h2>Exclusion Information</h2><p>Twist back of unit, then lift off. (Will be difficult due to strong mounting magnet.) Push connect button three times until unit blinks blue five times.</p> <br /><h2>Wakeup Information</h2><p>Twist back of unit, then lift off. (Will be difficult due to strong mounting magnet.) Push connect button three times and light will blink blue five times.</p>
+<br /><h1>Overview</h1><p>Magnetically mounted motion sensor</p> <br /><h2>Inclusion Information</h2><p>Twist back of unit, then lift off. (Will be difficult due to strong mounting magnet.) Push connect button three times until unit blinks blue five times.</p> <br /><h2>Exclusion Information</h2><p>Twist back of unit, then lift off. (Will be difficult due to strong mounting magnet.) Push connect button three times until unit blinks blue five times.</p> <br /><h2>Wakeup Information</h2><p>Twist back of unit, then lift off. (Will be difficult due to strong mounting magnet.) Push connect button three times and light will blink blue five times.</p>
     ]]></description>
     <category>MotionDetector</category>
 

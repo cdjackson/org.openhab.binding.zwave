@@ -8,7 +8,7 @@
   <thing-type id="popp_123665_00_000" listed="false">
     <label>123665 Wall Plug Meter Switch</label>
     <description><![CDATA[
-Wall Plug Meter Switch<br /><h1>Overview</h1><p>Z-Wave UK Plug-in Switch plus Power Meter </p> <br /><h2>Inclusion Information</h2><ul><li>Turn the controller into inclusion mode. </li> <li>Press the button on the wall plug 3 times within a period of around 2 seconds.</li> </ul><br /><h2>Exclusion Information</h2><ul><li>Turn the controller into exclusion mode. </li> <li>Press the button on the wall plug 3 times within a period of around 2 seconds.</li> </ul>
+<br /><h1>Overview</h1><p>Z-Wave UK Plug-in Switch plus Power Meter </p> <br /><h2>Inclusion Information</h2><ul><li>Turn the controller into inclusion mode. </li> <li>Press the button on the wall plug 3 times within a period of around 2 seconds.</li> </ul><br /><h2>Exclusion Information</h2><ul><li>Turn the controller into exclusion mode. </li> <li>Press the button on the wall plug 3 times within a period of around 2 seconds.</li> </ul>
     ]]></description>
     <category>PowerOutlet</category>
 

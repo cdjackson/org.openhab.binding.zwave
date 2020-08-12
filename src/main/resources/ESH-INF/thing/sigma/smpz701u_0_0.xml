@@ -7,7 +7,6 @@
 
   <thing-type id="sigma_smpz701u_00_000" listed="false">
     <label>SM-PZ701U Z-Wave power plug</label>
-    <description>Z-Wave power plug</description>
 
     <!-- CHANNEL DEFINITIONS -->
     <channels>

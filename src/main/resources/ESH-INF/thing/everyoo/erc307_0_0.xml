@@ -7,7 +7,6 @@
 
   <thing-type id="everyoo_erc307_00_000" listed="false">
     <label>ERC307 Z-Wave Plus Wireless Receiving Controller</label>
-    <description>Z-Wave Plus Wireless Receiving Controller</description>
 
     <!-- CHANNEL DEFINITIONS -->
     <channels>

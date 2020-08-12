@@ -8,7 +8,7 @@
   <thing-type id="linear_wd500z_00_000" listed="false">
     <label>WD500Z-1 Wall Dimmer Switch</label>
     <description><![CDATA[
-Wall Dimmer Switch<br /><h1>Overview</h1><p>500W, 120 VAC Wall Mounted Dimmer</p> <br /><h2>Inclusion Information</h2><p>Pushing the top or bottom of the switch, the WD500Z-1 allows the user to include or exclude the module from the Z-Wave network.</p> <br /><h2>Exclusion Information</h2><p>Pushing the top or bottom of the switch, the WD500Z-1 allows the user to include or exclude the module from the Z-Wave network.</p>
+<br /><h1>Overview</h1><p>500W, 120 VAC Wall Mounted Dimmer</p> <br /><h2>Inclusion Information</h2><p>Pushing the top or bottom of the switch, the WD500Z-1 allows the user to include or exclude the module from the Z-Wave network.</p> <br /><h2>Exclusion Information</h2><p>Pushing the top or bottom of the switch, the WD500Z-1 allows the user to include or exclude the module from the Z-Wave network.</p>
     ]]></description>
     <category>WallSwitch</category>
 

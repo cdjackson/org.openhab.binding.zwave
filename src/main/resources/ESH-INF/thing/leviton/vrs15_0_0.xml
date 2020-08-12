@@ -8,7 +8,7 @@
   <thing-type id="leviton_vrs15_00_000" listed="false">
     <label>VRS15 Scene Capable Push On/Off</label>
     <description><![CDATA[
-Scene Capable Push On/Off<br /><h1>Overview</h1><p>Vizia-RF + 15A Relay Switch for Single Pole/3-Way</p> <br /><h2>Inclusion Information</h2><ol><li>Install VRS15</li> <li>Place controller in inclusion mode</li> <li>Press on/off paddle on VRS15 to include</li> </ol><br /><h2>Exclusion Information</h2><ol><li>Place controller in exclusion mode</li> <li>Press on/off paddle on VRS15 to exclude</li> </ol>
+<br /><h1>Overview</h1><p>Vizia-RF + 15A Relay Switch for Single Pole/3-Way</p> <br /><h2>Inclusion Information</h2><ol><li>Install VRS15</li> <li>Place controller in inclusion mode</li> <li>Press on/off paddle on VRS15 to include</li> </ol><br /><h2>Exclusion Information</h2><ol><li>Place controller in exclusion mode</li> <li>Press on/off paddle on VRS15 to exclude</li> </ol>
     ]]></description>
     <category>WallSwitch</category>
 
@@ -46,7 +46,7 @@ Scene Capable Push On/Off<br /><h1>Overview</h1><p>Vizia-RF + 15A Relay Switch f
       <property name="commandClass:COMMAND_CLASS_NODE_NAMING">setVersion=1</property>
       <property name="commandClass:COMMAND_CLASS_ASSOCIATION">setVersion=1</property>
       <property name="commandClass:COMMAND_CLASS_VERSION">setVersion=1</property>
-      <property name="commandClass:COMMAND_CLASS_MANUFACTURER_PROPRIETARY">setVersion=0</property>
+      <property name="commandClass:COMMAND_CLASS_MANUFACTURER_PROPRIETARY">setVersion=1</property>
       <property name="defaultAssociations">1</property>
     </properties>
 

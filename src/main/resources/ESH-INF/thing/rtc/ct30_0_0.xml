@@ -8,7 +8,7 @@
   <thing-type id="rtc_ct30_00_000" listed="false">
     <label>CT30 Z-Wave Thermostat</label>
     <description><![CDATA[
-Z-Wave Thermostat<br /><h1>Overview</h1><p>This thermostat was made by Radio Thermostat Company of America or 2Gig.  It can use either WiFi or Z-Wave or both depending on <br />which USNAP modules are installed.</p> <br /><h2>Inclusion Information</h2><ul><li>Put your primary controller in include mode.</li> <li>Press the MENU button</li> <li>Tap the MATE button under the radio tower icon.  A large "r1" or "r2" wil be displayed indicating which slot the USNAP module is in.</li> <li>Tap the MATE button under the radio tower icon again to include.</li> </ul><br /><h2>Exclusion Information</h2><ul><li>Put your primary controller in exclude mode.</li> <li>Press the MENU button</li> <li>Tap the MATE button under the radio tower icon.  A large "r1" or "r2" wil be displayed indicating which slot the USNAP module is in.</li> <li>Tap the MATE button under the radio tower icon again to exclude.</li> </ul>
+<br /><h1>Overview</h1><p>This thermostat was made by Radio Thermostat Company of America or 2Gig.  It can use either WiFi or Z-Wave or both depending on <br />which USNAP modules are installed.</p> <br /><h2>Inclusion Information</h2><ul><li>Put your primary controller in include mode.</li> <li>Press the MENU button</li> <li>Tap the MATE button under the radio tower icon.  A large "r1" or "r2" wil be displayed indicating which slot the USNAP module is in.</li> <li>Tap the MATE button under the radio tower icon again to include.</li> </ul><br /><h2>Exclusion Information</h2><ul><li>Put your primary controller in exclude mode.</li> <li>Press the MENU button</li> <li>Tap the MATE button under the radio tower icon.  A large "r1" or "r2" wil be displayed indicating which slot the USNAP module is in.</li> <li>Tap the MATE button under the radio tower icon again to exclude.</li> </ul>
     ]]></description>
     <category>HVAC</category>
 
@@ -177,11 +177,6 @@ Thermostat Diff Temperature<br /><h1>Overview</h1><p>The Thermostat Differential
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="2">Cool</option>
-        <option value="0">Off</option>
-        <option value="1">Heat</option>
-      </options>
     </state>
   </channel-type>
 
@@ -191,10 +186,6 @@ Thermostat Diff Temperature<br /><h1>Overview</h1><p>The Thermostat Differential
     <description>Sets the thermostat fan mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="0">Auto (Low)</option>
-        <option value="1">On (Low)</option>
-      </options>
     </state>
   </channel-type>
 

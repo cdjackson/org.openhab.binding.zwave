@@ -8,7 +8,7 @@
   <thing-type id="zooz_zen21_03_000" listed="false">
     <label>ZEN21 Paddle Switch</label>
     <description><![CDATA[
-Paddle Switch<br /><h1>Overview</h1><p>Z-Wave on.off switch with Scene control</p> <br /><h2>Inclusion Information</h2><p>Tap the upper paddle of the switch 3 times very quickly</p> <br /><h2>Exclusion Information</h2><p>Tap the lower paddle of the switch 3 times very quickly</p>
+<br /><h1>Overview</h1><p>Z-Wave on.off switch with Scene control</p> <br /><h2>Inclusion Information</h2><p>Tap the upper paddle of the switch 3 times very quickly</p> <br /><h2>Exclusion Information</h2><p>Tap the lower paddle of the switch 3 times very quickly</p>
     ]]></description>
     <category>WallSwitch</category>
 
@@ -34,7 +34,7 @@ Paddle Switch<br /><h1>Overview</h1><p>Z-Wave on.off switch with Scene control</
       <property name="modelId">ZEN21</property>
       <property name="manufacturerId">027A</property>
       <property name="manufacturerRef">B111:1E1C</property>
-      <property name="versionMin">3.0</property>
+      <property name="versionMin">3.000</property>
       <property name="dbReference">1137</property>
       <property name="defaultAssociations">1</property>
     </properties>

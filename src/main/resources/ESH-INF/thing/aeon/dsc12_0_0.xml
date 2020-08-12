@@ -8,7 +8,7 @@
   <thing-type id="aeon_dsc12_00_000" listed="false">
     <label>DSC12 Micro Smart Energy Switch</label>
     <description><![CDATA[
-Micro Smart Energy Switch<br /><h1>Overview</h1><p>The Aeon Labs Micro SES is a binary power switch device based on Zwave enhanced slave library V5.02P3.</p> <br /><h2>Inclusion Information</h2><p>Click the button once.</p> <br /><h2>Exclusion Information</h2><p>Click the button once.</p>
+<br /><h1>Overview</h1><p>The Aeon Labs Micro SES is a binary power switch device based on Zwave enhanced slave library V5.02P3.</p> <br /><h2>Inclusion Information</h2><p>Click the button once.</p> <br /><h2>Exclusion Information</h2><p>Click the button once.</p>
     ]]></description>
     <category>WallSwitch</category>
 

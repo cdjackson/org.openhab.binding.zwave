@@ -8,7 +8,7 @@
   <thing-type id="dlink_dchz120_00_000" listed="false">
     <label>DCH-Z120 Battery Motion Sensor</label>
     <description><![CDATA[
-Battery Motion Sensor<br /><h1>Overview</h1><p>The sensor DCH-Z120 has a PIR sensor integrated with temperature and illumination, which are 3 sensors function in one, based on Z-WaveTM technology.</p> <br /><h2>Inclusion Information</h2><ol><li>Have Z-WaveTM Controller entered inclusion mode.</li> <li>Pressing tamper key three times within 1.5 seconds to enter the inclusion mode.</li> <li>After add successful, the device will wake to receive the setting command from Z-WaveTM Controller about 20 seconds.</li> </ol><br /><h2>Exclusion Information</h2><ol><li>Have Z-WaveTM Controller entered exclusion mode.</li> <li>Pressing tamper key three times within 1.5 seconds to enter the exclusion mode.</li> </ol><br /><h2>Wakeup Information</h2><p>Remove the front cover and press the tamper key once. The device will wake-up 10 seconds.</p>
+<br /><h1>Overview</h1><p>The sensor DCH-Z120 has a PIR sensor integrated with temperature and illumination, which are 3 sensors function in one, based on Z-WaveTM technology.</p> <br /><h2>Inclusion Information</h2><ol><li>Have Z-WaveTM Controller entered inclusion mode.</li> <li>Pressing tamper key three times within 1.5 seconds to enter the inclusion mode.</li> <li>After add successful, the device will wake to receive the setting command from Z-WaveTM Controller about 20 seconds.</li> </ol><br /><h2>Exclusion Information</h2><ol><li>Have Z-WaveTM Controller entered exclusion mode.</li> <li>Pressing tamper key three times within 1.5 seconds to enter the exclusion mode.</li> </ol><br /><h2>Wakeup Information</h2><p>Remove the front cover and press the tamper key once. The device will wake-up 10 seconds.</p>
     ]]></description>
     <category>Sensor</category>
 
@@ -130,6 +130,16 @@ Parameter to set the sensor functions.<br /><h1>Overview</h1><p>Bit0: Disable ma
         <limitToOptions>false</limitToOptions>
       </parameter>
 
+      <parameter name="config_7_1_00000040" type="integer" groupName="configuration">
+        <label>7: Bit6: Report battery state when device triggered</label>
+        <description>1:Disable, 0 Enable</description>
+        <default>0</default>
+        <options>
+          <option value="0">Enable</option>
+          <option value="1">Disable</option>
+        </options>
+      </parameter>
+
       <parameter name="config_7_1" type="integer" groupName="configuration"
                  min="0" max="127">
         <label>7: Customer Function</label>
@@ -141,22 +151,22 @@ Parameter to set the Customer Function.<br /><h1>Overview</h1><p>Bit0: Reserve.<
         <limitToOptions>false</limitToOptions>
       </parameter>
 
-      <parameter name="config_7_1_00000002" type="integer" groupName="configuration">
-        <label>7: Bit1: Enable sending motion OFF report.</label>
-        <description><![CDATA[
-0:Disable, 1:Enable<br /><h1>Overview</h1><p>Note: Depends on the Bit4, 0: Report Notification CC, Type: 0x07, Event: 0xFE 1: Sensor Binary Report, Type: 0x0C, Value: 0x00  </p>
-        ]]></description>
-        <default>0</default>
+      <parameter name="config_7_1_00000004" type="integer" groupName="configuration">
+        <label>7: Bit2: Enable PIR super sensitivity mode.</label>
+        <description>0:Disable, 1:Enable</description>
+        <default>1</default>
         <options>
           <option value="0">Disable</option>
           <option value="1">Enable</option>
         </options>
       </parameter>
 
-      <parameter name="config_7_1_00000004" type="integer" groupName="configuration">
-        <label>7: Bit2: Enable PIR super sensitivity mode.</label>
-        <description>0:Disable, 1:Enable</description>
-        <default>1</default>
+      <parameter name="config_7_1_00000002" type="integer" groupName="configuration">
+        <label>7: Bit1: Enable sending motion OFF report.</label>
+        <description><![CDATA[
+0:Disable, 1:Enable<br /><h1>Overview</h1><p>Note: Depends on the Bit4, 0: Report Notification CC, Type: 0x07, Event: 0xFE 1: Sensor Binary Report, Type: 0x0C, Value: 0x00  </p>
+        ]]></description>
+        <default>0</default>
         <options>
           <option value="0">Disable</option>
           <option value="1">Enable</option>
@@ -176,16 +186,6 @@ Parameter to set the Customer Function.<br /><h1>Overview</h1><p>Bit0: Reserve.<
       <parameter name="config_7_1_00000020" type="integer" groupName="configuration">
         <label>7: Bit5: Disable Multi CC in auto report.</label>
         <description>1:Disable, 0:Enable</description>
-        <default>0</default>
-        <options>
-          <option value="0">Enable</option>
-          <option value="1">Disable</option>
-        </options>
-      </parameter>
-
-      <parameter name="config_7_1_00000040" type="integer" groupName="configuration">
-        <label>7: Bit6: Report battery state when device triggered</label>
-        <description>1:Disable, 0 Enable</description>
         <default>0</default>
         <options>
           <option value="0">Enable</option>

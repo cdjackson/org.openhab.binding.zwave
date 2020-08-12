@@ -7,7 +7,6 @@
 
   <thing-type id="fakro_vmzsolarplus_00_000" listed="false">
     <label>VMZ Solar z-wave plus Awning Blind z-wave plus version</label>
-    <description>Awning Blind z-wave plus version</description>
     <category>Blinds</category>
 
     <!-- CHANNEL DEFINITIONS -->

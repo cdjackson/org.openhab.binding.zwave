@@ -7,7 +7,6 @@
 
   <thing-type id="isurpass_j1505_00_000" listed="false">
     <label>J1505 Motion Sensor</label>
-    <description>Motion Sensor</description>
     <category>MotionDetector</category>
 
     <!-- CHANNEL DEFINITIONS -->

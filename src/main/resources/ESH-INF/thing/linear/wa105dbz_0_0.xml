@@ -7,7 +7,6 @@
 
   <thing-type id="linear_wa105dbz_00_000" listed="false">
     <label>WA105DBZ Siren and Strobe</label>
-    <description>Siren and Strobe</description>
     <category>Siren</category>
 
     <!-- CHANNEL DEFINITIONS -->

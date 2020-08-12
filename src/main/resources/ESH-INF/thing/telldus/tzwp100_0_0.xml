@@ -8,7 +8,7 @@
   <thing-type id="telldus_tzwp100_00_000" listed="false">
     <label>TZWP-100 Wall Plug Switch</label>
     <description><![CDATA[
-Wall Plug Switch<br /><h1>Overview</h1><p>Plug­in switch, controls lighting and other electronic equipment up to 2000 W (resistive load). </p> <br /><h2>Inclusion Information</h2><p>Press the button on the device three times fast.</p> <br /><h2>Exclusion Information</h2><p>Press the button on the device three times fast.</p>
+<br /><h1>Overview</h1><p>Plug­in switch, controls lighting and other electronic equipment up to 2000 W (resistive load). </p> <br /><h2>Inclusion Information</h2><p>Press the button on the device three times fast.</p> <br /><h2>Exclusion Information</h2><p>Press the button on the device three times fast.</p>
     ]]></description>
     <category>PowerOutlet</category>
 

@@ -7,7 +7,6 @@
 
   <thing-type id="reitz_duwrpt_00_000" listed="false">
     <label>DUW_RPT Düwi Repeater</label>
-    <description>Düwi Repeater</description>
 
     <!-- CHANNEL DEFINITIONS -->
     <channels>

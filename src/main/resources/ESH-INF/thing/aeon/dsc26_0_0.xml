@@ -8,7 +8,7 @@
   <thing-type id="aeon_dsc26_00_000" listed="false">
     <label>DSC26 Micro Switch G2</label>
     <description><![CDATA[
-Micro Switch G2<br /><h1>Overview</h1><p>Relay based unit designed to be included inside a junction box to switch a load.  Supports external switch.</p> <br /><h2>Inclusion Information</h2><p>Push case button.</p> <p>External switch (if attached) can be toggled 10X quickly to include/exclude.</p> <br /><h2>Exclusion Information</h2><p>Push case button.</p> <p>External switch (if attached) can be toggled 10X quickly to include/exclude.</p>
+<br /><h1>Overview</h1><p>Relay based unit designed to be included inside a junction box to switch a load.  Supports external switch.</p> <br /><h2>Inclusion Information</h2><p>Push case button.</p> <p>External switch (if attached) can be toggled 10X quickly to include/exclude.</p> <br /><h2>Exclusion Information</h2><p>Push case button.</p> <p>External switch (if attached) can be toggled 10X quickly to include/exclude.</p>
     ]]></description>
     <category>WallSwitch</category>
 
@@ -47,20 +47,20 @@ Micro Switch G2<br /><h1>Overview</h1><p>Relay based unit designed to be include
       </parameter-group>
 
       <!-- PARAMETER DEFINITIONS -->
-      <parameter name="config_2_2_000000FF" type="integer" groupName="configuration"
-                 min="0" max="255">
-        <label>2: LED blink repeat</label>
-        <description><![CDATA[
-Number of times LED should blink<br /><h1>Overview</h1><p>Number of ON-OFF cycles the LED should complete once set.</p>
-        ]]></description>
-        <default>0</default>
-      </parameter>
-
       <parameter name="config_2_2_0000FF00" type="integer" groupName="configuration"
                  min="0" max="255">
         <label>2: LED duty time</label>
         <description><![CDATA[
 length of time LED will blink on/off per cycle<br /><h1>Overview</h1><p>LED will turn on and off for this many tenths of a second once set.</p>
+        ]]></description>
+        <default>0</default>
+      </parameter>
+
+      <parameter name="config_2_2_000000FF" type="integer" groupName="configuration"
+                 min="0" max="255">
+        <label>2: LED blink repeat</label>
+        <description><![CDATA[
+Number of times LED should blink<br /><h1>Overview</h1><p>Number of ON-OFF cycles the LED should complete once set.</p>
         ]]></description>
         <default>0</default>
       </parameter>

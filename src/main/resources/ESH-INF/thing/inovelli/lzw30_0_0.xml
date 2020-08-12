@@ -8,7 +8,7 @@
   <thing-type id="inovelli_lzw30_00_000" listed="false">
     <label>LZW30 Base model On-Off switch</label>
     <description><![CDATA[
-Base model On-Off switch<br /><h1>Overview</h1><p>The Inovelli On/Off switch is a Z-Wave device that controls attached LED, CFL, &amp; Incandescent lighting which can be highly customized to your liking at the switch itself with our unique config button and advanced firmware.</p> <p> Configuration/Favorites Button: This switch allows for ultimate customization via the Configuration Button (rather than via a Z-Wave HUB) such as the power on state, LED Indicator Color, LED Indicator Intensity, and LED Indicator Intensity (When Off). </p> <p>OTA (Over-the-Air) Enabled: As with all our devices, the switch allows you to receive our latest firmware updates (NOTE: Please make sure your HUB supports this).</p> <br /><h2>Inclusion Information</h2><p>Now that the switch is physically installed, let’s start the inclusion (pairing) process.</p> <ul><li>Restore power to your switch and if wired properly, the LED bar will light up (should flash a series of colors, then turn blue)</li> <li>Start the inclusion process on your HUB/Gateway</li> <li>Press the config button (A) 3x and the LED bar should pulse blue (if it doesn’t, try pressing the buttons faster or slower) indicating the switch is in inclusion mode. If successful, the switch LED Bar (B) will turn Green. If unsuccessful, the LED Bar will turn RED.</li> <li><strong>Z-Wave Range Check:</strong> Easily check whether or not your switch is within range by holding the Config Button (A) for 5-10 seconds. The LED bar will indicate: RED = Not in Range, or = Within Range GREEN (Good Signal).</li> </ul><p><strong>Final Thoughts / Tips: </strong>If you’re having issues pairing your switch, there’s a couple things you can try. The first one is to hold down the config button for 5 seconds until the LED bar indicates RED or GREEN, where RED = Not in Range, or = Within Range GREEN (Good Signal). If the signal is GREEN, then let’s try an exclusion to reset your switch.</p> <br /><h2>Exclusion Information</h2><ul><li>Start the exclusion process on your HUB/Gateway</li> <li>Press, “Remove” and tap the Config button 3x and the LED bar should pulse blue</li> <li>The LED bar should flash GREEN if successful</li> </ul>
+<br /><h1>Overview</h1><p>The Inovelli On/Off switch is a Z-Wave device that controls attached LED, CFL, &amp; Incandescent lighting which can be highly customized to your liking at the switch itself with our unique config button and advanced firmware.</p> <p> Configuration/Favorites Button: This switch allows for ultimate customization via the Configuration Button (rather than via a Z-Wave HUB) such as the power on state, LED Indicator Color, LED Indicator Intensity, and LED Indicator Intensity (When Off). </p> <p>OTA (Over-the-Air) Enabled: As with all our devices, the switch allows you to receive our latest firmware updates (NOTE: Please make sure your HUB supports this).</p> <br /><h2>Inclusion Information</h2><p>Now that the switch is physically installed, let’s start the inclusion (pairing) process.</p> <ul><li>Restore power to your switch and if wired properly, the LED bar will light up (should flash a series of colors, then turn blue)</li> <li>Start the inclusion process on your HUB/Gateway</li> <li>Press the config button (A) 3x and the LED bar should pulse blue (if it doesn’t, try pressing the buttons faster or slower) indicating the switch is in inclusion mode. If successful, the switch LED Bar (B) will turn Green. If unsuccessful, the LED Bar will turn RED.</li> <li><strong>Z-Wave Range Check:</strong> Easily check whether or not your switch is within range by holding the Config Button (A) for 5-10 seconds. The LED bar will indicate: RED = Not in Range, or = Within Range GREEN (Good Signal).</li> </ul><p><strong>Final Thoughts / Tips: </strong>If you’re having issues pairing your switch, there’s a couple things you can try. The first one is to hold down the config button for 5 seconds until the LED bar indicates RED or GREEN, where RED = Not in Range, or = Within Range GREEN (Good Signal). If the signal is GREEN, then let’s try an exclusion to reset your switch.</p> <br /><h2>Exclusion Information</h2><ul><li>Start the exclusion process on your HUB/Gateway</li> <li>Press, “Remove” and tap the Config button 3x and the LED bar should pulse blue</li> <li>The LED bar should flash GREEN if successful</li> </ul>
     ]]></description>
     <category>WallSwitch</category>
 
@@ -90,8 +90,7 @@ Association Behaviour<br /><h1>Overview</h1><p>1 = Local; 2 = 3-Way; 3 = 3-Way +
         <default>15</default>
       </parameter>
 
-      <parameter name="config_5_2" type="integer" groupName="configuration"
-                 min="0" max="255">
+      <parameter name="config_5_2" type="integer" groupName="configuration">
         <label>5: LED Indicator Color</label>
         <description><![CDATA[
 LED Indicator Color<br /><h1>Overview</h1><p>0 to 255 Hue Color Circle</p> <p>170 - Blue - Default</p> <p>This will set the default color of the LED bar.  Calculated by using a hue color circle (Value / 255 * 360</p> <p>0 = Red</p> <p>21 = Orange</p> <p>42 = Yellow</p> <p>85 = Green</p> <p>127 = Cyan</p> <p>170 = Blue</p> <p>212 = Violet</p> <p>234 = Pink</p>
@@ -106,9 +105,7 @@ LED Indicator Color<br /><h1>Overview</h1><p>0 to 255 Hue Color Circle</p> <p>17
           <option value="170">Blue</option>
           <option value="212">Violet</option>
           <option value="234">Pink</option>
-          <option value="255">White</option>
         </options>
-        <limitToOptions>false</limitToOptions>
       </parameter>
 
       <parameter name="config_6_1" type="integer" groupName="configuration">
@@ -161,18 +158,6 @@ Calculated sum of parameters as per overview section<br /><h1>Overview</h1><p>En
         ]]></description>
         <default>0</default>
         <limitToOptions>false</limitToOptions>
-      </parameter>
-
-      <parameter name="config_51_1" type="integer" groupName="configuration">
-        <label>51: Enable Instant On</label>
-        <description><![CDATA[
-Enable Instant On<br /><h1>Overview</h1><p>Enable instant on (ie: disable the 700ms delay) for physical switch.</p> <p>0: No Delay 1: 700ms Delay (default)</p>
-        ]]></description>
-        <default>1</default>
-        <options>
-          <option value="0">No delay</option>
-          <option value="1">700ms delay</option>
-        </options>
       </parameter>
 
       <!-- ASSOCIATION DEFINITIONS -->

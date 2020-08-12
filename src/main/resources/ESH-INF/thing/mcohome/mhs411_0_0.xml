@@ -7,7 +7,6 @@
 
   <thing-type id="mcohome_mhs411_00_000" listed="false">
     <label>MH-S411 Touch Panel Switch (Single)</label>
-    <description>Touch Panel Switch (Single)</description>
 
     <!-- CHANNEL DEFINITIONS -->
     <channels>

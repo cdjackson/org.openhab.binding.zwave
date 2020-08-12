@@ -8,7 +8,7 @@
   <thing-type id="connecthome_ch201_00_000" listed="false">
     <label>CH-201 CH-201 Thermostat</label>
     <description><![CDATA[
-CH-201 Thermostat<br /><h1>Overview</h1><p>The CH-201 thermostat is a Z-Wave device designed to maintain the set temperature. The thermostat can control the heating element directly (electric floor heating, electric heater, etc.) or with additional equipment (thermoelectric drive, etc.) The thermostat is equipped with a digital temperature sensor, but can work with any other temperature sensor if necessary.</p> <br /><h2>Inclusion Information</h2><p>To include the thermostat in a Z-Wave network, place the controller in the inclusion mode (see the instructions of your controller) and apply power to the electrical network to which the device is connected. The device will be added automatically (NWI). If this does not happen automatically, briefly press the system button three times on the top cover of the device.</p> <p>If there are problems with connecting the device to your Z-Wave network, you must complete the Z-Wave network exclusion procedure, and then repeat the inclusion procedure.</p> <br /><h2>Exclusion Information</h2><p>To exclude the thermostat from the Z-Wave network, place the controller in the exclusion mode (see the controller instruction) and press the system button three times briefly.</p> <p><strong>Please note that after excluding the device from the Z-Wave network, all settings you have made will be reset to the factory settings.</strong></p>
+<br /><h1>Overview</h1><p>The CH-201 thermostat is a Z-Wave device designed to maintain the set temperature. The thermostat can control the heating element directly (electric floor heating, electric heater, etc.) or with additional equipment (thermoelectric drive, etc.) The thermostat is equipped with a digital temperature sensor, but can work with any other temperature sensor if necessary.</p> <br /><h2>Inclusion Information</h2><p>To include the thermostat in a Z-Wave network, place the controller in the inclusion mode (see the instructions of your controller) and apply power to the electrical network to which the device is connected. The device will be added automatically (NWI). If this does not happen automatically, briefly press the system button three times on the top cover of the device.</p> <p>If there are problems with connecting the device to your Z-Wave network, you must complete the Z-Wave network exclusion procedure, and then repeat the inclusion procedure.</p> <br /><h2>Exclusion Information</h2><p>To exclude the thermostat from the Z-Wave network, place the controller in the exclusion mode (see the controller instruction) and press the system button three times briefly.</p> <p><strong>Please note that after excluding the device from the Z-Wave network, all settings you have made will be reset to the factory settings.</strong></p>
     ]]></description>
     <category>WallSwitch</category>
 
@@ -313,10 +313,6 @@ Adjust temperature sensor if required.<br /><h1>Overview</h1><p>In some cases, f
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="0">Off</option>
-        <option value="1">Heat</option>
-      </options>
     </state>
   </channel-type>
 
@@ -326,10 +322,6 @@ Adjust temperature sensor if required.<br /><h1>Overview</h1><p>In some cases, f
     <description>Sets the thermostat mode</description>
     <category>Temperature</category>
     <state pattern="%s">
-      <options>
-        <option value="0">Off</option>
-        <option value="1">Heat</option>
-      </options>
     </state>
   </channel-type>
 
