@@ -20,31 +20,31 @@ Wall Plug Switch<br /><h1>Overview</h1><p>This Plug provides line voltage, curre
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
         </properties>
       </channel>
-      <channel id="meter_kwh" typeId="meter_kwh">
+meter....5>>>0>><<meter_kwh      <channel id="meter_kwh" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_KWh</property>
         </properties>
       </channel>
-      <channel id="meter_watts" typeId="meter_watts">
+meter....5>>>1>><<meter_watts      <channel id="meter_watts" typeId="meter_watts">
         <label>Electric meter (watts)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_current" typeId="meter_current">
+meter....5>>>2>><<meter_current      <channel id="meter_current" typeId="meter_current">
         <label>Electric meter (amps)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_A</property>
         </properties>
       </channel>
-      <channel id="meter_voltage" typeId="meter_voltage">
+meter....5>>>3>><<meter_voltage      <channel id="meter_voltage" typeId="meter_voltage">
         <label>Electric meter (volts)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_V</property>
         </properties>
       </channel>
-      <channel id="meter_reset" typeId="meter_reset">
+meter....5>>>4>><<meter_reset      <channel id="meter_reset" typeId="meter_reset">
         <label>Clear Accumulated Energy</label>
         <properties>
           <property name="binding:*:OnOffType">COMMAND_CLASS_METER</property>

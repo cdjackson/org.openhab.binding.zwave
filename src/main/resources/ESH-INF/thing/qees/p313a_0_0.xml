@@ -33,37 +33,37 @@ Plug-in Socket Dimmer<br /><h1>Overview</h1><p>QEES RETO Plug-in Dimmer Plus bri
           <property name="binding:*:DecimalType">COMMAND_CLASS_SCENE_ACTIVATION</property>
         </properties>
       </channel>
-      <channel id="meter_kvah" typeId="meter_kvah">
+meter....6>>>0>><<meter_kvah      <channel id="meter_kvah" typeId="meter_kvah">
         <label>Electric meter (kVAh)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_KVAh</property>
         </properties>
       </channel>
-      <channel id="meter_kwh" typeId="meter_kwh">
+meter....6>>>1>><<meter_kwh      <channel id="meter_kwh" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_KWh</property>
         </properties>
       </channel>
-      <channel id="meter_voltage" typeId="meter_voltage">
+meter....6>>>2>><<meter_voltage      <channel id="meter_voltage" typeId="meter_voltage">
         <label>Electric meter (volts)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_V</property>
         </properties>
       </channel>
-      <channel id="meter_current" typeId="meter_current">
+meter....6>>>3>><<meter_current      <channel id="meter_current" typeId="meter_current">
         <label>Electric meter (amps)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_A</property>
         </properties>
       </channel>
-      <channel id="meter_watts" typeId="meter_watts">
+meter....6>>>4>><<meter_watts      <channel id="meter_watts" typeId="meter_watts">
         <label>Electric meter (watts)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_powerfactor" typeId="meter_powerfactor">
+meter....6>>>5>><<meter_powerfactor      <channel id="meter_powerfactor" typeId="meter_powerfactor">
         <label>Electric meter (power factor)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_Power_Factor</property>

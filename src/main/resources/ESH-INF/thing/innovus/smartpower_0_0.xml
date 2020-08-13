@@ -26,7 +26,7 @@ RAone SmartPower<br /><h1>Overview</h1><p>For the further reduction of energy co
           <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL;type=POWER</property>
         </properties>
       </channel>
-      <channel id="meter_kwh" typeId="meter_kwh">
+meter....1>>>0>><<meter_kwh      <channel id="meter_kwh" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_KWh</property>

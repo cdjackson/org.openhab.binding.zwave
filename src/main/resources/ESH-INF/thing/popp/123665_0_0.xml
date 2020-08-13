@@ -20,31 +20,31 @@ Wall Plug Meter Switch<br /><h1>Overview</h1><p>Z-Wave UK Plug-in Switch plus Po
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
         </properties>
       </channel>
-      <channel id="meter_watts" typeId="meter_watts">
+meter....5>>>0>><<meter_watts      <channel id="meter_watts" typeId="meter_watts">
         <label>Electric meter (watts)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_voltage" typeId="meter_voltage">
+meter....5>>>1>><<meter_voltage      <channel id="meter_voltage" typeId="meter_voltage">
         <label>Electric meter (volts)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_V</property>
         </properties>
       </channel>
-      <channel id="meter_kwh" typeId="meter_kwh">
+meter....5>>>2>><<meter_kwh      <channel id="meter_kwh" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_KWh</property>
         </properties>
       </channel>
-      <channel id="meter_powerfactor" typeId="meter_powerfactor">
+meter....5>>>3>><<meter_powerfactor      <channel id="meter_powerfactor" typeId="meter_powerfactor">
         <label>Electric meter (power factor)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_Power_Factor</property>
         </properties>
       </channel>
-      <channel id="meter_current" typeId="meter_current">
+meter....5>>>4>><<meter_current      <channel id="meter_current" typeId="meter_current">
         <label>Electric meter (amps)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_A</property>

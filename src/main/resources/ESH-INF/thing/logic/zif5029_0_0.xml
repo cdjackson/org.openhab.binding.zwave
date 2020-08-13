@@ -20,7 +20,7 @@ Interface for Utility Meters (12-24V)<br /><h1>Overview</h1><p>The ZIF5029 DIN-r
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
         </properties>
       </channel>
-      <channel id="meter_pulse" typeId="meter_pulse">
+meter....1>>>0>><<meter_pulse      <channel id="meter_pulse" typeId="meter_pulse">
         <label>Electric meter (pulses)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_Pulses</property>
@@ -62,37 +62,37 @@ Interface for Utility Meters (12-24V)<br /><h1>Overview</h1><p>The ZIF5029 DIN-r
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:6,COMMAND_CLASS_BASIC:6</property>
         </properties>
       </channel>
-      <channel id="meter_pulse7" typeId="meter_pulse">
+meter....1>>>0>><<meter_pulse      <channel id="meter_pulse7" typeId="meter_pulse">
         <label>Electric meter (pulses) 1</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:7,COMMAND_CLASS_BASIC:7;type=E_Pulses</property>
         </properties>
       </channel>
-      <channel id="meter_pulse8" typeId="meter_pulse">
+meter....1>>>0>><<meter_pulse      <channel id="meter_pulse8" typeId="meter_pulse">
         <label>Electric meter (pulses) 2</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:8,COMMAND_CLASS_BASIC:8;type=E_Pulses</property>
         </properties>
       </channel>
-      <channel id="meter_pulse9" typeId="meter_pulse">
+meter....1>>>0>><<meter_pulse      <channel id="meter_pulse9" typeId="meter_pulse">
         <label>Electric meter (pulses) 3</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:9,COMMAND_CLASS_BASIC:9;type=E_Pulses</property>
         </properties>
       </channel>
-      <channel id="meter_pulse10" typeId="meter_pulse">
+meter....1>>>0>><<meter_pulse      <channel id="meter_pulse10" typeId="meter_pulse">
         <label>Electric meter (pulses) 4</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:10,COMMAND_CLASS_BASIC:10;type=E_Pulses</property>
         </properties>
       </channel>
-      <channel id="meter_pulse11" typeId="meter_pulse">
+meter....1>>>0>><<meter_pulse      <channel id="meter_pulse11" typeId="meter_pulse">
         <label>Electric meter (pulses) 5</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:11,COMMAND_CLASS_BASIC:11;type=E_Pulses</property>
         </properties>
       </channel>
-      <channel id="meter_pulse12" typeId="meter_pulse">
+meter....1>>>0>><<meter_pulse      <channel id="meter_pulse12" typeId="meter_pulse">
         <label>Electric meter (pulses) 6</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:12,COMMAND_CLASS_BASIC:12;type=E_Pulses</property>

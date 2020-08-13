@@ -14,7 +14,7 @@ Widom Smart Double Switch<br /><h1>Overview</h1><p>WiDom Smart Double Switch is 
 
     <!-- CHANNEL DEFINITIONS -->
     <channels>
-      <channel id="meter_reset" typeId="meter_reset">
+meter....1>>>0>><<meter_reset      <channel id="meter_reset" typeId="meter_reset">
         <label>Meter Reset</label>
         <properties>
           <property name="binding:*:OnOffType">COMMAND_CLASS_METER;reset=true</property>
@@ -26,7 +26,7 @@ Widom Smart Double Switch<br /><h1>Overview</h1><p>WiDom Smart Double Switch is 
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:1,COMMAND_CLASS_BASIC:1</property>
         </properties>
       </channel>
-      <channel id="meter_watts1" typeId="meter_watts">
+meter....1>>>0>><<meter_watts      <channel id="meter_watts1" typeId="meter_watts">
         <label>Electric meter (watts)1</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:1;type=E_W</property>
@@ -38,7 +38,7 @@ Widom Smart Double Switch<br /><h1>Overview</h1><p>WiDom Smart Double Switch is 
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:2,COMMAND_CLASS_BASIC:2</property>
         </properties>
       </channel>
-      <channel id="meter_watts2" typeId="meter_watts">
+meter....1>>>0>><<meter_watts      <channel id="meter_watts2" typeId="meter_watts">
         <label>Electric meter (watts)2</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:2;type=E_W</property>

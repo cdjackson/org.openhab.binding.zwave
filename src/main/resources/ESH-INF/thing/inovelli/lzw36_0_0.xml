@@ -21,13 +21,13 @@ Fan &amp; Light Switch<br /><h1>Overview</h1><p>There are two different wireless
           <property name="binding:Command:OnOffType">COMMAND_CLASS_SWITCH_MULTILEVEL</property>
         </properties>
       </channel>
-      <channel id="meter_watts" typeId="meter_watts">
+meter....2>>>0>><<meter_watts      <channel id="meter_watts" typeId="meter_watts">
         <label>Electric meter (watts)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_kwh" typeId="meter_kwh">
+meter....2>>>1>><<meter_kwh      <channel id="meter_kwh" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_KWh</property>
@@ -266,7 +266,7 @@ Fan State After Power Restored<br /><h1>Overview</h1><p>The state the switch sho
                  min="0" max="255">
         <label>18: Light LED Indicator Color</label>
         <description><![CDATA[
-Light LED Indicator Color<br /><h1>Overview</h1><p>This is the color of the Light LED strip represented as part of the HUE color wheel. Since the wheel has 360 values and this parameter only has 255, the following equation can be used to determine the color: value/255 * 360 = Hue color wheel value</p>
+Light LED Indicator Color<br /><h1>Overview</h1><p>This is the color of the Light LED strip represented as part of the HUE color wheel. Since the wheel has 360 values and this parameter only has 255, the following equation can be used to determine the color: value/255 * 350 = Hue color wheel value</p>
         ]]></description>
         <default>170</default>
       </parameter>
@@ -284,7 +284,7 @@ Light LED Strip Intensity<br /><h1>Overview</h1><p>This is the intensity of the 
                  min="0" max="255">
         <label>20: Fan LED Indicator Color</label>
         <description><![CDATA[
-Fan LED Indicator Color<br /><h1>Overview</h1><p>This is the color of the Fan LED strip represented as part of the HUE color wheel. Since the wheel has 360 values and this parameter only has 255, the following equation can be used to determine the color: value/255 * 360 = Hue color wheel value</p>
+Fan LED Indicator Color<br /><h1>Overview</h1><p>This is the color of the Fan LED strip represented as part of the HUE color wheel. Since the wheel has 360 values and this parameter only has 255, the following equation can be used to determine the color: value/255 * 350 = Hue color wheel value</p>
         ]]></description>
         <default>170</default>
       </parameter>
@@ -320,7 +320,7 @@ Fan LED Strip Intensity (When OFF)<br /><h1>Overview</h1><p>This is the intensit
                  min="0" max="100600319">
         <label>24: Light LED Strip Effect</label>
         <description><![CDATA[
-Light LED Strip Effect<br /><h1>Overview</h1><p>Byte 4: Effect - 0 = Off, 1 = Solid, 2 = Slow Blink, 3 = Fast Blink, 4 = Chase, 5 = Pulse</p> <p>Byte 3: Duration</p> <ul><li>1 to 60 = 1 to 60 seconds</li> <li>61 to 120 = 1 to 60 minutes</li> <li>121 - 254 = 1 - 134 hours</li> <li>255 = Indefinitely</li> </ul><p>Byte 2: Intensity - 0 to 9. 0 = dim, 9 = bright</p> <p>Byte 1: Color - 0 - 255. Hue color wheel. value/255 * 360 = Hue color wheel value</p> <p>Calculator available at: http://calculator.inovelli.com/</p>
+Light LED Strip Effect<br /><h1>Overview</h1><p>Byte 4: Effect - 0 = Off, 1 = Solid, 2 = Slow Blink, 3 = Fast Blink, 4 = Chase, 5 = Pulse</p> <p>Byte 3: Duration</p> <ul><li>1 to 60 = 1 to 60 seconds</li> <li>61 to 120 = 1 to 60 minutes</li> <li>121 - 254 = 1 - 134 hours</li> <li>255 = Indefinitely</li> </ul><p>Byte 2: Intensity - 0 to 9. 0 = dim, 9 = bright</p> <p>Byte 1: Color - 0 - 255. Hue color wheel. value/255 * 350 = Hue color wheel value</p> <p>Calculator available at: http://calculator.inovelli.com/</p>
         ]]></description>
         <default>0</default>
         <advanced>true</advanced>
@@ -330,7 +330,7 @@ Light LED Strip Effect<br /><h1>Overview</h1><p>Byte 4: Effect - 0 = Off, 1 = So
                  min="0" max="255">
         <label>24: Light LED Strip Effect Color</label>
         <description><![CDATA[
-Light LED Strip Effect Color<br /><h1>Overview</h1><p>Hue color wheel. value/255 * 360 = Hue color wheel value</p>
+Light LED Strip Effect Color<br /><h1>Overview</h1><p>Hue color wheel. value/255 * 350 = Hue color wheel value</p>
         ]]></description>
         <default>0</default>
       </parameter>
@@ -353,7 +353,7 @@ Light LED Strip Effect Duration<br /><h1>Overview</h1><ul><li>1 to 60 = 1 to 60 
         <default>0</default>
       </parameter>
 
-      <parameter name="config_24_4_07000000" type="integer" groupName="configuration">
+      <parameter name="config_24_4_0A000000" type="integer" groupName="configuration">
         <label>24: Light LED Strip Effect Type</label>
         <description><![CDATA[
 Light LED Strip Effect Type<br /><h1>Overview</h1><p>0 = Off, 1 = Solid, 2 = Slow Blink, 3 = Fast Blink, 4 = Chase, 5 = Pulse</p>
@@ -373,7 +373,7 @@ Light LED Strip Effect Type<br /><h1>Overview</h1><p>0 = Off, 1 = Solid, 2 = Slo
                  min="0" max="100600319">
         <label>25: Fan LED Strip Effect</label>
         <description><![CDATA[
-Fan LED Strip Effect<br /><h1>Overview</h1><p>Byte 4: Effect - 0 = Off, 1 = Solid, 2 = Slow Blink, 3 = Fast Blink, 4 = Chase, 5 = Pulse</p> <p>Byte 3: Duration</p> <ul><li>1 to 60 = 1 to 60 seconds</li> <li>61 to 120 = 1 to 60 minutes</li> <li>121 - 254 = 1 - 134 hours</li> <li>255 = Indefinitely</li> </ul><p>Byte 2: Intensity - 0 to 9. 0 = dim, 9 = bright</p> <p>Byte 1: Color - 0 - 255. Hue color wheel. value/255 * 360 = Hue color wheel value</p> <p>Calculator available at: http://calculator.inovelli.com/</p>
+Fan LED Strip Effect<br /><h1>Overview</h1><p>Byte 4: Effect - 0 = Off, 1 = Solid, 2 = Slow Blink, 3 = Fast Blink, 4 = Chase, 5 = Pulse</p> <p>Byte 3: Duration</p> <ul><li>1 to 60 = 1 to 60 seconds</li> <li>61 to 120 = 1 to 60 minutes</li> <li>121 - 254 = 1 - 134 hours</li> <li>255 = Indefinitely</li> </ul><p>Byte 2: Intensity - 0 to 9. 0 = dim, 9 = bright</p> <p>Byte 1: Color - 0 - 255. Hue color wheel. value/255 * 350 = Hue color wheel value</p> <p>Calculator available at: http://calculator.inovelli.com/</p>
         ]]></description>
         <default>0</default>
         <advanced>true</advanced>
@@ -383,7 +383,7 @@ Fan LED Strip Effect<br /><h1>Overview</h1><p>Byte 4: Effect - 0 = Off, 1 = Soli
                  min="0" max="255">
         <label>25: Fan LED Strip Effect Color</label>
         <description><![CDATA[
-Fan LED Strip Effect Color<br /><h1>Overview</h1><p>Hue color wheel. value/255 * 360 = Hue color wheel value</p>
+Fan LED Strip Effect Color<br /><h1>Overview</h1><p>Hue color wheel. value/255 * 350 = Hue color wheel value</p>
         ]]></description>
         <default>0</default>
       </parameter>
@@ -406,7 +406,7 @@ Fan LED Strip Effect Duration<br /><h1>Overview</h1><ul><li>1 to 60 = 1 to 60 se
         <default>0</default>
       </parameter>
 
-      <parameter name="config_25_4_07000000" type="integer" groupName="configuration">
+      <parameter name="config_25_4_0A000000" type="integer" groupName="configuration">
         <label>25: Fan LED Strip Effect Type</label>
         <description><![CDATA[
 Fan LED Strip Effect Type<br /><h1>Overview</h1><p>0 = Off, 1 = Solid, 2 = Slow Blink, 3 = Fast Blink, 4 = Chase, 5 = Pulse</p>
@@ -571,6 +571,22 @@ Switch MultiLevel Start/Stop Fan<br /><h1>Overview</h1><p> Sends start / stop le
     </config-description>
 
   </thing-type>
+
+  <channel-type id="inovelli_lzw36_00_000_config_decimal_param18">
+    <item-type>Number</item-type>
+    <label>Light LED Indicator Color</label>
+    <description>Light LED Indicator Color</description>
+    <state pattern="%s">
+    </state>
+  </channel-type>
+
+  <channel-type id="inovelli_lzw36_00_000_config_decimal_param20">
+    <item-type>Number</item-type>
+    <label>Fan LED Indicator Color</label>
+    <description>Fan LED Indicator Color</description>
+    <state pattern="%s">
+    </state>
+  </channel-type>
 
   <channel-type id="inovelli_lzw36_00_000_config_decimal_param24">
     <item-type>Number</item-type>

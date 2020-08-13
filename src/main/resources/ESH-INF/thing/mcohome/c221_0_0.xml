@@ -28,25 +28,25 @@ MCO HOME Micro Shutter<br /><h1>Overview</h1><p>MCO HOME Micro Shutter for windo
           <property name="binding:Command:UpDownType">COMMAND_CLASS_SWITCH_MULTILEVEL</property>
         </properties>
       </channel>
-      <channel id="meter_watts" typeId="meter_watts">
+meter....4>>>0>><<meter_watts      <channel id="meter_watts" typeId="meter_watts">
         <label>Electric Meter (Watts) 1</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;meterScale=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_voltage" typeId="meter_voltage">
+meter....4>>>1>><<meter_voltage      <channel id="meter_voltage" typeId="meter_voltage">
         <label>Electric Meter (Volts)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER</property>
         </properties>
       </channel>
-      <channel id="meter_current" typeId="meter_current">
+meter....4>>>2>><<meter_current      <channel id="meter_current" typeId="meter_current">
         <label>Electric Meter (amp)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER</property>
         </properties>
       </channel>
-      <channel id="meter_kwh" typeId="meter_kwh">
+meter....4>>>3>><<meter_kwh      <channel id="meter_kwh" typeId="meter_kwh">
         <label>Electric Meter (Kwh)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER</property>

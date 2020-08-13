@@ -20,13 +20,13 @@ Multi-socket PowerNode (6-plug)<br /><h1>Overview</h1><p>This Configuration is f
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
         </properties>
       </channel>
-      <channel id="meter_watts" typeId="meter_watts">
+meter....2>>>0>><<meter_watts      <channel id="meter_watts" typeId="meter_watts">
         <label>Electric meter (watts)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_kwh" typeId="meter_kwh">
+meter....2>>>1>><<meter_kwh      <channel id="meter_kwh" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_KWh</property>
@@ -44,13 +44,13 @@ Multi-socket PowerNode (6-plug)<br /><h1>Overview</h1><p>This Configuration is f
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:1,COMMAND_CLASS_BASIC:1</property>
         </properties>
       </channel>
-      <channel id="meter_watts1" typeId="meter_watts">
+meter....2>>>0>><<meter_watts      <channel id="meter_watts1" typeId="meter_watts">
         <label>Electric meter (watts) 1</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:1;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_kwh1" typeId="meter_kwh">
+meter....2>>>1>><<meter_kwh      <channel id="meter_kwh1" typeId="meter_kwh">
         <label>Electric meter (kWh) 1</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:1;type=E_KWh</property>
@@ -62,13 +62,13 @@ Multi-socket PowerNode (6-plug)<br /><h1>Overview</h1><p>This Configuration is f
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:2,COMMAND_CLASS_BASIC:2</property>
         </properties>
       </channel>
-      <channel id="meter_watts2" typeId="meter_watts">
+meter....2>>>0>><<meter_watts      <channel id="meter_watts2" typeId="meter_watts">
         <label>Electric meter (watts) 2</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:2;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_kwh2" typeId="meter_kwh">
+meter....2>>>1>><<meter_kwh      <channel id="meter_kwh2" typeId="meter_kwh">
         <label>Electric meter (kWh) 2</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:2;type=E_KWh</property>
@@ -80,13 +80,13 @@ Multi-socket PowerNode (6-plug)<br /><h1>Overview</h1><p>This Configuration is f
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:3,COMMAND_CLASS_BASIC:3</property>
         </properties>
       </channel>
-      <channel id="meter_watts3" typeId="meter_watts">
+meter....2>>>0>><<meter_watts      <channel id="meter_watts3" typeId="meter_watts">
         <label>Electric meter (watts) 3</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:3;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_kwh3" typeId="meter_kwh">
+meter....2>>>1>><<meter_kwh      <channel id="meter_kwh3" typeId="meter_kwh">
         <label>Electric meter (kWh) 3</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:3;type=E_KWh</property>
@@ -98,13 +98,13 @@ Multi-socket PowerNode (6-plug)<br /><h1>Overview</h1><p>This Configuration is f
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:4,COMMAND_CLASS_BASIC:4</property>
         </properties>
       </channel>
-      <channel id="meter_watts4" typeId="meter_watts">
+meter....2>>>0>><<meter_watts      <channel id="meter_watts4" typeId="meter_watts">
         <label>Electric meter (watts) 4</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:4;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_kwh4" typeId="meter_kwh">
+meter....2>>>1>><<meter_kwh      <channel id="meter_kwh4" typeId="meter_kwh">
         <label>Electric meter (kWh) 4</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:4;type=E_KWh</property>
@@ -116,13 +116,13 @@ Multi-socket PowerNode (6-plug)<br /><h1>Overview</h1><p>This Configuration is f
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:5,COMMAND_CLASS_BASIC:5</property>
         </properties>
       </channel>
-      <channel id="meter_watts5" typeId="meter_watts">
+meter....2>>>0>><<meter_watts      <channel id="meter_watts5" typeId="meter_watts">
         <label>Electric meter (watts) 5</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:5;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_kwh5" typeId="meter_kwh">
+meter....2>>>1>><<meter_kwh      <channel id="meter_kwh5" typeId="meter_kwh">
         <label>Electric meter (kWh) 5</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:5;type=E_KWh</property>
@@ -134,13 +134,13 @@ Multi-socket PowerNode (6-plug)<br /><h1>Overview</h1><p>This Configuration is f
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:6,COMMAND_CLASS_BASIC:6</property>
         </properties>
       </channel>
-      <channel id="meter_watts6" typeId="meter_watts">
+meter....2>>>0>><<meter_watts      <channel id="meter_watts6" typeId="meter_watts">
         <label>Electric meter (watts) 6</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:6;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_kwh6" typeId="meter_kwh">
+meter....2>>>1>><<meter_kwh      <channel id="meter_kwh6" typeId="meter_kwh">
         <label>Electric meter (kWh) 6</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:6;type=E_KWh</property>

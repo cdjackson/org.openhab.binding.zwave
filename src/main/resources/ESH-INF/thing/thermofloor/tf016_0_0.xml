@@ -26,7 +26,7 @@ ZWave Thermostat<br /><h1>Overview</h1><p>The Heatit Z-Wave is an electronic the
           <property name="binding:*:QuantityType">COMMAND_CLASS_SENSOR_MULTILEVEL;type=TEMPERATURE</property>
         </properties>
       </channel>
-      <channel id="meter_kwh" typeId="meter_kwh">
+meter....1>>>0>><<meter_kwh      <channel id="meter_kwh" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_KWh</property>
@@ -126,10 +126,10 @@ Defines Operation Mode of thermostat<br /><h1>Overview</h1><p>0....OFF(0x00)</p>
     <category>Temperature</category>
     <state pattern="%s">
       <options>
-        <option value="11">Economy Heat</option>
-        <option value="1">Heat</option>
-        <option value="2">Cool</option>
         <option value="0">Off</option>
+        <option value="1">Heat</option>
+        <option value="11">Economy Heat</option>
+        <option value="2">Cool</option>
       </options>
     </state>
   </channel-type>

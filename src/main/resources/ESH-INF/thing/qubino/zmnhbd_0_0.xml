@@ -26,13 +26,13 @@ Flush 2 relays<br /><h1>Overview</h1><p>This Z-Wave module is used for switching
           <property name="binding:*:QuantityType">COMMAND_CLASS_SENSOR_MULTILEVEL;type=TEMPERATURE</property>
         </properties>
       </channel>
-      <channel id="meter_watts" typeId="meter_watts">
+meter....2>>>0>><<meter_watts      <channel id="meter_watts" typeId="meter_watts">
         <label>Electric meter (watts)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_kwh" typeId="meter_kwh">
+meter....2>>>1>><<meter_kwh      <channel id="meter_kwh" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_KWh</property>
@@ -44,13 +44,13 @@ Flush 2 relays<br /><h1>Overview</h1><p>This Z-Wave module is used for switching
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:1,COMMAND_CLASS_BASIC:1</property>
         </properties>
       </channel>
-      <channel id="meter_watts1" typeId="meter_watts">
+meter....2>>>0>><<meter_watts      <channel id="meter_watts1" typeId="meter_watts">
         <label>Electric meter (watts) 1</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:1;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_kwh1" typeId="meter_kwh">
+meter....2>>>1>><<meter_kwh      <channel id="meter_kwh1" typeId="meter_kwh">
         <label>Electric meter (kWh) 1</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:1;type=E_KWh</property>
@@ -62,13 +62,13 @@ Flush 2 relays<br /><h1>Overview</h1><p>This Z-Wave module is used for switching
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:2,COMMAND_CLASS_BASIC:2</property>
         </properties>
       </channel>
-      <channel id="meter_watts2" typeId="meter_watts">
+meter....2>>>0>><<meter_watts      <channel id="meter_watts2" typeId="meter_watts">
         <label>Electric meter (watts) 2</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:2;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_kwh2" typeId="meter_kwh">
+meter....2>>>1>><<meter_kwh      <channel id="meter_kwh2" typeId="meter_kwh">
         <label>Electric meter (kWh) 2</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:2;type=E_KWh</property>

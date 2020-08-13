@@ -20,13 +20,13 @@ Flush Heat &amp; Cool Thermostat<br /><h1>Overview</h1><p>This Z-Wave module is 
           <property name="binding:*:QuantityType">COMMAND_CLASS_SENSOR_MULTILEVEL;type=TEMPERATURE</property>
         </properties>
       </channel>
-      <channel id="meter_watts" typeId="meter_watts">
+meter....2>>>0>><<meter_watts      <channel id="meter_watts" typeId="meter_watts">
         <label>Electric meter (watts)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_kwh" typeId="meter_kwh">
+meter....2>>>1>><<meter_kwh      <channel id="meter_kwh" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_KWh</property>
@@ -512,8 +512,8 @@ Node ID of external battery powered room sensor<br /><h1>Overview</h1><p>If digi
     <category>Temperature</category>
     <state pattern="%s">
       <options>
-        <option value="3">Auto</option>
         <option value="0">Off</option>
+        <option value="3">Auto</option>
       </options>
     </state>
   </channel-type>

@@ -14,43 +14,43 @@ Smart Meter<br /><h1>Overview</h1><p>This Z-Wave module is used for energy measu
 
     <!-- CHANNEL DEFINITIONS -->
     <channels>
-      <channel id="meter_powerfactor" typeId="meter_powerfactor">
+meter....7>>>0>><<meter_powerfactor      <channel id="meter_powerfactor" typeId="meter_powerfactor">
         <label>Power factor</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_Power_Factor</property>
         </properties>
       </channel>
-      <channel id="meter_voltage" typeId="meter_voltage">
+meter....7>>>1>><<meter_voltage      <channel id="meter_voltage" typeId="meter_voltage">
         <label>Voltage</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_V</property>
         </properties>
       </channel>
-      <channel id="meter_watts" typeId="meter_watts">
+meter....7>>>2>><<meter_watts      <channel id="meter_watts" typeId="meter_watts">
         <label>Active Power</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_kwh" typeId="meter_kwh">
+meter....7>>>3>><<meter_kwh      <channel id="meter_kwh" typeId="meter_kwh">
         <label>Active Energy Comsumption</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_KWh</property>
         </properties>
       </channel>
-      <channel id="meter_kvah" typeId="meter_kvah">
+meter....7>>>4>><<meter_kvah      <channel id="meter_kvah" typeId="meter_kvah">
         <label>Apparent Energy Consumption</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_KVAh</property>
         </properties>
       </channel>
-      <channel id="meter_current" typeId="meter_current">
+meter....7>>>5>><<meter_current      <channel id="meter_current" typeId="meter_current">
         <label>Current</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_A</property>
         </properties>
       </channel>
-      <channel id="meter_reset" typeId="meter_reset">
+meter....7>>>6>><<meter_reset      <channel id="meter_reset" typeId="meter_reset">
         <label>Reset Meter Stats</label>
         <properties>
           <property name="binding:*:OnOffType">COMMAND_CLASS_METER</property>
@@ -62,7 +62,7 @@ Smart Meter<br /><h1>Overview</h1><p>This Z-Wave module is used for energy measu
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:1,COMMAND_CLASS_BASIC:1</property>
         </properties>
       </channel>
-      <channel id="meter_powerfactor1" typeId="meter_powerfactor">
+meter....1>>>0>><<meter_powerfactor      <channel id="meter_powerfactor1" typeId="meter_powerfactor">
         <label>Power factor [Deprecated]</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:1;type=E_Power_Factor</property>

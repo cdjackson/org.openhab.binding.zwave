@@ -20,31 +20,31 @@ In Wall Dual Relay Switch<br /><h1>Overview</h1><p>This in-wall switch module is
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
         </properties>
       </channel>
-      <channel id="meter_kwh" typeId="meter_kwh">
+meter....5>>>0>><<meter_kwh      <channel id="meter_kwh" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_KWh</property>
         </properties>
       </channel>
-      <channel id="meter_watts" typeId="meter_watts">
+meter....5>>>1>><<meter_watts      <channel id="meter_watts" typeId="meter_watts">
         <label>Electric meter (watts)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_powerfactor" typeId="meter_powerfactor">
+meter....5>>>2>><<meter_powerfactor      <channel id="meter_powerfactor" typeId="meter_powerfactor">
         <label>Electric meter (power factor)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_Power_Factor</property>
         </properties>
       </channel>
-      <channel id="meter_voltage" typeId="meter_voltage">
+meter....5>>>3>><<meter_voltage      <channel id="meter_voltage" typeId="meter_voltage">
         <label>Electric meter (volts)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_V</property>
         </properties>
       </channel>
-      <channel id="meter_current" typeId="meter_current">
+meter....5>>>4>><<meter_current      <channel id="meter_current" typeId="meter_current">
         <label>Electric meter (amps)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_A</property>
@@ -62,31 +62,31 @@ In Wall Dual Relay Switch<br /><h1>Overview</h1><p>This in-wall switch module is
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:1,COMMAND_CLASS_BASIC:1</property>
         </properties>
       </channel>
-      <channel id="meter_kwh1" typeId="meter_kwh">
+meter....5>>>0>><<meter_kwh      <channel id="meter_kwh1" typeId="meter_kwh">
         <label>Electric meter (kWh) 1</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:1;type=E_KWh</property>
         </properties>
       </channel>
-      <channel id="meter_watts1" typeId="meter_watts">
+meter....5>>>1>><<meter_watts      <channel id="meter_watts1" typeId="meter_watts">
         <label>Electric meter (watts) 1</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:1;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_powerfactor1" typeId="meter_powerfactor">
+meter....5>>>2>><<meter_powerfactor      <channel id="meter_powerfactor1" typeId="meter_powerfactor">
         <label>Electric meter (power factor) 1</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:1;type=E_Power_Factor</property>
         </properties>
       </channel>
-      <channel id="meter_voltage1" typeId="meter_voltage">
+meter....5>>>3>><<meter_voltage      <channel id="meter_voltage1" typeId="meter_voltage">
         <label>Electric meter (volts) 1</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:1;type=E_V</property>
         </properties>
       </channel>
-      <channel id="meter_current1" typeId="meter_current">
+meter....5>>>4>><<meter_current      <channel id="meter_current1" typeId="meter_current">
         <label>Electric meter (amps) 1</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:1;type=E_A</property>
@@ -98,31 +98,31 @@ In Wall Dual Relay Switch<br /><h1>Overview</h1><p>This in-wall switch module is
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:2,COMMAND_CLASS_BASIC:2</property>
         </properties>
       </channel>
-      <channel id="meter_kwh2" typeId="meter_kwh">
+meter....5>>>0>><<meter_kwh      <channel id="meter_kwh2" typeId="meter_kwh">
         <label>Electric meter (kWh) 2</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:2;type=E_KWh</property>
         </properties>
       </channel>
-      <channel id="meter_watts2" typeId="meter_watts">
+meter....5>>>1>><<meter_watts      <channel id="meter_watts2" typeId="meter_watts">
         <label>Electric meter (watts) 2</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:2;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_powerfactor2" typeId="meter_powerfactor">
+meter....5>>>2>><<meter_powerfactor      <channel id="meter_powerfactor2" typeId="meter_powerfactor">
         <label>Electric meter (power factor) 2</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:2;type=E_Power_Factor</property>
         </properties>
       </channel>
-      <channel id="meter_voltage2" typeId="meter_voltage">
+meter....5>>>3>><<meter_voltage      <channel id="meter_voltage2" typeId="meter_voltage">
         <label>Electric meter (volts) 2</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:2;type=E_V</property>
         </properties>
       </channel>
-      <channel id="meter_current2" typeId="meter_current">
+meter....5>>>4>><<meter_current      <channel id="meter_current2" typeId="meter_current">
         <label>Electric meter (amps) 2</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:2;type=E_A</property>
@@ -134,31 +134,31 @@ In Wall Dual Relay Switch<br /><h1>Overview</h1><p>This in-wall switch module is
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:3,COMMAND_CLASS_BASIC:3</property>
         </properties>
       </channel>
-      <channel id="meter_kwh3" typeId="meter_kwh">
+meter....5>>>0>><<meter_kwh      <channel id="meter_kwh3" typeId="meter_kwh">
         <label>Electric meter (kWh) 3</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:3;type=E_KWh</property>
         </properties>
       </channel>
-      <channel id="meter_watts3" typeId="meter_watts">
+meter....5>>>1>><<meter_watts      <channel id="meter_watts3" typeId="meter_watts">
         <label>Electric meter (watts) 3</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:3;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_powerfactor3" typeId="meter_powerfactor">
+meter....5>>>2>><<meter_powerfactor      <channel id="meter_powerfactor3" typeId="meter_powerfactor">
         <label>Electric meter (power factor) 3</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:3;type=E_Power_Factor</property>
         </properties>
       </channel>
-      <channel id="meter_voltage3" typeId="meter_voltage">
+meter....5>>>3>><<meter_voltage      <channel id="meter_voltage3" typeId="meter_voltage">
         <label>Electric meter (volts) 3</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:3;type=E_V</property>
         </properties>
       </channel>
-      <channel id="meter_current3" typeId="meter_current">
+meter....5>>>4>><<meter_current      <channel id="meter_current3" typeId="meter_current">
         <label>Electric meter (amps) 3</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:3;type=E_A</property>

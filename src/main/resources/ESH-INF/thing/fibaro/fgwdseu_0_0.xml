@@ -20,13 +20,13 @@ WALLI SWITCH FIBARO DOUBLE SWITCH<br /><h1>Overview</h1><p>FIBARO Walli Double S
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY</property>
         </properties>
       </channel>
-      <channel id="meter_watts" typeId="meter_watts">
+meter....2>>>0>><<meter_watts      <channel id="meter_watts" typeId="meter_watts">
         <label>Electric meter (watts)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_kwh" typeId="meter_kwh">
+meter....2>>>1>><<meter_kwh      <channel id="meter_kwh" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_KWh</property>
@@ -56,13 +56,13 @@ WALLI SWITCH FIBARO DOUBLE SWITCH<br /><h1>Overview</h1><p>FIBARO Walli Double S
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:1</property>
         </properties>
       </channel>
-      <channel id="meter_watts1" typeId="meter_watts">
+meter....2>>>0>><<meter_watts      <channel id="meter_watts1" typeId="meter_watts">
         <label>Electric meter (watts)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:1</property>
         </properties>
       </channel>
-      <channel id="meter_kwh1" typeId="meter_kwh">
+meter....2>>>1>><<meter_kwh      <channel id="meter_kwh1" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:1</property>
@@ -74,13 +74,13 @@ WALLI SWITCH FIBARO DOUBLE SWITCH<br /><h1>Overview</h1><p>FIBARO Walli Double S
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:2</property>
         </properties>
       </channel>
-      <channel id="meter_watts2" typeId="meter_watts">
+meter....2>>>0>><<meter_watts      <channel id="meter_watts2" typeId="meter_watts">
         <label>Electric meter (watts)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:2</property>
         </properties>
       </channel>
-      <channel id="meter_kwh2" typeId="meter_kwh">
+meter....2>>>1>><<meter_kwh      <channel id="meter_kwh2" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:2</property>

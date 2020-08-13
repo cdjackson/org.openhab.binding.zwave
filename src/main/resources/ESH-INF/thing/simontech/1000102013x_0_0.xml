@@ -21,7 +21,7 @@ Dimmer IO: Phase cut dimmer<br /><h1>Overview</h1><p>The electronic dimmer switc
           <property name="binding:Command:OnOffType">COMMAND_CLASS_SWITCH_MULTILEVEL</property>
         </properties>
       </channel>
-      <channel id="meter_watts" typeId="meter_watts">
+meter....1>>>0>><<meter_watts      <channel id="meter_watts" typeId="meter_watts">
         <label>Electric meter (watts)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_W</property>

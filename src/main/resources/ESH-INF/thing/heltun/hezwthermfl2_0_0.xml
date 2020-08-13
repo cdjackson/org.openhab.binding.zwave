@@ -38,13 +38,13 @@ Wall Heating Thermostat<br /><h1>Overview</h1><p>The Heltun Heating Thermostat i
           <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL;type=SOIL_TEMPERATURE</property>
         </properties>
       </channel>
-      <channel id="meter_kwh" typeId="meter_kwh">
+meter....2>>>0>><<meter_kwh      <channel id="meter_kwh" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_KWh</property>
         </properties>
       </channel>
-      <channel id="meter_watts" typeId="meter_watts">
+meter....2>>>1>><<meter_watts      <channel id="meter_watts" typeId="meter_watts">
         <label>Electric meter (watts)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_W</property>
@@ -690,11 +690,11 @@ Sunday night temp<br /><h1>Overview</h1><p>Centigrade value * 10</p> <p>e.g. 22.
     <state pattern="%s">
       <options>
         <option value="">FULL_POWER</option>
-        <option value="8">Dry Air</option>
-        <option value="13">Away</option>
+        <option value="0">Off</option>
         <option value="10">Auto Changeover</option>
         <option value="11">Economy Heat</option>
-        <option value="0">Off</option>
+        <option value="13">Away</option>
+        <option value="8">Dry Air</option>
       </options>
     </state>
   </channel-type>

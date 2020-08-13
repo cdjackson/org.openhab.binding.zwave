@@ -14,25 +14,25 @@ Floor thermostat<br /><h1>Overview</h1><p>FEATURES</p> <ul><li>Floor sensor</li>
 
     <!-- CHANNEL DEFINITIONS -->
     <channels>
-      <channel id="meter_voltage" typeId="meter_voltage">
+meter....4>>>0>><<meter_voltage      <channel id="meter_voltage" typeId="meter_voltage">
         <label>Electric meter (volts)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_V</property>
         </properties>
       </channel>
-      <channel id="meter_kwh" typeId="meter_kwh">
+meter....4>>>1>><<meter_kwh      <channel id="meter_kwh" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_KWh</property>
         </properties>
       </channel>
-      <channel id="meter_watts" typeId="meter_watts">
+meter....4>>>2>><<meter_watts      <channel id="meter_watts" typeId="meter_watts">
         <label>Electric meter (watts)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_reset" typeId="meter_reset">
+meter....4>>>3>><<meter_reset      <channel id="meter_reset" typeId="meter_reset">
         <label>Clear Accumulated Energy</label>
         <properties>
           <property name="binding:*:OnOffType">COMMAND_CLASS_METER</property>
@@ -104,25 +104,25 @@ Floor thermostat<br /><h1>Overview</h1><p>FEATURES</p> <ul><li>Floor sensor</li>
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:4</property>
         </properties>
       </channel>
-      <channel id="meter_voltage4" typeId="meter_voltage">
+meter....4>>>0>><<meter_voltage      <channel id="meter_voltage4" typeId="meter_voltage">
         <label>Electric meter (volts) 4</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:4;type=E_V</property>
         </properties>
       </channel>
-      <channel id="meter_kwh4" typeId="meter_kwh">
+meter....4>>>1>><<meter_kwh      <channel id="meter_kwh4" typeId="meter_kwh">
         <label>Electric meter (kWh) 4</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:4;type=E_KWh</property>
         </properties>
       </channel>
-      <channel id="meter_watts4" typeId="meter_watts">
+meter....4>>>2>><<meter_watts      <channel id="meter_watts4" typeId="meter_watts">
         <label>Electric meter (watts) 4</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:4;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_reset4" typeId="meter_reset">
+meter....4>>>3>><<meter_reset      <channel id="meter_reset4" typeId="meter_reset">
         <label>Resets Device Usage 4 [Deprecated]</label>
         <properties>
           <property name="binding:*:OnOffType">COMMAND_CLASS_METER:4</property>
@@ -419,6 +419,38 @@ The main thermostat device<br /><h1>Overview</h1><p>Lifeline. (Normally used by 
 
   </thing-type>
 
+  <channel-type id="thermofloor_ztrm2fx_03_000_config_decimal_param10">
+    <item-type>Number</item-type>
+    <label>Energy saving mode setpoint (ECO)</label>
+    <description>Energy saving mode setpoint (ECO)</description>
+    <state pattern="%s">
+    </state>
+  </channel-type>
+
+  <channel-type id="thermofloor_ztrm2fx_03_000_config_decimal_param9">
+    <item-type>Number</item-type>
+    <label>Heating mode setpoint (CO)</label>
+    <description>Heating mode setpoint (CO)</description>
+    <state pattern="%s">
+    </state>
+  </channel-type>
+
+  <channel-type id="thermofloor_ztrm2fx_03_000_config_decimal_param17">
+    <item-type>Number</item-type>
+    <label>Display brightness - dimmed state</label>
+    <description>Display brightness - dimmed state</description>
+    <state pattern="%s">
+    </state>
+  </channel-type>
+
+  <channel-type id="thermofloor_ztrm2fx_03_000_config_decimal_param15">
+    <item-type>Number</item-type>
+    <label>Button brightness - dimmed state</label>
+    <description>Button brightness - dimmed state</description>
+    <state pattern="%s">
+    </state>
+  </channel-type>
+
   <channel-type id="thermofloor_ztrm2fx_03_000_thermostat_mode">
     <item-type>Number</item-type>
     <label>Thermostat Mode</label>
@@ -426,10 +458,10 @@ The main thermostat device<br /><h1>Overview</h1><p>Lifeline. (Normally used by 
     <category>Temperature</category>
     <state pattern="%s">
       <options>
-        <option value="2">Cool</option>
+        <option value="0">Off</option>
         <option value="1">Heat</option>
         <option value="11">Economy Heat</option>
-        <option value="0">Off</option>
+        <option value="2">Cool</option>
       </options>
     </state>
   </channel-type>

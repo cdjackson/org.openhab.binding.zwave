@@ -20,7 +20,7 @@ Z-Wave Module for Water Meter<br /><h1>Overview</h1><p>SWM 301 is a battery-powe
           <property name="binding:*:QuantityType">COMMAND_CLASS_SENSOR_MULTILEVEL;type=TEMPERATURE</property>
         </properties>
       </channel>
-      <channel id="meter_water_cubic_meters" typeId="meter_water_cubic_meters">
+meter....1>>>0>><<meter_water_cubic_meters      <channel id="meter_water_cubic_meters" typeId="meter_water_cubic_meters">
         <label>Water meter (amps)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=W_Cubic_Meters</property>

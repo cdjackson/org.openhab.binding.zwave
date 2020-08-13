@@ -20,7 +20,7 @@ Z-Wave home energy meter<br /><h1>Overview</h1><p>The S123A00R is a single eleme
           <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL,COMMAND_CLASS_BASIC;type=POWER</property>
         </properties>
       </channel>
-      <channel id="meter_kwh" typeId="meter_kwh">
+meter....1>>>0>><<meter_kwh      <channel id="meter_kwh" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_KWh</property>

@@ -20,19 +20,19 @@ Red Series On/Off switch<br /><h1>Overview</h1><p>Inovelli’s new on/off switch
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC</property>
         </properties>
       </channel>
-      <channel id="meter_watts" typeId="meter_watts">
+meter....3>>>0>><<meter_watts      <channel id="meter_watts" typeId="meter_watts">
         <label>Electric meter (watts)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_kwh" typeId="meter_kwh">
+meter....3>>>1>><<meter_kwh      <channel id="meter_kwh" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_KWh</property>
         </properties>
       </channel>
-      <channel id="meter_reset" typeId="meter_reset">
+meter....3>>>2>><<meter_reset      <channel id="meter_reset" typeId="meter_reset">
         <label>Reset Meter [Deprecated]</label>
         <properties>
           <property name="binding:*:OnOffType">COMMAND_CLASS_METER</property>
@@ -143,7 +143,6 @@ LED Indicator Color<br /><h1>Overview</h1><p>This will set the default color of 
           <option value="170">Blue</option>
           <option value="212">Violet</option>
           <option value="234">Pink</option>
-          <option value="255">White</option>
         </options>
         <limitToOptions>false</limitToOptions>
       </parameter>
@@ -217,7 +216,6 @@ LED Strip Effect (Color)<br /><h1>Overview</h1><p>This will allow you to add som
           <option value="170">Blue</option>
           <option value="212">Violet</option>
           <option value="234">Pink</option>
-          <option value="255">White</option>
         </options>
         <limitToOptions>false</limitToOptions>
       </parameter>
@@ -318,18 +316,6 @@ Energy Reports<br /><h1>Overview</h1><p>The energy level change that will result
         <limitToOptions>false</limitToOptions>
       </parameter>
 
-      <parameter name="config_51_1" type="integer" groupName="configuration">
-        <label>51: Enable Instant On</label>
-        <description><![CDATA[
-Enable Instant On<br /><h1>Overview</h1><p>Enable instant on (ie: disable the 700ms delay) for physical switch. Note, if you disable the delay, it will also disable scene control except for Button 1 (ie: tap up 1x or tap down 1x) and button 7 (config button). All other buttons (2-6) will be disabled.</p> 0: No Delay 1: 700ms Delay (default)
-        ]]></description>
-        <default>1</default>
-        <options>
-          <option value="0">No delay</option>
-          <option value="1">700ms delay</option>
-        </options>
-      </parameter>
-
       <!-- ASSOCIATION DEFINITIONS -->
       <parameter name="group_1" type="text" groupName="association" multiple="true">
         <label>1: Lifeline</label>
@@ -386,7 +372,6 @@ Enable Instant On<br /><h1>Overview</h1><p>Enable instant on (ie: disable the 70
         <option value="170">Blue</option>
         <option value="212">Violet</option>
         <option value="234">Pink</option>
-        <option value="255">White</option>
       </options>
     </state>
   </channel-type>

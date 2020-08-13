@@ -26,31 +26,31 @@ Dual Nano Switch with Energy Metering<br /><h1>Overview</h1><table><tr><td> <p><
           <property name="binding:*:DecimalType">COMMAND_CLASS_SCENE_ACTIVATION</property>
         </properties>
       </channel>
-      <channel id="meter_voltage" typeId="meter_voltage">
+meter....5>>>0>><<meter_voltage      <channel id="meter_voltage" typeId="meter_voltage">
         <label>Electric meter (volts)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_V</property>
         </properties>
       </channel>
-      <channel id="meter_watts" typeId="meter_watts">
+meter....5>>>1>><<meter_watts      <channel id="meter_watts" typeId="meter_watts">
         <label>Electric meter (watts)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_kwh" typeId="meter_kwh">
+meter....5>>>2>><<meter_kwh      <channel id="meter_kwh" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_KWh</property>
         </properties>
       </channel>
-      <channel id="meter_current" typeId="meter_current">
+meter....5>>>3>><<meter_current      <channel id="meter_current" typeId="meter_current">
         <label>Electric meter (amps)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_A</property>
         </properties>
       </channel>
-      <channel id="meter_reset" typeId="meter_reset">
+meter....5>>>4>><<meter_reset      <channel id="meter_reset" typeId="meter_reset">
         <label>Reset Meter</label>
         <properties>
           <property name="binding:*:OnOffType">COMMAND_CLASS_METER;reset=true</property>
@@ -80,34 +80,28 @@ Dual Nano Switch with Energy Metering<br /><h1>Overview</h1><table><tr><td> <p><
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:1,COMMAND_CLASS_BASIC:1</property>
         </properties>
       </channel>
-      <channel id="meter_voltage1" typeId="meter_voltage">
+meter....4>>>0>><<meter_voltage      <channel id="meter_voltage1" typeId="meter_voltage">
         <label>Electric meter (volts) 1</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:1;type=E_V</property>
         </properties>
       </channel>
-      <channel id="meter_watts1" typeId="meter_watts">
+meter....4>>>1>><<meter_watts      <channel id="meter_watts1" typeId="meter_watts">
         <label>Electric meter (watts) 1</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:1;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_kwh1" typeId="meter_kwh">
+meter....4>>>2>><<meter_kwh      <channel id="meter_kwh1" typeId="meter_kwh">
         <label>Electric meter (kWh) 1</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:1;type=E_KWh</property>
         </properties>
       </channel>
-      <channel id="meter_current1" typeId="meter_current">
+meter....4>>>3>><<meter_current      <channel id="meter_current1" typeId="meter_current">
         <label>Electric meter (amps) 1</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:1;type=E_A</property>
-        </properties>
-      </channel>
-      <channel id="meter_reset1" typeId="meter_reset">
-        <label>Reset Meter [Deprecated]</label>
-        <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_METER:1;reset=true</property>
         </properties>
       </channel>
       <channel id="switch_binary2" typeId="switch_binary">
@@ -116,34 +110,28 @@ Dual Nano Switch with Energy Metering<br /><h1>Overview</h1><table><tr><td> <p><
           <property name="binding:*:OnOffType">COMMAND_CLASS_SWITCH_BINARY:2,COMMAND_CLASS_BASIC:2</property>
         </properties>
       </channel>
-      <channel id="meter_voltage2" typeId="meter_voltage">
+meter....4>>>0>><<meter_voltage      <channel id="meter_voltage2" typeId="meter_voltage">
         <label>Electric meter (volts) 2</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:2;type=E_V</property>
         </properties>
       </channel>
-      <channel id="meter_watts2" typeId="meter_watts">
+meter....4>>>1>><<meter_watts      <channel id="meter_watts2" typeId="meter_watts">
         <label>Electric meter (watts) 2</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:2;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_kwh2" typeId="meter_kwh">
+meter....4>>>2>><<meter_kwh      <channel id="meter_kwh2" typeId="meter_kwh">
         <label>Electric meter (kWh) 2</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:2;type=E_KWh</property>
         </properties>
       </channel>
-      <channel id="meter_current2" typeId="meter_current">
+meter....4>>>3>><<meter_current      <channel id="meter_current2" typeId="meter_current">
         <label>Electric meter (amps) 2</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER:2;type=E_A</property>
-        </properties>
-      </channel>
-      <channel id="meter_reset2" typeId="meter_reset">
-        <label>Reset Meter [Deprecated]</label>
-        <properties>
-          <property name="binding:*:OnOffType">COMMAND_CLASS_METER:2;reset=true</property>
         </properties>
       </channel>
     </channels>

@@ -14,7 +14,7 @@ Electrical Meter<br /><h1>Overview</h1><p>The basic purpose of the device is to 
 
     <!-- CHANNEL DEFINITIONS -->
     <channels>
-      <channel id="meter_kwh" typeId="meter_kwh">
+meter....1>>>0>><<meter_kwh      <channel id="meter_kwh" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_KWh</property>

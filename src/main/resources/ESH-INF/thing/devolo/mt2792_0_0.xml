@@ -26,49 +26,49 @@ Home Control Metering Plug<br /><h1>Overview</h1><p>The devolo Home Control Smar
           <property name="binding:*:DecimalType">COMMAND_CLASS_SCENE_ACTIVATION</property>
         </properties>
       </channel>
-      <channel id="meter_current" typeId="meter_current">
+meter....8>>>0>><<meter_current      <channel id="meter_current" typeId="meter_current">
         <label>Electric meter (amps)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_A</property>
         </properties>
       </channel>
-      <channel id="meter_voltage" typeId="meter_voltage">
+meter....8>>>1>><<meter_voltage      <channel id="meter_voltage" typeId="meter_voltage">
         <label>Electric meter (volts)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_V</property>
         </properties>
       </channel>
-      <channel id="meter_kwh" typeId="meter_kwh">
+meter....8>>>2>><<meter_kwh      <channel id="meter_kwh" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_KWh</property>
         </properties>
       </channel>
-      <channel id="meter_powerfactor" typeId="meter_powerfactor">
+meter....8>>>3>><<meter_powerfactor      <channel id="meter_powerfactor" typeId="meter_powerfactor">
         <label>Electric meter (power factor)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_Power_Factor</property>
         </properties>
       </channel>
-      <channel id="meter_watts" typeId="meter_watts">
+meter....8>>>4>><<meter_watts      <channel id="meter_watts" typeId="meter_watts">
         <label>Electric meter (watts)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_W</property>
         </properties>
       </channel>
-      <channel id="meter_kvah" typeId="meter_kvah">
+meter....8>>>5>><<meter_kvah      <channel id="meter_kvah" typeId="meter_kvah">
         <label>Electric meter (kVAh)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_KVAh</property>
         </properties>
       </channel>
-      <channel id="meter_pulse" typeId="meter_pulse">
+meter....8>>>6>><<meter_pulse      <channel id="meter_pulse" typeId="meter_pulse">
         <label>Electric meter (pulses)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_Pulses</property>
         </properties>
       </channel>
-      <channel id="meter_reset" typeId="meter_reset">
+meter....8>>>7>><<meter_reset      <channel id="meter_reset" typeId="meter_reset">
         <label>Reset Meter</label>
         <properties>
           <property name="binding:*:OnOffType">COMMAND_CLASS_METER;reset=true</property>

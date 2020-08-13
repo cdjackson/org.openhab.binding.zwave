@@ -32,7 +32,7 @@ POPP Rain-Sensor<br /><h1>Overview</h1><p>The POPP Rain-Sensor is a Rain Measuri
           <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL;type=RAIN_RATE</property>
         </properties>
       </channel>
-      <channel id="meter_water_cubic_meters" typeId="meter_water_cubic_meters">
+meter....1>>>0>><<meter_water_cubic_meters      <channel id="meter_water_cubic_meters" typeId="meter_water_cubic_meters">
         <label>Water meter (amps)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=W_Cubic_Meters</property>

@@ -53,13 +53,13 @@
           <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL;type=DEW_POINT</property>
         </properties>
       </channel>
-      <channel id="meter_pulse" typeId="meter_pulse">
+meter....2>>>0>><<meter_pulse      <channel id="meter_pulse" typeId="meter_pulse">
         <label>Electric meter (pulses)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_Pulses</property>
         </properties>
       </channel>
-      <channel id="meter_kwh" typeId="meter_kwh">
+meter....2>>>1>><<meter_kwh      <channel id="meter_kwh" typeId="meter_kwh">
         <label>Electric meter (kWh)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=E_KWh</property>

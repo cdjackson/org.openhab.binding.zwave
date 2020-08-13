@@ -32,7 +32,7 @@ Flow Meter<br /><h1>Overview</h1><p>With Flow meter, you have the power to autom
           <property name="binding:*:DecimalType">COMMAND_CLASS_SENSOR_MULTILEVEL;type=GENERAL</property>
         </properties>
       </channel>
-      <channel id="meter_water_gallons" typeId="meter_water_gallons">
+meter....1>>>0>><<meter_water_gallons      <channel id="meter_water_gallons" typeId="meter_water_gallons">
         <label>Water meter (amps)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=W_Gallons</property>

@@ -14,7 +14,7 @@ Engie Meter Adapter<br /><h1>Overview</h1><p>The meter adapter measures gas and 
 
     <!-- CHANNEL DEFINITIONS -->
     <channels>
-      <channel id="meter_gas_cubic_meters" typeId="meter_gas_cubic_meters">
+meter....1>>>0>><<meter_gas_cubic_meters      <channel id="meter_gas_cubic_meters" typeId="meter_gas_cubic_meters">
         <label>Gas meter (cubic meters)</label>
         <properties>
           <property name="binding:*:DecimalType">COMMAND_CLASS_METER;type=G_Cubic_Meters</property>
