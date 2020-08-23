@@ -6,11 +6,11 @@ title: Soft Remote  - ZWave
 {% include base.html %}
 
 # Soft Remote Remote Control
-This describes the Z-Wave device *Soft Remote *, manufactured by *[ID-RF](http://www.nodon.fr/)* with the thing type UID of ```nodon_softremote_00_000```.
+This describes the Z-Wave device *Soft Remote *, manufactured by *[ID-RF](http://www.nodon.fr/)* with the thing type UID of ```ID-RF_softremote_00_000```.
 
 The device is in the category of *Remote Control*, defining Any portable or hand-held device that controls the status of something, e.g. remote control, keyfob etc..
 
-![Soft Remote  product image](https://www.cd-jackson.com/zwave_device_uploads/250/250_default.png)
+![Soft Remote  product image](https://opensmarthouse.org/assets/zwave/attachments/250/SoftRemote.png)
 
 
 The Soft Remote  does not permanently listen for messages sent from the controller - it will periodically wake up automatically to check if the controller has messages to send, but will sleep most of the time to conserve battery life. Refer to the *Wakeup Information* section below for further information.
@@ -44,30 +44,15 @@ The following table summarises the channels available for the Soft Remote  -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Scene Number | scene_number | scene_number |  | Number | 
+| Scene Number | scene_number | scene_number |  |  | 
 | Battery Level | battery-level | system.battery_level | Battery | Number |
 
 ### Scene Number
-Triggers when a scene button is pressed.
-
-The ```scene_number``` channel is of type ```scene_number``` and supports the ```Number``` item.
-This channel provides the scene, and the event as a decimal value in the form ```<scene>.<event>```. The scene number is set by the device, and the event is as follows -:
-
-| Event ID | Event Description  |
-|----------|--------------------|
-| 0        | Single key press   |
-| 1        | Key released       |
-| 2        | Key held down      |
-| 3        | Double keypress    |
-| 4        | Tripple keypress   |
-| 5        | 4 x keypress       |
-| 6        | 5 x keypress       |
+Channel type information on this channel is not found.
 
 ### Battery Level
-Represents the battery level as a percentage (0-100%). Bindings for things supporting battery level in a different format (e.g. 4 levels) should convert to a percentage to provide a consistent battery level reading.
+Channel type information on this channel is not found.
 
-The ```system.battery-level``` channel is of type ```system.battery-level``` and supports the ```Number``` item and is in the ```Battery``` category.
-This channel provides the battery level as a percentage and also reflects the low battery warning state. If the battery state is in low battery warning state, this will read 0%.
 
 
 ## Device Configuration
@@ -307,9 +292,9 @@ Association group 7 supports 8 nodes.
 
 ### Documentation Links
 
-* [Manual](https://www.cd-jackson.com/zwave_device_uploads/250/nodon-crc-3-6-xx-userguide-150707-en-interactive.pdf)
+* [Manual](https://www.opensmarthouse.org/zwavedatabase/250/nodon-crc-3-6-xx-userguide-150707-en-interactive.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/250).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/250).

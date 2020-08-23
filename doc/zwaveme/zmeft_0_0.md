@@ -6,11 +6,11 @@ title: ZME_FT - ZWave
 {% include base.html %}
 
 # ZME_FT Floor Thermostat
-This describes the Z-Wave device *ZME_FT*, manufactured by *Z-Wave.Me* with the thing type UID of ```zwaveme_zmeft_00_000```.
+This describes the Z-Wave device *ZME_FT*, manufactured by *Z-Wave.Me* with the thing type UID of ```Z-Wave.Me_zmeft_00_000```.
 
 The device is in the category of *HVAC*, defining Air condition devices, Fans.
 
-![ZME_FT product image](https://www.cd-jackson.com/zwave_device_uploads/151/151_default.png)
+![ZME_FT product image](https://opensmarthouse.org/assets/zwave/attachments/151/zme-ft.png)
 
 
 The ZME_FT supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is also able to participate in the routing of data between other devices in the mesh network.
@@ -39,48 +39,22 @@ The following table summarises the channels available for the ZME_FT -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Sensor (temperature) | sensor_temperature | sensor_temperature | Temperature | Number:Temperature | 
-| Thermostat mode | thermostat_mode | thermostat_mode | Temperature | Number | 
-| Setpoint (heating) | thermostat_setpoint | thermostat_setpoint | Heating | Number:Temperature | 
-| Setpoint (furnace) | thermostat_setpoint | thermostat_setpoint | Heating | Number:Temperature | 
+| Sensor (temperature) | sensor_temperature | sensor_temperature |  |  | 
+| Thermostat mode | thermostat_mode | thermostat_mode |  |  | 
+| Setpoint (heating) | thermostat_setpoint | thermostat_setpoint |  |  | 
+| Setpoint (furnace) | thermostat_setpoint | thermostat_setpoint |  |  | 
 
 ### Sensor (temperature)
-Indicates the current temperature.
-
-The ```sensor_temperature``` channel is of type ```sensor_temperature``` and supports the ```Number:Temperature``` item and is in the ```Temperature``` category.
+Channel type information on this channel is not found.
 
 ### Thermostat mode
-Sets the thermostat.
-
-The ```thermostat_mode``` channel is of type ```thermostat_mode``` and supports the ```Number``` item and is in the ```Temperature``` category.
-The following state translation is provided for this channel to the ```Number``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| 0 | Off |
-| 1 | Heat |
-| 2 | Cool |
-| 3 | Auto |
-| 4 | Aux Heat |
-| 5 | Resume |
-| 6 | Fan Only |
-| 7 | Furnace |
-| 8 | Dry Air |
-| 9 | Moist Air |
-| 10 | Auto Changeover |
-| 11 | Heat Economy |
-| 12 | Cool Economy |
-| 13 | Away |
+Channel type information on this channel is not found.
 
 ### Setpoint (heating)
-Sets the thermostat setpoint.
-
-The ```thermostat_setpoint``` channel is of type ```thermostat_setpoint``` and supports the ```Number:Temperature``` item and is in the ```Heating``` category.
+Channel type information on this channel is not found.
 
 ### Setpoint (furnace)
-Sets the thermostat setpoint.
-
-The ```thermostat_setpoint``` channel is of type ```thermostat_setpoint``` and supports the ```Number:Temperature``` item and is in the ```Heating``` category.
+Channel type information on this channel is not found.
 
 
 
@@ -224,9 +198,9 @@ Association group 1 supports 10 nodes.
 
 ### Documentation Links
 
-* [User Manual](https://www.cd-jackson.com/zwave_device_uploads/151/ZMR-FT-1-4.pdf)
+* [User Manual](https://www.opensmarthouse.org/zwavedatabase/151/ZMR-FT-1-4.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/151).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/151).

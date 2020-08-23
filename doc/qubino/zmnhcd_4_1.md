@@ -6,12 +6,12 @@ title: ZMNHCD - ZWave
 {% include base.html %}
 
 # ZMNHCD Flush Shutter
-This describes the Z-Wave device *ZMNHCD*, manufactured by *[Goap](http://www.qubino.com/)* with the thing type UID of ```qubino_zmnhcd_04_001```.
+This describes the Z-Wave device *ZMNHCD*, manufactured by *[Goap](http://www.qubino.com/)* with the thing type UID of ```Goap_zmnhcd_04_001```.
 This version of the device is limited to firmware versions above 4.1
 
 The device is in the category of *Blinds*, defining Roller shutters, window blinds, etc..
 
-![ZMNHCD product image](https://www.cd-jackson.com/zwave_device_uploads/213/213_default.jpg)
+![ZMNHCD product image](https://opensmarthouse.org/assets/zwave/attachments/213/ZMNHCD.jpg)
 
 
 The ZMNHCD supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is also able to participate in the routing of data between other devices in the mesh network.
@@ -76,72 +76,50 @@ The following table summarises the channels available for the ZMNHCD -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Switch | switch_binary | switch_binary | Switch | Switch | 
-| Blinds Control | blinds_control | blinds_control | Blinds | Rollershutter | 
-| Sensor (temperature) | sensor_temperature | sensor_temperature | Temperature | Number:Temperature | 
-| Electric meter (kWh) | meter_kwh | meter_kwh | Energy | Number | 
-| Electric meter (watts) | meter_watts | meter_watts | Energy | Number | 
-| Switch 1 | switch_binary1 | switch_binary | Switch | Switch | 
-| Blinds control 1 | blinds_control1 | blinds_control | Blinds | Rollershutter | 
-| Electric meter (kWh) 1 | meter_kwh1 | meter_kwh | Energy | Number | 
-| Electric meter (watts) 1 | meter_watts1 | meter_watts | Energy | Number | 
-| Switch 2 | switch_binary2 | switch_binary | Switch | Switch | 
-| Blinds control 2 | blinds_control2 | blinds_control | Blinds | Rollershutter | 
+| Switch | switch_binary | switch_binary |  |  | 
+| Blinds Control | blinds_control | blinds_control |  |  | 
+| Sensor (temperature) | sensor_temperature | sensor_temperature |  |  | 
+| Electric meter (kWh) | meter_kwh | meter_kwh |  |  | 
+| Electric meter (watts) | meter_watts | meter_watts |  |  | 
+| Switch 1 | switch_binary1 | switch_binary |  |  | 
+| Blinds control 1 | blinds_control1 | blinds_control |  |  | 
+| Electric meter (kWh) 1 | meter_kwh1 | meter_kwh |  |  | 
+| Electric meter (watts) 1 | meter_watts1 | meter_watts |  |  | 
+| Switch 2 | switch_binary2 | switch_binary |  |  | 
+| Blinds control 2 | blinds_control2 | blinds_control |  |  | 
 
 ### Switch
-Switch the power on and off.
-
-The ```switch_binary``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Blinds Control
-Provides start / stop control of blinds.
-
-The ```blinds_control``` channel is of type ```blinds_control``` and supports the ```Rollershutter``` item and is in the ```Blinds``` category.
+Channel type information on this channel is not found.
 
 ### Sensor (temperature)
-Indicates the current temperature.
-
-The ```sensor_temperature``` channel is of type ```sensor_temperature``` and supports the ```Number:Temperature``` item and is in the ```Temperature``` category.
+Channel type information on this channel is not found.
 
 ### Electric meter (kWh)
-Indicates the energy consumption (kWh).
-
-The ```meter_kwh``` channel is of type ```meter_kwh``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Electric meter (watts)
-Indicates the instantaneous power consumption.
-
-The ```meter_watts``` channel is of type ```meter_watts``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Switch 1
-Switch the power on and off.
-
-The ```switch_binary1``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Blinds control 1
-Provides start / stop control of blinds.
-
-The ```blinds_control1``` channel is of type ```blinds_control``` and supports the ```Rollershutter``` item and is in the ```Blinds``` category.
+Channel type information on this channel is not found.
 
 ### Electric meter (kWh) 1
-Indicates the energy consumption (kWh).
-
-The ```meter_kwh1``` channel is of type ```meter_kwh``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Electric meter (watts) 1
-Indicates the instantaneous power consumption.
-
-The ```meter_watts1``` channel is of type ```meter_watts``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Switch 2
-Switch the power on and off.
-
-The ```switch_binary2``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Blinds control 2
-Provides start / stop control of blinds.
-
-The ```blinds_control2``` channel is of type ```blinds_control``` and supports the ```Rollershutter``` item and is in the ```Blinds``` category.
+Channel type information on this channel is not found.
 
 
 
@@ -535,11 +513,11 @@ Association group 5 supports 16 nodes.
 
 ### Documentation Links
 
-* [User Manual](https://www.cd-jackson.com/zwave_device_uploads/213/Qubino-Flush-Shutter-PLUS-user-manual-V1-4.pdf)
-* [Qubino-Flush-Shutter-PLUS-user-manual-V1.0](https://www.cd-jackson.com/zwave_device_uploads/213/ZMNHCD-S1.pdf)
-* [Qubino Flush Shutter extended manual eng 2.2](https://www.cd-jackson.com/zwave_device_uploads/213/Qubino-Flush-Shutter-PLUS-extended-manual-eng-2-2-1.pdf)
+* [User Manual](https://www.opensmarthouse.org/zwavedatabase/213/Qubino-Flush-Shutter-PLUS-user-manual-V1-4.pdf)
+* [Qubino-Flush-Shutter-PLUS-user-manual-V1.0](https://www.opensmarthouse.org/zwavedatabase/213/ZMNHCD-S1.pdf)
+* [Qubino Flush Shutter extended manual eng 2.2](https://www.opensmarthouse.org/zwavedatabase/213/Qubino-Flush-Shutter-PLUS-extended-manual-eng-2-2-1.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/213).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/213).

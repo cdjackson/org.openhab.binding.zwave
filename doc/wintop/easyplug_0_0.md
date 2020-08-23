@@ -6,11 +6,11 @@ title: EasyPlug - ZWave
 {% include base.html %}
 
 # EasyPlug Wall Plug
-This describes the Z-Wave device *EasyPlug*, manufactured by *Wintop* with the thing type UID of ```wintop_easyplug_00_000```.
+This describes the Z-Wave device *EasyPlug*, manufactured by *Wintop* with the thing type UID of ```Wintop_easyplug_00_000```.
 
 The device is in the category of *Power Outlet*, defining Small devices to be plugged into a power socket in a wall which stick there.
 
-![EasyPlug product image](https://www.cd-jackson.com/zwave_device_uploads/218/218_default.png)
+![EasyPlug product image](https://opensmarthouse.org/assets/zwave/attachments/218/easyplug.png)
 
 
 The EasyPlug supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is also able to participate in the routing of data between other devices in the mesh network.
@@ -36,30 +36,22 @@ The following table summarises the channels available for the EasyPlug -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Switch | switch_binary | switch_binary | Switch | Switch | 
-| Sensor (temperature) | sensor_temperature | sensor_temperature | Temperature | Number:Temperature | 
-| Electric meter (kWh) | meter_kwh | meter_kwh | Energy | Number | 
-| Electric meter (watts) | meter_watts | meter_watts | Energy | Number | 
+| Switch | switch_binary | switch_binary |  |  | 
+| Sensor (temperature) | sensor_temperature | sensor_temperature |  |  | 
+| Electric meter (kWh) | meter_kwh | meter_kwh |  |  | 
+| Electric meter (watts) | meter_watts | meter_watts |  |  | 
 
 ### Switch
-Switch the power on and off.
-
-The ```switch_binary``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Sensor (temperature)
-Indicates the current temperature.
-
-The ```sensor_temperature``` channel is of type ```sensor_temperature``` and supports the ```Number:Temperature``` item and is in the ```Temperature``` category.
+Channel type information on this channel is not found.
 
 ### Electric meter (kWh)
-Indicates the energy consumption (kWh).
-
-The ```meter_kwh``` channel is of type ```meter_kwh``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Electric meter (watts)
-Indicates the instantaneous power consumption.
-
-The ```meter_watts``` channel is of type ```meter_watts``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 
 
@@ -101,9 +93,9 @@ Association group 1 supports 5 nodes.
 
 ### Documentation Links
 
-* [Manual Text](https://www.cd-jackson.com/zwave_device_uploads/218/Easyplug-Manual.pdf)
+* [Manual Text](https://www.opensmarthouse.org/zwavedatabase/218/Easyplug-Manual.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/218).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/218).

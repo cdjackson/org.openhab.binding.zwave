@@ -6,11 +6,11 @@ title: ZMNHBA - ZWave
 {% include base.html %}
 
 # ZMNHBA Flush 2 relays
-This describes the Z-Wave device *ZMNHBA*, manufactured by *[Goap](http://www.qubino.com/)* with the thing type UID of ```qubino_zmnhba_00_000```.
+This describes the Z-Wave device *ZMNHBA*, manufactured by *[Goap](http://www.qubino.com/)* with the thing type UID of ```Goap_zmnhba_00_000```.
 
 The device is in the category of *Wall Switch*, defining Any device attached to the wall that controls a binary status of something, for ex. a light switch.
 
-![ZMNHBA product image](https://www.cd-jackson.com/zwave_device_uploads/208/208_default.png)
+![ZMNHBA product image](https://opensmarthouse.org/assets/zwave/attachments/208/thumb-flush-2-relays.png)
 
 
 The ZMNHBA supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is also able to participate in the routing of data between other devices in the mesh network.
@@ -49,66 +49,46 @@ The following table summarises the channels available for the ZMNHBA -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Switch | switch_binary | switch_binary | Switch | Switch | 
-| Sensor (temperature) | sensor_temperature | sensor_temperature | Temperature | Number:Temperature | 
-| Electric meter (kWh) | meter_kwh | meter_kwh | Energy | Number | 
-| Electric meter (watts) | meter_watts | meter_watts | Energy | Number | 
-| Switch 1 | switch_binary1 | switch_binary | Switch | Switch | 
-| Electric meter (kWh) 1 | meter_kwh1 | meter_kwh | Energy | Number | 
-| Electric meter (watts) 1 | meter_watts1 | meter_watts | Energy | Number | 
-| Switch 2 | switch_binary2 | switch_binary | Switch | Switch | 
-| Electric meter (kWh) 2 | meter_kwh2 | meter_kwh | Energy | Number | 
-| Electric meter (watts) 2 | meter_watts2 | meter_watts | Energy | Number | 
+| Switch | switch_binary | switch_binary |  |  | 
+| Sensor (temperature) | sensor_temperature | sensor_temperature |  |  | 
+| Electric meter (kWh) | meter_kwh | meter_kwh |  |  | 
+| Electric meter (watts) | meter_watts | meter_watts |  |  | 
+| Switch 1 | switch_binary1 | switch_binary |  |  | 
+| Electric meter (kWh) 1 | meter_kwh1 | meter_kwh |  |  | 
+| Electric meter (watts) 1 | meter_watts1 | meter_watts |  |  | 
+| Switch 2 | switch_binary2 | switch_binary |  |  | 
+| Electric meter (kWh) 2 | meter_kwh2 | meter_kwh |  |  | 
+| Electric meter (watts) 2 | meter_watts2 | meter_watts |  |  | 
 
 ### Switch
-Switch the power on and off.
-
-The ```switch_binary``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Sensor (temperature)
-Indicates the current temperature.
-
-The ```sensor_temperature``` channel is of type ```sensor_temperature``` and supports the ```Number:Temperature``` item and is in the ```Temperature``` category.
+Channel type information on this channel is not found.
 
 ### Electric meter (kWh)
-Indicates the energy consumption (kWh).
-
-The ```meter_kwh``` channel is of type ```meter_kwh``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Electric meter (watts)
-Indicates the instantaneous power consumption.
-
-The ```meter_watts``` channel is of type ```meter_watts``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Switch 1
-Switch the power on and off.
-
-The ```switch_binary1``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Electric meter (kWh) 1
-Indicates the energy consumption (kWh).
-
-The ```meter_kwh1``` channel is of type ```meter_kwh``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Electric meter (watts) 1
-Indicates the instantaneous power consumption.
-
-The ```meter_watts1``` channel is of type ```meter_watts``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Switch 2
-Switch the power on and off.
-
-The ```switch_binary2``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Electric meter (kWh) 2
-Indicates the energy consumption (kWh).
-
-The ```meter_kwh2``` channel is of type ```meter_kwh``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Electric meter (watts) 2
-Indicates the instantaneous power consumption.
-
-The ```meter_watts2``` channel is of type ```meter_watts``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 
 
@@ -356,9 +336,9 @@ Association group 3 supports 4 nodes.
 
 ### Documentation Links
 
-* [User Manual](https://www.cd-jackson.com/zwave_device_uploads/208/flush-2-relays-ZMNHBA2.pdf)
+* [User Manual](https://www.opensmarthouse.org/zwavedatabase/208/flush-2-relays-ZMNHBA2.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/208).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/208).

@@ -6,11 +6,11 @@ title: HKZW_MS01 - ZWave
 {% include base.html %}
 
 # HKZW_MS01 Multisensor
-This describes the Z-Wave device *HKZW_MS01*, manufactured by *[Hank](http://www.hank-tech.com/)* with the thing type UID of ```hank_hkzwms01_00_000```.
+This describes the Z-Wave device *HKZW_MS01*, manufactured by *[Hank](http://www.hank-tech.com/)* with the thing type UID of ```Hank_hkzwms01_00_000```.
 
 The device is in the category of *Sensor*, defining Device used to measure something.
 
-![HKZW_MS01 product image](https://www.cd-jackson.com/zwave_device_uploads/675/675_default.png)
+![HKZW_MS01 product image](https://opensmarthouse.org/assets/zwave/attachments/675/HKZW-MS01.png)
 
 
 The HKZW_MS01 supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is unable to participate in the routing of data from other devices.
@@ -46,44 +46,27 @@ The following table summarises the channels available for the HKZW_MS01 -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Sensor (temperature) | sensor_temperature | sensor_temperature | Temperature | Number:Temperature | 
-| Sensor (relative humidity) | sensor_relhumidity | sensor_relhumidity | Humidity | Number | 
-| Sensor (luminance) | sensor_luminance | sensor_luminance |  | Number | 
-| Alarm (burglar) | alarm_burglar | alarm_burglar | Door | Switch | 
+| Sensor (temperature) | sensor_temperature | sensor_temperature |  |  | 
+| Sensor (relative humidity) | sensor_relhumidity | sensor_relhumidity |  |  | 
+| Sensor (luminance) | sensor_luminance | sensor_luminance |  |  | 
+| Alarm (burglar) | alarm_burglar | alarm_burglar |  |  | 
 | Battery Level | battery-level | system.battery_level | Battery | Number |
 
 ### Sensor (temperature)
-Indicates the current temperature.
-
-The ```sensor_temperature``` channel is of type ```sensor_temperature``` and supports the ```Number:Temperature``` item and is in the ```Temperature``` category.
+Channel type information on this channel is not found.
 
 ### Sensor (relative humidity)
-Indicates the current relative humidity.
-
-The ```sensor_relhumidity``` channel is of type ```sensor_relhumidity``` and supports the ```Number``` item and is in the ```Humidity``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Sensor (luminance)
-Indicates the current light reading.
-
-The ```sensor_luminance``` channel is of type ```sensor_luminance``` and supports the ```Number``` item. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Alarm (burglar)
-Indicates if the burglar alarm is triggered.
-
-The ```alarm_burglar``` channel is of type ```alarm_burglar``` and supports the ```Switch``` item and is in the ```Door``` category. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| OFF | OK |
-| ON | Alarm |
+Channel type information on this channel is not found.
 
 ### Battery Level
-Represents the battery level as a percentage (0-100%). Bindings for things supporting battery level in a different format (e.g. 4 levels) should convert to a percentage to provide a consistent battery level reading.
+Channel type information on this channel is not found.
 
-The ```system.battery-level``` channel is of type ```system.battery-level``` and supports the ```Number``` item and is in the ```Battery``` category.
-This channel provides the battery level as a percentage and also reflects the low battery warning state. If the battery state is in low battery warning state, this will read 0%.
 
 
 ## Device Configuration
@@ -216,9 +199,9 @@ Association group 2 supports 5 nodes.
 
 ### Documentation Links
 
-* [Manual](https://www.cd-jackson.com/zwave_device_uploads/675/HKZW-MS01-MANUL.pdf)
+* [Manual](https://www.opensmarthouse.org/zwavedatabase/675/HKZW-MS01-MANUL.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/675).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/675).

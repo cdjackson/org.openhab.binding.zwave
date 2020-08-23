@@ -6,11 +6,11 @@ title: ZMNKID - ZWave
 {% include base.html %}
 
 # ZMNKID Flush OnOff Thermostat 2
-This describes the Z-Wave device *ZMNKID*, manufactured by *[Goap](http://www.qubino.com/)* with the thing type UID of ```qubino_onoffthermo2_00_000```.
+This describes the Z-Wave device *ZMNKID*, manufactured by *[Goap](http://www.qubino.com/)* with the thing type UID of ```Goap_onoffthermo2_00_000```.
 
 The device is in the category of *HVAC*, defining Air condition devices, Fans.
 
-![ZMNKID product image](https://www.cd-jackson.com/zwave_device_uploads/1101/1101_default.png)
+![ZMNKID product image](https://opensmarthouse.org/assets/zwave/attachments/1101/Flush-OnOff-Thermostat-2.PNG)
 
 
 The ZMNKID supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is also able to participate in the routing of data between other devices in the mesh network.
@@ -78,84 +78,34 @@ The following table summarises the channels available for the ZMNKID -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Sensor (temperature) | sensor_temperature | sensor_temperature | Temperature | Number:Temperature | 
-| Electric meter (kWh) | meter_kwh | meter_kwh | Energy | Number | 
-| Electric meter (watts) | meter_watts | meter_watts | Energy | Number | 
-| Thermostat mode | thermostat_mode | thermostat_mode | Temperature | Number | 
-| Operating State | thermostat_state | thermostat_state | Temperature | Number | 
-| Setpoint (heating) | thermostat_setpoint | thermostat_setpoint | Heating | Number:Temperature | 
-| Alarm (power) | alarm_power | alarm_power | Energy | Switch | 
+| Sensor (temperature) | sensor_temperature | sensor_temperature |  |  | 
+| Electric meter (kWh) | meter_kwh | meter_kwh |  |  | 
+| Electric meter (watts) | meter_watts | meter_watts |  |  | 
+| Thermostat mode | thermostat_mode | thermostat_mode |  |  | 
+| Operating State | thermostat_state | thermostat_state |  |  | 
+| Setpoint (heating) | thermostat_setpoint | thermostat_setpoint |  |  | 
+| Alarm (power) | alarm_power | alarm_power |  |  | 
 
 ### Sensor (temperature)
-Indicates the current temperature.
-
-The ```sensor_temperature``` channel is of type ```sensor_temperature``` and supports the ```Number:Temperature``` item and is in the ```Temperature``` category.
+Channel type information on this channel is not found.
 
 ### Electric meter (kWh)
-Indicates the energy consumption (kWh).
-
-The ```meter_kwh``` channel is of type ```meter_kwh``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Electric meter (watts)
-Indicates the instantaneous power consumption.
-
-The ```meter_watts``` channel is of type ```meter_watts``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Thermostat mode
-Sets the thermostat.
-
-The ```thermostat_mode``` channel is of type ```thermostat_mode``` and supports the ```Number``` item and is in the ```Temperature``` category.
-The following state translation is provided for this channel to the ```Number``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| 0 | Off |
-| 1 | Heat |
-| 2 | Cool |
-| 3 | Auto |
-| 4 | Aux Heat |
-| 5 | Resume |
-| 6 | Fan Only |
-| 7 | Furnace |
-| 8 | Dry Air |
-| 9 | Moist Air |
-| 10 | Auto Changeover |
-| 11 | Heat Economy |
-| 12 | Cool Economy |
-| 13 | Away |
+Channel type information on this channel is not found.
 
 ### Operating State
-Sets the thermostat operating state.
-
-The ```thermostat_state``` channel is of type ```thermostat_state``` and supports the ```Number``` item and is in the ```Temperature``` category.
-The following state translation is provided for this channel to the ```Number``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| 0 | Idle |
-| 1 | Heating |
-| 2 | Cooling |
-| 3 | Fan Only |
-| 4 | Pending Heat |
-| 5 | Pending Cool |
-| 6 | Vent / Economiser |
+Channel type information on this channel is not found.
 
 ### Setpoint (heating)
-Sets the thermostat setpoint.
-
-The ```thermostat_setpoint``` channel is of type ```thermostat_setpoint``` and supports the ```Number:Temperature``` item and is in the ```Heating``` category.
+Channel type information on this channel is not found.
 
 ### Alarm (power)
-Indicates if a power alarm is triggered.
-
-The ```alarm_power``` channel is of type ```alarm_power``` and supports the ```Switch``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| OFF | OK |
-| ON | Alarm |
+Channel type information on this channel is not found.
 
 
 
@@ -577,9 +527,9 @@ Association group 4 supports 5 nodes.
 
 ### Documentation Links
 
-* [official product manual](https://www.cd-jackson.com/zwave_device_uploads/1101/Qubino-Flush-On-Off-Thermostat-2-PLUS-extended-manual-eng-1-0-certification.pdf)
+* [official product manual](https://www.opensmarthouse.org/zwavedatabase/1101/Qubino-Flush-On-Off-Thermostat-2-PLUS-extended-manual-eng-1-0-certification.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/1101).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/1101).

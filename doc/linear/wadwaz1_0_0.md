@@ -6,11 +6,11 @@ title: WADWAZ-1 - ZWave
 {% include base.html %}
 
 # WADWAZ-1 Door/Windows Sensor
-This describes the Z-Wave device *WADWAZ-1*, manufactured by *Linear Corp* with the thing type UID of ```linear_wadwaz1_00_000```.
+This describes the Z-Wave device *WADWAZ-1*, manufactured by *Linear Corp* with the thing type UID of ```Linear Corp_wadwaz1_00_000```.
 
 The device is in the category of *Door*, defining Door sensors.
 
-![WADWAZ-1 product image](https://www.cd-jackson.com/zwave_device_uploads/9/9_default.jpg)
+![WADWAZ-1 product image](https://opensmarthouse.org/assets/zwave/attachments/9/wadwaz.JPG)
 
 
 The WADWAZ-1 supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is unable to participate in the routing of data from other devices.
@@ -61,65 +61,27 @@ The following table summarises the channels available for the WADWAZ-1 -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Sensor (Binary) | sensor_door | sensor_door | Door | Contact | 
-| Sensor (Alarm) | alarm_entry | alarm_entry | Door | Switch | 
-| Tamper Alarm | alarm_tamper | alarm_tamper |  | Switch | 
-| Sensor (External Switch) | sensor_binary | sensor_binary |  | Switch | 
+| Sensor (Binary) | sensor_door | sensor_door |  |  | 
+| Sensor (Alarm) | alarm_entry | alarm_entry |  |  | 
+| Tamper Alarm | alarm_tamper | alarm_tamper |  |  | 
+| Sensor (External Switch) | sensor_binary | sensor_binary |  |  | 
 | Battery Level | battery-level | system.battery_level | Battery | Number |
 
 ### Sensor (Binary)
-Indicates if the door/window is open or closed.
-
-The ```sensor_door``` channel is of type ```sensor_door``` and supports the ```Contact``` item and is in the ```Door``` category. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Contact``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| OPEN | Open |
-| CLOSED | Closed |
+Channel type information on this channel is not found.
 
 ### Sensor (Alarm)
-Indicates if the entry alarm is triggered.
-
-The ```alarm_entry``` channel is of type ```alarm_entry``` and supports the ```Switch``` item and is in the ```Door``` category. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| ON | Open |
-| OFF | Closed |
+Channel type information on this channel is not found.
 
 ### Tamper Alarm
-Indicates if the tamper alarm is triggered.
-
-The ```alarm_tamper``` channel is of type ```alarm_tamper``` and supports the ```Switch``` item. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| OFF | OK |
-| ON | Alarm |
+Channel type information on this channel is not found.
 
 ### Sensor (External Switch)
-Indicates if a sensor has triggered.
-
-The ```sensor_binary``` channel is of type ```sensor_binary``` and supports the ```Switch``` item. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| ON | Triggered |
-| OFF | Untriggered |
+Channel type information on this channel is not found.
 
 ### Battery Level
-Represents the battery level as a percentage (0-100%). Bindings for things supporting battery level in a different format (e.g. 4 levels) should convert to a percentage to provide a consistent battery level reading.
+Channel type information on this channel is not found.
 
-The ```system.battery-level``` channel is of type ```system.battery-level``` and supports the ```Number``` item and is in the ```Battery``` category.
-This channel provides the battery level as a percentage and also reflects the low battery warning state. If the battery state is in low battery warning state, this will read 0%.
 
 
 ## Device Configuration
@@ -157,9 +119,9 @@ Association group 1 supports 5 nodes.
 
 ### Documentation Links
 
-* [Installation Manual](https://www.cd-jackson.com/zwave_device_uploads/9/WADWAZ-install.pdf)
+* [Installation Manual](https://www.opensmarthouse.org/zwavedatabase/9/WADWAZ-install.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/9).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/9).

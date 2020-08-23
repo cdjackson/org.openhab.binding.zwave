@@ -6,11 +6,11 @@ title: ZV9102FA-CCT - ZWave
 {% include base.html %}
 
 # ZV9102FA-CCT Z-wave CCT LED controller
-This describes the Z-Wave device *ZV9102FA-CCT*, manufactured by *[Sunricher](www.sunricher.com)* with the thing type UID of ```sunricher_zv9102facct_00_000```.
+This describes the Z-Wave device *ZV9102FA-CCT*, manufactured by *[Sunricher](www.sunricher.com)* with the thing type UID of ```Sunricher_zv9102facct_00_000```.
 
 The device is in the category of *Light Bulb*, defining Devices that illuminate something, such as bulbs, etc..
 
-![ZV9102FA-CCT product image](https://www.cd-jackson.com/zwave_device_uploads/793/793_default.png)
+![ZV9102FA-CCT product image](https://opensmarthouse.org/assets/zwave/attachments/793/Screenshot-2018-3-12-LED-Dimmer.png)
 
 
 The ZV9102FA-CCT supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is also able to participate in the routing of data between other devices in the mesh network.
@@ -37,46 +37,26 @@ The following table summarises the channels available for the ZV9102FA-CCT -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Dimmer | switch_dimmer | switch_dimmer | DimmableLight | Dimmer | 
-| Scene Number | scene_number | scene_number |  | Number | 
-| Color Control | color_color | color_color | ColorLight | Color | 
-| Color Temperature | color_temperature | color_temperature | ColorLight | Dimmer | 
-| Alarm (system) | alarm_system | alarm_system |  | Switch | 
+| Dimmer | switch_dimmer | switch_dimmer |  |  | 
+| Scene Number | scene_number | scene_number |  |  | 
+| Color Control | color_color | color_color |  |  | 
+| Color Temperature | color_temperature | color_temperature |  |  | 
+| Alarm (system) | alarm_system | alarm_system |  |  | 
 
 ### Dimmer
-The brightness channel allows to control the brightness of a light.
-            It is also possible to switch the light on and off.
-
-The ```switch_dimmer``` channel is of type ```switch_dimmer``` and supports the ```Dimmer``` item and is in the ```DimmableLight``` category.
+Channel type information on this channel is not found.
 
 ### Scene Number
-Triggers when a scene button is pressed.
-
-The ```scene_number``` channel is of type ```scene_number``` and supports the ```Number``` item.
+Channel type information on this channel is not found.
 
 ### Color Control
-The color channel allows to control the color of a light.
-            It is also possible to dim values and switch the light on and off.
-
-The ```color_color``` channel is of type ```color_color``` and supports the ```Color``` item and is in the ```ColorLight``` category.
+Channel type information on this channel is not found.
 
 ### Color Temperature
-The color temperature channel allows to set the color
-            temperature of a light from 0 (cold) to 100 (warm).
-
-The ```color_temperature``` channel is of type ```color_temperature``` and supports the ```Dimmer``` item and is in the ```ColorLight``` category.
+Channel type information on this channel is not found.
 
 ### Alarm (system)
-Indicates if a system alarm is triggered.
-
-The ```alarm_system``` channel is of type ```alarm_system``` and supports the ```Switch``` item. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| OFF | OK |
-| ON | Alarm |
+Channel type information on this channel is not found.
 
 
 
@@ -266,9 +246,9 @@ Association group 1 supports 1 node.
 
 ### Documentation Links
 
-* [User manual](https://www.cd-jackson.com/zwave_device_uploads/793/sr-zv9102fa-cct-user-manual.pdf)
+* [User manual](https://www.opensmarthouse.org/zwavedatabase/793/sr-zv9102fa-cct-user-manual.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/793).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/793).

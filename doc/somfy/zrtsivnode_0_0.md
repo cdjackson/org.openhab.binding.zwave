@@ -6,11 +6,11 @@ title: ZRTSI-VNODE - ZWave
 {% include base.html %}
 
 # ZRTSI-VNODE Z-Wave to RTS Interface Virtual Node
-This describes the Z-Wave device *ZRTSI-VNODE*, manufactured by *[Somfy](http://www.somfy.com/)* with the thing type UID of ```somfy_zrtsivnode_00_000```.
+This describes the Z-Wave device *ZRTSI-VNODE*, manufactured by *[Somfy](http://www.somfy.com/)* with the thing type UID of ```Somfy_zrtsivnode_00_000```.
 
 The device is in the category of *Blinds*, defining Roller shutters, window blinds, etc..
 
-![ZRTSI-VNODE product image](https://www.cd-jackson.com/zwave_device_uploads/370/370_default.jpg)
+![ZRTSI-VNODE product image](https://opensmarthouse.org/assets/zwave/attachments/370/ZRTSI.jpg)
 
 
 ## Overview
@@ -37,24 +37,18 @@ The following table summarises the channels available for the ZRTSI-VNODE -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Switch | switch_binary | switch_binary | Switch | Switch | 
-| Blinds control | blinds_control | blinds_control | Blinds | Rollershutter | 
-| Scene Number | scene_number | scene_number |  | Number | 
+| Switch | switch_binary | switch_binary |  |  | 
+| Blinds control | blinds_control | blinds_control |  |  | 
+| Scene Number | scene_number | scene_number |  |  | 
 
 ### Switch
-Switch the power on and off.
-
-The ```switch_binary``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Blinds control
-Provides start / stop control of blinds.
-
-The ```blinds_control``` channel is of type ```blinds_control``` and supports the ```Rollershutter``` item and is in the ```Blinds``` category.
+Channel type information on this channel is not found.
 
 ### Scene Number
-Triggers when a scene button is pressed.
-
-The ```scene_number``` channel is of type ```scene_number``` and supports the ```Number``` item.
+Channel type information on this channel is not found.
 
 
 
@@ -85,9 +79,9 @@ The device does not support associations.
 
 ### Documentation Links
 
-* [User Manual](https://www.cd-jackson.com/zwave_device_uploads/370/ZRTSI-Instructions-1811265.pdf)
+* [User Manual](https://www.opensmarthouse.org/zwavedatabase/370/ZRTSI-Instructions-1811265.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/370).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/370).

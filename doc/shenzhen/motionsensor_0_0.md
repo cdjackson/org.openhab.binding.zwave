@@ -6,11 +6,11 @@ title: Motion Sensor - ZWave
 {% include base.html %}
 
 # Motion Sensor PIR Motion Sensor
-This describes the Z-Wave device *Motion Sensor*, manufactured by *[Shenzhen Neo Electronics Co., Ltd](http://www.szneo.com/)* with the thing type UID of ```shenzhen_motionsensor_00_000```.
+This describes the Z-Wave device *Motion Sensor*, manufactured by *[Shenzhen Neo Electronics Co., Ltd](http://www.szneo.com/)* with the thing type UID of ```Shenzhen Neo Electronics Co., Ltd_motionsensor_00_000```.
 
 The device is in the category of *Motion Detector*, defining Motion sensors/detectors.
 
-![Motion Sensor product image](https://www.cd-jackson.com/zwave_device_uploads/401/401_default.jpg)
+![Motion Sensor product image](https://opensmarthouse.org/assets/zwave/attachments/401/NEO-COOLCAM-NAS-PD02Z.jpg)
 
 
 The Motion Sensor supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is unable to participate in the routing of data from other devices.
@@ -51,38 +51,23 @@ The following table summarises the channels available for the Motion Sensor -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Luminance Sensor | sensor_luminance | sensor_luminance |  | Number | 
-| Temperature Sensor | sensor_temperature | sensor_temperature | Temperature | Number:Temperature | 
-| Motion Alarm | alarm_motion | alarm_motion | Motion | Switch | 
+| Luminance Sensor | sensor_luminance | sensor_luminance |  |  | 
+| Temperature Sensor | sensor_temperature | sensor_temperature |  |  | 
+| Motion Alarm | alarm_motion | alarm_motion |  |  | 
 | Battery Level | battery-level | system.battery_level | Battery | Number |
 
 ### Luminance Sensor
-Indicates the current light reading.
-
-The ```sensor_luminance``` channel is of type ```sensor_luminance``` and supports the ```Number``` item. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Temperature Sensor
-Indicates the current temperature.
-
-The ```sensor_temperature``` channel is of type ```sensor_temperature``` and supports the ```Number:Temperature``` item and is in the ```Temperature``` category.
+Channel type information on this channel is not found.
 
 ### Motion Alarm
-Indicates if a motion alarm is triggered.
-
-The ```alarm_motion``` channel is of type ```alarm_motion``` and supports the ```Switch``` item and is in the ```Motion``` category. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| OFF | OK |
-| ON | Alarm |
+Channel type information on this channel is not found.
 
 ### Battery Level
-Represents the battery level as a percentage (0-100%). Bindings for things supporting battery level in a different format (e.g. 4 levels) should convert to a percentage to provide a consistent battery level reading.
+Channel type information on this channel is not found.
 
-The ```system.battery-level``` channel is of type ```system.battery-level``` and supports the ```Number``` item and is in the ```Battery``` category.
-This channel provides the battery level as a percentage and also reflects the low battery warning state. If the battery state is in low battery warning state, this will read 0%.
 
 
 ## Device Configuration
@@ -330,11 +315,11 @@ Association group 4 supports 4 nodes.
 
 ### Documentation Links
 
-* [Instruction Manual Motion Sensor](https://www.cd-jackson.com/zwave_device_uploads/401/Manual-for-Motion-sensor-PIR-Zwave-Neo.pdf)
-* [Motion Detector User Guide](https://www.cd-jackson.com/zwave_device_uploads/401/Motion-Detector-User-Guide.pdf)
-* [Motion Detector User Guide V_3.2](https://www.cd-jackson.com/zwave_device_uploads/401/Motion-Detector-User-Guide-EU-V3-2.pdf)
+* [Instruction Manual Motion Sensor](https://www.opensmarthouse.org/zwavedatabase/401/Manual-for-Motion-sensor-PIR-Zwave-Neo.pdf)
+* [Motion Detector User Guide](https://www.opensmarthouse.org/zwavedatabase/401/Motion-Detector-User-Guide.pdf)
+* [Motion Detector User Guide V_3.2](https://www.opensmarthouse.org/zwavedatabase/401/Motion-Detector-User-Guide-EU-V3-2.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/401).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/401).

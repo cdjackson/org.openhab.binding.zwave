@@ -6,11 +6,11 @@ title: VRPD3 - ZWave
 {% include base.html %}
 
 # VRPD3 Scene Capable Plug-in Dimmer
-This describes the Z-Wave device *VRPD3*, manufactured by *Leviton* with the thing type UID of ```leviton_vrpd3_00_000```.
+This describes the Z-Wave device *VRPD3*, manufactured by *Leviton* with the thing type UID of ```Leviton_vrpd3_00_000```.
 
 The device is in the category of *Power Outlet*, defining Small devices to be plugged into a power socket in a wall which stick there.
 
-![VRPD3 product image](https://www.cd-jackson.com/zwave_device_uploads/199/199_default.jpg)
+![VRPD3 product image](https://opensmarthouse.org/assets/zwave/attachments/199/vrpd3.jpg)
 
 
 The VRPD3 supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is also able to participate in the routing of data between other devices in the mesh network.
@@ -44,13 +44,10 @@ The following table summarises the channels available for the VRPD3 -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Dimmer | switch_dimmer | switch_dimmer | DimmableLight | Dimmer | 
+| Dimmer | switch_dimmer | switch_dimmer |  |  | 
 
 ### Dimmer
-The brightness channel allows to control the brightness of a light.
-            It is also possible to switch the light on and off.
-
-The ```switch_dimmer``` channel is of type ```switch_dimmer``` and supports the ```Dimmer``` item and is in the ```DimmableLight``` category.
+Channel type information on this channel is not found.
 
 
 
@@ -90,9 +87,9 @@ Association group 1 supports 5 nodes.
 
 ### Documentation Links
 
-* [Product Information](https://www.cd-jackson.com/zwave_device_uploads/199/VRF-plugin-modules-techsht-BW-v1p4HR.pdf)
+* [Product Information](https://www.opensmarthouse.org/zwavedatabase/199/VRF-plugin-modules-techsht-BW-v1p4HR.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/199).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/199).

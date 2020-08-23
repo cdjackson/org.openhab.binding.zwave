@@ -6,11 +6,11 @@ title: ZMNHAD - ZWave
 {% include base.html %}
 
 # ZMNHAD Flush 1 relay
-This describes the Z-Wave device *ZMNHAD*, manufactured by *[Goap](http://www.qubino.com/)* with the thing type UID of ```qubino_zmnhad_00_000```.
+This describes the Z-Wave device *ZMNHAD*, manufactured by *[Goap](http://www.qubino.com/)* with the thing type UID of ```Goap_zmnhad_00_000```.
 
 The device is in the category of *Wall Switch*, defining Any device attached to the wall that controls a binary status of something, for ex. a light switch.
 
-![ZMNHAD product image](https://www.cd-jackson.com/zwave_device_uploads/206/206_default.png)
+![ZMNHAD product image](https://opensmarthouse.org/assets/zwave/attachments/206/ZMNHAD.png)
 
 
 The ZMNHAD supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is also able to participate in the routing of data between other devices in the mesh network.
@@ -62,125 +62,62 @@ The following table summarises the channels available for the ZMNHAD -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Switch | switch_binary | switch_binary | Switch | Switch | 
-| Binary Sensor | sensor_binary | sensor_binary |  | Switch | 
-| Electric meter (watts) | meter_watts | meter_watts | Energy | Number | 
-| Electric meter (kWh) | meter_kwh | meter_kwh | Energy | Number | 
-| Alarm (power) | alarm_power | alarm_power | Energy | Switch | 
-| Switch 1 | switch_binary1 | switch_binary | Switch | Switch | 
-| Electric meter (watts) 1 | meter_watts1 | meter_watts | Energy | Number | 
-| Electric meter (kWh) 1 | meter_kwh1 | meter_kwh | Energy | Number | 
-| Binary Sensor I2 | sensor_binary2 | sensor_binary |  | Switch | 
-| Sensor (temperature) | sensor_temperature2 | sensor_temperature | Temperature | Number:Temperature | 
-| Alarm (power) 2 | alarm_power2 | alarm_power | Energy | Switch | 
-| Binary Sensor I3 | sensor_binary3 | sensor_binary |  | Switch | 
-| Sensor (temperature) | sensor_temperature3 | sensor_temperature | Temperature | Number:Temperature | 
-| Sensor (temperature) | sensor_temperature4 | sensor_temperature | Temperature | Number:Temperature | 
+| Switch | switch_binary | switch_binary |  |  | 
+| Binary Sensor | sensor_binary | sensor_binary |  |  | 
+| Electric meter (watts) | meter_watts | meter_watts |  |  | 
+| Electric meter (kWh) | meter_kwh | meter_kwh |  |  | 
+| Alarm (power) | alarm_power | alarm_power |  |  | 
+| Switch 1 | switch_binary1 | switch_binary |  |  | 
+| Electric meter (watts) 1 | meter_watts1 | meter_watts |  |  | 
+| Electric meter (kWh) 1 | meter_kwh1 | meter_kwh |  |  | 
+| Binary Sensor I2 | sensor_binary2 | sensor_binary |  |  | 
+| Sensor (temperature) | sensor_temperature2 | sensor_temperature |  |  | 
+| Alarm (power) 2 | alarm_power2 | alarm_power |  |  | 
+| Binary Sensor I3 | sensor_binary3 | sensor_binary |  |  | 
+| Sensor (temperature) | sensor_temperature3 | sensor_temperature |  |  | 
+| Sensor (temperature) | sensor_temperature4 | sensor_temperature |  |  | 
 
 ### Switch
-Switch the power on and off.
-
-The ```switch_binary``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Binary Sensor
-Indicates if a sensor has triggered.
-
-The ```sensor_binary``` channel is of type ```sensor_binary``` and supports the ```Switch``` item. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| ON | Triggered |
-| OFF | Untriggered |
+Channel type information on this channel is not found.
 
 ### Electric meter (watts)
-Indicates the instantaneous power consumption.
-
-The ```meter_watts``` channel is of type ```meter_watts``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Electric meter (kWh)
-Indicates the energy consumption (kWh).
-
-The ```meter_kwh``` channel is of type ```meter_kwh``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Alarm (power)
-Indicates if a power alarm is triggered.
-
-The ```alarm_power``` channel is of type ```alarm_power``` and supports the ```Switch``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| OFF | OK |
-| ON | Alarm |
+Channel type information on this channel is not found.
 
 ### Switch 1
-Switch the power on and off.
-
-The ```switch_binary1``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Electric meter (watts) 1
-Indicates the instantaneous power consumption.
-
-The ```meter_watts1``` channel is of type ```meter_watts``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Electric meter (kWh) 1
-Indicates the energy consumption (kWh).
-
-The ```meter_kwh1``` channel is of type ```meter_kwh``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Binary Sensor I2
-Indicates if a sensor has triggered.
-
-The ```sensor_binary2``` channel is of type ```sensor_binary``` and supports the ```Switch``` item. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| ON | Triggered |
-| OFF | Untriggered |
+Channel type information on this channel is not found.
 
 ### Sensor (temperature)
-Indicates the current temperature.
-
-The ```sensor_temperature2``` channel is of type ```sensor_temperature``` and supports the ```Number:Temperature``` item and is in the ```Temperature``` category.
+Channel type information on this channel is not found.
 
 ### Alarm (power) 2
-Indicates if a power alarm is triggered.
-
-The ```alarm_power2``` channel is of type ```alarm_power``` and supports the ```Switch``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| OFF | OK |
-| ON | Alarm |
+Channel type information on this channel is not found.
 
 ### Binary Sensor I3
-Indicates if a sensor has triggered.
-
-The ```sensor_binary3``` channel is of type ```sensor_binary``` and supports the ```Switch``` item. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| ON | Triggered |
-| OFF | Untriggered |
+Channel type information on this channel is not found.
 
 ### Sensor (temperature)
-Indicates the current temperature.
-
-The ```sensor_temperature3``` channel is of type ```sensor_temperature``` and supports the ```Number:Temperature``` item and is in the ```Temperature``` category.
+Channel type information on this channel is not found.
 
 ### Sensor (temperature)
-Indicates the current temperature.
-
-The ```sensor_temperature4``` channel is of type ```sensor_temperature``` and supports the ```Number:Temperature``` item and is in the ```Temperature``` category.
+Channel type information on this channel is not found.
 
 
 
@@ -626,9 +563,9 @@ Association group 9 supports 16 nodes.
 
 ### Documentation Links
 
-* [User Manual v1.1](https://www.cd-jackson.com/zwave_device_uploads/206/Qubino-Flush-1-relay-PLUS-user-manual-V1-1.pdf)
+* [User Manual v1.1](https://www.opensmarthouse.org/zwavedatabase/206/Qubino-Flush-1-relay-PLUS-user-manual-V1-1.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/206).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/206).

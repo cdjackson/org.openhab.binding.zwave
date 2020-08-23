@@ -6,12 +6,12 @@ title: ZWN-BPC - ZWave
 {% include base.html %}
 
 # ZWN-BPC PIR Sensor
-This describes the Z-Wave device *ZWN-BPC*, manufactured by *Wenzhou MTLC Electric Appliances Co.,Ltd.* with the thing type UID of ```enerwave_zwnbpc_00_000```.
+This describes the Z-Wave device *ZWN-BPC*, manufactured by *Wenzhou MTLC Electric Appliances Co.,Ltd.* with the thing type UID of ```Wenzhou MTLC Electric Appliances Co.,Ltd._zwnbpc_00_000```.
 This version of the device is limited to firmware versions below 5.9
 
 The device is in the category of *Motion Detector*, defining Motion sensors/detectors.
 
-![ZWN-BPC product image](https://www.cd-jackson.com/zwave_device_uploads/186/186_default.jpg)
+![ZWN-BPC product image](https://opensmarthouse.org/assets/zwave/attachments/186/ZWN-BPC.JPG)
 
 
 The ZWN-BPC supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is unable to participate in the routing of data from other devices.
@@ -45,26 +45,15 @@ The following table summarises the channels available for the ZWN-BPC -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Binary Sensor | sensor_binary | sensor_binary |  | Switch | 
+| Binary Sensor | sensor_binary | sensor_binary |  |  | 
 | Battery Level | battery-level | system.battery_level | Battery | Number |
 
 ### Binary Sensor
-Indicates if a sensor has triggered.
-
-The ```sensor_binary``` channel is of type ```sensor_binary``` and supports the ```Switch``` item. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| ON | Triggered |
-| OFF | Untriggered |
+Channel type information on this channel is not found.
 
 ### Battery Level
-Represents the battery level as a percentage (0-100%). Bindings for things supporting battery level in a different format (e.g. 4 levels) should convert to a percentage to provide a consistent battery level reading.
+Channel type information on this channel is not found.
 
-The ```system.battery-level``` channel is of type ```system.battery-level``` and supports the ```Number``` item and is in the ```Battery``` category.
-This channel provides the battery level as a percentage and also reflects the low battery warning state. If the battery state is in low battery warning state, this will read 0%.
 
 
 ## Device Configuration
@@ -137,9 +126,9 @@ Association group 1 supports 5 nodes.
 
 ### Documentation Links
 
-* [User Manual](https://www.cd-jackson.com/zwave_device_uploads/186/zwn-bpc-3-28.pdf)
+* [User Manual](https://www.opensmarthouse.org/zwavedatabase/186/zwn-bpc-3-28.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/186).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/186).

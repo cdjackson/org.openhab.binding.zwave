@@ -6,11 +6,11 @@ title: TILTZWAVE2 - ZWave
 {% include base.html %}
 
 # TILTZWAVE2 Z-Wave Garage Door Sensor
-This describes the Z-Wave device *TILTZWAVE2*, manufactured by *Ecolink* with the thing type UID of ```eco_tiltzwave2_00_000```.
+This describes the Z-Wave device *TILTZWAVE2*, manufactured by *Ecolink* with the thing type UID of ```Ecolink_tiltzwave2_00_000```.
 
 The device is in the category of *Garage Door*, defining Garage Door.
 
-![TILTZWAVE2 product image](https://www.cd-jackson.com/zwave_device_uploads/139/139_default.jpg)
+![TILTZWAVE2 product image](https://opensmarthouse.org/assets/zwave/attachments/139/tiltt.jpg)
 
 
 The TILTZWAVE2 supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is unable to participate in the routing of data from other devices.
@@ -44,41 +44,19 @@ The following table summarises the channels available for the TILTZWAVE2 -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Tamper Alarm | alarm_tamper | alarm_tamper |  | Switch | 
-| Door State  [Deprecated]| sensor_door | sensor_door | Door | Contact | 
+| Tamper Alarm | alarm_tamper | alarm_tamper |  |  | 
+| Door State  [Deprecated]| sensor_door | sensor_door |  |  | 
 | Battery Level | battery-level | system.battery_level | Battery | Number |
 
 ### Tamper Alarm
-Indicates if the tamper alarm is triggered.
-
-The ```alarm_tamper``` channel is of type ```alarm_tamper``` and supports the ```Switch``` item. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| OFF | OK |
-| ON | Alarm |
+Channel type information on this channel is not found.
 
 ### Door State [Deprecated]
-Indicates if the door/window is open or closed.
-
-The ```sensor_door``` channel is of type ```sensor_door``` and supports the ```Contact``` item and is in the ```Door``` category. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Contact``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| OPEN | Open |
-| CLOSED | Closed |
-
-**Note:** This channel is marked as deprecated so should not be used.
+Channel type information on this channel is not found.
 
 ### Battery Level
-Represents the battery level as a percentage (0-100%). Bindings for things supporting battery level in a different format (e.g. 4 levels) should convert to a percentage to provide a consistent battery level reading.
+Channel type information on this channel is not found.
 
-The ```system.battery-level``` channel is of type ```system.battery-level``` and supports the ```Number``` item and is in the ```Battery``` category.
-This channel provides the battery level as a percentage and also reflects the low battery warning state. If the battery state is in low battery warning state, this will read 0%.
 
 
 ## Device Configuration
@@ -180,10 +158,10 @@ Association group 2 supports 5 nodes.
 
 ### Documentation Links
 
-* [English User Manual](https://www.cd-jackson.com/zwave_device_uploads/139/Ecolink-TILTZWAVE2-ECO-manual-rev1.pdf)
-* [Updated Manual](https://www.cd-jackson.com/zwave_device_uploads/139/Tilt-ZWave-Plus-Manual-R1-04-021816kgs.pdf)
+* [English User Manual](https://www.opensmarthouse.org/zwavedatabase/139/Ecolink-TILTZWAVE2-ECO-manual-rev1.pdf)
+* [Updated Manual](https://www.opensmarthouse.org/zwavedatabase/139/Tilt-ZWave-Plus-Manual-R1-04-021816kgs.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/139).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/139).

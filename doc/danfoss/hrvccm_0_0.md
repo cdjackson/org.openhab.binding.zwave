@@ -6,11 +6,11 @@ title: HRVCCM - ZWave
 {% include base.html %}
 
 # HRVCCM Air CCM
-This describes the Z-Wave device *HRVCCM*, manufactured by *Danfoss* with the thing type UID of ```danfoss_hrvccm_00_000```.
+This describes the Z-Wave device *HRVCCM*, manufactured by *Danfoss* with the thing type UID of ```Danfoss_hrvccm_00_000```.
 
 The device is in the category of *HVAC*, defining Air condition devices, Fans.
 
-![HRVCCM product image](https://www.cd-jackson.com/zwave_device_uploads/166/166_default.png)
+![HRVCCM product image](https://opensmarthouse.org/assets/zwave/attachments/166/airccm.png)
 
 
 The HRVCCM supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is also able to participate in the routing of data between other devices in the mesh network.
@@ -62,9 +62,9 @@ The device does not support associations.
 
 ### Documentation Links
 
-* [Installation](https://www.cd-jackson.com/zwave_device_uploads/166/AIR-installation-guide-VIEWA402-hi-res.pdf)
+* [Installation](https://www.opensmarthouse.org/zwavedatabase/166/AIR-installation-guide-VIEWA402-hi-res.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/166).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/166).

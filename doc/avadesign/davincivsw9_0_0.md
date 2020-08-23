@@ -6,11 +6,11 @@ title: Da Vinci Switch Default - ZWave
 {% include base.html %}
 
 # Da Vinci Switch Default
-This describes the Z-Wave device *Da Vinci Switch Default*, manufactured by *Avadesign Technology Co.* with the thing type UID of ```avadesign_davincivsw9_00_000```.
+This describes the Z-Wave device *Da Vinci Switch Default*, manufactured by *Avadesign Technology Co.* with the thing type UID of ```Avadesign Technology Co._davincivsw9_00_000```.
 
 The device is in the category of *Wall Switch*, defining Any device attached to the wall that controls a binary status of something, for ex. a light switch.
 
-![Da Vinci Switch Default product image](https://www.cd-jackson.com/zwave_device_uploads/911/911_default.png)
+![Da Vinci Switch Default product image](https://opensmarthouse.org/assets/zwave/attachments/911/Contec-Image.jpeg)
 
 
 The Da Vinci Switch Default supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is also able to participate in the routing of data between other devices in the mesh network.
@@ -33,249 +33,94 @@ The following table summarises the channels available for the Da Vinci Switch De
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Switch | switch_binary | switch_binary | Switch | Switch | 
-| Dimmer | switch_dimmer | switch_dimmer | DimmableLight | Dimmer | 
-| Blinds control | blinds_control | blinds_control | Blinds | Rollershutter | 
-| Scene Number | scene_number | scene_number |  | Number | 
-| Switch 1 | switch_binary1 | switch_binary | Switch | Switch | 
-| Scene Number 1 | scene_number1 | scene_number |  | Number | 
-| Switch 2 | switch_binary2 | switch_binary | Switch | Switch | 
-| Scene Number 2 | scene_number2 | scene_number |  | Number | 
-| Switch 3 | switch_binary3 | switch_binary | Switch | Switch | 
-| Scene Number 3 | scene_number3 | scene_number |  | Number | 
-| Switch 4 | switch_binary4 | switch_binary | Switch | Switch | 
-| Scene Number 4 | scene_number4 | scene_number |  | Number | 
-| Switch 5 | switch_binary5 | switch_binary | Switch | Switch | 
-| Scene Number 5 | scene_number5 | scene_number |  | Number | 
-| Switch 6 | switch_binary6 | switch_binary | Switch | Switch | 
-| Scene Number 6 | scene_number6 | scene_number |  | Number | 
-| Switch 7 | switch_binary7 | switch_binary | Switch | Switch | 
-| Scene Number 7 | scene_number7 | scene_number |  | Number | 
-| Switch 8 | switch_binary8 | switch_binary | Switch | Switch | 
-| Scene Number 8 | scene_number8 | scene_number |  | Number | 
-| Switch 9 | switch_binary9 | switch_binary | Switch | Switch | 
-| Scene Number 9 | scene_number9 | scene_number |  | Number | 
+| Switch | switch_binary | switch_binary |  |  | 
+| Dimmer | switch_dimmer | switch_dimmer |  |  | 
+| Blinds control | blinds_control | blinds_control |  |  | 
+| Scene Number | scene_number | scene_number |  |  | 
+| Switch 1 | switch_binary1 | switch_binary |  |  | 
+| Scene Number 1 | scene_number1 | scene_number |  |  | 
+| Switch 2 | switch_binary2 | switch_binary |  |  | 
+| Scene Number 2 | scene_number2 | scene_number |  |  | 
+| Switch 3 | switch_binary3 | switch_binary |  |  | 
+| Scene Number 3 | scene_number3 | scene_number |  |  | 
+| Switch 4 | switch_binary4 | switch_binary |  |  | 
+| Scene Number 4 | scene_number4 | scene_number |  |  | 
+| Switch 5 | switch_binary5 | switch_binary |  |  | 
+| Scene Number 5 | scene_number5 | scene_number |  |  | 
+| Switch 6 | switch_binary6 | switch_binary |  |  | 
+| Scene Number 6 | scene_number6 | scene_number |  |  | 
+| Switch 7 | switch_binary7 | switch_binary |  |  | 
+| Scene Number 7 | scene_number7 | scene_number |  |  | 
+| Switch 8 | switch_binary8 | switch_binary |  |  | 
+| Scene Number 8 | scene_number8 | scene_number |  |  | 
+| Switch 9 | switch_binary9 | switch_binary |  |  | 
+| Scene Number 9 | scene_number9 | scene_number |  |  | 
 
 ### Switch
-Switch the power on and off.
-
-The ```switch_binary``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Dimmer
-The brightness channel allows to control the brightness of a light.
-            It is also possible to switch the light on and off.
-
-The ```switch_dimmer``` channel is of type ```switch_dimmer``` and supports the ```Dimmer``` item and is in the ```DimmableLight``` category.
+Channel type information on this channel is not found.
 
 ### Blinds control
-Provides start / stop control of blinds.
-
-The ```blinds_control``` channel is of type ```blinds_control``` and supports the ```Rollershutter``` item and is in the ```Blinds``` category.
+Channel type information on this channel is not found.
 
 ### Scene Number
-Triggers when a scene button is pressed.
-
-The ```scene_number``` channel is of type ```scene_number``` and supports the ```Number``` item.
-This channel provides the scene, and the event as a decimal value in the form ```<scene>.<event>```. The scene number is set by the device, and the event is as follows -:
-
-| Event ID | Event Description  |
-|----------|--------------------|
-| 0        | Single key press   |
-| 1        | Key released       |
-| 2        | Key held down      |
-| 3        | Double keypress    |
-| 4        | Tripple keypress   |
-| 5        | 4 x keypress       |
-| 6        | 5 x keypress       |
+Channel type information on this channel is not found.
 
 ### Switch 1
-Switch the power on and off.
-
-The ```switch_binary1``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Scene Number 1
-Triggers when a scene button is pressed.
-
-The ```scene_number1``` channel is of type ```scene_number``` and supports the ```Number``` item.
-This channel provides the scene, and the event as a decimal value in the form ```<scene>.<event>```. The scene number is set by the device, and the event is as follows -:
-
-| Event ID | Event Description  |
-|----------|--------------------|
-| 0        | Single key press   |
-| 1        | Key released       |
-| 2        | Key held down      |
-| 3        | Double keypress    |
-| 4        | Tripple keypress   |
-| 5        | 4 x keypress       |
-| 6        | 5 x keypress       |
+Channel type information on this channel is not found.
 
 ### Switch 2
-Switch the power on and off.
-
-The ```switch_binary2``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Scene Number 2
-Triggers when a scene button is pressed.
-
-The ```scene_number2``` channel is of type ```scene_number``` and supports the ```Number``` item.
-This channel provides the scene, and the event as a decimal value in the form ```<scene>.<event>```. The scene number is set by the device, and the event is as follows -:
-
-| Event ID | Event Description  |
-|----------|--------------------|
-| 0        | Single key press   |
-| 1        | Key released       |
-| 2        | Key held down      |
-| 3        | Double keypress    |
-| 4        | Tripple keypress   |
-| 5        | 4 x keypress       |
-| 6        | 5 x keypress       |
+Channel type information on this channel is not found.
 
 ### Switch 3
-Switch the power on and off.
-
-The ```switch_binary3``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Scene Number 3
-Triggers when a scene button is pressed.
-
-The ```scene_number3``` channel is of type ```scene_number``` and supports the ```Number``` item.
-This channel provides the scene, and the event as a decimal value in the form ```<scene>.<event>```. The scene number is set by the device, and the event is as follows -:
-
-| Event ID | Event Description  |
-|----------|--------------------|
-| 0        | Single key press   |
-| 1        | Key released       |
-| 2        | Key held down      |
-| 3        | Double keypress    |
-| 4        | Tripple keypress   |
-| 5        | 4 x keypress       |
-| 6        | 5 x keypress       |
+Channel type information on this channel is not found.
 
 ### Switch 4
-Switch the power on and off.
-
-The ```switch_binary4``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Scene Number 4
-Triggers when a scene button is pressed.
-
-The ```scene_number4``` channel is of type ```scene_number``` and supports the ```Number``` item.
-This channel provides the scene, and the event as a decimal value in the form ```<scene>.<event>```. The scene number is set by the device, and the event is as follows -:
-
-| Event ID | Event Description  |
-|----------|--------------------|
-| 0        | Single key press   |
-| 1        | Key released       |
-| 2        | Key held down      |
-| 3        | Double keypress    |
-| 4        | Tripple keypress   |
-| 5        | 4 x keypress       |
-| 6        | 5 x keypress       |
+Channel type information on this channel is not found.
 
 ### Switch 5
-Switch the power on and off.
-
-The ```switch_binary5``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Scene Number 5
-Triggers when a scene button is pressed.
-
-The ```scene_number5``` channel is of type ```scene_number``` and supports the ```Number``` item.
-This channel provides the scene, and the event as a decimal value in the form ```<scene>.<event>```. The scene number is set by the device, and the event is as follows -:
-
-| Event ID | Event Description  |
-|----------|--------------------|
-| 0        | Single key press   |
-| 1        | Key released       |
-| 2        | Key held down      |
-| 3        | Double keypress    |
-| 4        | Tripple keypress   |
-| 5        | 4 x keypress       |
-| 6        | 5 x keypress       |
+Channel type information on this channel is not found.
 
 ### Switch 6
-Switch the power on and off.
-
-The ```switch_binary6``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Scene Number 6
-Triggers when a scene button is pressed.
-
-The ```scene_number6``` channel is of type ```scene_number``` and supports the ```Number``` item.
-This channel provides the scene, and the event as a decimal value in the form ```<scene>.<event>```. The scene number is set by the device, and the event is as follows -:
-
-| Event ID | Event Description  |
-|----------|--------------------|
-| 0        | Single key press   |
-| 1        | Key released       |
-| 2        | Key held down      |
-| 3        | Double keypress    |
-| 4        | Tripple keypress   |
-| 5        | 4 x keypress       |
-| 6        | 5 x keypress       |
+Channel type information on this channel is not found.
 
 ### Switch 7
-Switch the power on and off.
-
-The ```switch_binary7``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Scene Number 7
-Triggers when a scene button is pressed.
-
-The ```scene_number7``` channel is of type ```scene_number``` and supports the ```Number``` item.
-This channel provides the scene, and the event as a decimal value in the form ```<scene>.<event>```. The scene number is set by the device, and the event is as follows -:
-
-| Event ID | Event Description  |
-|----------|--------------------|
-| 0        | Single key press   |
-| 1        | Key released       |
-| 2        | Key held down      |
-| 3        | Double keypress    |
-| 4        | Tripple keypress   |
-| 5        | 4 x keypress       |
-| 6        | 5 x keypress       |
+Channel type information on this channel is not found.
 
 ### Switch 8
-Switch the power on and off.
-
-The ```switch_binary8``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Scene Number 8
-Triggers when a scene button is pressed.
-
-The ```scene_number8``` channel is of type ```scene_number``` and supports the ```Number``` item.
-This channel provides the scene, and the event as a decimal value in the form ```<scene>.<event>```. The scene number is set by the device, and the event is as follows -:
-
-| Event ID | Event Description  |
-|----------|--------------------|
-| 0        | Single key press   |
-| 1        | Key released       |
-| 2        | Key held down      |
-| 3        | Double keypress    |
-| 4        | Tripple keypress   |
-| 5        | 4 x keypress       |
-| 6        | 5 x keypress       |
+Channel type information on this channel is not found.
 
 ### Switch 9
-Switch the power on and off.
-
-The ```switch_binary9``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Scene Number 9
-Triggers when a scene button is pressed.
-
-The ```scene_number9``` channel is of type ```scene_number``` and supports the ```Number``` item.
-This channel provides the scene, and the event as a decimal value in the form ```<scene>.<event>```. The scene number is set by the device, and the event is as follows -:
-
-| Event ID | Event Description  |
-|----------|--------------------|
-| 0        | Single key press   |
-| 1        | Key released       |
-| 2        | Key held down      |
-| 3        | Double keypress    |
-| 4        | Tripple keypress   |
-| 5        | 4 x keypress       |
-| 6        | 5 x keypress       |
+Channel type information on this channel is not found.
 
 
 
@@ -866,9 +711,9 @@ Association group 1 supports 5 nodes.
 
 ### Documentation Links
 
-* [Manual](https://www.cd-jackson.com/zwave_device_uploads/911/DA-VINCI-ver-9.pdf)
+* [Manual](https://www.opensmarthouse.org/zwavedatabase/911/DA-VINCI-ver-9.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/911).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/911).

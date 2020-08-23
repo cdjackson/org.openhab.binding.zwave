@@ -6,11 +6,11 @@ title: ZMNHDD - ZWave
 {% include base.html %}
 
 # ZMNHDD Flush Dimmer Plus
-This describes the Z-Wave device *ZMNHDD*, manufactured by *[Goap](http://www.qubino.com/)* with the thing type UID of ```qubino_zmnhdd_00_000```.
+This describes the Z-Wave device *ZMNHDD*, manufactured by *[Goap](http://www.qubino.com/)* with the thing type UID of ```Goap_zmnhdd_00_000```.
 
 The device is in the category of *Wall Switch*, defining Any device attached to the wall that controls a binary status of something, for ex. a light switch.
 
-![ZMNHDD product image](https://www.cd-jackson.com/zwave_device_uploads/210/210_default.png)
+![ZMNHDD product image](https://opensmarthouse.org/assets/zwave/attachments/210/ZMNHDD.png)
 
 
 The ZMNHDD supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is also able to participate in the routing of data between other devices in the mesh network.
@@ -53,156 +53,74 @@ The following table summarises the channels available for the ZMNHDD -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Switch  [Deprecated]| switch_binary | switch_binary | Switch | Switch | 
-| Dimmer | switch_dimmer | switch_dimmer | DimmableLight | Dimmer | 
-| Binary Sensor | sensor_binary | sensor_binary |  | Switch | 
-| Sensor (temperature) | sensor_temperature | sensor_temperature | Temperature | Number:Temperature | 
-| Electric meter (kWh) | meter_kwh | meter_kwh | Energy | Number | 
-| Electric meter (watts) | meter_watts | meter_watts | Energy | Number | 
-| Reset the total power consumption | meter_reset | meter_reset | Energy | Switch | 
-| Alarm | alarm_general | alarm_general | Alarm | Switch | 
-| Switch 1  [Deprecated]| switch_binary1 | switch_binary | Switch | Switch | 
-| Dimmer 1 | switch_dimmer1 | switch_dimmer | DimmableLight | Dimmer | 
-| Electric meter (kWh) 1 | meter_kwh1 | meter_kwh | Energy | Number | 
-| Electric meter (watts) 1 | meter_watts1 | meter_watts | Energy | Number | 
-| Binary Sensor 2 | sensor_binary2 | sensor_binary |  | Switch | 
-| Sensor (temperature) 2 | sensor_temperature2 | sensor_temperature | Temperature | Number:Temperature | 
-| Alarm 2 | alarm_general2 | alarm_general | Alarm | Switch | 
-| Binary Sensor 3 | sensor_binary3 | sensor_binary |  | Switch | 
-| Alarm 3 | alarm_general3 | alarm_general | Alarm | Switch | 
+| Switch  [Deprecated]| switch_binary | switch_binary |  |  | 
+| Dimmer | switch_dimmer | switch_dimmer |  |  | 
+| Binary Sensor | sensor_binary | sensor_binary |  |  | 
+| Sensor (temperature) | sensor_temperature | sensor_temperature |  |  | 
+| Electric meter (kWh) | meter_kwh | meter_kwh |  |  | 
+| Electric meter (watts) | meter_watts | meter_watts |  |  | 
+| Reset the total power consumption | meter_reset | meter_reset |  |  | 
+| Alarm | alarm_general | alarm_general |  |  | 
+| Switch 1  [Deprecated]| switch_binary1 | switch_binary |  |  | 
+| Dimmer 1 | switch_dimmer1 | switch_dimmer |  |  | 
+| Electric meter (kWh) 1 | meter_kwh1 | meter_kwh |  |  | 
+| Electric meter (watts) 1 | meter_watts1 | meter_watts |  |  | 
+| Binary Sensor 2 | sensor_binary2 | sensor_binary |  |  | 
+| Sensor (temperature) 2 | sensor_temperature2 | sensor_temperature |  |  | 
+| Alarm 2 | alarm_general2 | alarm_general |  |  | 
+| Binary Sensor 3 | sensor_binary3 | sensor_binary |  |  | 
+| Alarm 3 | alarm_general3 | alarm_general |  |  | 
 
 ### Switch [Deprecated]
-Switch the power on and off.
-
-The ```switch_binary``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
-
-**Note:** This channel is marked as deprecated so should not be used.
+Channel type information on this channel is not found.
 
 ### Dimmer
-The brightness channel allows to control the brightness of a light.
-            It is also possible to switch the light on and off.
-
-The ```switch_dimmer``` channel is of type ```switch_dimmer``` and supports the ```Dimmer``` item and is in the ```DimmableLight``` category.
+Channel type information on this channel is not found.
 
 ### Binary Sensor
-Indicates if a sensor has triggered.
-
-The ```sensor_binary``` channel is of type ```sensor_binary``` and supports the ```Switch``` item. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| ON | Triggered |
-| OFF | Untriggered |
+Channel type information on this channel is not found.
 
 ### Sensor (temperature)
-Indicates the current temperature.
-
-The ```sensor_temperature``` channel is of type ```sensor_temperature``` and supports the ```Number:Temperature``` item and is in the ```Temperature``` category.
+Channel type information on this channel is not found.
 
 ### Electric meter (kWh)
-Indicates the energy consumption (kWh).
-
-The ```meter_kwh``` channel is of type ```meter_kwh``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Electric meter (watts)
-Indicates the instantaneous power consumption.
-
-The ```meter_watts``` channel is of type ```meter_watts``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Reset the total power consumption
-Reset the meter.
-
-The ```meter_reset``` channel is of type ```meter_reset``` and supports the ```Switch``` item and is in the ```Energy``` category.
+Channel type information on this channel is not found.
 
 ### Alarm
-Indicates if an alarm is triggered.
-
-The ```alarm_general``` channel is of type ```alarm_general``` and supports the ```Switch``` item and is in the ```Alarm``` category. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| OFF | OK |
-| ON | Alarm |
+Channel type information on this channel is not found.
 
 ### Switch 1 [Deprecated]
-Switch the power on and off.
-
-The ```switch_binary1``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
-
-**Note:** This channel is marked as deprecated so should not be used.
+Channel type information on this channel is not found.
 
 ### Dimmer 1
-The brightness channel allows to control the brightness of a light.
-            It is also possible to switch the light on and off.
-
-The ```switch_dimmer1``` channel is of type ```switch_dimmer``` and supports the ```Dimmer``` item and is in the ```DimmableLight``` category.
+Channel type information on this channel is not found.
 
 ### Electric meter (kWh) 1
-Indicates the energy consumption (kWh).
-
-The ```meter_kwh1``` channel is of type ```meter_kwh``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Electric meter (watts) 1
-Indicates the instantaneous power consumption.
-
-The ```meter_watts1``` channel is of type ```meter_watts``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Binary Sensor 2
-Indicates if a sensor has triggered.
-
-The ```sensor_binary2``` channel is of type ```sensor_binary``` and supports the ```Switch``` item. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| ON | Triggered |
-| OFF | Untriggered |
+Channel type information on this channel is not found.
 
 ### Sensor (temperature) 2
-Indicates the current temperature.
-
-The ```sensor_temperature2``` channel is of type ```sensor_temperature``` and supports the ```Number:Temperature``` item and is in the ```Temperature``` category.
+Channel type information on this channel is not found.
 
 ### Alarm 2
-Indicates if an alarm is triggered.
-
-The ```alarm_general2``` channel is of type ```alarm_general``` and supports the ```Switch``` item and is in the ```Alarm``` category. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| OFF | OK |
-| ON | Alarm |
+Channel type information on this channel is not found.
 
 ### Binary Sensor 3
-Indicates if a sensor has triggered.
-
-The ```sensor_binary3``` channel is of type ```sensor_binary``` and supports the ```Switch``` item. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| ON | Triggered |
-| OFF | Untriggered |
+Channel type information on this channel is not found.
 
 ### Alarm 3
-Indicates if an alarm is triggered.
-
-The ```alarm_general3``` channel is of type ```alarm_general``` and supports the ```Switch``` item and is in the ```Alarm``` category. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| OFF | OK |
-| ON | Alarm |
+Channel type information on this channel is not found.
 
 
 
@@ -734,10 +652,10 @@ Association group 11 supports 16 nodes.
 
 ### Documentation Links
 
-* [User Manual V1.6-2](https://www.cd-jackson.com/zwave_device_uploads/210/Qubino-Flush-Dimmer-PLUS-user-manual-V1-6-2.pdf)
-* [Qubino_Flush-Dimmer-PLUS-user-manual_V1.9_eng-1.pdf](https://www.cd-jackson.com/zwave_device_uploads/210/Qubino-Flush-Dimmer-PLUS-user-manual-V1-9-eng-1.pdf)
+* [User Manual V1.6-2](https://www.opensmarthouse.org/zwavedatabase/210/Qubino-Flush-Dimmer-PLUS-user-manual-V1-6-2.pdf)
+* [Qubino_Flush-Dimmer-PLUS-user-manual_V1.9_eng-1.pdf](https://www.opensmarthouse.org/zwavedatabase/210/Qubino-Flush-Dimmer-PLUS-user-manual-V1-9-eng-1.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/210).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/210).

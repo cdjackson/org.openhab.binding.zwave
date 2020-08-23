@@ -6,11 +6,11 @@ title: ZMNHIA - ZWave
 {% include base.html %}
 
 # ZMNHIA Flush on/off thermostat
-This describes the Z-Wave device *ZMNHIA*, manufactured by *[Goap](http://www.qubino.com/)* with the thing type UID of ```qubino_zmnhia_00_000```.
+This describes the Z-Wave device *ZMNHIA*, manufactured by *[Goap](http://www.qubino.com/)* with the thing type UID of ```Goap_zmnhia_00_000```.
 
 The device is in the category of *HVAC*, defining Air condition devices, Fans.
 
-![ZMNHIA product image](https://www.cd-jackson.com/zwave_device_uploads/211/211_default.jpg)
+![ZMNHIA product image](https://opensmarthouse.org/assets/zwave/attachments/211/ZMNHIA.jpg)
 
 
 The ZMNHIA supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is also able to participate in the routing of data between other devices in the mesh network.
@@ -35,80 +35,34 @@ The following table summarises the channels available for the ZMNHIA -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Sensor (temperature) | sensor_temperature | sensor_temperature | Temperature | Number:Temperature | 
-| Electric meter (watts) | meter_watts | meter_watts | Energy | Number | 
-| Electric meter (kWh) | meter_kwh | meter_kwh | Energy | Number | 
-| Thermostat mode | thermostat_mode | thermostat_mode | Temperature | Number | 
-| Setpoint (heating) | thermostat_setpoint | thermostat_setpoint | Heating | Number:Temperature | 
-| Binary Sensor 1 | sensor_binary1 | sensor_binary |  | Switch | 
-| Binary Sensor 2 | sensor_binary2 | sensor_binary |  | Switch | 
+| Sensor (temperature) | sensor_temperature | sensor_temperature |  |  | 
+| Electric meter (watts) | meter_watts | meter_watts |  |  | 
+| Electric meter (kWh) | meter_kwh | meter_kwh |  |  | 
+| Thermostat mode | thermostat_mode | thermostat_mode |  |  | 
+| Setpoint (heating) | thermostat_setpoint | thermostat_setpoint |  |  | 
+| Binary Sensor 1 | sensor_binary1 | sensor_binary |  |  | 
+| Binary Sensor 2 | sensor_binary2 | sensor_binary |  |  | 
 
 ### Sensor (temperature)
-Indicates the current temperature.
-
-The ```sensor_temperature``` channel is of type ```sensor_temperature``` and supports the ```Number:Temperature``` item and is in the ```Temperature``` category.
+Channel type information on this channel is not found.
 
 ### Electric meter (watts)
-Indicates the instantaneous power consumption.
-
-The ```meter_watts``` channel is of type ```meter_watts``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Electric meter (kWh)
-Indicates the energy consumption (kWh).
-
-The ```meter_kwh``` channel is of type ```meter_kwh``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Thermostat mode
-Sets the thermostat.
-
-The ```thermostat_mode``` channel is of type ```thermostat_mode``` and supports the ```Number``` item and is in the ```Temperature``` category.
-The following state translation is provided for this channel to the ```Number``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| 0 | Off |
-| 1 | Heat |
-| 2 | Cool |
-| 3 | Auto |
-| 4 | Aux Heat |
-| 5 | Resume |
-| 6 | Fan Only |
-| 7 | Furnace |
-| 8 | Dry Air |
-| 9 | Moist Air |
-| 10 | Auto Changeover |
-| 11 | Heat Economy |
-| 12 | Cool Economy |
-| 13 | Away |
+Channel type information on this channel is not found.
 
 ### Setpoint (heating)
-Sets the thermostat setpoint.
-
-The ```thermostat_setpoint``` channel is of type ```thermostat_setpoint``` and supports the ```Number:Temperature``` item and is in the ```Heating``` category.
+Channel type information on this channel is not found.
 
 ### Binary Sensor 1
-Indicates if a sensor has triggered.
-
-The ```sensor_binary1``` channel is of type ```sensor_binary``` and supports the ```Switch``` item. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| ON | Triggered |
-| OFF | Untriggered |
+Channel type information on this channel is not found.
 
 ### Binary Sensor 2
-Indicates if a sensor has triggered.
-
-The ```sensor_binary2``` channel is of type ```sensor_binary``` and supports the ```Switch``` item. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| ON | Triggered |
-| OFF | Untriggered |
+Channel type information on this channel is not found.
 
 
 
@@ -490,9 +444,9 @@ Association group 6 supports 1 node.
 
 ### Documentation Links
 
-* [User Manual V1.0](https://www.cd-jackson.com/zwave_device_uploads/211/Qubino-Flush-On-Off-thermostat-user-manual-V1-0-eng.pdf)
+* [User Manual V1.0](https://www.opensmarthouse.org/zwavedatabase/211/Qubino-Flush-On-Off-thermostat-user-manual-V1-0-eng.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/211).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/211).

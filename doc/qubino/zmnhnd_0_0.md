@@ -6,11 +6,11 @@ title: ZMNHND - ZWave
 {% include base.html %}
 
 # ZMNHND Flush 1D relay
-This describes the Z-Wave device *ZMNHND*, manufactured by *[Goap](http://www.qubino.com/)* with the thing type UID of ```qubino_zmnhnd_00_000```.
+This describes the Z-Wave device *ZMNHND*, manufactured by *[Goap](http://www.qubino.com/)* with the thing type UID of ```Goap_zmnhnd_00_000```.
 
 The device is in the category of *Wall Switch*, defining Any device attached to the wall that controls a binary status of something, for ex. a light switch.
 
-![ZMNHND product image](https://www.cd-jackson.com/zwave_device_uploads/207/207_default.png)
+![ZMNHND product image](https://opensmarthouse.org/assets/zwave/attachments/207/ZMNHND.png)
 
 
 The ZMNHND supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is also able to participate in the routing of data between other devices in the mesh network.
@@ -53,75 +53,38 @@ The following table summarises the channels available for the ZMNHND -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Switch | switch_binary | switch_binary | Switch | Switch | 
-| Binary Sensor | sensor_binary | sensor_binary |  | Switch | 
-| Sensor (temperature) | sensor_temperature | sensor_temperature | Temperature | Number:Temperature | 
-| Switch 1 | switch_binary1 | switch_binary | Switch | Switch | 
-| Sensor (temperature) 1 | sensor_temperature1 | sensor_temperature | Temperature | Number:Temperature | 
-| Sensor Binary | sensor_binary2 | sensor_binary |  | Switch | 
-| Sensor (temperature) 2 | sensor_temperature2 | sensor_temperature | Temperature | Number:Temperature | 
-| Burglar | alarm_burglar2 | alarm_burglar | Door | Switch | 
+| Switch | switch_binary | switch_binary |  |  | 
+| Binary Sensor | sensor_binary | sensor_binary |  |  | 
+| Sensor (temperature) | sensor_temperature | sensor_temperature |  |  | 
+| Switch 1 | switch_binary1 | switch_binary |  |  | 
+| Sensor (temperature) 1 | sensor_temperature1 | sensor_temperature |  |  | 
+| Sensor Binary | sensor_binary2 | sensor_binary |  |  | 
+| Sensor (temperature) 2 | sensor_temperature2 | sensor_temperature |  |  | 
+| Burglar | alarm_burglar2 | alarm_burglar |  |  | 
 
 ### Switch
-Switch the power on and off.
-
-The ```switch_binary``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Binary Sensor
-Indicates if a sensor has triggered.
-
-The ```sensor_binary``` channel is of type ```sensor_binary``` and supports the ```Switch``` item. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| ON | Triggered |
-| OFF | Untriggered |
+Channel type information on this channel is not found.
 
 ### Sensor (temperature)
-Indicates the current temperature.
-
-The ```sensor_temperature``` channel is of type ```sensor_temperature``` and supports the ```Number:Temperature``` item and is in the ```Temperature``` category.
+Channel type information on this channel is not found.
 
 ### Switch 1
-Switch the power on and off.
-
-The ```switch_binary1``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Sensor (temperature) 1
-Indicates the current temperature.
-
-The ```sensor_temperature1``` channel is of type ```sensor_temperature``` and supports the ```Number:Temperature``` item and is in the ```Temperature``` category.
+Channel type information on this channel is not found.
 
 ### Sensor Binary
-Indicates if a sensor has triggered.
-
-The ```sensor_binary2``` channel is of type ```sensor_binary``` and supports the ```Switch``` item. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| ON | Triggered |
-| OFF | Untriggered |
+Channel type information on this channel is not found.
 
 ### Sensor (temperature) 2
-Indicates the current temperature.
-
-The ```sensor_temperature2``` channel is of type ```sensor_temperature``` and supports the ```Number:Temperature``` item and is in the ```Temperature``` category.
+Channel type information on this channel is not found.
 
 ### Burglar
-Indicates if the burglar alarm is triggered.
-
-The ```alarm_burglar2``` channel is of type ```alarm_burglar``` and supports the ```Switch``` item and is in the ```Door``` category. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| OFF | OK |
-| ON | Alarm |
+Channel type information on this channel is not found.
 
 
 
@@ -448,14 +411,14 @@ Association group 6 supports 16 nodes.
 
 ### Documentation Links
 
-* [User Manual](https://www.cd-jackson.com/zwave_device_uploads/207/Qubino-Flush-1D-relay-PLUS-user-manual-V1-4.pdf)
-* [Qubino Flush 1D relay PLUS User Manual V1.5](https://www.cd-jackson.com/zwave_device_uploads/207/Qubino-Flush-1D-relay-PLUS-user-manual-V1-5-1.pdf)
-* [Qubino Flush 1D Relay PLUS Extended Manual Eng 2.2](https://www.cd-jackson.com/zwave_device_uploads/207/Qubino-Flush-1D-Relay-PLUS-extended-manual-eng-2-2-2.pdf)
-* [Declaration of Conformity Flush 1D Relay 09062017](https://www.cd-jackson.com/zwave_device_uploads/207/Declaration-of-conformity-FLUSH-1D-RELAY--09062017.pdf)
-* [Qubino Relays CB Test Certificate SI-5074-B1](https://www.cd-jackson.com/zwave_device_uploads/207/Qubino-Relays-CB-TEST-CERTIFICATE-SI-5074-B1-1.pdf)
-* [Qubino Relays Certificate of Conformity C251-0007 16](https://www.cd-jackson.com/zwave_device_uploads/207/Qubino-Relays-Certificate-of-Conformity-C251-0007-16-2.pdf)
+* [User Manual](https://www.opensmarthouse.org/zwavedatabase/207/Qubino-Flush-1D-relay-PLUS-user-manual-V1-4.pdf)
+* [Qubino Flush 1D relay PLUS User Manual V1.5](https://www.opensmarthouse.org/zwavedatabase/207/Qubino-Flush-1D-relay-PLUS-user-manual-V1-5-1.pdf)
+* [Qubino Flush 1D Relay PLUS Extended Manual Eng 2.2](https://www.opensmarthouse.org/zwavedatabase/207/Qubino-Flush-1D-Relay-PLUS-extended-manual-eng-2-2-2.pdf)
+* [Declaration of Conformity Flush 1D Relay 09062017](https://www.opensmarthouse.org/zwavedatabase/207/Declaration-of-conformity-FLUSH-1D-RELAY--09062017.pdf)
+* [Qubino Relays CB Test Certificate SI-5074-B1](https://www.opensmarthouse.org/zwavedatabase/207/Qubino-Relays-CB-TEST-CERTIFICATE-SI-5074-B1-1.pdf)
+* [Qubino Relays Certificate of Conformity C251-0007 16](https://www.opensmarthouse.org/zwavedatabase/207/Qubino-Relays-Certificate-of-Conformity-C251-0007-16-2.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/207).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/207).

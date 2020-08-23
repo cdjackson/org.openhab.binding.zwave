@@ -6,11 +6,11 @@ title: Energy Switch + - ZWave
 {% include base.html %}
 
 # Energy Switch + Energy Switch +
-This describes the Z-Wave device *Energy Switch +*, manufactured by *[BeNext](http://www.benext.eu/)* with the thing type UID of ```benext_energyswitch_00_000```.
+This describes the Z-Wave device *Energy Switch +*, manufactured by *[BeNext](http://www.benext.eu/)* with the thing type UID of ```BeNext_energyswitch_00_000```.
 
 The device is in the category of *Power Outlet*, defining Small devices to be plugged into a power socket in a wall which stick there.
 
-![Energy Switch + product image](https://www.cd-jackson.com/zwave_device_uploads/445/445_default.png)
+![Energy Switch + product image](https://opensmarthouse.org/assets/zwave/attachments/445/benext-EnergySwitch.png)
 
 
 The Energy Switch + does not permanently listen for messages sent from the controller - it will periodically wake up automatically to check if the controller has messages to send, but will sleep most of the time to conserve battery life. Refer to the *Wakeup Information* section below for further information.
@@ -43,24 +43,18 @@ The following table summarises the channels available for the Energy Switch + -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Switch | switch_binary | switch_binary | Switch | Switch | 
-| Electric meter (kWh) | meter_kwh | meter_kwh | Energy | Number | 
-| Electric meter (watts) | meter_watts | meter_watts | Energy | Number | 
+| Switch | switch_binary | switch_binary |  |  | 
+| Electric meter (kWh) | meter_kwh | meter_kwh |  |  | 
+| Electric meter (watts) | meter_watts | meter_watts |  |  | 
 
 ### Switch
-Switch the power on and off.
-
-The ```switch_binary``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Electric meter (kWh)
-Indicates the energy consumption (kWh).
-
-The ```meter_kwh``` channel is of type ```meter_kwh``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Electric meter (watts)
-Indicates the instantaneous power consumption.
-
-The ```meter_watts``` channel is of type ```meter_watts``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 
 
@@ -234,9 +228,9 @@ Association group 1 supports 1 node.
 
 ### Documentation Links
 
-* [User Manual](https://www.cd-jackson.com/zwave_device_uploads/445/energyswitchrs.pdf)
+* [User Manual](https://www.opensmarthouse.org/zwavedatabase/445/energyswitchrs.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/445).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/445).

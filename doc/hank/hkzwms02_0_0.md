@@ -6,11 +6,11 @@ title: HKZW_MS02 - ZWave
 {% include base.html %}
 
 # HKZW_MS02 Motion Sensor
-This describes the Z-Wave device *HKZW_MS02*, manufactured by *[Hank](http://www.hank-tech.com/)* with the thing type UID of ```hank_hkzwms02_00_000```.
+This describes the Z-Wave device *HKZW_MS02*, manufactured by *[Hank](http://www.hank-tech.com/)* with the thing type UID of ```Hank_hkzwms02_00_000```.
 
 The device is in the category of *Sensor*, defining Device used to measure something.
 
-![HKZW_MS02 product image](https://www.cd-jackson.com/zwave_device_uploads/676/676_default.jpg)
+![HKZW_MS02 product image](https://opensmarthouse.org/assets/zwave/attachments/676/HKZW-MS02.jpg)
 
 
 The HKZW_MS02 supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is also able to participate in the routing of data between other devices in the mesh network.
@@ -72,26 +72,15 @@ The following table summarises the channels available for the HKZW_MS02 -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Motion Alarm | alarm_motion | alarm_motion | Motion | Switch | 
+| Motion Alarm | alarm_motion | alarm_motion |  |  | 
 | Battery Level | battery-level | system.battery_level | Battery | Number |
 
 ### Motion Alarm
-Indicates if a motion alarm is triggered.
-
-The ```alarm_motion``` channel is of type ```alarm_motion``` and supports the ```Switch``` item and is in the ```Motion``` category. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| OFF | OK |
-| ON | Alarm |
+Channel type information on this channel is not found.
 
 ### Battery Level
-Represents the battery level as a percentage (0-100%). Bindings for things supporting battery level in a different format (e.g. 4 levels) should convert to a percentage to provide a consistent battery level reading.
+Channel type information on this channel is not found.
 
-The ```system.battery-level``` channel is of type ```system.battery-level``` and supports the ```Number``` item and is in the ```Battery``` category.
-This channel provides the battery level as a percentage and also reflects the low battery warning state. If the battery state is in low battery warning state, this will read 0%.
 
 
 ## Device Configuration
@@ -262,10 +251,10 @@ Association group 2 supports 5 nodes.
 
 ### Documentation Links
 
-* [User Manual](https://www.cd-jackson.com/zwave_device_uploads/676/HKZW-MS02.pdf)
-* [HKZW-MS02-V1 Product Manual](https://www.cd-jackson.com/zwave_device_uploads/676/HKZW-MS02-V1-ProductManual.pdf)
+* [User Manual](https://www.opensmarthouse.org/zwavedatabase/676/HKZW-MS02.pdf)
+* [HKZW-MS02-V1 Product Manual](https://www.opensmarthouse.org/zwavedatabase/676/HKZW-MS02-V1-ProductManual.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/676).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/676).

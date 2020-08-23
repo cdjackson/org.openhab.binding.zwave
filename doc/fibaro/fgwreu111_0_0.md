@@ -6,11 +6,11 @@ title: FGWREU-111 - ZWave
 {% include base.html %}
 
 # FGWREU-111 Fibaro Walli Roller Shutter
-This describes the Z-Wave device *FGWREU-111*, manufactured by *[Fibargroup](http://www.fibaro.com/)* with the thing type UID of ```fibaro_fgwreu111_00_000```.
+This describes the Z-Wave device *FGWREU-111*, manufactured by *[Fibargroup](http://www.fibaro.com/)* with the thing type UID of ```Fibargroup_fgwreu111_00_000```.
 
 The device is in the category of *Blinds*, defining Roller shutters, window blinds, etc..
 
-![FGWREU-111 product image](https://www.cd-jackson.com/zwave_device_uploads/1083/1083_default.jpg)
+![FGWREU-111 product image](https://opensmarthouse.org/assets/zwave/attachments/1083/FGWDSEU.jpg)
 
 
 The FGWREU-111 supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is also able to participate in the routing of data between other devices in the mesh network.
@@ -53,119 +53,54 @@ The following table summarises the channels available for the FGWREU-111 -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Blinds Control  [Deprecated]| blinds_control | blinds_control | Blinds | Rollershutter | 
-| Electric meter (watts) | meter_watts | meter_watts | Energy | Number | 
-| Electric meter (kWh) | meter_kwh | meter_kwh | Energy | Number | 
-| Scene Number | scene_number | scene_number |  | Number | 
-| Alarm (power) | alarm_power | alarm_power | Energy | Switch | 
-| Alarm (system) | alarm_system | alarm_system |  | Switch | 
-| Blinds Control | blinds_control1 | blinds_control | Blinds | Rollershutter | 
-| Electric meter (watts) 1 | meter_watts1 | meter_watts | Energy | Number | 
-| Electric meter (kWh) 1 | meter_kwh1 | meter_kwh | Energy | Number | 
-| Alarm (power) 1 | alarm_power1 | alarm_power | Energy | Switch | 
-| Alarm (system) 1 | alarm_system1 | alarm_system |  | Switch | 
-| Slats Control | blinds_control2 | blinds_control | Blinds | Rollershutter | 
+| Blinds Control  [Deprecated]| blinds_control | blinds_control |  |  | 
+| Electric meter (watts) | meter_watts | meter_watts |  |  | 
+| Electric meter (kWh) | meter_kwh | meter_kwh |  |  | 
+| Scene Number | scene_number | scene_number |  |  | 
+| Alarm (power) | alarm_power | alarm_power |  |  | 
+| Alarm (system) | alarm_system | alarm_system |  |  | 
+| Blinds Control | blinds_control1 | blinds_control |  |  | 
+| Electric meter (watts) 1 | meter_watts1 | meter_watts |  |  | 
+| Electric meter (kWh) 1 | meter_kwh1 | meter_kwh |  |  | 
+| Alarm (power) 1 | alarm_power1 | alarm_power |  |  | 
+| Alarm (system) 1 | alarm_system1 | alarm_system |  |  | 
+| Slats Control | blinds_control2 | blinds_control |  |  | 
 
 ### Blinds Control [Deprecated]
-Provides start / stop control of blinds.
-
-The ```blinds_control``` channel is of type ```blinds_control``` and supports the ```Rollershutter``` item and is in the ```Blinds``` category.
-
-**Note:** This channel is marked as deprecated so should not be used.
+Channel type information on this channel is not found.
 
 ### Electric meter (watts)
-Indicates the instantaneous power consumption.
-
-The ```meter_watts``` channel is of type ```meter_watts``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Electric meter (kWh)
-Indicates the energy consumption (kWh).
-
-The ```meter_kwh``` channel is of type ```meter_kwh``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Scene Number
-Triggers when a scene button is pressed.
-
-The ```scene_number``` channel is of type ```scene_number``` and supports the ```Number``` item.
-This channel provides the scene, and the event as a decimal value in the form ```<scene>.<event>```. The scene number is set by the device, and the event is as follows -:
-
-| Event ID | Event Description  |
-|----------|--------------------|
-| 0        | Single key press   |
-| 1        | Key released       |
-| 2        | Key held down      |
-| 3        | Double keypress    |
-| 4        | Tripple keypress   |
-| 5        | 4 x keypress       |
-| 6        | 5 x keypress       |
+Channel type information on this channel is not found.
 
 ### Alarm (power)
-Indicates if a power alarm is triggered.
-
-The ```alarm_power``` channel is of type ```alarm_power``` and supports the ```Switch``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| OFF | OK |
-| ON | Alarm |
+Channel type information on this channel is not found.
 
 ### Alarm (system)
-Indicates if a system alarm is triggered.
-
-The ```alarm_system``` channel is of type ```alarm_system``` and supports the ```Switch``` item. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| OFF | OK |
-| ON | Alarm |
+Channel type information on this channel is not found.
 
 ### Blinds Control
-Provides start / stop control of blinds.
-
-The ```blinds_control1``` channel is of type ```blinds_control``` and supports the ```Rollershutter``` item and is in the ```Blinds``` category.
+Channel type information on this channel is not found.
 
 ### Electric meter (watts) 1
-Indicates the instantaneous power consumption.
-
-The ```meter_watts1``` channel is of type ```meter_watts``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Electric meter (kWh) 1
-Indicates the energy consumption (kWh).
-
-The ```meter_kwh1``` channel is of type ```meter_kwh``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Alarm (power) 1
-Indicates if a power alarm is triggered.
-
-The ```alarm_power1``` channel is of type ```alarm_power``` and supports the ```Switch``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| OFF | OK |
-| ON | Alarm |
+Channel type information on this channel is not found.
 
 ### Alarm (system) 1
-Indicates if a system alarm is triggered.
-
-The ```alarm_system1``` channel is of type ```alarm_system``` and supports the ```Switch``` item. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| OFF | OK |
-| ON | Alarm |
+Channel type information on this channel is not found.
 
 ### Slats Control
-Provides start / stop control of blinds.
-
-The ```blinds_control2``` channel is of type ```blinds_control``` and supports the ```Rollershutter``` item and is in the ```Blinds``` category.
+Channel type information on this channel is not found.
 
 
 
@@ -776,9 +711,9 @@ Association group 3 supports 5 nodes.
 
 ### Documentation Links
 
-* [Operating Manual](https://www.cd-jackson.com/zwave_device_uploads/1083/FGWREU-111-T-EN-v1-0.pdf)
+* [Operating Manual](https://www.opensmarthouse.org/zwavedatabase/1083/FGWREU-111-T-EN-v1-0.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/1083).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/1083).

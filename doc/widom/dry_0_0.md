@@ -6,11 +6,11 @@ title: DRY - ZWave
 {% include base.html %}
 
 # DRY Widom Smart Dry contact
-This describes the Z-Wave device *DRY*, manufactured by *wiDom* with the thing type UID of ```widom_dry_00_000```.
+This describes the Z-Wave device *DRY*, manufactured by *wiDom* with the thing type UID of ```wiDom_dry_00_000```.
 
 The device is in the category of *Wall Switch*, defining Any device attached to the wall that controls a binary status of something, for ex. a light switch.
 
-![DRY product image](https://www.cd-jackson.com/zwave_device_uploads/996/996_default.jpg)
+![DRY product image](https://opensmarthouse.org/assets/zwave/attachments/996/WiDom-dry-contact-rgb.jpg)
 
 
 The DRY supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is also able to participate in the routing of data between other devices in the mesh network.
@@ -41,12 +41,10 @@ The following table summarises the channels available for the DRY -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Switch | switch_binary | switch_binary | Switch | Switch | 
+| Switch | switch_binary | switch_binary |  |  | 
 
 ### Switch
-Switch the power on and off.
-
-The ```switch_binary``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 
 
@@ -265,9 +263,9 @@ Association group 4 supports 8 nodes.
 
 ### Documentation Links
 
-* [Manual](https://www.cd-jackson.com/zwave_device_uploads/996/Widom-Dry-Contact-EN.pdf)
+* [Manual](https://www.opensmarthouse.org/zwavedatabase/996/Widom-Dry-Contact-EN.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/996).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/996).

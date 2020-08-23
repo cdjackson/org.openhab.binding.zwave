@@ -6,12 +6,12 @@ title: MH8-FC - ZWave
 {% include base.html %}
 
 # MH8-FC Fan Coil Thermostat
-This describes the Z-Wave device *MH8-FC*, manufactured by *[McoHome Technology Co., Ltd](http://www.mcohome.com/)* with the thing type UID of ```mcohome_mh8fcplus_03_000```.
+This describes the Z-Wave device *MH8-FC*, manufactured by *[McoHome Technology Co., Ltd](http://www.mcohome.com/)* with the thing type UID of ```McoHome Technology Co., Ltd_mh8fcplus_03_000```.
 This version of the device is limited to firmware versions above 3.0
 
 The device is in the category of *HVAC*, defining Air condition devices, Fans.
 
-![MH8-FC product image](https://www.cd-jackson.com/zwave_device_uploads/1057/1057_default.jpg)
+![MH8-FC product image](https://opensmarthouse.org/assets/zwave/attachments/1057/MCO-MH8-FC.jpg)
 
 
 The MH8-FC supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is also able to participate in the routing of data between other devices in the mesh network.
@@ -70,67 +70,28 @@ The following table summarises the channels available for the MH8-FC -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Sensor (temperature) | sensor_temperature | sensor_temperature | Temperature | Number:Temperature | 
-| Thermostat mode | thermostat_mode | thermostat_mode | Temperature | Number | 
-| Operating State | thermostat_state | thermostat_state | Temperature | Number | 
-| Setpoint (cooling) | thermostat_setpoint | thermostat_setpoint | Heating | Number:Temperature | 
-| Setpoint (heating) | thermostat_setpoint | thermostat_setpoint | Heating | Number:Temperature | 
+| Sensor (temperature) | sensor_temperature | sensor_temperature |  |  | 
+| Thermostat mode | thermostat_mode | thermostat_mode |  |  | 
+| Operating State | thermostat_state | thermostat_state |  |  | 
+| Setpoint (cooling) | thermostat_setpoint | thermostat_setpoint |  |  | 
+| Setpoint (heating) | thermostat_setpoint | thermostat_setpoint |  |  | 
 | Thermostat fan mode | thermostat_fanmode | thermostat_fanmode |  |  | 
 | Thermostat fan state | thermostat_fanstate | thermostat_fanstate |  |  | 
 
 ### Sensor (temperature)
-Indicates the current temperature.
-
-The ```sensor_temperature``` channel is of type ```sensor_temperature``` and supports the ```Number:Temperature``` item and is in the ```Temperature``` category.
+Channel type information on this channel is not found.
 
 ### Thermostat mode
-Sets the thermostat.
-
-The ```thermostat_mode``` channel is of type ```thermostat_mode``` and supports the ```Number``` item and is in the ```Temperature``` category.
-The following state translation is provided for this channel to the ```Number``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| 0 | Off |
-| 1 | Heat |
-| 2 | Cool |
-| 3 | Auto |
-| 4 | Aux Heat |
-| 5 | Resume |
-| 6 | Fan Only |
-| 7 | Furnace |
-| 8 | Dry Air |
-| 9 | Moist Air |
-| 10 | Auto Changeover |
-| 11 | Heat Economy |
-| 12 | Cool Economy |
-| 13 | Away |
+Channel type information on this channel is not found.
 
 ### Operating State
-Sets the thermostat operating state.
-
-The ```thermostat_state``` channel is of type ```thermostat_state``` and supports the ```Number``` item and is in the ```Temperature``` category.
-The following state translation is provided for this channel to the ```Number``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| 0 | Idle |
-| 1 | Heating |
-| 2 | Cooling |
-| 3 | Fan Only |
-| 4 | Pending Heat |
-| 5 | Pending Cool |
-| 6 | Vent / Economiser |
+Channel type information on this channel is not found.
 
 ### Setpoint (cooling)
-Sets the thermostat setpoint.
-
-The ```thermostat_setpoint``` channel is of type ```thermostat_setpoint``` and supports the ```Number:Temperature``` item and is in the ```Heating``` category.
+Channel type information on this channel is not found.
 
 ### Setpoint (heating)
-Sets the thermostat setpoint.
-
-The ```thermostat_setpoint``` channel is of type ```thermostat_setpoint``` and supports the ```Number:Temperature``` item and is in the ```Heating``` category.
+Channel type information on this channel is not found.
 
 ### Thermostat fan mode
 Channel type information on this channel is not found.
@@ -259,9 +220,9 @@ Association group 1 supports 1 node.
 
 ### Documentation Links
 
-* [Manual](https://www.cd-jackson.com/zwave_device_uploads/1057/MH8-FC-Zwave-Plus.pdf)
+* [Manual](https://www.opensmarthouse.org/zwavedatabase/1057/MH8-FC-Zwave-Plus.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/1057).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/1057).

@@ -6,11 +6,11 @@ title: RFWC5 - ZWave
 {% include base.html %}
 
 # RFWC5 5-Scene Keypad
-This describes the Z-Wave device *RFWC5*, manufactured by *Cooper Wiring Devices* with the thing type UID of ```cooper_rfwc5_00_000```.
+This describes the Z-Wave device *RFWC5*, manufactured by *Cooper Wiring Devices* with the thing type UID of ```Cooper Wiring Devices_rfwc5_00_000```.
 
 The device is in the category of *Wall Switch*, defining Any device attached to the wall that controls a binary status of something, for ex. a light switch.
 
-![RFWC5 product image](https://www.cd-jackson.com/zwave_device_uploads/15/15_default.jpg)
+![RFWC5 product image](https://opensmarthouse.org/assets/zwave/attachments/15/RFWC5.jpg)
 
 
 ## Overview
@@ -46,42 +46,30 @@ The following table summarises the channels available for the RFWC5 -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Switch Button 1 | switch_binary | switch_binary | Switch | Switch | 
-| Scene Number 1 | scene_number | scene_number |  | Number | 
-| Indicator Light Control 1 | indicator_level | indicator_level |  | Dimmer | 
-| Switch Button 2 | switch_binary1 | switch_binary | Switch | Switch | 
-| Scene Number 2 | scene_number1 | scene_number |  | Number | 
-| Indicator Light Control 2 | indicator_level1 | indicator_level |  | Dimmer | 
+| Switch Button 1 | switch_binary | switch_binary |  |  | 
+| Scene Number 1 | scene_number | scene_number |  |  | 
+| Indicator Light Control 1 | indicator_level | indicator_level |  |  | 
+| Switch Button 2 | switch_binary1 | switch_binary |  |  | 
+| Scene Number 2 | scene_number1 | scene_number |  |  | 
+| Indicator Light Control 2 | indicator_level1 | indicator_level |  |  | 
 
 ### Switch Button 1
-Switch the power on and off.
-
-The ```switch_binary``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Scene Number 1
-Triggers when a scene button is pressed.
-
-The ```scene_number``` channel is of type ```scene_number``` and supports the ```Number``` item.
+Channel type information on this channel is not found.
 
 ### Indicator Light Control 1
-Sets the indicator brightness.
-
-The ```indicator_level``` channel is of type ```indicator_level``` and supports the ```Dimmer``` item.
+Channel type information on this channel is not found.
 
 ### Switch Button 2
-Switch the power on and off.
-
-The ```switch_binary1``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Scene Number 2
-Triggers when a scene button is pressed.
-
-The ```scene_number1``` channel is of type ```scene_number``` and supports the ```Number``` item.
+Channel type information on this channel is not found.
 
 ### Indicator Light Control 2
-Sets the indicator brightness.
-
-The ```indicator_level1``` channel is of type ```indicator_level``` and supports the ```Dimmer``` item.
+Channel type information on this channel is not found.
 
 
 
@@ -230,10 +218,10 @@ Association group 255 supports 1 node.
 
 ### Documentation Links
 
-* [User Manual](https://www.cd-jackson.com/zwave_device_uploads/15/WallMount5-SceneKeypadSpecSheet.pdf)
-* [Detailed Manual](https://www.cd-jackson.com/zwave_device_uploads/15/21895AW.pdf)
+* [User Manual](https://www.opensmarthouse.org/zwavedatabase/15/WallMount5-SceneKeypadSpecSheet.pdf)
+* [Detailed Manual](https://www.opensmarthouse.org/zwavedatabase/15/21895AW.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/15).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/15).

@@ -6,11 +6,11 @@ title: WTRFID - ZWave
 {% include base.html %}
 
 # WTRFID Mini Keypad RFID
-This describes the Z-Wave device *WTRFID*, manufactured by *Wintop* with the thing type UID of ```wintop_wtrfid_00_000```.
+This describes the Z-Wave device *WTRFID*, manufactured by *Wintop* with the thing type UID of ```Wintop_wtrfid_00_000```.
 
 The device is in the category of *Remote Control*, defining Any portable or hand-held device that controls the status of something, e.g. remote control, keyfob etc..
 
-![WTRFID product image](https://www.cd-jackson.com/zwave_device_uploads/217/217_default.jpg)
+![WTRFID product image](https://opensmarthouse.org/assets/zwave/attachments/217/WTRFID.jpg)
 
 
 The WTRFID supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is unable to participate in the routing of data from other devices.
@@ -62,92 +62,31 @@ The following table summarises the channels available for the WTRFID -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Switch | switch_binary | switch_binary | Switch | Switch | 
-| Alarm (burglar) | alarm_burglar | alarm_burglar | Door | Switch | 
-| Alarm (access)  [Deprecated]| notification_access_control | notification_access_control |  | Number | 
-| Alarm (raw) | alarm_raw | alarm_raw |  | String | 
+| Switch | switch_binary | switch_binary |  |  | 
+| Alarm (burglar) | alarm_burglar | alarm_burglar |  |  | 
+| Alarm (access)  [Deprecated]| notification_access_control | notification_access_control |  |  | 
+| Alarm (raw) | alarm_raw | alarm_raw |  |  | 
 | Battery Level | battery-level | system.battery_level | Battery | Number |
 
 ### Switch
-Switch the power on and off.
-
-The ```switch_binary``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Alarm (burglar)
-Indicates if the burglar alarm is triggered.
-
-The ```alarm_burglar``` channel is of type ```alarm_burglar``` and supports the ```Switch``` item and is in the ```Door``` category. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| OFF | OK |
-| ON | Alarm |
+Channel type information on this channel is not found.
 
 ### Alarm (access) [Deprecated]
 Event ID 5 = Away
 
 Event ID 6 = Home
 
-Access Control.
-
-The ```notification_access_control``` channel is of type ```notification_access_control``` and supports the ```Number``` item. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Number``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| 0 | Previous Events cleared |
-| 1 | Manual Lock Operation |
-| 2 | Manual Unlock Operation |
-| 3 | RF Lock Operation |
-| 4 | RF Unlock Operation |
-| 5 | Keypad Lock Operation |
-| 6 | Keypad Unlock Operation |
-| 7 | Manual Not Fully Locked Operation |
-| 8 | RF Not Fully Locked Operation |
-| 9 | Auto Lock Locked Operation |
-| 10 | Auto Lock Not Fully Operation |
-| 11 | LockJammed |
-| 12 | All user codes deleted |
-| 13 | Single user code deleted |
-| 14 | New user code added |
-| 15 | New user code not added due to duplicate code |
-| 16 | Keypad temporary disabled |
-| 17 | Keypad busy |
-| 18 | New Program code Entered- Unique code for lock configuration |
-| 19 | Manually Enter user Access code exceeds code limit |
-| 20 | Unlock by RF with invalid user code |
-| 21 | Locked by RF with invalid user code |
-| 22 | Window/Door is open |
-| 23 | Window/Door is closed |
-| 64 | Barrier performing initialization process |
-| 65 | Barrier operation (Open / Close) force has been exceeded |
-| 66 | Barrier motor has exceeded manufacturer's operational time limit |
-| 67 | Barrier operation has exceeded physical mechanical limits |
-| 68 | Barrier unable to perform requested operation due to UL requirements |
-| 69 | Barrier Unattended operation has been disabled per UL requirements |
-| 70 | Barrier failed to perform Requested operation, device malfunction |
-| 71 | Barrier Vacation Mode |
-| 72 | Barrier Safety Beam Obstacle |
-| 73 | Barrier Sensor Not Detected / Supervisory Error |
-| 74 | Barrier Sensor Low Battery Warning |
-| 75 | Barrier detected short in WallStation wires |
-| 76 | Barrier associated with non-Z-wave remote control |
-
-**Note:** This channel is marked as deprecated so should not be used.
+Channel type information on this channel is not found.
 
 ### Alarm (raw)
-Provides alarm parameters as json string.
+Channel type information on this channel is not found.
 
-The ```alarm_raw``` channel is of type ```alarm_raw``` and supports the ```String``` item. This is a read only channel so will only be updated following state changes from the device.
-This channel sets, and provides the alarm state as a JSON string. It is designed for use in rules.
 ### Battery Level
-Represents the battery level as a percentage (0-100%). Bindings for things supporting battery level in a different format (e.g. 4 levels) should convert to a percentage to provide a consistent battery level reading.
+Channel type information on this channel is not found.
 
-The ```system.battery-level``` channel is of type ```system.battery-level``` and supports the ```Number``` item and is in the ```Battery``` category.
-This channel provides the battery level as a percentage and also reflects the low battery warning state. If the battery state is in low battery warning state, this will read 0%.
 
 
 ## Device Configuration
@@ -277,9 +216,9 @@ Association group 1 supports 5 nodes.
 
 ### Documentation Links
 
-* [Installation Instructions](https://www.cd-jackson.com/zwave_device_uploads/217/Zipato-Zwave-RFID-Tag-Reader-Installation.pdf)
+* [Installation Instructions](https://www.opensmarthouse.org/zwavedatabase/217/Zipato-Zwave-RFID-Tag-Reader-Installation.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/217).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/217).

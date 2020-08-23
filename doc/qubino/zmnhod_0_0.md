@@ -6,11 +6,11 @@ title: ZMNHOD - ZWave
 {% include base.html %}
 
 # ZMNHOD Flush Shutter DC
-This describes the Z-Wave device *ZMNHOD*, manufactured by *[Goap](http://www.qubino.com/)* with the thing type UID of ```qubino_zmnhod_00_000```.
+This describes the Z-Wave device *ZMNHOD*, manufactured by *[Goap](http://www.qubino.com/)* with the thing type UID of ```Goap_zmnhod_00_000```.
 
 The device is in the category of *Blinds*, defining Roller shutters, window blinds, etc..
 
-![ZMNHOD product image](https://www.cd-jackson.com/zwave_device_uploads/214/214_default.jpg)
+![ZMNHOD product image](https://opensmarthouse.org/assets/zwave/attachments/214/qubino-z-wave.jpg)
 
 
 The ZMNHOD supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is also able to participate in the routing of data between other devices in the mesh network.
@@ -35,79 +35,50 @@ The following table summarises the channels available for the ZMNHOD -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Switch | switch_binary | switch_binary | Switch | Switch | 
-| Blinds control | blinds_control | blinds_control | Blinds | Rollershutter | 
-| Binary Sensor | sensor_binary | sensor_binary |  | Switch | 
-| Sensor (temperature) | sensor_temperature | sensor_temperature | Temperature | Number:Temperature | 
-| Electric meter (watts) | meter_watts | meter_watts | Energy | Number | 
-| Electric meter (kWh) | meter_kwh | meter_kwh | Energy | Number | 
-| Switch 1 | switch_binary1 | switch_binary | Switch | Switch | 
-| Blinds control 1 | blinds_control1 | blinds_control | Blinds | Rollershutter | 
-| Electric meter (watts) 1 | meter_watts1 | meter_watts | Energy | Number | 
-| Electric meter (kWh) 1 | meter_kwh1 | meter_kwh | Energy | Number | 
-| Sensor (temperature) 2 | sensor_temperature2 | sensor_temperature | Temperature | Number:Temperature | 
+| Switch | switch_binary | switch_binary |  |  | 
+| Blinds control | blinds_control | blinds_control |  |  | 
+| Binary Sensor | sensor_binary | sensor_binary |  |  | 
+| Sensor (temperature) | sensor_temperature | sensor_temperature |  |  | 
+| Electric meter (watts) | meter_watts | meter_watts |  |  | 
+| Electric meter (kWh) | meter_kwh | meter_kwh |  |  | 
+| Switch 1 | switch_binary1 | switch_binary |  |  | 
+| Blinds control 1 | blinds_control1 | blinds_control |  |  | 
+| Electric meter (watts) 1 | meter_watts1 | meter_watts |  |  | 
+| Electric meter (kWh) 1 | meter_kwh1 | meter_kwh |  |  | 
+| Sensor (temperature) 2 | sensor_temperature2 | sensor_temperature |  |  | 
 
 ### Switch
-Switch the power on and off.
-
-The ```switch_binary``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Blinds control
-Provides start / stop control of blinds.
-
-The ```blinds_control``` channel is of type ```blinds_control``` and supports the ```Rollershutter``` item and is in the ```Blinds``` category.
+Channel type information on this channel is not found.
 
 ### Binary Sensor
-Indicates if a sensor has triggered.
-
-The ```sensor_binary``` channel is of type ```sensor_binary``` and supports the ```Switch``` item. This is a read only channel so will only be updated following state changes from the device.
-
-The following state translation is provided for this channel to the ```Switch``` item type -:
-
-| Value | Label     |
-|-------|-----------|
-| ON | Triggered |
-| OFF | Untriggered |
+Channel type information on this channel is not found.
 
 ### Sensor (temperature)
-Indicates the current temperature.
-
-The ```sensor_temperature``` channel is of type ```sensor_temperature``` and supports the ```Number:Temperature``` item and is in the ```Temperature``` category.
+Channel type information on this channel is not found.
 
 ### Electric meter (watts)
-Indicates the instantaneous power consumption.
-
-The ```meter_watts``` channel is of type ```meter_watts``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Electric meter (kWh)
-Indicates the energy consumption (kWh).
-
-The ```meter_kwh``` channel is of type ```meter_kwh``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Switch 1
-Switch the power on and off.
-
-The ```switch_binary1``` channel is of type ```switch_binary``` and supports the ```Switch``` item and is in the ```Switch``` category.
+Channel type information on this channel is not found.
 
 ### Blinds control 1
-Provides start / stop control of blinds.
-
-The ```blinds_control1``` channel is of type ```blinds_control``` and supports the ```Rollershutter``` item and is in the ```Blinds``` category.
+Channel type information on this channel is not found.
 
 ### Electric meter (watts) 1
-Indicates the instantaneous power consumption.
-
-The ```meter_watts1``` channel is of type ```meter_watts``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Electric meter (kWh) 1
-Indicates the energy consumption (kWh).
-
-The ```meter_kwh1``` channel is of type ```meter_kwh``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Sensor (temperature) 2
-Indicates the current temperature.
-
-The ```sensor_temperature2``` channel is of type ```sensor_temperature``` and supports the ```Number:Temperature``` item and is in the ```Temperature``` category.
+Channel type information on this channel is not found.
 
 
 
@@ -515,9 +486,9 @@ Association group 9 supports 16 nodes.
 
 ### Documentation Links
 
-* [User Manual](https://www.cd-jackson.com/zwave_device_uploads/214/Qubino-Flush-Shutter-DC-PLUS-user-manual-V1-4-eng.pdf)
+* [User Manual](https://www.opensmarthouse.org/zwavedatabase/214/Qubino-Flush-Shutter-DC-PLUS-user-manual-V1-4-eng.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/214).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/214).

@@ -6,11 +6,11 @@ title: DZMX1 - ZWave
 {% include base.html %}
 
 # DZMX1 Scene Capable Push On/Off
-This describes the Z-Wave device *DZMX1*, manufactured by *Leviton* with the thing type UID of ```leviton_dzmx1_00_000```.
+This describes the Z-Wave device *DZMX1*, manufactured by *Leviton* with the thing type UID of ```Leviton_dzmx1_00_000```.
 
 The device is in the category of *Wall Switch*, defining Any device attached to the wall that controls a binary status of something, for ex. a light switch.
 
-![DZMX1 product image](https://www.cd-jackson.com/zwave_device_uploads/196/196_default.jpg)
+![DZMX1 product image](https://opensmarthouse.org/assets/zwave/attachments/196/DZMX1.jpg)
 
 
 The DZMX1 supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is also able to participate in the routing of data between other devices in the mesh network.
@@ -40,19 +40,14 @@ The following table summarises the channels available for the DZMX1 -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Dimmer | switch_dimmer | switch_dimmer | DimmableLight | Dimmer | 
-| Scene Number | scene_number | scene_number |  | Number | 
+| Dimmer | switch_dimmer | switch_dimmer |  |  | 
+| Scene Number | scene_number | scene_number |  |  | 
 
 ### Dimmer
-The brightness channel allows to control the brightness of a light.
-            It is also possible to switch the light on and off.
-
-The ```switch_dimmer``` channel is of type ```switch_dimmer``` and supports the ```Dimmer``` item and is in the ```DimmableLight``` category.
+Channel type information on this channel is not found.
 
 ### Scene Number
-Triggers when a scene button is pressed.
-
-The ```scene_number``` channel is of type ```scene_number``` and supports the ```Number``` item.
+Channel type information on this channel is not found.
 
 
 
@@ -89,10 +84,10 @@ The device does not support associations.
 
 ### Documentation Links
 
-* [Installation Instructions](https://www.cd-jackson.com/zwave_device_uploads/196/installation-instructions.pdf)
-* [Product Overview](https://www.cd-jackson.com/zwave_device_uploads/196/Leviton-DZMX1.pdf)
+* [Installation Instructions](https://www.opensmarthouse.org/zwavedatabase/196/installation-instructions.pdf)
+* [Product Overview](https://www.opensmarthouse.org/zwavedatabase/196/Leviton-DZMX1.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/196).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/196).

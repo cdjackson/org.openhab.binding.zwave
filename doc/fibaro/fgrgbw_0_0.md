@@ -6,11 +6,11 @@ title: FGRGBW - ZWave
 {% include base.html %}
 
 # FGRGBW RGBW Controller
-This describes the Z-Wave device *FGRGBW*, manufactured by *[Fibargroup](http://www.fibaro.com/)* with the thing type UID of ```fibaro_fgrgbw_00_000```.
+This describes the Z-Wave device *FGRGBW*, manufactured by *[Fibargroup](http://www.fibaro.com/)* with the thing type UID of ```Fibargroup_fgrgbw_00_000```.
 
 The device is in the category of *Wall Switch*, defining Any device attached to the wall that controls a binary status of something, for ex. a light switch.
 
-![FGRGBW product image](https://www.cd-jackson.com/zwave_device_uploads/131/131_default.jpg)
+![FGRGBW product image](https://opensmarthouse.org/assets/zwave/attachments/131/fibaro-rgbw.jpg)
 
 
 The FGRGBW supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is also able to participate in the routing of data between other devices in the mesh network.
@@ -46,72 +46,46 @@ The following table summarises the channels available for the FGRGBW -:
 
 | Channel Name | Channel ID | Channel Type | Category | Item Type |
 |--------------|------------|--------------|----------|-----------|
-| Dimmer | switch_dimmer | switch_dimmer | DimmableLight | Dimmer | 
-| Sensor (power) | sensor_power | sensor_power | Energy | Number | 
-| Electric meter (watts) | meter_watts | meter_watts | Energy | Number | 
-| Electric meter (kWh) | meter_kwh | meter_kwh | Energy | Number | 
-| Color | color_color | color_color | ColorLight | Color | 
-| Start animation | scene_number | scene_number |  | Number | 
-| Red | switch_dimmer2 | switch_dimmer | DimmableLight | Dimmer | 
-| Green | switch_dimmer3 | switch_dimmer | DimmableLight | Dimmer | 
-| Blue | switch_dimmer4 | switch_dimmer | DimmableLight | Dimmer | 
-| White | switch_dimmer5 | switch_dimmer | DimmableLight | Dimmer | 
+| Dimmer | switch_dimmer | switch_dimmer |  |  | 
+| Sensor (power) | sensor_power | sensor_power |  |  | 
+| Electric meter (watts) | meter_watts | meter_watts |  |  | 
+| Electric meter (kWh) | meter_kwh | meter_kwh |  |  | 
+| Color | color_color | color_color |  |  | 
+| Start animation | scene_number | scene_number |  |  | 
+| Red | switch_dimmer2 | switch_dimmer |  |  | 
+| Green | switch_dimmer3 | switch_dimmer |  |  | 
+| Blue | switch_dimmer4 | switch_dimmer |  |  | 
+| White | switch_dimmer5 | switch_dimmer |  |  | 
 
 ### Dimmer
-The brightness channel allows to control the brightness of a light.
-            It is also possible to switch the light on and off.
-
-The ```switch_dimmer``` channel is of type ```switch_dimmer``` and supports the ```Dimmer``` item and is in the ```DimmableLight``` category.
+Channel type information on this channel is not found.
 
 ### Sensor (power)
-Indicates the energy consumption (kWh).
-
-The ```sensor_power``` channel is of type ```sensor_power``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Electric meter (watts)
-Indicates the instantaneous power consumption.
-
-The ```meter_watts``` channel is of type ```meter_watts``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Electric meter (kWh)
-Indicates the energy consumption (kWh).
-
-The ```meter_kwh``` channel is of type ```meter_kwh``` and supports the ```Number``` item and is in the ```Energy``` category. This is a read only channel so will only be updated following state changes from the device.
+Channel type information on this channel is not found.
 
 ### Color
-The color channel allows to control the color of a light.
-            It is also possible to dim values and switch the light on and off.
-
-The ```color_color``` channel is of type ```color_color``` and supports the ```Color``` item and is in the ```ColorLight``` category.
+Channel type information on this channel is not found.
 
 ### Start animation
-Triggers when a scene button is pressed.
-
-The ```scene_number``` channel is of type ```scene_number``` and supports the ```Number``` item.
+Channel type information on this channel is not found.
 
 ### Red
-The brightness channel allows to control the brightness of a light.
-            It is also possible to switch the light on and off.
-
-The ```switch_dimmer2``` channel is of type ```switch_dimmer``` and supports the ```Dimmer``` item and is in the ```DimmableLight``` category.
+Channel type information on this channel is not found.
 
 ### Green
-The brightness channel allows to control the brightness of a light.
-            It is also possible to switch the light on and off.
-
-The ```switch_dimmer3``` channel is of type ```switch_dimmer``` and supports the ```Dimmer``` item and is in the ```DimmableLight``` category.
+Channel type information on this channel is not found.
 
 ### Blue
-The brightness channel allows to control the brightness of a light.
-            It is also possible to switch the light on and off.
-
-The ```switch_dimmer4``` channel is of type ```switch_dimmer``` and supports the ```Dimmer``` item and is in the ```DimmableLight``` category.
+Channel type information on this channel is not found.
 
 ### White
-The brightness channel allows to control the brightness of a light.
-            It is also possible to switch the light on and off.
-
-The ```switch_dimmer5``` channel is of type ```switch_dimmer``` and supports the ```Dimmer``` item and is in the ```DimmableLight``` category.
+Channel type information on this channel is not found.
 
 
 
@@ -520,9 +494,9 @@ Association group 5 supports 1 node.
 
 ### Documentation Links
 
-* [User Manual (v2.1-v2.3)](https://www.cd-jackson.com/zwave_device_uploads/131/fibaro-rgbw-controller-2-1-2-3-manual.pdf)
+* [User Manual (v2.1-v2.3)](https://www.opensmarthouse.org/zwavedatabase/131/fibaro-rgbw-controller-2-1-2-3-manual.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/131).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/131).
