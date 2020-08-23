@@ -6,11 +6,11 @@ title: ZME_RC2 - ZWave
 {% include base.html %}
 
 # ZME_RC2 Z-Wave Remote Control+
-This describes the Z-Wave device *ZME_RC2*, manufactured by *Z-Wave.Me* with the thing type UID of ```zwaveme_zmerc2_00_000```.
+This describes the Z-Wave device *ZME_RC2*, manufactured by *Z-Wave.Me* with the thing type UID of ```Z-Wave.Me_zmerc2_00_000```.
 
 The device is in the category of *Remote Control*, defining Any portable or hand-held device that controls the status of something, e.g. remote control, keyfob etc..
 
-![ZME_RC2 product image](https://www.cd-jackson.com/zwave_device_uploads/149/149_default.png)
+![ZME_RC2 product image](https://opensmarthouse.org/assets/zwave/attachments/149/remote.PNG)
 
 
 The ZME_RC2 supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is unable to participate in the routing of data from other devices.
@@ -443,9 +443,9 @@ Association group 12 supports 5 nodes.
 
 ### Documentation Links
 
-* [User Manual](https://www.cd-jackson.com/zwave_device_uploads/149/zwave-me-RC2.pdf)
+* [User Manual](https://www.opensmarthouse.org/zwavedatabase/149/zwave-me-RC2.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/149).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/149).

@@ -6,11 +6,11 @@ title: ZMNHLA - ZWave
 {% include base.html %}
 
 # ZMNHLA Flush PWM thermostat
-This describes the Z-Wave device *ZMNHLA*, manufactured by *[Goap](http://www.qubino.com/)* with the thing type UID of ```qubino_zmnhla_00_000```.
+This describes the Z-Wave device *ZMNHLA*, manufactured by *[Goap](http://www.qubino.com/)* with the thing type UID of ```Goap_zmnhla_00_000```.
 
 The device is in the category of *HVAC*, defining Air condition devices, Fans.
 
-![ZMNHLA product image](https://www.cd-jackson.com/zwave_device_uploads/212/212_default.png)
+![ZMNHLA product image](https://opensmarthouse.org/assets/zwave/attachments/212/ZMNHLA.png)
 
 
 The ZMNHLA supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is also able to participate in the routing of data between other devices in the mesh network.
@@ -653,9 +653,9 @@ Association group 6 supports 1 node.
 
 ### Documentation Links
 
-* [User Manual](https://www.cd-jackson.com/zwave_device_uploads/212/z-wave-qubino-flush-pwm-thermostat-user-manual-v1-0.pdf)
+* [User Manual](https://www.opensmarthouse.org/zwavedatabase/212/z-wave-qubino-flush-pwm-thermostat-user-manual-v1-0.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/212).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/212).

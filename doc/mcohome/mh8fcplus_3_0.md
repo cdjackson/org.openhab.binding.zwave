@@ -6,12 +6,12 @@ title: MH8-FC - ZWave
 {% include base.html %}
 
 # MH8-FC Fan Coil Thermostat
-This describes the Z-Wave device *MH8-FC*, manufactured by *[McoHome Technology Co., Ltd](http://www.mcohome.com/)* with the thing type UID of ```mcohome_mh8fcplus_03_000```.
+This describes the Z-Wave device *MH8-FC*, manufactured by *[McoHome Technology Co., Ltd](http://www.mcohome.com/)* with the thing type UID of ```McoHome Technology Co., Ltd_mh8fcplus_03_000```.
 This version of the device is limited to firmware versions above 3.0
 
 The device is in the category of *HVAC*, defining Air condition devices, Fans.
 
-![MH8-FC product image](https://www.cd-jackson.com/zwave_device_uploads/1057/1057_default.jpg)
+![MH8-FC product image](https://opensmarthouse.org/assets/zwave/attachments/1057/MCO-MH8-FC.jpg)
 
 
 The MH8-FC supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is also able to participate in the routing of data between other devices in the mesh network.
@@ -259,9 +259,9 @@ Association group 1 supports 1 node.
 
 ### Documentation Links
 
-* [Manual](https://www.cd-jackson.com/zwave_device_uploads/1057/MH8-FC-Zwave-Plus.pdf)
+* [Manual](https://www.opensmarthouse.org/zwavedatabase/1057/MH8-FC-Zwave-Plus.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/1057).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/1057).

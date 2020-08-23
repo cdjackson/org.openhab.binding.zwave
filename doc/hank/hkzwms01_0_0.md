@@ -6,11 +6,11 @@ title: HKZW_MS01 - ZWave
 {% include base.html %}
 
 # HKZW_MS01 Multisensor
-This describes the Z-Wave device *HKZW_MS01*, manufactured by *[Hank](http://www.hank-tech.com/)* with the thing type UID of ```hank_hkzwms01_00_000```.
+This describes the Z-Wave device *HKZW_MS01*, manufactured by *[Hank](http://www.hank-tech.com/)* with the thing type UID of ```Hank_hkzwms01_00_000```.
 
 The device is in the category of *Sensor*, defining Device used to measure something.
 
-![HKZW_MS01 product image](https://www.cd-jackson.com/zwave_device_uploads/675/675_default.png)
+![HKZW_MS01 product image](https://opensmarthouse.org/assets/zwave/attachments/675/HKZW-MS01.png)
 
 
 The HKZW_MS01 supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is unable to participate in the routing of data from other devices.
@@ -216,9 +216,9 @@ Association group 2 supports 5 nodes.
 
 ### Documentation Links
 
-* [Manual](https://www.cd-jackson.com/zwave_device_uploads/675/HKZW-MS01-MANUL.pdf)
+* [Manual](https://www.opensmarthouse.org/zwavedatabase/675/HKZW-MS01-MANUL.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/675).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/675).

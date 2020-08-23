@@ -6,11 +6,11 @@ title: WTRFID - ZWave
 {% include base.html %}
 
 # WTRFID Mini Keypad RFID
-This describes the Z-Wave device *WTRFID*, manufactured by *Wintop* with the thing type UID of ```wintop_wtrfid_00_000```.
+This describes the Z-Wave device *WTRFID*, manufactured by *Wintop* with the thing type UID of ```Wintop_wtrfid_00_000```.
 
 The device is in the category of *Remote Control*, defining Any portable or hand-held device that controls the status of something, e.g. remote control, keyfob etc..
 
-![WTRFID product image](https://www.cd-jackson.com/zwave_device_uploads/217/217_default.jpg)
+![WTRFID product image](https://opensmarthouse.org/assets/zwave/attachments/217/WTRFID.jpg)
 
 
 The WTRFID supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is unable to participate in the routing of data from other devices.
@@ -277,9 +277,9 @@ Association group 1 supports 5 nodes.
 
 ### Documentation Links
 
-* [Installation Instructions](https://www.cd-jackson.com/zwave_device_uploads/217/Zipato-Zwave-RFID-Tag-Reader-Installation.pdf)
+* [Installation Instructions](https://www.opensmarthouse.org/zwavedatabase/217/Zipato-Zwave-RFID-Tag-Reader-Installation.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/217).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/217).

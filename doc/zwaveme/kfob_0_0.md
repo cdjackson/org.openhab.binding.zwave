@@ -6,11 +6,11 @@ title: KFOB - ZWave
 {% include base.html %}
 
 # KFOB 4 button keyfob
-This describes the Z-Wave device *KFOB*, manufactured by *Z-Wave.Me* with the thing type UID of ```zwaveme_kfob_00_000```.
+This describes the Z-Wave device *KFOB*, manufactured by *Z-Wave.Me* with the thing type UID of ```Z-Wave.Me_kfob_00_000```.
 
 The device is in the category of *Remote Control*, defining Any portable or hand-held device that controls the status of something, e.g. remote control, keyfob etc..
 
-![KFOB product image](https://www.cd-jackson.com/zwave_device_uploads/146/146_default.png)
+![KFOB product image](https://opensmarthouse.org/assets/zwave/attachments/146/kfob-zwaveme.png)
 
 
 The KFOB does not permanently listen for messages sent from the controller - it will periodically wake up automatically to check if the controller has messages to send, but will sleep most of the time to conserve battery life. Refer to the *Wakeup Information* section below for further information.
@@ -393,9 +393,9 @@ Association group 5 supports 10 nodes.
 
 ### Documentation Links
 
-* [User Manual](https://www.cd-jackson.com/zwave_device_uploads/146/Manual-KFOB-POPP-C-En.pdf)
+* [User Manual](https://www.opensmarthouse.org/zwavedatabase/146/Manual-KFOB-POPP-C-En.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/146).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/146).

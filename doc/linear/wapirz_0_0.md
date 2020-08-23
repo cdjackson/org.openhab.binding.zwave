@@ -6,11 +6,11 @@ title: WAPIRZ-1 - ZWave
 {% include base.html %}
 
 # WAPIRZ-1 PIR Motion Detector
-This describes the Z-Wave device *WAPIRZ-1*, manufactured by *Linear Corp* with the thing type UID of ```linear_wapirz_00_000```.
+This describes the Z-Wave device *WAPIRZ-1*, manufactured by *Linear Corp* with the thing type UID of ```Linear Corp_wapirz_00_000```.
 
 The device is in the category of *Motion Detector*, defining Motion sensors/detectors.
 
-![WAPIRZ-1 product image](https://www.cd-jackson.com/zwave_device_uploads/5/5_default.jpg)
+![WAPIRZ-1 product image](https://opensmarthouse.org/assets/zwave/attachments/5/WAPIRZ.jpg)
 
 
 The WAPIRZ-1 supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is unable to participate in the routing of data from other devices.
@@ -164,9 +164,9 @@ Association group 1 supports 5 nodes.
 
 ### Documentation Links
 
-* [Installation Guide](https://www.cd-jackson.com/zwave_device_uploads/5/WAPIRZ-install.pdf)
+* [Installation Guide](https://www.opensmarthouse.org/zwavedatabase/5/WAPIRZ-install.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/5).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/5).

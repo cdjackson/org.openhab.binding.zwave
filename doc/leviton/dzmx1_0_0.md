@@ -6,11 +6,11 @@ title: DZMX1 - ZWave
 {% include base.html %}
 
 # DZMX1 Scene Capable Push On/Off
-This describes the Z-Wave device *DZMX1*, manufactured by *Leviton* with the thing type UID of ```leviton_dzmx1_00_000```.
+This describes the Z-Wave device *DZMX1*, manufactured by *Leviton* with the thing type UID of ```Leviton_dzmx1_00_000```.
 
 The device is in the category of *Wall Switch*, defining Any device attached to the wall that controls a binary status of something, for ex. a light switch.
 
-![DZMX1 product image](https://www.cd-jackson.com/zwave_device_uploads/196/196_default.jpg)
+![DZMX1 product image](https://opensmarthouse.org/assets/zwave/attachments/196/DZMX1.jpg)
 
 
 The DZMX1 supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is also able to participate in the routing of data between other devices in the mesh network.
@@ -89,10 +89,10 @@ The device does not support associations.
 
 ### Documentation Links
 
-* [Installation Instructions](https://www.cd-jackson.com/zwave_device_uploads/196/installation-instructions.pdf)
-* [Product Overview](https://www.cd-jackson.com/zwave_device_uploads/196/Leviton-DZMX1.pdf)
+* [Installation Instructions](https://www.opensmarthouse.org/zwavedatabase/196/installation-instructions.pdf)
+* [Product Overview](https://www.opensmarthouse.org/zwavedatabase/196/Leviton-DZMX1.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/196).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/196).

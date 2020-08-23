@@ -6,11 +6,11 @@ title: RFWC5 - ZWave
 {% include base.html %}
 
 # RFWC5 5-Scene Keypad
-This describes the Z-Wave device *RFWC5*, manufactured by *Cooper Wiring Devices* with the thing type UID of ```cooper_rfwc5_00_000```.
+This describes the Z-Wave device *RFWC5*, manufactured by *Cooper Wiring Devices* with the thing type UID of ```Cooper Wiring Devices_rfwc5_00_000```.
 
 The device is in the category of *Wall Switch*, defining Any device attached to the wall that controls a binary status of something, for ex. a light switch.
 
-![RFWC5 product image](https://www.cd-jackson.com/zwave_device_uploads/15/15_default.jpg)
+![RFWC5 product image](https://opensmarthouse.org/assets/zwave/attachments/15/RFWC5.jpg)
 
 
 ## Overview
@@ -230,10 +230,10 @@ Association group 255 supports 1 node.
 
 ### Documentation Links
 
-* [User Manual](https://www.cd-jackson.com/zwave_device_uploads/15/WallMount5-SceneKeypadSpecSheet.pdf)
-* [Detailed Manual](https://www.cd-jackson.com/zwave_device_uploads/15/21895AW.pdf)
+* [User Manual](https://www.opensmarthouse.org/zwavedatabase/15/WallMount5-SceneKeypadSpecSheet.pdf)
+* [Detailed Manual](https://www.opensmarthouse.org/zwavedatabase/15/21895AW.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/15).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/15).

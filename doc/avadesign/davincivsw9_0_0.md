@@ -6,11 +6,11 @@ title: Da Vinci Switch Default - ZWave
 {% include base.html %}
 
 # Da Vinci Switch Default
-This describes the Z-Wave device *Da Vinci Switch Default*, manufactured by *Avadesign Technology Co.* with the thing type UID of ```avadesign_davincivsw9_00_000```.
+This describes the Z-Wave device *Da Vinci Switch Default*, manufactured by *Avadesign Technology Co.* with the thing type UID of ```Avadesign Technology Co._davincivsw9_00_000```.
 
 The device is in the category of *Wall Switch*, defining Any device attached to the wall that controls a binary status of something, for ex. a light switch.
 
-![Da Vinci Switch Default product image](https://www.cd-jackson.com/zwave_device_uploads/911/911_default.png)
+![Da Vinci Switch Default product image](https://opensmarthouse.org/assets/zwave/attachments/911/Contec-Image.jpeg)
 
 
 The Da Vinci Switch Default supports routing. This allows the device to communicate using other routing enabled devices as intermediate routers.  This device is also able to participate in the routing of data between other devices in the mesh network.
@@ -866,9 +866,9 @@ Association group 1 supports 5 nodes.
 
 ### Documentation Links
 
-* [Manual](https://www.cd-jackson.com/zwave_device_uploads/911/DA-VINCI-ver-9.pdf)
+* [Manual](https://www.opensmarthouse.org/zwavedatabase/911/DA-VINCI-ver-9.pdf)
 
 ---
 
 Did you spot an error in the above definition or want to improve the content?
-You can [contribute to the database here](http://www.cd-jackson.com/index.php/zwave/zwave-device-database/zwave-device-list/devicesummary/911).
+You can [contribute to the database here](https://www.opensmarthouse.org/zwavedatabase/911).
